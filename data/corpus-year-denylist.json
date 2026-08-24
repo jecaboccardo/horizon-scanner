@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-05-20",
+  "policy": "exclude_year_lte",
+  "year_lte": 1960,
+  "min_allowed_year": 1961,
+  "reason": "Corpus hygiene policy: exclude works published in 1960 or earlier from retrieval/import."
+}

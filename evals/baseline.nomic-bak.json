@@ -1,0 +1,581 @@
+{
+  "runAt": "2026-06-10T21:08:11.077Z",
+  "thresholds": {
+    "floor": 0.5,
+    "gm": 0.55,
+    "label": "prod (0.50/0.55)"
+  },
+  "n_queries": 24,
+  "only": null,
+  "n_labeled_papers": 459,
+  "n_labeled_papers_scored": 384,
+  "metrics": {
+    "macro_f1": 0.338,
+    "relevant_recall": 0.799,
+    "partial_recall": 0.087,
+    "irrelevant_recall": 0.071,
+    "canary_top20": 0.262,
+    "canary_top20_pre2010": 0.316,
+    "canary_top20_post2010": 0.239
+  },
+  "per_class_f1": {
+    "direct": 0.667,
+    "indirect": 0.173,
+    "excluded": 0.174
+  },
+  "label_counts": {
+    "relevant": {
+      "hit": 179,
+      "total": 224
+    },
+    "partial": {
+      "hit": 18,
+      "total": 207
+    },
+    "irrelevant": {
+      "hit": 2,
+      "total": 28
+    }
+  },
+  "canary": {
+    "found": 17,
+    "total": 65,
+    "pre2010_found": 6,
+    "pre2010_total": 19,
+    "post2010_found": 11,
+    "post2010_total": 46
+  },
+  "per_query_canary": [
+    {
+      "id": "q01-teacher-incentives-hard-staff",
+      "retrieval_class": "constrained",
+      "canary_found": 0,
+      "canary_total": 1,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 5,
+        "unique_dois": 20,
+        "unique_venues": 13,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 3,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q02-gender-violence-labor",
+      "retrieval_class": "dense_causal",
+      "canary_found": 1,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 17,
+        "unique_venues": 18,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 1,
+        "review_count": 1
+      }
+    },
+    {
+      "id": "q03-digital-health-edu-labor",
+      "retrieval_class": "sparse_multi",
+      "canary_found": 0,
+      "canary_total": 0,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 0
+      },
+      "density": null
+    },
+    {
+      "id": "q04-minwage-informality-lac",
+      "retrieval_class": "constrained",
+      "canary_found": 1,
+      "canary_total": 4,
+      "pre2010": {
+        "found": 0,
+        "total": 1
+      },
+      "post2010": {
+        "found": 1,
+        "total": 3
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 18,
+        "unique_venues": 15,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 4,
+        "review_count": 1
+      }
+    },
+    {
+      "id": "q05-cct-school-attendance-learning",
+      "retrieval_class": "dense_causal",
+      "canary_found": 1,
+      "canary_total": 4,
+      "pre2010": {
+        "found": 0,
+        "total": 2
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 4,
+        "unique_dois": 15,
+        "unique_venues": 15,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q06-migration-native-wages",
+      "retrieval_class": "dense_causal",
+      "canary_found": 2,
+      "canary_total": 5,
+      "pre2010": {
+        "found": 1,
+        "total": 3
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 2,
+        "unique_dois": 19,
+        "unique_venues": 15,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 0,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q07-childcare-female-labor-participation",
+      "retrieval_class": "dense_causal",
+      "canary_found": 0,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 2
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 15,
+        "unique_venues": 14,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 2,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q08-land-titling-investment",
+      "retrieval_class": "dense_causal",
+      "canary_found": 1,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 1,
+        "total": 1
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 2,
+        "unique_dois": 16,
+        "unique_venues": 11,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q09-early-nutrition-adult-earnings",
+      "retrieval_class": "dense_causal",
+      "canary_found": 2,
+      "canary_total": 4,
+      "pre2010": {
+        "found": 2,
+        "total": 2
+      },
+      "post2010": {
+        "found": 0,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 4,
+        "unique_dois": 20,
+        "unique_venues": 13,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 2,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q10-trade-liberalization-wage-inequality",
+      "retrieval_class": "constrained",
+      "canary_found": 1,
+      "canary_total": 4,
+      "pre2010": {
+        "found": 0,
+        "total": 2
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 18,
+        "unique_venues": 17,
+        "unique_venue_kinds": 1,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q11-teacher-quality-student-learning",
+      "retrieval_class": "dense_causal",
+      "canary_found": 3,
+      "canary_total": 4,
+      "pre2010": {
+        "found": 2,
+        "total": 2
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 5,
+        "unique_dois": 20,
+        "unique_venues": 12,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q12-climate-shocks-poverty-food",
+      "retrieval_class": "constrained",
+      "canary_found": 0,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 0,
+        "total": 1
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 2,
+        "unique_dois": 19,
+        "unique_venues": 14,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 1,
+        "review_count": 4
+      }
+    },
+    {
+      "id": "q13-financial-inclusion-resilience",
+      "retrieval_class": "dense_causal",
+      "canary_found": 0,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 3
+      },
+      "density": {
+        "duplicates_skipped": 0,
+        "unique_dois": 20,
+        "unique_venues": 17,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q14-cct-poverty-reduction-mechanisms",
+      "retrieval_class": "sparse_multi",
+      "canary_found": 0,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 0,
+        "unique_dois": 16,
+        "unique_venues": 13,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 3,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q15-violence-youth-education",
+      "retrieval_class": "constrained",
+      "canary_found": 0,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 3
+      },
+      "density": {
+        "duplicates_skipped": 3,
+        "unique_dois": 20,
+        "unique_venues": 16,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 1,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q16-automation-labor-polarization-developing",
+      "retrieval_class": "sparse_multi",
+      "canary_found": 1,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 1
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 15,
+        "unique_venues": 15,
+        "unique_venue_kinds": 4,
+        "unique_source_families": 4,
+        "review_count": 3
+      }
+    },
+    {
+      "id": "q17-migration-remittances-children-education",
+      "retrieval_class": "dense_causal",
+      "canary_found": 0,
+      "canary_total": 1,
+      "pre2010": {
+        "found": 0,
+        "total": 1
+      },
+      "post2010": {
+        "found": 0,
+        "total": 0
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 18,
+        "unique_venues": 17,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 3,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q18-social-protection-labor-supply",
+      "retrieval_class": "dense_causal",
+      "canary_found": 0,
+      "canary_total": 1,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 5,
+        "unique_dois": 16,
+        "unique_venues": 10,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 3,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q19-inequality-social-mobility-lac",
+      "retrieval_class": "constrained",
+      "canary_found": 2,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 2,
+        "total": 3
+      },
+      "density": {
+        "duplicates_skipped": 3,
+        "unique_dois": 19,
+        "unique_venues": 14,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 2,
+        "review_count": 2
+      }
+    },
+    {
+      "id": "q20-school-vs-household-learning",
+      "retrieval_class": "sparse_multi",
+      "canary_found": 0,
+      "canary_total": 1,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 0,
+        "unique_dois": 17,
+        "unique_venues": 15,
+        "unique_venue_kinds": 2,
+        "unique_source_families": 1,
+        "review_count": 3
+      }
+    },
+    {
+      "id": "q21-ai-adoption-wage-inequality",
+      "retrieval_class": "dense_causal",
+      "canary_found": 0,
+      "canary_total": 3,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 0,
+        "total": 3
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 18,
+        "unique_venues": 15,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 2,
+        "review_count": 1
+      }
+    },
+    {
+      "id": "q22-chronic-poverty-interventions",
+      "retrieval_class": "dense_causal",
+      "canary_found": 1,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 1,
+        "total": 2
+      },
+      "density": {
+        "duplicates_skipped": 2,
+        "unique_dois": 16,
+        "unique_venues": 15,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 2,
+        "review_count": 0
+      }
+    },
+    {
+      "id": "q23-informality-productivity-bidirectional",
+      "retrieval_class": "sparse_multi",
+      "canary_found": 0,
+      "canary_total": 2,
+      "pre2010": {
+        "found": 0,
+        "total": 1
+      },
+      "post2010": {
+        "found": 0,
+        "total": 1
+      },
+      "density": {
+        "duplicates_skipped": 4,
+        "unique_dois": 19,
+        "unique_venues": 16,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 3,
+        "review_count": 2
+      }
+    },
+    {
+      "id": "q24-returns-to-schooling-info-lac",
+      "retrieval_class": null,
+      "canary_found": 1,
+      "canary_total": 6,
+      "pre2010": {
+        "found": 0,
+        "total": 0
+      },
+      "post2010": {
+        "found": 1,
+        "total": 6
+      },
+      "density": {
+        "duplicates_skipped": 1,
+        "unique_dois": 17,
+        "unique_venues": 12,
+        "unique_venue_kinds": 3,
+        "unique_source_families": 2,
+        "review_count": 0
+      }
+    }
+  ],
+  "density": {
+    "total_duplicates_skipped": 49,
+    "avg_duplicates_skipped_per_query": 2.13,
+    "avg_unique_dois": 17.739,
+    "avg_unique_venues": 14.435,
+    "avg_unique_venue_kinds": 2.565,
+    "avg_unique_source_families": 1.913,
+    "avg_review_count": 0.739,
+    "n_queries": 23
+  }
+}

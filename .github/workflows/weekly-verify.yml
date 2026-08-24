@@ -1,0 +1,72 @@
+name: Weekly verify
+
+on:
+  schedule:
+    # Mondays 07:00 UTC — before the cost report (08:00) and weekly ingest (09:00).
+    - cron: '0 7 * * 1'
+  workflow_dispatch: {}
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - run: npm ci
+
+      - name: Unit tests (Deno + Node)
+        run: |
+          npm run test:deno
+          npm run test:node
+
+      - name: Live API smoke (prod)
+        # Unauthenticated _health/_version check against the deployed backend.
+        # Runs --optional so a missing PROD_API_BASE_URL secret doesn't fail
+        # the whole job — set it once the correct public URL is confirmed
+        # (see memory: verify which Vercel/API URL the pilot actually uses).
+        env:
+          API_SMOKE_BASE_URL: ${{ secrets.PROD_API_BASE_URL }}
+        run: node scripts/smoke-deno-api.mjs --optional
+
+      - name: Retrieval quality eval (gold set)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          OLLAMA_EMBEDDING_MODEL: ${{ secrets.OLLAMA_EMBEDDING_MODEL }}
+        run: |
+          node scripts/eval-gold.mjs --no-write | tee eval-report.txt
+          {
+            echo "## Weekly verify — retrieval eval"
+            echo '```'
+            cat eval-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Gate on eval bar (canary_top20 >= 0.220)
+        # eval-gold.mjs only reports metrics; it never sets a non-zero exit
+        # code, so a regression would otherwise pass silently. canary_top20 is
+        # the project's tracked ship-gate metric (baseline 0.231, bar 0.220) —
+        # NOT macro_f1, which is a different metric on a different scale.
+        run: |
+          node -e "
+            const fs = require('fs');
+            const text = fs.readFileSync('eval-report.txt', 'utf8');
+            const m = text.match(/canary_top20=([0-9.]+)/);
+            if (!m) { console.error('could not find canary_top20 in eval output'); process.exit(1); }
+            const score = parseFloat(m[1]);
+            const bar = 0.220;
+            console.log(\`canary_top20=\${score} (bar \${bar})\`);
+            if (score < bar) { console.error(\`FAIL: canary_top20 \${score} below bar \${bar}\`); process.exit(1); }
+          "

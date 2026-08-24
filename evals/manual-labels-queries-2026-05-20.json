@@ -1,0 +1,877 @@
+{
+  "queries": [
+    {
+      "id": "manual-2026-05-20-ai-labor-lac",
+      "query": "What does high-quality evidence say about AI, labor productivity, and workforce transition in Latin America?",
+      "labels": {
+        "10.1016/j.euroecorev.2025.105043": {
+          "doi": "10.1016/j.euroecorev.2025.105043",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1016/j.jue.2023.103573": {
+          "doi": "10.1016/j.jue.2023.103573",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1086/718327": {
+          "doi": "10.1086/718327",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1086/725248": {
+          "doi": "10.1086/725248",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1111/iere.12176": {
+          "doi": "10.1111/iere.12176",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1257/jep.31.2.165": {
+          "doi": "10.1257/jep.31.2.165",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1257/jep.35.3.109": {
+          "doi": "10.1257/jep.35.3.109",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.18235/0002566": {
+          "doi": "10.18235/0002566",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0013152": {
+          "doi": "10.18235/0013152",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0013377": {
+          "doi": "10.18235/0013377",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.2139/ssrn.3065208": {
+          "doi": "10.2139/ssrn.3065208",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.2139/ssrn.3368605": {
+          "doi": "10.2139/ssrn.3368605",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.2139/ssrn.3673437": {
+          "doi": "10.2139/ssrn.3673437",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.2139/ssrn.3854185": {
+          "doi": "10.2139/ssrn.3854185",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.2139/ssrn.5169611": {
+          "doi": "10.2139/ssrn.5169611",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w23308": {
+          "doi": "10.3386/w23308",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w24001": {
+          "doi": "10.3386/w24001",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w24196": {
+          "doi": "10.3386/w24196",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w28034": {
+          "doi": "10.3386/w28034",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w28657": {
+          "doi": "10.3386/w28657",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w30659": {
+          "doi": "10.3386/w30659",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w32487": {
+          "doi": "10.3386/w32487",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w33509": {
+          "doi": "10.3386/w33509",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w33777": {
+          "doi": "10.3386/w33777",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w33867": {
+          "doi": "10.3386/w33867",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w34851": {
+          "doi": "10.3386/w34851",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w34984": {
+          "doi": "10.3386/w34984",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.jdeveco.2021.102668": {
+          "doi": "10.1016/j.jdeveco.2021.102668",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1086/679061": {
+          "doi": "10.1086/679061",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1086/701810": {
+          "doi": "10.1086/701810",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1086/717933": {
+          "doi": "10.1086/717933",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/jeea/jvaa043": {
+          "doi": "10.1093/jeea/jvaa043",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1093/restud/rdab017": {
+          "doi": "10.1093/restud/rdab017",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1093/restud/rdab031": {
+          "doi": "10.1093/restud/rdab031",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1257/aer.20110457": {
+          "doi": "10.1257/aer.20110457",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/aer.20131061": {
+          "doi": "10.1257/aer.20131061",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0013853": {
+          "doi": "10.18235/0013853",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.2139/ssrn.4527336": {
+          "doi": "10.2139/ssrn.4527336",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w27360": {
+          "doi": "10.3386/w27360",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w30612": {
+          "doi": "10.3386/w30612",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w31009": {
+          "doi": "10.3386/w31009",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w31357": {
+          "doi": "10.3386/w31357",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w31788": {
+          "doi": "10.3386/w31788",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.3386/w32140": {
+          "doi": "10.3386/w32140",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.jinteco.2019.01.017": {
+          "doi": "10.1016/j.jinteco.2019.01.017",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.jpubeco.2017.10.007": {
+          "doi": "10.1016/j.jpubeco.2017.10.007",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1017/s000305542200082x": {
+          "doi": "10.1017/s000305542200082x",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/ej/ueab009": {
+          "doi": "10.1093/ej/ueab009",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1093/ej/uead025": {
+          "doi": "10.1093/ej/uead025",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1162/rest_a_00907": {
+          "doi": "10.1162/rest_a_00907",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/app.20140095": {
+          "doi": "10.1257/app.20140095",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.18235/0002011": {
+          "doi": "10.18235/0002011",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0003624": {
+          "doi": "10.18235/0003624",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.2139/ssrn.3847897": {
+          "doi": "10.2139/ssrn.3847897",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w23285": {
+          "doi": "10.3386/w23285",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w24871": {
+          "doi": "10.3386/w24871",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w32536": {
+          "doi": "10.3386/w32536",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1016/j.jdeveco.2020.102599": {
+          "doi": "10.1016/j.jdeveco.2020.102599",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jpubeco.2025.105420": {
+          "doi": "10.1016/j.jpubeco.2025.105420",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1086/713733": {
+          "doi": "10.1086/713733",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/qje/qjad012": {
+          "doi": "10.1093/qje/qjad012",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1257/aer.20150183": {
+          "doi": "10.1257/aer.20150183",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/jel.20221543": {
+          "doi": "10.1257/jel.20221543",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1257/mac.20160164": {
+          "doi": "10.1257/mac.20160164",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.18235/0013579": {
+          "doi": "10.18235/0013579",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w20935": {
+          "doi": "10.3386/w20935",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w28831": {
+          "doi": "10.3386/w28831",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.3386/w30301": {
+          "doi": "10.3386/w30301",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3386/w33795": {
+          "doi": "10.3386/w33795",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.3982/ecta19815": {
+          "doi": "10.3982/ecta19815",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1016/j.jdeveco.2021.102754": {
+          "doi": "10.1016/j.jdeveco.2021.102754",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1093/ej/uead049": {
+          "doi": "10.1093/ej/uead049",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1162/rest_a_01178": {
+          "doi": "10.1162/rest_a_01178",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/mac.20180386": {
+          "doi": "10.1257/mac.20180386",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.18235/0003993": {
+          "doi": "10.18235/0003993",
+          "label": "relevant",
+          "label4": "direct-lac"
+        }
+      }
+    },
+    {
+      "id": "manual-2026-05-20-informality-lac",
+      "query": "What policies effectively reduce labor market informality in Latin America?",
+      "labels": {
+        "10.1016/j.jce.2017.11.006": {
+          "doi": "10.1016/j.jce.2017.11.006",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1016/j.jdeveco.2015.02.004": {
+          "doi": "10.1016/j.jdeveco.2015.02.004",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jdeveco.2020.102599": {
+          "doi": "10.1016/j.jdeveco.2020.102599",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.jeconom.2019.05.026": {
+          "doi": "10.1016/j.jeconom.2019.05.026",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jhealeco.2021.102454": {
+          "doi": "10.1016/j.jhealeco.2021.102454",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jinteco.2020.103340": {
+          "doi": "10.1016/j.jinteco.2020.103340",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jmoneco.2022.12.004": {
+          "doi": "10.1016/j.jmoneco.2022.12.004",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.worlddev.2020.105256": {
+          "doi": "10.1016/j.worlddev.2020.105256",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1080/00220388.2022.2061850": {
+          "doi": "10.1080/00220388.2022.2061850",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1080/00220388.2022.2061854": {
+          "doi": "10.1080/00220388.2022.2061854",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2022.2120803": {
+          "doi": "10.1080/00220388.2022.2120803",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1093/oep/gpw010": {
+          "doi": "10.1093/oep/gpw010",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1093/oep/gpx029": {
+          "doi": "10.1093/oep/gpx029",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1093/restud/rdab017": {
+          "doi": "10.1093/restud/rdab017",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1093/wber/lhad019": {
+          "doi": "10.1093/wber/lhad019",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1111/iere.12118": {
+          "doi": "10.1111/iere.12118",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1111/joes.12487": {
+          "doi": "10.1111/joes.12487",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1111/rode.70079": {
+          "doi": "10.1111/rode.70079",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1146/annurev-economics-082119-121914": {
+          "doi": "10.1146/annurev-economics-082119-121914",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1257/aer.20121110": {
+          "doi": "10.1257/aer.20121110",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/aer.20141745": {
+          "doi": "10.1257/aer.20141745",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/app.20200763": {
+          "doi": "10.1257/app.20200763",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/app.20200787": {
+          "doi": "10.1257/app.20200787",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0001966": {
+          "doi": "10.18235/0001966",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0003128": {
+          "doi": "10.18235/0003128",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0004809": {
+          "doi": "10.18235/0004809",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0011813": {
+          "doi": "10.18235/0011813",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0013267": {
+          "doi": "10.18235/0013267",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.jdeveco.2018.04.003": {
+          "doi": "10.1016/j.jdeveco.2018.04.003",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.labeco.2020.101925": {
+          "doi": "10.1016/j.labeco.2020.101925",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1016/j.labeco.2024.102581": {
+          "doi": "10.1016/j.labeco.2024.102581",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.labeco.2024.102630": {
+          "doi": "10.1016/j.labeco.2024.102630",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.red.2020.10.001": {
+          "doi": "10.1016/j.red.2020.10.001",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1016/j.worlddev.2015.11.005": {
+          "doi": "10.1016/j.worlddev.2015.11.005",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2022.2061851": {
+          "doi": "10.1080/00220388.2022.2061851",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1086/688175": {
+          "doi": "10.1086/688175",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/wber/lhab023": {
+          "doi": "10.1093/wber/lhab023",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1111/ajps.12576": {
+          "doi": "10.1111/ajps.12576",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1111/rode.12288": {
+          "doi": "10.1111/rode.12288",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1111/rode.12317": {
+          "doi": "10.1111/rode.12317",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1177/0010414016679177": {
+          "doi": "10.1177/0010414016679177",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1177/00197939231205515": {
+          "doi": "10.1177/00197939231205515",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1257/aer.20141096": {
+          "doi": "10.1257/aer.20141096",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.18235/0005089": {
+          "doi": "10.18235/0005089",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.18235/0011712": {
+          "doi": "10.18235/0011712",
+          "label": "relevant",
+          "label4": "direct-lac"
+        },
+        "10.1002/pam.22457": {
+          "doi": "10.1002/pam.22457",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.worlddev.2022.106095": {
+          "doi": "10.1016/j.worlddev.2022.106095",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2023.106229": {
+          "doi": "10.1016/j.worlddev.2023.106229",
+          "label": "partial",
+          "label4": "indirect"
+        }
+      }
+    },
+    {
+      "id": "manual-2026-05-20-gender-violence-labor",
+      "query": "Does gender violence have long-term impacts on labor outcomes?",
+      "labels": {
+        "10.1002/hec.4557": {
+          "doi": "10.1002/hec.4557",
+          "label": "relevant",
+          "label4": "direct-global"
+        },
+        "10.1007/s00148-020-00807-0": {
+          "doi": "10.1007/s00148-020-00807-0",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1007/s13524-019-00790-6": {
+          "doi": "10.1007/s13524-019-00790-6",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.jebo.2024.04.013": {
+          "doi": "10.1016/j.jebo.2024.04.013",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.labeco.2021.101996": {
+          "doi": "10.1016/j.labeco.2021.101996",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2019.01.015": {
+          "doi": "10.1016/j.worlddev.2019.01.015",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2021.105445": {
+          "doi": "10.1016/j.worlddev.2021.105445",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1017/s0003055423000916": {
+          "doi": "10.1017/s0003055423000916",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2018.1425393": {
+          "doi": "10.1080/00220388.2018.1425393",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2025.2487011": {
+          "doi": "10.1080/00220388.2025.2487011",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/706824": {
+          "doi": "10.1086/706824",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/734092": {
+          "doi": "10.1086/734092",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/ej/ueag043": {
+          "doi": "10.1093/ej/ueag043",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/jeea/jvaa005": {
+          "doi": "10.1093/jeea/jvaa005",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/wber/lhy020": {
+          "doi": "10.1093/wber/lhy020",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1111/ajae.12315": {
+          "doi": "10.1111/ajae.12315",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1111/iere.12531": {
+          "doi": "10.1111/iere.12531",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1162/rest_a_00965": {
+          "doi": "10.1162/rest_a_00965",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1177/00197939211056914": {
+          "doi": "10.1177/00197939211056914",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1177/00197939251361359": {
+          "doi": "10.1177/00197939251361359",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1215/00703370-9606030": {
+          "doi": "10.1215/00703370-9606030",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1257/app.20180010": {
+          "doi": "10.1257/app.20180010",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1257/jel.20160995": {
+          "doi": "10.1257/jel.20160995",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1257/pol.20170570": {
+          "doi": "10.1257/pol.20170570",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1257/pol.20210346": {
+          "doi": "10.1257/pol.20210346",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.3368/jhr.0720-11014r2": {
+          "doi": "10.3368/jhr.0720-11014r2",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1002/hec.4744": {
+          "doi": "10.1002/hec.4744",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1002/hec.4747": {
+          "doi": "10.1002/hec.4747",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1002/pam.21881": {
+          "doi": "10.1002/pam.21881",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1007/s13524-020-00864-w": {
+          "doi": "10.1007/s13524-020-00864-w",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1007/s13524-020-00887-3": {
+          "doi": "10.1007/s13524-020-00887-3",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.jdeveco.2023.103140": {
+          "doi": "10.1016/j.jdeveco.2023.103140",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1016/j.labeco.2024.102619": {
+          "doi": "10.1016/j.labeco.2024.102619",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2018.02.021": {
+          "doi": "10.1016/j.worlddev.2018.02.021",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2023.106319": {
+          "doi": "10.1016/j.worlddev.2023.106319",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2023.106419": {
+          "doi": "10.1016/j.worlddev.2023.106419",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1016/j.worlddev.2024.106805": {
+          "doi": "10.1016/j.worlddev.2024.106805",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2020.1762859": {
+          "doi": "10.1080/00220388.2020.1762859",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2022.2086048": {
+          "doi": "10.1080/00220388.2022.2086048",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1080/00220388.2025.2590455": {
+          "doi": "10.1080/00220388.2025.2590455",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/682706": {
+          "doi": "10.1086/682706",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/697251": {
+          "doi": "10.1086/697251",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/712923": {
+          "doi": "10.1086/712923",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1086/720717": {
+          "doi": "10.1086/720717",
+          "label": "partial",
+          "label4": "indirect"
+        },
+        "10.1093/qje/qjae006": {
+          "doi": "10.1093/qje/qjae006",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1093/qje/qjv038": {
+          "doi": "10.1093/qje/qjv038",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1146/annurev-economics-080614-115329": {
+          "doi": "10.1146/annurev-economics-080614-115329",
+          "label": "irrelevant",
+          "label4": "excluded"
+        },
+        "10.1257/aer.20200705": {
+          "doi": "10.1257/aer.20200705",
+          "label": "irrelevant",
+          "label4": "excluded"
+        }
+      }
+    }
+  ]
+}

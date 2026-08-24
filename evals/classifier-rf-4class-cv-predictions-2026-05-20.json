@@ -1,0 +1,2357 @@
+{
+  "generatedAt": "2026-05-20",
+  "scheme": "4-class held-out CV",
+  "classes": [
+    "excluded",
+    "indirect",
+    "direct-global",
+    "direct-lac"
+  ],
+  "macroF1": 0.5829586454146877,
+  "perClassF1": {
+    "excluded": 0.611764705882353,
+    "indirect": 0.37142857142857144,
+    "direct-global": 0.53125,
+    "direct-lac": 0.8173913043478261
+  },
+  "records": [
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.euroecorev.2025.105043",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.40439638993740784,
+      "probs": {
+        "excluded": 0.33891709247548873,
+        "indirect": 0.40439638993740784,
+        "direct-global": 0.15567905823406386,
+        "direct-lac": 0.10100745935303941
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jue.2023.103573",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.357779330626698,
+      "probs": {
+        "excluded": 0.357779330626698,
+        "indirect": 0.2552598045627943,
+        "direct-global": 0.03790248568471839,
+        "direct-lac": 0.3490583791257893
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/718327",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.4998167344420765,
+      "probs": {
+        "excluded": 0.13498213860085165,
+        "indirect": 0.28709713193266084,
+        "direct-global": 0.4998167344420765,
+        "direct-lac": 0.07810399502441082
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/725248",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.4707351938805335,
+      "probs": {
+        "excluded": 0.15119288331058767,
+        "indirect": 0.3354911722379552,
+        "direct-global": 0.04258075057092334,
+        "direct-lac": 0.4707351938805335
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1111/iere.12176",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.3452472075342478,
+      "probs": {
+        "excluded": 0.2661313106059898,
+        "indirect": 0.21933969701455408,
+        "direct-global": 0.3452472075342478,
+        "direct-lac": 0.1692817848452082
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/jep.31.2.165",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.575700713866696,
+      "probs": {
+        "excluded": 0.575700713866696,
+        "indirect": 0.26655047662308734,
+        "direct-global": 0.11117481495692622,
+        "direct-lac": 0.04657399455329026
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/jep.35.3.109",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.6800080772146301,
+      "probs": {
+        "excluded": 0.20058016168398918,
+        "indirect": 0.0879627494101968,
+        "direct-global": 0.03144901169118381,
+        "direct-lac": 0.6800080772146301
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0002566",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6268109032212028,
+      "probs": {
+        "excluded": 0.07961466075326439,
+        "indirect": 0.1753895899912017,
+        "direct-global": 0.11818484603433131,
+        "direct-lac": 0.6268109032212028
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0013152",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4328322097933955,
+      "probs": {
+        "excluded": 0.23130812584875607,
+        "indirect": 0.20572814975200487,
+        "direct-global": 0.13013151460584366,
+        "direct-lac": 0.4328322097933955
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0013377",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.49795521140191545,
+      "probs": {
+        "excluded": 0.12354706802431158,
+        "indirect": 0.2504413901959651,
+        "direct-global": 0.1280563303778081,
+        "direct-lac": 0.49795521140191545
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.3065208",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.5325569546858852,
+      "probs": {
+        "excluded": 0.14102659866964198,
+        "indirect": 0.227123365938228,
+        "direct-global": 0.09929308070624482,
+        "direct-lac": 0.5325569546858852
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.3368605",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.5740999880036914,
+      "probs": {
+        "excluded": 0.11724139131900507,
+        "indirect": 0.2034607649023153,
+        "direct-global": 0.5740999880036914,
+        "direct-lac": 0.10519785577498801
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.3673437",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4065780682730659,
+      "probs": {
+        "excluded": 0.2527254888511419,
+        "indirect": 0.3074042471277323,
+        "direct-global": 0.03329219574805971,
+        "direct-lac": 0.4065780682730659
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.3854185",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.4934273360390684,
+      "probs": {
+        "excluded": 0.1649988245253476,
+        "indirect": 0.26918686218637183,
+        "direct-global": 0.07238697724921223,
+        "direct-lac": 0.4934273360390684
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.5169611",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.4836632544883523,
+      "probs": {
+        "excluded": 0.14733354861890213,
+        "indirect": 0.2216765924756866,
+        "direct-global": 0.4836632544883523,
+        "direct-lac": 0.14732660441705872
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w23308",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.6370849789199152,
+      "probs": {
+        "excluded": 0.16870183268901454,
+        "indirect": 0.0725169252684031,
+        "direct-global": 0.12169626312266699,
+        "direct-lac": 0.6370849789199152
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w24001",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.5126192151997415,
+      "probs": {
+        "excluded": 0.10844282979223381,
+        "indirect": 0.2771713715675164,
+        "direct-global": 0.5126192151997415,
+        "direct-lac": 0.10176658344050787
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w24196",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.7631123451902171,
+      "probs": {
+        "excluded": 0.07096825310024266,
+        "indirect": 0.1228197466985555,
+        "direct-global": 0.7631123451902171,
+        "direct-lac": 0.04309965501098458
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w28034",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5428874208332855,
+      "probs": {
+        "excluded": 0.0862631475539094,
+        "indirect": 0.26772488988755083,
+        "direct-global": 0.10312454172525425,
+        "direct-lac": 0.5428874208332855
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w28657",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.45382585595353936,
+      "probs": {
+        "excluded": 0.08005669807756746,
+        "indirect": 0.10758768948294797,
+        "direct-global": 0.3585297564859453,
+        "direct-lac": 0.45382585595353936
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w30659",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.5053219960933223,
+      "probs": {
+        "excluded": 0.10732546802353743,
+        "indirect": 0.3057411922712073,
+        "direct-global": 0.5053219960933223,
+        "direct-lac": 0.08161134361193291
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w32487",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.4310917853927402,
+      "probs": {
+        "excluded": 0.2033489325577113,
+        "indirect": 0.4310917853927402,
+        "direct-global": 0.2675801593321123,
+        "direct-lac": 0.09797912271743602
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w33509",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.633333668738178,
+      "probs": {
+        "excluded": 0.07505684147309714,
+        "indirect": 0.23778657824632368,
+        "direct-global": 0.633333668738178,
+        "direct-lac": 0.05382291154240137
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w33777",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.5740338236437068,
+      "probs": {
+        "excluded": 0.12196302015063201,
+        "indirect": 0.20145749400178317,
+        "direct-global": 0.5740338236437068,
+        "direct-lac": 0.10254566220387792
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w33867",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.3270201013821277,
+      "probs": {
+        "excluded": 0.1467753179062695,
+        "indirect": 0.29971605782440985,
+        "direct-global": 0.3270201013821277,
+        "direct-lac": 0.22648852288719293
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w34851",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "indirect",
+      "topProb": 0.4125377238949754,
+      "probs": {
+        "excluded": 0.2289524425168734,
+        "indirect": 0.4125377238949754,
+        "direct-global": 0.13484776612229304,
+        "direct-lac": 0.2236620674658581
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w34984",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.31727552696675404,
+      "probs": {
+        "excluded": 0.10510465643331686,
+        "indirect": 0.2717665715598266,
+        "direct-global": 0.30585324504010253,
+        "direct-lac": 0.31727552696675404
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jdeveco.2021.102668",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7137517928592509,
+      "probs": {
+        "excluded": 0.13809972514796687,
+        "indirect": 0.11602088640769326,
+        "direct-global": 0.03212759558508878,
+        "direct-lac": 0.7137517928592509
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/679061",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.48149103298868795,
+      "probs": {
+        "excluded": 0.30740628496582123,
+        "indirect": 0.10983669406927357,
+        "direct-global": 0.48149103298868795,
+        "direct-lac": 0.10126598797621743
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/701810",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.38120971269035114,
+      "probs": {
+        "excluded": 0.3805806050305952,
+        "indirect": 0.15237672263670718,
+        "direct-global": 0.38120971269035114,
+        "direct-lac": 0.08583295964234638
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/717933",
+      "sheet": "Sheet1",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.46894182430659626,
+      "probs": {
+        "excluded": 0.241120354953812,
+        "indirect": 0.46894182430659626,
+        "direct-global": 0.1858047207500123,
+        "direct-lac": 0.10413309998957952
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/jeea/jvaa043",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.39927625839992403,
+      "probs": {
+        "excluded": 0.2874292901190953,
+        "indirect": 0.39927625839992403,
+        "direct-global": 0.22176392584709714,
+        "direct-lac": 0.0915305256338836
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/restud/rdab017",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-global",
+      "topProb": 0.40025848521746793,
+      "probs": {
+        "excluded": 0.1256960547623467,
+        "indirect": 0.11946762302696445,
+        "direct-global": 0.40025848521746793,
+        "direct-lac": 0.354577836993221
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/restud/rdab031",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.3985608438953069,
+      "probs": {
+        "excluded": 0.3985608438953069,
+        "indirect": 0.2580693981462561,
+        "direct-global": 0.28904315083466586,
+        "direct-lac": 0.05432660712377113
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/aer.20110457",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.3382963691990939,
+      "probs": {
+        "excluded": 0.24306850556209889,
+        "indirect": 0.09333247888945854,
+        "direct-global": 0.3253026463493487,
+        "direct-lac": 0.3382963691990939
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/aer.20131061",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.42520792570508675,
+      "probs": {
+        "excluded": 0.15016057522670445,
+        "indirect": 0.2678108126553098,
+        "direct-global": 0.15682068641289873,
+        "direct-lac": 0.42520792570508675
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0013853",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5303856812326958,
+      "probs": {
+        "excluded": 0.10047024487776504,
+        "indirect": 0.2918117555268088,
+        "direct-global": 0.0773323183627304,
+        "direct-lac": 0.5303856812326958
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.4527336",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.6237761735972681,
+      "probs": {
+        "excluded": 0.05476424654754039,
+        "indirect": 0.6237761735972681,
+        "direct-global": 0.2646165998597345,
+        "direct-lac": 0.0568429799954571
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w27360",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5470454887843461,
+      "probs": {
+        "excluded": 0.1060776972584426,
+        "indirect": 0.22868899244891733,
+        "direct-global": 0.11818782150829385,
+        "direct-lac": 0.5470454887843461
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w30612",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.3805525039457693,
+      "probs": {
+        "excluded": 0.18110836464835978,
+        "indirect": 0.28637549338482843,
+        "direct-global": 0.3805525039457693,
+        "direct-lac": 0.15196363802104218
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w31009",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.5352979141267175,
+      "probs": {
+        "excluded": 0.5352979141267175,
+        "indirect": 0.2766887846933144,
+        "direct-global": 0.12517574211183716,
+        "direct-lac": 0.06283755906813067
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w31357",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.4001824671187896,
+      "probs": {
+        "excluded": 0.1821142236613391,
+        "indirect": 0.2780327999750665,
+        "direct-global": 0.4001824671187896,
+        "direct-lac": 0.13967050924480476
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w31788",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.6002839071774962,
+      "probs": {
+        "excluded": 0.11749768940364491,
+        "indirect": 0.6002839071774962,
+        "direct-global": 0.17432465271577194,
+        "direct-lac": 0.10789375070308678
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w32140",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.6113654657596644,
+      "probs": {
+        "excluded": 0.06865246210164964,
+        "indirect": 0.2597939762848711,
+        "direct-global": 0.6113654657596644,
+        "direct-lac": 0.06018809585381475
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jinteco.2019.01.017",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.35558724077181453,
+      "probs": {
+        "excluded": 0.35558724077181453,
+        "indirect": 0.3348215474233593,
+        "direct-global": 0.19615644167818602,
+        "direct-lac": 0.11343477012664013
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jpubeco.2017.10.007",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.633263802673363,
+      "probs": {
+        "excluded": 0.1276388801891661,
+        "indirect": 0.17294644783210902,
+        "direct-global": 0.06615086930536164,
+        "direct-lac": 0.633263802673363
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1017/s000305542200082x",
+      "sheet": "Sheet1",
+      "actualLabel": "excluded",
+      "predLabel": "direct-lac",
+      "topProb": 0.5722707601816203,
+      "probs": {
+        "excluded": 0.06753500218038586,
+        "indirect": 0.30244511938943497,
+        "direct-global": 0.05774911824855889,
+        "direct-lac": 0.5722707601816203
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/ej/ueab009",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.37994732898393585,
+      "probs": {
+        "excluded": 0.37994732898393585,
+        "indirect": 0.3715249797932386,
+        "direct-global": 0.13610870729570132,
+        "direct-lac": 0.11241898392712421
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/ej/uead025",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4091488305073953,
+      "probs": {
+        "excluded": 0.17102319476136835,
+        "indirect": 0.3798674842767615,
+        "direct-global": 0.03996049045447476,
+        "direct-lac": 0.4091488305073953
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1162/rest_a_00907",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6451743395753432,
+      "probs": {
+        "excluded": 0.0858739843363834,
+        "indirect": 0.23948763714969004,
+        "direct-global": 0.029464038938583327,
+        "direct-lac": 0.6451743395753432
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/app.20140095",
+      "sheet": "Sheet1",
+      "actualLabel": "excluded",
+      "predLabel": "direct-lac",
+      "topProb": 0.39728095271186,
+      "probs": {
+        "excluded": 0.09700458550688548,
+        "indirect": 0.24394523944600305,
+        "direct-global": 0.2617692223352513,
+        "direct-lac": 0.39728095271186
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0002011",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "excluded",
+      "topProb": 0.3529271006466688,
+      "probs": {
+        "excluded": 0.3529271006466688,
+        "indirect": 0.17692625586465266,
+        "direct-global": 0.32000507506721115,
+        "direct-lac": 0.15014156842146736
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0003624",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-global",
+      "topProb": 0.45021882853154144,
+      "probs": {
+        "excluded": 0.09161543865484585,
+        "indirect": 0.1595102192328426,
+        "direct-global": 0.45021882853154144,
+        "direct-lac": 0.29865551358077014
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.2139/ssrn.3847897",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.38352172716560845,
+      "probs": {
+        "excluded": 0.20497783149471818,
+        "indirect": 0.22691494513618848,
+        "direct-global": 0.184585496203485,
+        "direct-lac": 0.38352172716560845
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w23285",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.3768217626533714,
+      "probs": {
+        "excluded": 0.1563390834764823,
+        "indirect": 0.12792965362205141,
+        "direct-global": 0.3768217626533714,
+        "direct-lac": 0.33890950024809446
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w24871",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.7476848237406388,
+      "probs": {
+        "excluded": 0.11196422409112229,
+        "indirect": 0.06752680217217791,
+        "direct-global": 0.7476848237406388,
+        "direct-lac": 0.0728241499960606
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w32536",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.4627811020517542,
+      "probs": {
+        "excluded": 0.4627811020517542,
+        "indirect": 0.23401684661436822,
+        "direct-global": 0.18527086365683637,
+        "direct-lac": 0.1179311876770414
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jdeveco.2020.102599",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.36952537096659344,
+      "probs": {
+        "excluded": 0.18683655054184978,
+        "indirect": 0.3531841673697151,
+        "direct-global": 0.09045391112184181,
+        "direct-lac": 0.36952537096659344
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jpubeco.2025.105420",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.43650324406536356,
+      "probs": {
+        "excluded": 0.43650324406536356,
+        "indirect": 0.13002316042443915,
+        "direct-global": 0.19065963230799154,
+        "direct-lac": 0.24281396320220577
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1086/713733",
+      "sheet": "Sheet1",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.3165420617798377,
+      "probs": {
+        "excluded": 0.3165420617798377,
+        "indirect": 0.24605678779240658,
+        "direct-global": 0.26363818684468926,
+        "direct-lac": 0.17376296358306637
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1093/qje/qjad012",
+      "sheet": "Sheet1",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.5328988512578503,
+      "probs": {
+        "excluded": 0.20781530077473687,
+        "indirect": 0.5328988512578503,
+        "direct-global": 0.15205998010496882,
+        "direct-lac": 0.10722586786244385
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/aer.20150183",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.3994664966257495,
+      "probs": {
+        "excluded": 0.22109609724464907,
+        "indirect": 0.30406956446559774,
+        "direct-global": 0.07536784166400379,
+        "direct-lac": 0.3994664966257495
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/jel.20221543",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.419335718974905,
+      "probs": {
+        "excluded": 0.419335718974905,
+        "indirect": 0.25522652578334176,
+        "direct-global": 0.19563124989770775,
+        "direct-lac": 0.1298065053440455
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/mac.20160164",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.5935270325816586,
+      "probs": {
+        "excluded": 0.15855105371216352,
+        "indirect": 0.15786293831976458,
+        "direct-global": 0.5935270325816586,
+        "direct-lac": 0.0900589753864132
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0013579",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6960920612328388,
+      "probs": {
+        "excluded": 0.0805376610175897,
+        "indirect": 0.15402678200207007,
+        "direct-global": 0.06934349574750154,
+        "direct-lac": 0.6960920612328388
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w20935",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.4331307867174693,
+      "probs": {
+        "excluded": 0.14105389594498155,
+        "indirect": 0.11294606459057491,
+        "direct-global": 0.4331307867174693,
+        "direct-lac": 0.3128692527469741
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w28831",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5459294117543284,
+      "probs": {
+        "excluded": 0.17077440539916722,
+        "indirect": 0.22216811305207376,
+        "direct-global": 0.061128069794430535,
+        "direct-lac": 0.5459294117543284
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w30301",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.29682253653516066,
+      "probs": {
+        "excluded": 0.29682253653516066,
+        "indirect": 0.22088365292730905,
+        "direct-global": 0.2227567739944541,
+        "direct-lac": 0.2595370365430762
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3386/w33795",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.36798058024026226,
+      "probs": {
+        "excluded": 0.24214260021725204,
+        "indirect": 0.36798058024026226,
+        "direct-global": 0.27251307872138386,
+        "direct-lac": 0.11736374082110194
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.3982/ecta19815",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.46006783405773716,
+      "probs": {
+        "excluded": 0.3619928248601394,
+        "indirect": 0.0889834854933917,
+        "direct-global": 0.46006783405773716,
+        "direct-lac": 0.08895585558873155
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1016/j.jdeveco.2021.102754",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4267696547295871,
+      "probs": {
+        "excluded": 0.22324244074822283,
+        "indirect": 0.32499498532427223,
+        "direct-global": 0.02499291919791773,
+        "direct-lac": 0.4267696547295871
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1162/rest_a_01178",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4313218063426937,
+      "probs": {
+        "excluded": 0.2325520725552659,
+        "indirect": 0.28222104083361305,
+        "direct-global": 0.053905080268427524,
+        "direct-lac": 0.4313218063426937
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.1257/mac.20180386",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.42532227541975465,
+      "probs": {
+        "excluded": 0.42532227541975465,
+        "indirect": 0.16962967027783693,
+        "direct-global": 0.29362233877094235,
+        "direct-lac": 0.11142571553146607
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-ai-labor-lac",
+      "doi": "10.18235/0003993",
+      "sheet": "Sheet1",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.564365164367295,
+      "probs": {
+        "excluded": 0.17046433391897936,
+        "indirect": 0.09510303421838978,
+        "direct-global": 0.17006746749533586,
+        "direct-lac": 0.564365164367295
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jce.2017.11.006",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.4297085371539558,
+      "probs": {
+        "excluded": 0.1368707074128874,
+        "indirect": 0.4297085371539558,
+        "direct-global": 0.1644205784521561,
+        "direct-lac": 0.2690001769810006
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jdeveco.2015.02.004",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6531737512984732,
+      "probs": {
+        "excluded": 0.05691420679490509,
+        "indirect": 0.14519668812155456,
+        "direct-global": 0.14471535378506697,
+        "direct-lac": 0.6531737512984732
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jdeveco.2020.102599",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.5468949371943034,
+      "probs": {
+        "excluded": 0.06668615417029335,
+        "indirect": 0.27598688953786626,
+        "direct-global": 0.11043201909753682,
+        "direct-lac": 0.5468949371943034
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jeconom.2019.05.026",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.583956561864641,
+      "probs": {
+        "excluded": 0.037884973417406646,
+        "indirect": 0.31818552028861047,
+        "direct-global": 0.05997294442934144,
+        "direct-lac": 0.583956561864641
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jhealeco.2021.102454",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7455526680988618,
+      "probs": {
+        "excluded": 0.0895287906243605,
+        "indirect": 0.10777071144127597,
+        "direct-global": 0.05714782983550176,
+        "direct-lac": 0.7455526680988618
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jinteco.2020.103340",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.721133637284342,
+      "probs": {
+        "excluded": 0.04662320498028102,
+        "indirect": 0.17166129351922618,
+        "direct-global": 0.06058186421615101,
+        "direct-lac": 0.721133637284342
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jmoneco.2022.12.004",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6097418431523025,
+      "probs": {
+        "excluded": 0.04308354055295311,
+        "indirect": 0.33069267806564917,
+        "direct-global": 0.016481938229095293,
+        "direct-lac": 0.6097418431523025
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.worlddev.2020.105256",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.420566604508503,
+      "probs": {
+        "excluded": 0.33968645280258497,
+        "indirect": 0.420566604508503,
+        "direct-global": 0.0977484934191671,
+        "direct-lac": 0.141998449269745
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1080/00220388.2022.2061850",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-global",
+      "topProb": 0.4167443421693841,
+      "probs": {
+        "excluded": 0.12601894969003355,
+        "indirect": 0.24040384701877585,
+        "direct-global": 0.4167443421693841,
+        "direct-lac": 0.21683286112180628
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1080/00220388.2022.2061854",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.7732669355154224,
+      "probs": {
+        "excluded": 0.0842872929907198,
+        "indirect": 0.11457440332168614,
+        "direct-global": 0.02787136817217175,
+        "direct-lac": 0.7732669355154224
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1080/00220388.2022.2120803",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7044765776819625,
+      "probs": {
+        "excluded": 0.08130335710890606,
+        "indirect": 0.17436257153662918,
+        "direct-global": 0.03985749367250193,
+        "direct-lac": 0.7044765776819625
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1093/oep/gpw010",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.4128721391753218,
+      "probs": {
+        "excluded": 0.13288812881787698,
+        "indirect": 0.21060528681760105,
+        "direct-global": 0.4128721391753218,
+        "direct-lac": 0.24363444518920047
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1093/oep/gpx029",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.4569288890778467,
+      "probs": {
+        "excluded": 0.09659930714573249,
+        "indirect": 0.16802664555682828,
+        "direct-global": 0.4569288890778467,
+        "direct-lac": 0.2784451582195924
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1093/restud/rdab017",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.49751810835576643,
+      "probs": {
+        "excluded": 0.04814232834596032,
+        "indirect": 0.20499353408285695,
+        "direct-global": 0.24934602921541632,
+        "direct-lac": 0.49751810835576643
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1093/wber/lhad019",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6658677390396529,
+      "probs": {
+        "excluded": 0.09890284636136598,
+        "indirect": 0.09615801666190114,
+        "direct-global": 0.1390713979370799,
+        "direct-lac": 0.6658677390396529
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/iere.12118",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5638910489227286,
+      "probs": {
+        "excluded": 0.12905476263175086,
+        "indirect": 0.20284821872870268,
+        "direct-global": 0.10420596971681784,
+        "direct-lac": 0.5638910489227286
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/joes.12487",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.5590776982069278,
+      "probs": {
+        "excluded": 0.10627825037811216,
+        "indirect": 0.5590776982069278,
+        "direct-global": 0.19721183204000192,
+        "direct-lac": 0.13743221937495817
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/rode.70079",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.4283178900243737,
+      "probs": {
+        "excluded": 0.13087409973223407,
+        "indirect": 0.4283178900243737,
+        "direct-global": 0.09614038711151077,
+        "direct-lac": 0.34466762313188143
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1146/annurev-economics-082119-121914",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "direct-global",
+      "topProb": 0.6889255041600427,
+      "probs": {
+        "excluded": 0.07802830042135968,
+        "indirect": 0.07102532586439816,
+        "direct-global": 0.6889255041600427,
+        "direct-lac": 0.16202086955419948
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1257/aer.20121110",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-global",
+      "topProb": 0.3810097313213327,
+      "probs": {
+        "excluded": 0.23162111868640373,
+        "indirect": 0.1907050842163506,
+        "direct-global": 0.3810097313213327,
+        "direct-lac": 0.19666406577591314
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1257/aer.20141745",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4586328847436658,
+      "probs": {
+        "excluded": 0.1532573109311909,
+        "indirect": 0.2681004510967629,
+        "direct-global": 0.1200093532283803,
+        "direct-lac": 0.4586328847436658
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1257/app.20200763",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6531653430285352,
+      "probs": {
+        "excluded": 0.042885795995962976,
+        "indirect": 0.27693224506958886,
+        "direct-global": 0.027016615905912957,
+        "direct-lac": 0.6531653430285352
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1257/app.20200787",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7806791439349797,
+      "probs": {
+        "excluded": 0.05025421427065504,
+        "indirect": 0.13720140985967927,
+        "direct-global": 0.03186523193468624,
+        "direct-lac": 0.7806791439349797
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0001966",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7928344584218937,
+      "probs": {
+        "excluded": 0.046361385487593824,
+        "indirect": 0.12863939895751025,
+        "direct-global": 0.03216475713300288,
+        "direct-lac": 0.7928344584218937
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0003128",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.730970397517417,
+      "probs": {
+        "excluded": 0.055664619207223674,
+        "indirect": 0.1837529968543503,
+        "direct-global": 0.029611986421009432,
+        "direct-lac": 0.730970397517417
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0004809",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7715656425291535,
+      "probs": {
+        "excluded": 0.06702403028015241,
+        "indirect": 0.15013876752252103,
+        "direct-global": 0.011271559668172965,
+        "direct-lac": 0.7715656425291535
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0011813",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7261249516068493,
+      "probs": {
+        "excluded": 0.033160082928600655,
+        "indirect": 0.17836752560821023,
+        "direct-global": 0.06234743985633985,
+        "direct-lac": 0.7261249516068493
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0013267",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7444105894431692,
+      "probs": {
+        "excluded": 0.06258682697611719,
+        "indirect": 0.13564236291004395,
+        "direct-global": 0.05736022067066966,
+        "direct-lac": 0.7444105894431692
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.jdeveco.2018.04.003",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5449215824507758,
+      "probs": {
+        "excluded": 0.2103764818225691,
+        "indirect": 0.1691514674769004,
+        "direct-global": 0.07555046824975474,
+        "direct-lac": 0.5449215824507758
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.labeco.2020.101925",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-global",
+      "predLabel": "indirect",
+      "topProb": 0.3603401361873049,
+      "probs": {
+        "excluded": 0.1309475302320173,
+        "indirect": 0.3603401361873049,
+        "direct-global": 0.31817488249863674,
+        "direct-lac": 0.19053745108204115
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.labeco.2024.102581",
+      "sheet": "Sheet2",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.32490282497417505,
+      "probs": {
+        "excluded": 0.20724425304097285,
+        "indirect": 0.32490282497417505,
+        "direct-global": 0.20804188838084176,
+        "direct-lac": 0.25981103360401026
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.labeco.2024.102630",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4932692196379845,
+      "probs": {
+        "excluded": 0.16871205110375595,
+        "indirect": 0.2813780547265721,
+        "direct-global": 0.056640674531687356,
+        "direct-lac": 0.4932692196379845
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.red.2020.10.001",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5878849222432924,
+      "probs": {
+        "excluded": 0.15662735036553926,
+        "indirect": 0.16907879400069234,
+        "direct-global": 0.08640893339047573,
+        "direct-lac": 0.5878849222432924
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.worlddev.2015.11.005",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.4681361566545149,
+      "probs": {
+        "excluded": 0.162619215288454,
+        "indirect": 0.4681361566545149,
+        "direct-global": 0.2549963587140736,
+        "direct-lac": 0.11424826934295776
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1080/00220388.2022.2061851",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.5595604174182882,
+      "probs": {
+        "excluded": 0.07083286349078992,
+        "indirect": 0.3552209949543478,
+        "direct-global": 0.014385724136573736,
+        "direct-lac": 0.5595604174182882
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1086/688175",
+      "sheet": "Sheet2",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.32771329838568086,
+      "probs": {
+        "excluded": 0.2427196281931181,
+        "indirect": 0.32771329838568086,
+        "direct-global": 0.25020346697536516,
+        "direct-lac": 0.17936360644583582
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1093/wber/lhab023",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.6462583570415474,
+      "probs": {
+        "excluded": 0.05085280129435731,
+        "indirect": 0.27639301812093625,
+        "direct-global": 0.026495823543158947,
+        "direct-lac": 0.6462583570415474
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/ajps.12576",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.4430157296235931,
+      "probs": {
+        "excluded": 0.1503110484344855,
+        "indirect": 0.3842349821613931,
+        "direct-global": 0.02243823978052817,
+        "direct-lac": 0.4430157296235931
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/rode.12288",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.3592959166187758,
+      "probs": {
+        "excluded": 0.20022275763200678,
+        "indirect": 0.3225697868799015,
+        "direct-global": 0.3592959166187758,
+        "direct-lac": 0.11791153886931585
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1111/rode.12317",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "direct-lac",
+      "topProb": 0.6470103351960635,
+      "probs": {
+        "excluded": 0.039518504133066144,
+        "indirect": 0.24335137522055134,
+        "direct-global": 0.07011978545031877,
+        "direct-lac": 0.6470103351960635
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1177/0010414016679177",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5450241757687606,
+      "probs": {
+        "excluded": 0.04990875972213665,
+        "indirect": 0.2250434802013425,
+        "direct-global": 0.18002358430776041,
+        "direct-lac": 0.5450241757687606
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1177/00197939231205515",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.6222681384594199,
+      "probs": {
+        "excluded": 0.08493646069955775,
+        "indirect": 0.2392611317644583,
+        "direct-global": 0.05353426907656449,
+        "direct-lac": 0.6222681384594199
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1257/aer.20141096",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.5638403332436457,
+      "probs": {
+        "excluded": 0.5638403332436457,
+        "indirect": 0.14750713702912976,
+        "direct-global": 0.17749109636478555,
+        "direct-lac": 0.11116143336243912
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0005089",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.7087973503855326,
+      "probs": {
+        "excluded": 0.122026525534609,
+        "indirect": 0.14583053863596615,
+        "direct-global": 0.02334558544389206,
+        "direct-lac": 0.7087973503855326
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.18235/0011712",
+      "sheet": "Sheet2",
+      "actualLabel": "direct-lac",
+      "predLabel": "direct-lac",
+      "topProb": 0.5487590636187353,
+      "probs": {
+        "excluded": 0.172286851924499,
+        "indirect": 0.19545045292668842,
+        "direct-global": 0.08350363153007712,
+        "direct-lac": 0.5487590636187353
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1002/pam.22457",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.3598363492790125,
+      "probs": {
+        "excluded": 0.30768301713784163,
+        "indirect": 0.3598363492790125,
+        "direct-global": 0.2376190619725426,
+        "direct-lac": 0.09486157161060316
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.worlddev.2022.106095",
+      "sheet": "Sheet2",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.4497288043355039,
+      "probs": {
+        "excluded": 0.4497288043355039,
+        "indirect": 0.25291432044873796,
+        "direct-global": 0.14162863164219297,
+        "direct-lac": 0.15572824357356527
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-informality-lac",
+      "doi": "10.1016/j.worlddev.2023.106229",
+      "sheet": "Sheet2",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.4404051372623322,
+      "probs": {
+        "excluded": 0.1265185957149842,
+        "indirect": 0.4404051372623322,
+        "direct-global": 0.0642064358301326,
+        "direct-lac": 0.36886983119255107
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1002/hec.4557",
+      "sheet": "Sheet3",
+      "actualLabel": "direct-global",
+      "predLabel": "excluded",
+      "topProb": 0.3526658659529972,
+      "probs": {
+        "excluded": 0.3526658659529972,
+        "indirect": 0.21488527971958205,
+        "direct-global": 0.33653175561005,
+        "direct-lac": 0.09591709871737077
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1007/s00148-020-00807-0",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.7780354756614293,
+      "probs": {
+        "excluded": 0.7780354756614293,
+        "indirect": 0.13251344950399221,
+        "direct-global": 0.0643486608567415,
+        "direct-lac": 0.02510241397783714
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1007/s13524-019-00790-6",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.6021519398927043,
+      "probs": {
+        "excluded": 0.6021519398927043,
+        "indirect": 0.23193373492139688,
+        "direct-global": 0.1162754642069135,
+        "direct-lac": 0.049638860978985455
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.jebo.2024.04.013",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "direct-global",
+      "topProb": 0.34374079006774344,
+      "probs": {
+        "excluded": 0.24372471855278324,
+        "indirect": 0.26185041768538736,
+        "direct-global": 0.34374079006774344,
+        "direct-lac": 0.15068407369408587
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.labeco.2021.101996",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.3498986416392822,
+      "probs": {
+        "excluded": 0.3498986416392822,
+        "indirect": 0.28314675995180866,
+        "direct-global": 0.24073119059931497,
+        "direct-lac": 0.12622340780959415
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2019.01.015",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.7721940791393292,
+      "probs": {
+        "excluded": 0.7721940791393292,
+        "indirect": 0.1231019969109151,
+        "direct-global": 0.06660521436361991,
+        "direct-lac": 0.0380987095861357
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2021.105445",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.7102495644246405,
+      "probs": {
+        "excluded": 0.7102495644246405,
+        "indirect": 0.15181278201983953,
+        "direct-global": 0.09800634300914751,
+        "direct-lac": 0.03993131054637253
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1017/s0003055423000916",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.6284950624040171,
+      "probs": {
+        "excluded": 0.12934227947435675,
+        "indirect": 0.6284950624040171,
+        "direct-global": 0.12818236320688942,
+        "direct-lac": 0.11398029491473655
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1080/00220388.2025.2487011",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.4677300604647862,
+      "probs": {
+        "excluded": 0.4677300604647862,
+        "indirect": 0.25561657850901837,
+        "direct-global": 0.1741064653220194,
+        "direct-lac": 0.10254689570417604
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1086/706824",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.5070427890355577,
+      "probs": {
+        "excluded": 0.5070427890355577,
+        "indirect": 0.18298079954271543,
+        "direct-global": 0.24377293630523744,
+        "direct-lac": 0.06620347511648941
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1086/734092",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-global",
+      "topProb": 0.36873651317853473,
+      "probs": {
+        "excluded": 0.34436677597496973,
+        "indirect": 0.18421436329898558,
+        "direct-global": 0.36873651317853473,
+        "direct-lac": 0.10268234754750992
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1093/ej/ueag043",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.467262839212807,
+      "probs": {
+        "excluded": 0.467262839212807,
+        "indirect": 0.21915028914967125,
+        "direct-global": 0.1926697459156206,
+        "direct-lac": 0.12091712572190133
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1093/wber/lhy020",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-lac",
+      "topProb": 0.3704699197858112,
+      "probs": {
+        "excluded": 0.35790424740186916,
+        "indirect": 0.22752710828794018,
+        "direct-global": 0.044098724524379476,
+        "direct-lac": 0.3704699197858112
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1111/ajae.12315",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.5274894753334025,
+      "probs": {
+        "excluded": 0.5274894753334025,
+        "indirect": 0.31831112328256284,
+        "direct-global": 0.09558874892483653,
+        "direct-lac": 0.05861065245919843
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1111/iere.12531",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.6479650708123923,
+      "probs": {
+        "excluded": 0.6479650708123923,
+        "indirect": 0.2324673109398231,
+        "direct-global": 0.0921331657897066,
+        "direct-lac": 0.027434452458078094
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1162/rest_a_00965",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.5503478822916261,
+      "probs": {
+        "excluded": 0.5503478822916261,
+        "indirect": 0.2635141751260327,
+        "direct-global": 0.12250559834672484,
+        "direct-lac": 0.06363234423561648
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1177/00197939211056914",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.621301985880247,
+      "probs": {
+        "excluded": 0.621301985880247,
+        "indirect": 0.19009990914943548,
+        "direct-global": 0.12043471099163101,
+        "direct-lac": 0.06816339397868665
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1177/00197939251361359",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.31736080084312673,
+      "probs": {
+        "excluded": 0.31736080084312673,
+        "indirect": 0.10480955966232126,
+        "direct-global": 0.30673504228079607,
+        "direct-lac": 0.27109459721375606
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1215/00703370-9606030",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.40447179058846344,
+      "probs": {
+        "excluded": 0.40447179058846344,
+        "indirect": 0.2874433917218593,
+        "direct-global": 0.19879246728733652,
+        "direct-lac": 0.10929235040234078
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1257/app.20180010",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.5856494190442686,
+      "probs": {
+        "excluded": 0.5856494190442686,
+        "indirect": 0.23239091357460587,
+        "direct-global": 0.13353385645401378,
+        "direct-lac": 0.048425810927111915
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1257/jel.20160995",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-global",
+      "topProb": 0.4533796803127092,
+      "probs": {
+        "excluded": 0.3021458633338818,
+        "indirect": 0.20588743682502073,
+        "direct-global": 0.4533796803127092,
+        "direct-lac": 0.03858701952838829
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1257/pol.20170570",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.40860621253615703,
+      "probs": {
+        "excluded": 0.40860621253615703,
+        "indirect": 0.2712670425122214,
+        "direct-global": 0.2388445484215934,
+        "direct-lac": 0.08128219653002793
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1257/pol.20210346",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.49417191853513953,
+      "probs": {
+        "excluded": 0.49417191853513953,
+        "indirect": 0.24692498945193145,
+        "direct-global": 0.14269910437331795,
+        "direct-lac": 0.11620398763961118
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.3368/jhr.0720-11014r2",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.5382058106084207,
+      "probs": {
+        "excluded": 0.270108846713831,
+        "indirect": 0.5382058106084207,
+        "direct-global": 0.0965283296316287,
+        "direct-lac": 0.09515701304611993
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1002/hec.4744",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-global",
+      "topProb": 0.30542783178962585,
+      "probs": {
+        "excluded": 0.2812459113151702,
+        "indirect": 0.2158935496943148,
+        "direct-global": 0.30542783178962585,
+        "direct-lac": 0.19743270720088915
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1002/hec.4747",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.35707117259294285,
+      "probs": {
+        "excluded": 0.35707117259294285,
+        "indirect": 0.15850215956260202,
+        "direct-global": 0.26948881039020156,
+        "direct-lac": 0.21493785745425342
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1002/pam.21881",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.4984828444974278,
+      "probs": {
+        "excluded": 0.4984828444974278,
+        "indirect": 0.30794816223269555,
+        "direct-global": 0.09016057623333146,
+        "direct-lac": 0.10340841703654516
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1007/s13524-020-00864-w",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.5319762293465894,
+      "probs": {
+        "excluded": 0.5319762293465894,
+        "indirect": 0.2703664752446,
+        "direct-global": 0.11484275482271114,
+        "direct-lac": 0.08281454058609944
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1007/s13524-020-00887-3",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.6778875239260275,
+      "probs": {
+        "excluded": 0.6778875239260275,
+        "indirect": 0.19875800131502624,
+        "direct-global": 0.06077988641835743,
+        "direct-lac": 0.06257458834058884
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.jdeveco.2023.103140",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.5163005364409538,
+      "probs": {
+        "excluded": 0.3189382383112101,
+        "indirect": 0.5163005364409538,
+        "direct-global": 0.08474026501122227,
+        "direct-lac": 0.0800209602366138
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.labeco.2024.102619",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-lac",
+      "topProb": 0.36678373321597824,
+      "probs": {
+        "excluded": 0.26523880018053114,
+        "indirect": 0.25774240678546456,
+        "direct-global": 0.11023505981802616,
+        "direct-lac": 0.36678373321597824
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2018.02.021",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.5588095121357783,
+      "probs": {
+        "excluded": 0.2583039698999713,
+        "indirect": 0.5588095121357783,
+        "direct-global": 0.1424133694056172,
+        "direct-lac": 0.0404731485586335
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2023.106319",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.3768712607515571,
+      "probs": {
+        "excluded": 0.3768712607515571,
+        "indirect": 0.23193562910696375,
+        "direct-global": 0.02041398373037044,
+        "direct-lac": 0.37077912641110855
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2023.106419",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.49704411788287717,
+      "probs": {
+        "excluded": 0.49704411788287717,
+        "indirect": 0.302147587227438,
+        "direct-global": 0.10394573787033709,
+        "direct-lac": 0.09686255701934776
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1016/j.worlddev.2024.106805",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.571896841833831,
+      "probs": {
+        "excluded": 0.23835384517986022,
+        "indirect": 0.571896841833831,
+        "direct-global": 0.07186963523537757,
+        "direct-lac": 0.1178796777509311
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1080/00220388.2020.1762859",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "indirect",
+      "topProb": 0.5264866660924095,
+      "probs": {
+        "excluded": 0.18429938143633848,
+        "indirect": 0.5264866660924095,
+        "direct-global": 0.23443152941725967,
+        "direct-lac": 0.05478242305399231
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1080/00220388.2022.2086048",
+      "sheet": "Sheet3",
+      "actualLabel": "indirect",
+      "predLabel": "excluded",
+      "topProb": 0.5776912997522416,
+      "probs": {
+        "excluded": 0.5776912997522416,
+        "indirect": 0.2850904982612155,
+        "direct-global": 0.05298880042609494,
+        "direct-lac": 0.08422940156044793
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1080/00220388.2025.2590455",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.41809052576305766,
+      "probs": {
+        "excluded": 0.41809052576305766,
+        "indirect": 0.2844722811153895,
+        "direct-global": 0.07566736355430166,
+        "direct-lac": 0.22176982956725122
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1086/682706",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.490486518789169,
+      "probs": {
+        "excluded": 0.490486518789169,
+        "indirect": 0.28923264575080604,
+        "direct-global": 0.1179775845073046,
+        "direct-lac": 0.10230325095272048
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1086/697251",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.4480627049156686,
+      "probs": {
+        "excluded": 0.2884523081930205,
+        "indirect": 0.4480627049156686,
+        "direct-global": 0.1824477190178284,
+        "direct-lac": 0.08103726787348271
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1086/712923",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "direct-global",
+      "topProb": 0.5446110885175157,
+      "probs": {
+        "excluded": 0.21068155130656102,
+        "indirect": 0.1516136654036242,
+        "direct-global": 0.5446110885175157,
+        "direct-lac": 0.09309369477229917
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1093/qje/qjae006",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "indirect",
+      "topProb": 0.3974986699106518,
+      "probs": {
+        "excluded": 0.34502225817578386,
+        "indirect": 0.3974986699106518,
+        "direct-global": 0.14540054683340156,
+        "direct-lac": 0.11207852508016276
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1093/qje/qjv038",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.63256123374423,
+      "probs": {
+        "excluded": 0.63256123374423,
+        "indirect": 0.13883666110998819,
+        "direct-global": 0.1592810136408384,
+        "direct-lac": 0.06932109150494348
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1146/annurev-economics-080614-115329",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.6067137992592877,
+      "probs": {
+        "excluded": 0.6067137992592877,
+        "indirect": 0.1794292893438371,
+        "direct-global": 0.1315229396570549,
+        "direct-lac": 0.08233397173982049
+      }
+    },
+    {
+      "qid": "manual-2026-05-20-gender-violence-labor",
+      "doi": "10.1257/aer.20200705",
+      "sheet": "Sheet3",
+      "actualLabel": "excluded",
+      "predLabel": "excluded",
+      "topProb": 0.5693647233759741,
+      "probs": {
+        "excluded": 0.5693647233759741,
+        "indirect": 0.22896069044919065,
+        "direct-global": 0.1011037132862395,
+        "direct-lac": 0.10057087288859604
+      }
+    }
+  ]
+}

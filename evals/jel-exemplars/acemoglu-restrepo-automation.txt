@@ -1,0 +1,1090 @@
+Journal of Economic Perspectives—Volume 33, Number 2—Spring 2019—Pages 3–30
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor
+Daron Acemoglu and Pascual Restrepo
+
+T he implications of technological change for employment and wages are a source of controversy. Some see the ongoing process of automation—as exemplified by computer numerical control machinery, industrial robots, and artificial intelligence—as the harbinger of widespread joblessness. Others reason that current automation, like previous waves of technologies, will ultimately increase labor demand, and thus employment and wages.
+This paper presents a task-based framework, building on Acemoglu and Restrepo (2018a, 2018b) as well as Acemoglu and Autor (2011), Autor, Levy, and Murnane (2003), and Zeira (1998), for thinking through the implications of technology for labor demand and productivity. Production requires tasks, which are allocated to capital or labor. New technologies not only increase the productivity of capital and labor at tasks they currently perform, but also impact the allocation of tasks to these factors of production—what we call the task content of production. Shifts in the task content of production can have major effects for how labor demand changes as well as for productivity.
+Automation corresponds to the development and adoption of new technologies that enable capital to be substituted for labor in a range of tasks. Automation changes the task content of production adversely for labor because of a displacement effect—as capital takes over tasks previously performed by labor. The displacement
+
+■ Daron Acemoglu is Elizabeth and James Killian Professor of Economics, Massachusetts
+
+Institute of Technology, Cambridge, Massachusetts. Pascual Restrepo is Assistant Professor of
+
+Economics, Boston University, Boston, Massachusetts. Their emails are daron@mit.edu and
+
+pascual@bu.edu.
+
+† For supplementary materials such as appendices, datasets, and author disclosure statements, see the
+
+article page at
+
+https://doi.org/10.1257/jep.33.2.3
+
+doi=10.1257/jep.33.2.3
+
+4 Journal of Economic Perspectives
+effect implies that automation reduces the labor share of value added. Historical examples of automation are aplenty. Many early innovations of the Industrial Revolution automated tasks performed by artisans in spinning and weaving (Mantoux 1928), which led to widespread displacement, triggering the Luddite riots (Mokyr 1990). The mechanization of agriculture, which picked up speed with horse-powered reapers, harvesters, and plows in the second half of the 19th century and with tractors and combine harvesters in the 20th century, displaced agricultural workers in large numbers (Rasmussen 1982; Olmstead and Rhode 2001). Today too we are witnessing a period of rapid automation. The jobs of production workers are being disrupted with the rise of industrial robots and other automated machinery (Graetz and Michaels 2018; Acemoglu and Restrepo 2018b), while white-collar workers in accounting, sales, logistics, trading, and some managerial occupations are seeing some of the tasks they used to perform being replaced by specialized software and artificial intelligence.
+By allowing a more flexible allocation of tasks to factors, automation technology also increases productivity, and via this channel, which we call the productivity effect, it contributes to the demand for labor in non-automated tasks. The net impact of automation on labor demand thus depends on how the displacement and productivity effects weigh against each other.
+The history of technology is not only about the displacement of human labor by automation technologies. If it were, we would be confined to a shrinking set of old tasks and jobs, with a steadily declining labor share in national income. Instead, the displacement effect of automation has been counterbalanced by technologies that create new tasks in which labor has a comparative advantage. Such new tasks generate not only a positive productivity effect, but also a reinstatement effect—they reinstate labor into a broader range of tasks and thus change the task content of production in favor of labor.1 The reinstatement effect is the polar opposite of the displacement effect and directly increases the labor share as well as labor demand.
+History is also replete with examples of the creation of new tasks and the reinstatement effect. In the 19th century, as automation of some tasks was ongoing, other technological developments generated employment opportunities in new occupations. These included jobs for line workers, engineers, machinists, repairmen, conductors, managers, and financiers (Chandler 1977; Mokyr 1990). New occupations and jobs in new industries also played a pivotal role in generating labor demand during the decades of rapid agricultural mechanization in the United States, especially in factories (Rasmussen 1982; Olmsted and Rhode 2001) and in clerical occupations, both in services and manufacturing (Goldin and Katz 2008; Michaels 2007). Although software and computers have replaced labor in some white-collar tasks, they have simultaneously created many new tasks. These include tasks related
+1 There are also new tasks in which capital has a comparative advantage (for example, automated detection). Throughout our focus is on “labor-intensive” new tasks, and for brevity, we will simply refer to these as “new tasks.”
+
+Daron Acemoglu and Pascual Restrepo 5
+to programming, design, and maintenance of high tech equipment, such as software and app development, database design and analysis, and computer-security-related tasks, as well as tasks related to more specialized functions in existing occupations, including administrative assistants, analysts for loan applications, and medical equipment technicians (Lin 2011). In Acemoglu and Restrepo (2018a, using data from Lin 2011), we show that about half of employment growth over 1980–2015 took place in occupations in which job titles or tasks performed by workers changed.
+Our conceptual framework offers several lessons. First, the presumption that all technologies increase (aggregate) labor demand simply because they raise productivity is wrong. Some automation technologies may in fact reduce labor demand because they bring sizable displacement effects but modest productivity gains (especially when substituted workers were cheap to begin with and the automated technology is only marginally better than them). Second, because of the displacement effect, we should not expect automation to create wage increases commensurate with productivity growth. In fact, as we noted already, automation by itself always reduces the labor share in industry value added and tends to reduce the overall labor share in the economy (meaning that it leads to slower wage growth than productivity growth). The reason why we have had rapid wage growth and stable labor shares in the past is a consequence of other technological changes that generated new tasks for labor and counterbalanced the effects of automation on the task content of production. Some technologies displaced labor from automated tasks while others reinstated labor into new tasks. On net, labor retained a key role in production. By the same token, our framework suggests that the future of work depends on the mixture of new technologies and how these change the task content of production.
+In the second part of the paper, we use our framework to study the evolution of labor demand in the United States since World War II and explain how industry data can be used to infer the behavior of the task content of production and the displacement and reinstatement effects. We start by showing that there has been a slowdown in the growth of labor demand over the last three decades and an almost complete stagnation over the last two. We establish this by studying the evolution of the economy-wide wage bill, which combines information on average wages and total employment and is thus informative about changes in overall labor demand. We then use industry data to decompose changes in the economy-wide wage bill into productivity, composition and substitution effects, and changes in the task content of production. All technologies create productivity effects that contribute to labor demand. The composition effect arises from the reallocation of activity across sectors with different labor intensities. The substitution effect captures the substitution between labor- and capital-intensive tasks within an industry in response to a change in task prices (for instance, caused by factor-augmenting technologies making labor or capital more productive at tasks they currently perform). We estimate changes in the task content of production from residual changes in industry-level labor shares (beyond what can be explained by substitution effects). We further decompose changes in the task content of production into displacement effects caused by automation and reinstatement effects driven by new tasks.
+
+6 Journal of Economic Perspectives
+We provide external support for this decomposition by relating estimated changes in the task content of production to a battery of measures of automation and introduction of new tasks across sectors.
+Our decomposition suggests that the evolution of the US wage bill, especially over the last 20 years, cannot be understood without factoring in changes in the task content of production. In particular, we find that the sharp slowdown of US wage bill growth over the last three decades is a consequence of weaker-thanusual productivity growth and significant shifts in the task content of production against labor. By decomposing the change in the task content of production, we estimate stronger displacement effects and considerably weaker reinstatement effects during the last 30 years than the decades before. These patterns hint at an acceleration of automation and a deceleration in the creation of new tasks. They also raise the question of why productivity growth has been so anemic while automation has accelerated during recent years. We use our framework to shed light on this critical question.
+An online Appendix available with this paper at the journal website contains a more detailed exposition of our framework, proofs, additional empirical results, and details on the construction of our data.
+Conceptual Framework
+Production requires the completion of a range of tasks. The production of a shirt, for example, starts with a design, then requires the completion of a variety of production tasks, such as the extraction of fibers, spinning them to produce yarn, weaving, knitting, dyeing, and processing, as well as additional nonproduction tasks, including accounting, marketing, transportation, and sales. Each one of these tasks can be performed by human labor or by capital (including both machines and software). The allocation of tasks to factors determines the task content of production.
+Automation enables some of the tasks previously performed by labor to be produced by capital. As a recent example, advances in robotics technologies since the 1980s have allowed firms to automate a wide range of production tasks in manufacturing, such as machining, welding, painting, and assembling, that were performed manually (Ayres and Miller 1983; Groover, Weiss, Nagel, and Odrey 1986; Acemoglu and Restrepo 2018b). The set of tasks involved in producing a product is not constant over time, and the introduction of new tasks can be a major source of labor demand as well as productivity. In textiles, examples of new laborintensive tasks include computerized designs, new methods of market research, and various managerial activities for better targeting of demand and cost saving. By changing the allocation of tasks to factors, both automation and the introduction of new tasks affect the task content of production.
+Tasks are thus the fundamental unit of production, and the factors of production contribute to output by performing these tasks. In contrast, the canonical
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 7
+approach in economics bypasses tasks and directly posits a production function of the form Y = F (AK K, ALL), which additionally imposes that all technological change takes a factor-augmenting form. There are three related reasons we prefer our conceptual framework. First, the canonical approach lacks descriptive realism. Advances in robotics, for example, do not make capital or labor more productive, but expand the set of tasks that can be produced by capital. Second, capital-augmenting technological change (an increase in AK ) or labor-augmenting technological change (an increase in AL) corresponds to the relevant factor becoming uniformly more productive in all tasks, which, we will show, ignores potentially important changes in the task content of production. Third, and most importantly, we will also see that the quantitative and qualitative implications of factor-augmenting technological advances are different from those of technologies that change the task content of production. Focusing just on factor-augmenting technologies can force us into misleading conclusions.
+Tasks and Production We present our task-based framework by first describing the production process
+in a single-sector economy.2 Suppose that production combines the output of a range of tasks, and that the tasks are indexed by z and normalized to lie between N − 1 and N, as shown in Figure 1.3 Tasks can be produced using capital or labor. Tasks with z > I are not automated, and can only be produced with labor, which has a wage rate W. Tasks z ≤ I are automated and can be produced with capital, which has a rental rate R, as well as labor. We assume that labor has both a comparative and an absolute advantage in higher indexed tasks. An increase in I therefore represents the introduction of an automation technology, or automation for short. An increase in N , on the other hand, corresponds to the introduction of new labor-intensive tasks or new tasks for short. In addition to automation (I) and introduction of new tasks (N), the state of technology for this sector depends on AL (labor-augmenting technology) and AK (capital-augmenting technology), which increase the productivities of these factors in all tasks.
+Let us assume that it is cost-minimizing for firms to use capital in all tasks that are automated (all z ≤ I) and to adopt all new tasks immediately. This implies an allocation of tasks to factors as summarized in Figure 1, which also shows how automation and new tasks impact this allocation.
+
+2 This also describes the production process in a sector situated in a multisector economy, with the only
+
+difference being that, in that case, changes in technology impact relative prices and induce reallocation
+
+of capital and labor across sectors. We discuss these relative price and reallocation effects below.
+
+3 Namely,
+
+the
+
+production
+
+function
+
+takes
+
+the
+
+form
+
+Y = ​
+
+​(∫​ N N− 1​ ​  Y(​ z)​ 
+
+ ​_σ_−σ_ 1_ )​​  ​ 
+
+_ ​σ_−σ_ 1_  ​
+,​
+
+where
+
+Y(z)
+
+is
+
+the
+
+output
+
+of
+
+task
+
+z. The assumption that tasks lie between N − 1 and N is adopted to simplify the exposition. Nothing
+
+major changes if we instead allow tasks to lie on the interval between 0 and N. The online Appendix
+
+presents more detail on underlying assumptions and on derivations of results that follow throughout
+
+the discussion.
+
+8 Journal of Economic Perspectives
+Figure 1 The Allocation of Capital and Labor to the Production of Tasks and the Impact of Automation and the Creation of New Tasks
+Source: Authors. Note: The figure summarizes the allocation of tasks to capital and labor. Production requires the completion of a range of tasks, normalized to lie between N – 1 and N. Tasks above I are not automated, and can only be produced with labor. Tasks below I are automated and will be produced with capital. An increase in I represents the introduction of automation technology or automation for short. An increase in N corresponds to the introduction of new labor-intensive tasks or new tasks for short.
+Following the same steps as in Acemoglu and Restrepo (2018a), output can be represented as a constant elasticity of substitution (CES) function of capital and labor:
+Y = Π(I, N )(​ Γ​(I, N )​ ​_ σ1_​ ​(  ​ALL)​  ​_σ_−σ_ 1_​​  + (1 – Γ(​ I, N ))​  ​_σ1_​​(   AKK)​  ​_σ_−σ_ 1_​)​   _​ σ​  _−σ_1 _ ​​ . As in the canonical model, we have production as a function of the quantities of labor and capital, L and K. The labor-augmenting technology term AL and the capital-augmenting term AK increase the productivity of labor and capital in all tasks they currently produce. The elasticity of substitution between tasks, σ, determines how easy it is to substitute one task for another, and is also the (derived) elasticity of substitution between capital and labor. The crucial difference from the canonical model is that the share parameters of this constant-elasticity-of-substitution function depend on automation and new tasks. The share parameter for labor, Γ(I, N ), is the labor task content of production, which represents the share of tasks performed by labor relative to capital (adjusted for differences in labor and capital productivity across these tasks). Conversely, 1 − Γ(I, N ) is the capital task content of production. Hence, an increase in Γ(I, N )
+
+Daron Acemoglu and Pascual Restrepo 9
+shifts the task content of production in favor of labor and against capital. In the special case where σ = 1, Γ(I, N ) = N − I. More generally, Γ(I, N ) is always increasing in N and decreasing in I. This, in particular, implies that automation (greater I) shifts the task content of production against labor because it entails capital taking over tasks previously performed by labor. In contrast, new labor-intensive tasks shift the task content of production in favor of labor.4 Finally, automation and new tasks not only change the task content of production but also generate productivity gains by allowing the allocation of (some) tasks to cheaper factors. The term Π(I, N ), which shows up as total factor productivity, represents these productivity gains.
+The labor share, given by wage bill (WL) divided by value added (Y ), can be derived as:
+	​​s ​L​ = _​   1  _+___​1  __−__Γ__(  _Γ_I_,_(  _NI__,_ _)N_ _1 _)__   ​  ​(_​ __WR__  //__​A​A__​ K​ L__ ​​ ​) __​ 1−__σ ​​   .
+This relationship, which will be relied upon extensively in the rest of the paper, clarifies the two distinct forces shaping the labor share (in an industry or the entire economy). As is standard, the labor share depends on the ratio of effective factor prices, W/AL and R/AK. Intuitively, as effective wages rise relative to effective rental rates of capital, the price of tasks produced by labor increases relative to the price of tasks produced by capital, and this generates a substitution effect across tasks. This is the only force influencing the labor share in the canonical model. Its magnitude and size depend on whether σ is greater than or less than 1. For example, when tasks are complements (σ < 1), an increase in the effective wage raises the cost share of tasks produced by labor. The opposite happens when σ > 1. When σ = 1, we obtain a Cobb–Douglas production function and the substitution effect vanishes because the share of each task in value added is fixed.
+More novel are the effects of the task content of production, Γ(I, N ), on the labor share. Intuitively, as more tasks are allocated to capital instead of labor, the task content shifts against labor and the labor share will decline unambiguously. Our model thus predicts that, independently from the elasticity of substitution σ, automation (which changes the task content of production against labor) will reduce the labor share in the industry, while new tasks (which alter the task content of production in favor of labor) will increase it.
+4 Our exposition assumes that the task content of production does not depend on factor-augmenting technologies or the supply of capital or labor. This will be the case when it is cost-minimizing for firms in this sector to use capital in all tasks that are automated (all z ≤ I) and use all new tasks immediately. The online Appendix presents the underlying assumptions on technology and factor supplies that ensures this is the case. When this assumption does not hold (for example, because of very large changes in factor-augmenting technologies or factor supplies), the allocation of tasks to factors will change with factor supplies and factor-augmenting technologies. Even in this case, the impact of factor-augmenting technologies on the task content will be small relative to the productivity gains from these technologies.
+
+10 Journal of Economic Perspectives
+Technology and Labor Demand We now investigate how technology changes labor demand. We focus on the
+behavior of the wage bill, WL, which captures the total amount employers pay for labor. Recall that
+Wage bill = Value added × Labor share.
+Changes in the wage bill will translate into some combination of changes in employment and wages, and the exact division will be affected by the elasticity of labor supply and labor market imperfections, neither of which we model explicitly in this paper (for discussion, see Acemoglu and Restrepo 2018a, 2018b).
+We use this relationship to think about how three classes of technologies impact labor demand: automation, new tasks, and factor-augmenting advances. Consider the introduction of new automation technologies (an increase in I in Figure 1). The impact on labor demand can be represented as:
+Effect of automation on labor demand = Productivity effect + Displacement effect.
+The productivity effect arises from the fact that automation increases value added, and this raises the demand for labor from non-automated tasks. If nothing else happened, labor demand of the industry would increase at the same rate as value added, and the labor share would remain constant. However, automation also generates a displacement effect—it displaces labor from the tasks previously allocated to it—which shifts the task content of production against labor and always reduces the labor share. Automation therefore increases the size of the pie, but labor gets a smaller slice. There is no guarantee that the productivity effect is greater than the displacement effect; some automation technologies can reduce labor demand even as they raise productivity.5
+Hence, contrary to a common presumption in popular debates, it is not the “brilliant” automation technologies that threaten employment and wages, but “so-so technologies” that generate small productivity improvements. This is because the positive productivity effect of so-so technologies is not sufficient to offset the decline in labor demand due to displacement. To understand when this is likely to be the case, let us first consider where the productivity gains from automation are coming from. These are not a consequence of the fact that capital and labor are becoming more productive in the tasks they are performing, but follow from the ability of firms to use cheaper capital in tasks previously performed by labor. The productivity effect of
+5 Indeed, in Acemoglu and Restrepo (2018b), we show that industrial robots, a leading example of automation technology, are associated with lower labor share and labor demand at the industry level and lower labor demand in local labor markets exposed to this technology. This result is consistent with a powerful displacement effect that has dominated the productivity effect from this class of automation technologies.
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 11
+automation is therefore proportional to cost-savings obtained from such substitution. The greater is the productivity of labor in tasks being automated relative to its wage and the smaller is the productivity of capital in these tasks relative to the rental rate of capital, the more limited the productivity gains from automation will be. Examples of so-so technologies include automated customer service, which has displaced human service representatives but is generally deemed to be low quality and thus unlikely to have generated large productivity gains. They may also include several of the applications of artificial intelligence technology to tasks that are currently challenging for machines.
+Different technologies are accompanied by productivity effects of varying magnitudes, and hence, we cannot presume that one set of automation technologies will impact labor demand in the same way as others. Likewise, because the productivity gains of automation depend on the wage, the net impact of automation on labor demand will depend on the broader labor market context. When wages are high and labor is scarce, automation will generate a strong productivity effect and will tend to raise labor demand. When wages are low and labor is abundant, automation will bring modest productivity benefits and could end up reducing labor demand. This observation might explain why automation technologies adopted in response to the scarcity of (middle-aged) production workers in countries where the labor force is aging rapidly, such as Germany, Japan, and South Korea, appear to have more positive effects than in the United States (on cross-country patterns, see Acemoglu and Restrepo 2018e; on the effect of robots in the United States, see Acemoglu and Restrepo 2018b; in Germany, see Dauth, Findeisen, Suedekum, and Woessner 2018). It also suggests a reinterpretation of the famous Habakkuk hypothesis that the faster growth of the 19th-century US economy compared to Britain was due to its relative scarcity of labor (Habakkuk 1962; for a similar argument in the context of the British Industrial Revolution, see also Allen 2009). Labor scarcity encourages automation, and the high wages it causes help explain why this automation process led to rapid productivity and further wage growth.
+Consider next the effect of the introduction of new tasks on the wage bill, which is captured by an increase in N in our framework. This expands the set of tasks in which humans have a comparative advantage, and its effect can be summarized as:
+Effect of new tasks on labor demand = Productivity effect + Reinstatement effect.
+The reinstatement effect captures the change in the task content of production, but now in favor of labor as the increase in N reinstates labor into new tasks. This change in task content always increases the labor share. It also improves productivity as new tasks exploit labor’s comparative advantage. The resulting productivity improvement, together with the change in task content, ensures that labor demand always increases following the introduction of new tasks.
+
+12 Journal of Economic Perspectives
+Finally, as we claimed previously, the implications of factor-augmenting technologies are very different from those of automation and new tasks, because they do not change the task content of production. In particular,
+Effect of factor-augmenting technologies on labor demand = Productivity effect + Substitution effect.
+With factor-augmenting technological improvements, either labor or capital becomes more productive in all tasks, making the productivity effect proportional to their share in value added.
+Factor-augmenting technologies also impact labor demand via the substitution effect introduced above, which changes the labor share but does not alter the task content of production. Available estimates of σ place this parameter to be less than but close to 1, which implies that the substitution effects of factor-augmenting technologies are small relative to their productivity effects.
+In summary, in contrast to automation and new tasks that can generate significant displacement and reinstatement effects, factor-augmenting technologies affect labor demand mostly via the productivity effect and have a relatively small impact on the labor share. As a result, they are unlikely to generate a lower labor demand from technological advances: capital-augmenting technologies always increase labor demand, and labor-augmenting technologies do the same for plausible parameter values, in particular, so long as σ > 1 – sL (Acemoglu and Restrepo 2018c).6
+Tasks, Production, and Aggregate Labor Demand We now embed the model of tasks and production in an economy with multiple
+industries and investigate how technology changes aggregate labor demand by characterizing the behavior of the (economy-wide) wage bill. In our multisector economy we have:
+ 
+Wage bill = GDP × ​∑     ​  Labor share sector i × Share of value added in sector i.
+i∈
+The multisector perspective offers an additional margin for adjustment in response to automation, which we refer to as the composition effect. Following automation in sector i (an increase in I for that sector) we have:
+Effect of automation in i on aggregate labor demand = Productivity effect + Displacement effect + Composition effect.
+6 Many other technologies share the feature that they do not impact the task content of production. For example, improvements in the quality or productivity of equipment in any subset of already-automated tasks in (N − 1, I) (what, in Acemoglu and Restrepo 2018d, we call a “deepening of automation”) will have an impact on labor demand identical to capital-augmenting technologies. These technologies do not change the allocation of tasks to factors (as a new piece of equipment is replacing an older one), and so they affect labor demand mostly through the productivity effect.
+
+Daron Acemoglu and Pascual Restrepo 13
+The first two effects are the same as above—the productivity effect represents the impact of automation in sector i on GDP, while the displacement effect represents the change in the task content of production sector i (which affects the labor share within this sector). These effects are scaled by the size of sector i, since larger sectors will have larger aggregate effects.
+The composition effect, which was absent when we were focusing on the effect of automation in a one-sector economy, captures the implications of sectoral reallocations (changes in the share of value-added across sectors). For example, automation in sector i may reallocate economic activity towards sector j (depending on demand elasticities and input-output linkages). This reallocation contributes positively to aggregate labor demand when sector j has higher labor share than the contracting sector i, and negatively when the opposite holds.
+A similar decomposition applies to new tasks. Following the introduction of new tasks in sector i (an increase in N for that sector), we have:
+Effect of new tasks in i on aggregate labor demand = Productivity effect + Reinstatement effect + Composition effect,
+where the new feature is again the composition effect. The mechanization of agriculture in the United States illustrates how these
+forces jointly determine the behavior of aggregate labor demand. Data from Budd (1960) show that between 1850 and 1910, the replacement of manual labor by horsepowered reapers and harvesters in agriculture coincided with a sharp decline in the labor share of value in this sector, from 33 to 17 percent—a telltale sign of the displacement effect created by mechanization. Meanwhile, despite rapid mechanization of agriculture, at the time making up one-third of the US economy, two forces combined to generate an increase in aggregate labor demand. First, and in part as a consequence of mechanization, value-added and employment were reallocated from agriculture to the industrial sector. This created a powerful composition effect, as industry was (and still continues to be) much more labor intensive than agriculture. In addition, the labor share within the industrial sector rose further during this process, from 47 percent in 1850 to 55 percent by 1890. This change in industry labor share signals the presence of a powerful reinstatement effect created by the introduction of new labor-intensive jobs in this sector. This interpretation is consistent with significant growth in new factory jobs in farm equipment (Olmstead and Rhode 2001), cotton milling (Rasmussen 1982), and subsequently clerical occupations in trade and manufacturing industries (Goldin and Katz 2008; Michaels 2007).
+Finally, the effects of factor-augmenting technologies in a multi-industry context can be analyzed similarly. Although they too generate composition effects and may affect aggregate labor demand via this channel, factor-augmenting technologies still have no impact on the task content of production. Absent powerful composition effects, they continue to affect labor demand mostly via their productivity effect.
+
+14 Journal of Economic Perspectives
+Sources of Labor Demand Growth in the United States
+We now use our framework to shed light on the factors that have shaped the evolution of US labor demand since World War II. To do this, we develop a decomposition of observed changes in the total wage bill in the economy. Our decomposition requires data on industry value added, factor payments, and labor shares. The change in aggregate wage bill between two periods can be decomposed (as we show in the online Appendix) as:
+Change in aggregate wage bill = Productivity effect + Composition effect + Substitution effect + Change in task content.
+The productivity effect is the sum of the contributions from various sources of technology to value added and thus GDP. Correspondingly, in our empirical exercise we measure this effect using changes in (log) GDP per capita.
+The composition effect captures changes in labor demand resulting from reallocation of value added across sectors. As discussed in the previous section, this is related to the gap between the labor share of contracting and expanding sectors. In our empirical exercise, we measure it as the sum of the change in the value-added share of an industry weighted by its labor share (if all sectors had the same labor share, this term would be equal to zero). The composition effect includes not only the sectoral reallocation brought by new technologies but also changes in value added across sectors resulting from structural transformations and sectoral reallocation due to preferences (for example, Herrendorf, Rogerson, and Valentinyi 2013; Hubmer 2018; Aghion, Jones, and Jones 2017), differences in factor intensities (for example, Acemoglu and Guerrieri 2008), differential sectoral productivity growth (for example, Ngai and Pissarides 2007), or international trade in final goods (for example, Autor, Dorn, and Hanson 2013).
+The substitution effect is an employment-weighted sum of the substitution effects of industries, and thus depends on industry-level changes in effective factor prices and the elasticity of substitution σ (as shown in the earlier expression for the labor share). To estimate the substitution effect in an industry, we choose as our baseline Oberfield and Raval’s (2014) estimate of the elasticity of substitution between capital and labor, σ = 0.8.7 In addition, we utilize information on sectoral factor prices from the Bureau of Economic Analysis, Bureau of Labor Statistics, and the national income and product accounts. To convert observed factor prices into effective ones, we start with a benchmark where A​​  ​Li ​ /​ A​  ​Ki​  ​ grows at a common rate equal to average labor productivity, which we take to be 2 percent a year between
+7 We show in the online Appendix that the results are very similar for reasonable variations in σ. Note also that the relevant σ is the elasticity of substitution between capital and labor at the industry level. This is greater than the firm-level elasticity, estimated to be between 0.4 and 0.7 (for example, Chirinko, Fazzari, and Meyer 2011) because of output substitution between firms. Note also that our framework, in particular the central role of changes in the task content of production, makes it clear that this elasticity of substitution cannot be estimated from aggregate data.
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 15
+1947 and 1987 and 1.46 percent a year between 1987 and 2017. The motivation for this choice is that, if all technological progress were labor-augmenting, this would be the rate of growth in ​A​ ​ Li​  ​ required to match the behavior of labor productivity.8
+The change in task content is given by an employment-weighted sum of the changes in task content of production of industries. We estimate industry-level change in task content as the residual change in labor share (observed directly in the data) that cannot be explained by the substitution effect. Namely,
+Change in task content in i = Percent change in labor share in i − Substitution effect in i.
+Intuitively, with competitive factor and product markets, the change in task content of production and the substitution effect are the only forces affecting the labor share of an industry. Hence, changes in task content can be inferred once we have estimates of the substitution effect.
+Under additional assumptions, we can also separate the change in task content into its two components: the displacement and reinstatement effects. Assume that an industry will not simultaneously undertake automation and introduce new tasks (this is implied, for example, by the directed technological change reasoning in Acemoglu and Restrepo 2018a, where depending on factor prices, an industry will engage in one type of innovation or the other). Then, when the labor share of an industry declines beyond what one would expect based on factor prices, we estimate a positive displacement effect resulting from automation in that industry. Conversely, when the labor share in an industry rises beyond what one would expect based on factor prices, we estimate a positive reinstatement effect, attributed in our model to the introduction of new tasks. Motivated by this reasoning, we compute the displacement effect as the five-year moving average of the change in task content for industries with a negative change, and the reinstatement effect as the five-year moving average of the change in task content for industries with a positive change. The five-year time window is chosen to minimize the influence of measurement error in industry labor shares. To the extent that there are simultaneous introduction of new automation technologies and new tasks in a given industry within a five-year period, our estimates will be lower bounds both for the displacement and reinstatement effects.
+Sources of Labor Demand: 1947–1987 We first apply this decomposition to data from the four decades following
+World War II, from 1947 to 1987. For this period, we have data from the Bureau of
+8 Our estimates for the growth rate of ​A​  ​iL​  /​ ​A​ iK​  ​ should be interpreted as upper bounds, since in general growth in GDP per worker will be driven not just by labor-augmenting technological changes. Because in our main exercise σ < 1, this implies that we are also understating the importance of displacement effects in reducing the task content of production. Nevertheless, reasonable variations on the growth rate of A​ ​ iL ​ /​ A​ ​ iK ​ ​ have small impacts on our decomposition results, as we show in the online Appendix.
+
+16 Journal of Economic Perspectives
+Economic Analysis for 58 industries on value added and labor shares.9 We combine these with data from the national income and product accounts on quantities of capital and labor in each industry to obtain measures of factor prices. We consolidate the data into 43 industries that covered the private sector and can be tracked consistently over time and across sources.
+Figure 2 presents the evolution of the labor share for six broad sectors: construction, services, transportation, manufacturing, agriculture, and mining. Except for mining and transportation—two small sectors accounting for 10 percent of GDP— there are no significant declines in labor shares in these broad sectors in this time period. In fact, the labor share in manufacturing and services increased modestly during this period. The bottom panel of the figure shows the evolution of the share of value added of these sectors and confirms the secular reallocation from manufacturing towards services starting in the late 1950s.
+Figure 3 presents our decomposition using the 43 industries in our sample. We have divided the wage bill by population, so that changes in population do not confound the effects we are focusing on. The top panel in Figure 3 shows that wage bill per capita grew at 2.5 percent per year during this period. The rapid and steady growth of the wage bill during this period is largely explained by the productivity effect (2.4 percent per year). The substitution and composition effects are small, and during this period changes in the task content of production are small as well.
+The middle panel of Figure 3 shows that, even though the overall change in the task content of production during this period is small, there is considerable displacement and reinstatement. Between 1947 and 1987, the displacement effect reduced labor demand at about 0.48 percent per year, but simultaneously, there was an equally strong reinstatement effect, equivalent to an increase in labor demand of 0.47 percent per year. The bottom panel of Figure 3 depicts a similar pattern in manufacturing, where the overall change in task content was also small, while displacement and reinstatement effects were substantial. In sum, our findings suggest that during the four decades following World War II there was plenty of automation, but this was accompanied by the introduction of new tasks (or other changes increasing the task content of production in favor of labor) in both manufacturing and the rest of the economy that counterbalanced the adverse labor demand consequences of automation.
+Sources of Labor Demand: 1987–2017 For the 1987–2017 period, we use data from the Bureau of Economic Analysis
+for 61 industries covering the private sector and complement them with data from
+9 Our measure of labor demand is given by the wage bill in the private sector and thus excludes selfemployment income. This avoids the need for apportioning self-employment income between labor and capital. Elsby, Hobijn, and Sahin (2013) explore this issue in detail and conclude that labor income from self-employment has either declined or remained constant as a share of total labor income over this period. This implies that labor share inclusive of self-employment income likely declined by even more, and thus, if anything, focusing on the labor share in the private sector understates the overall decline in labor demand.
+
+Daron Acemoglu and Pascual Restrepo 17
+
+Figure 2 The Labor Share and Sectoral Evolutions, 1947–1987
+A: Labor Share within Each Industry, 1947–1987 80 70 60 50 40 30 20
+
+Manufacturing Construction
+Services Transportation
+Mining Agriculture
+
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+
+B: Share of GDP by Industry, 1947–1987 60
+
+Services
+
+50
+
+40
+
+30
+
+20
+
+Manufacturing
+
+10
+0 1947
+
+1952
+
+1957
+
+1962
+
+1967
+
+1972
+
+1977
+
+Transportation Construction AgricultuMreining 1982 1987
+
+Source: Authors using data from the US Bureau of Economic Analysis industry accounts. Note: The top panel shows the labor share in value added in services, manufacturing, construction, transportation, mining and agriculture between 1947 and 1987, while the bottom panel shows the share of value added in these sectors relative to GDP.
+
+the Bureau of Labor Statistics on factor prices. The top panel of Figure 4 presents the evolution of the labor share for the same six broad sectors used above. In contrast to the 1947–1987 period, there is a sizable decline in the labor share in manufacturing and construction. The drop in the labor share for mining continues at a similar pace. The bottom panel of the figure shows the continued reallocation of economic activity from manufacturing to services.
+The top panel of Figure 5 shows a striking slowdown in the growth of labor demand between 1987 and 2017. The wage bill per capita grew at a modest
+
+18 Journal of Economic Perspectives
+
+Figure 3 Sources of Changes in Labor Demand, 1947–1987
+
+A: Wage Bill, 1947–1987 100
+80
+
+Observed wage bill
+
+60
+
+Productivity effect
+
+40
+
+20
+0 1947
+
+1952
+
+1957
+
+1962
+
+1967
+
+1972
+
+Substitution effect Composition effect Change in task content
+1977 1982 1987
+
+B: Change in Task Content of Production, 1947–1987 20 10
+0
+
+Reinstatement Change in task content
+
+−10
+−20 1947
+
+1952
+
+1957
+
+1962
+
+1967
+
+1972
+
+1977
+
+Displacement 1982 1987
+
+C: Manufacturing Task Content of Production, 1947–1987 20
+10
+
+Reinstatement
+
+0
+−10
+−20 1947
+
+1952
+
+1957
+
+1962
+
+1967
+
+1972
+
+Change in task content Displacement
+1977 1982 1987
+
+Source: Authors’ calculations. Note: The top panel presents the decomposition of the wage bill divided by population between 1947 and 1987. The middle and bottom panels present our estimates of the displacement and reinstatement effects for the entire economy and the manufacturing sector, respectively. See text for the details of the estimation of the changes in task content and displacement and reinstatement effects.
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 19
+
+Figure 4 The Labor Share and Sectoral Evolutions, 1987–2017
+A: Labor Share within Each Industry, 1987–2017 70
+60
+50
+40
+30
+
+Construction
+Services Transportation Manufacturing
+Agriculture Mining
+
+20 1987
+
+1992
+
+1997
+
+2002
+
+B: Share of GDP by Industry, 1987–2017 70
+
+2007
+
+2012
+
+2017 Services
+
+60
+
+50
+
+40
+
+30
+
+20
+10
+0 1987
+
+1992
+
+1997
+
+2002
+
+2007
+
+2012
+
+Manufacturing Transportation Construction Mining Agriculture 2017
+
+Source: Authors using data from the US Bureau of Economic Analysis industry accounts and the Bureau of Labor Statistics. Note: The top panel shows the labor share in value added in services, manufacturing, construction, transportation, mining, and agriculture between 1987 and 2017, while the bottom panel shows the share of value added in these sectors relative to GDP.
+
+1.33 percent per year during the entire period and essentially stagnated since 2000. The first factor accounting for the deceleration of labor demand during this period is the slowdown of productivity growth (1.54 percent per year compared to 2.4 percent in 1947–1987). The second factor contributing to slower wage bill growth, especially after the late 1990s, is a significant negative shift in the task content of production against labor (of 0.35 percent per year), which caused labor
+
+20 Journal of Economic Perspectives
+
+Figure 5 Sources of Changes in Labor Demand, 1987–2017
+
+A: Wage Bill, 1987–2017 40
+
+30
+
+20
+
+10
+
+0
+
+−10 1987
+
+1992
+
+1997
+
+2002
+
+2007
+
+B: Change in Task Content of Production, 1987–2017 10
+
+2012
+
+5
+
+0
+
+−5
+
+−10
+
+−15
+
+−20 1987
+
+1992
+
+1997
+
+2002
+
+2007
+
+2012
+
+C: Manufacturing Task Content of Production, 1987–2017 10
+
+Productivity effect Observed wage bill
+Composition effect Substitution effect Change in task content 2017 Reinstatement
+Change in task content
+Displacement 2017
+Reinstatement
+
+0
+
+−10
+
+−20
+
+Change in task content
+
+−30 1987
+
+1992
+
+1997
+
+2002
+
+2007
+
+2012
+
+Displacement 2017
+
+Source: Authors’ calculations. Note: The top panel presents the decomposition of wage bill divided by population between 1987 and 2017. The middle and bottom panels present our estimates of the displacement and reinstatement effects for the entire economy and the manufacturing sector, respectively. See text for the details of the estimation of the changes in task content and displacement and reinstatement effects.
+
+demand to decouple from productivity. Cumulatively, changes in the task content of production reduced labor demand by 10 percent during this period.
+The middle and bottom panels of Figure 5 show that, relative to the earlier period, the change in task content is driven by a deceleration in the introduction
+
+Daron Acemoglu and Pascual Restrepo 21
+of technologies reinstating labor (reinstatement increased labor demand only by 0.35 percent per year compared to 0.47 percent in 1947–1987) and an acceleration of displacement (displacement reduced labor demand by 0.7 percent per year compared to 0.48 percent in 1947–1987). This pattern is particularly pronounced in manufacturing, where the displacement effect reduced labor demand at about 1.1 percent per year or about 30 percent cumulatively. These results are consistent with Elsby, Hobijn, and Sahin (2013), who document the important role of withinindustry changes that are uncorrelated with factor prices in accounting for the aggregate behavior of the labor share. The change in the balance between displacement and reinstatement also corroborates the findings of Autor and Salomons (2018), who find that technological improvements after 1980 have been associated with declines in the labor share while those in the previous decades have not been.
+Finally, the top panel also shows that the composition and substitution effects had a very limited impact on the wage bill. Although there is a sizable shift away from manufacturing, which is itself not unrelated to automation in this sector as well as to import competition, the resulting composition effects are small because the labor share in manufacturing is similar to that in the expanding service industries (see the top panel of Figure 4). These findings highlight that unlike the 19th-century mechanization of agriculture, there are no powerful composition effects contributing to labor demand. Even more importantly, there appears to be no equivalent of the powerful reinstatement effects that accompanied the mechanization of agriculture.
+In summary, the deceleration of labor demand growth over the last 30 years is due to a combination of anemic productivity growth and adverse shifts in the task contents of production owing to rapid automation that is not being counterbalanced by the creation of new tasks.10
+What Does the Change in Task Content Capture? A natural concern is that our estimates of the change in task content capture
+something different than what might commonly be understood as displacement effects from automation technologies and reinstatement effects of new tasks. Here, we provide additional evidence that our estimates are informative about changes in the task content of production. We focus on the 1987–2017 period where we have measures of automation and can compute proxies for new tasks at the industry
+10 In the online Appendix, we verify that this pattern is robust to different values of the elasticity of substitution and to reasonable variations in the rates of factor-augmenting technological changes. Furthermore, we computed the changes in factor-augmenting technologies at the industry level that would be necessary to explain changes in industry labor shares without any change in task content of production. We found that this would require gargantuan changes in factor-augmenting technologies and productivity increases—several multiples larger than the observed increases in total factor productivity during the last seven decades. This exercise underscores the need for major changes in the task content of production to account for the evolution of sectoral labor shares and the wage bill. We also demonstrate in the online Appendix that the order in which the decomposition is carried out (composition effects first and within-industry changes next) does not matter for the results.
+
+22 Journal of Economic Perspectives
+level, and then document the correlation between these measures and our estimates of the change in the task content of production.
+We have three measures of industry-level automation technologies. The proxies are: 1) the adjusted penetration of robots measure from Acemoglu and Restrepo (2018b) for 19 industries, which are then mapped to our 61 industries; 2) the share of routine jobs in an industry in 1990, where we define routine jobs in an occupation as in Acemoglu and Autor (2011) and then project these across industries according to the share of the relevant occupation in the employment of the industry in 1990 (see also vom Lehn 2018); and 3) the share of firms (weighted by employment) across 148 detailed manufacturing industries using automation technologies, which include automatic guided vehicles, automatic storage and retrieval systems, sensors on machinery, computer-controlled machinery, programmable controllers, and industrial robots.11
+Table 1 reports the estimates of the relationship between the change in task content of production between 1987 and 2017 and the proxies for automation technologies and new tasks; each row and column corresponds to a different regression model. The table shows that with all these proxies there is the expected negative relationship between higher levels of automation and our measure of changes in the task content of production in favor of labor (see also visual representations of these relationships in the online Appendix). These negative relationships remain very similar when we add various control variables, including, in column 1, a dummy for the manufacturing sector and, in column 2, imports from China (the growth of final goods imports from China as in Autor, Dorn, and Hanson 2013; Acemoglu, Autor, Dorn, Hanson, and Price 2016) and a measure of offshoring of intermediate goods (Feenstra and Hanson 1999; Wright 2014). Consistent with our conceptual framework, changes in task content are unrelated to imports of final goods from China, but are correlated with offshoring, which often involves the offshoring of labor-intensive tasks (Elsby, Hobijn, and Sahin 2013). Controlling for offshoring does not change the relationship we report in Table 1 because offshoring is affecting a different set of industries than our measures of automation (see the online Appendix).
+We also looked at a series of proxies for the introduction of new tasks across industries, and how they are correlated with our measure of the change in task content for 1987–2017. Our four proxies for new tasks are: 1) the 1990 share of employment in occupations with a large fraction of new job titles, according to the 1991 Dictionary of Occupational Titles compiled by Lin (2011); 2) the 1990 share of employment in occupations with a large number of “emerging tasks” according to O*NET, which correspond to tasks that workers identify as becoming increasingly
+11 These data are from the Survey of Manufacturing Technologies, and are available in 1988 and 1993 for 148 four-digit SIC industries which are all part of the following three-digit manufacturing sectors: fabricated metal products; nonelectrical machinery, electric and electronic equipment; transportation equipment; and instruments and related products (Doms, Dunne, and Troske 1997). For this exercise, we computed measures for the change in task content of these four-digit manufacturing industries using detailed data from the Bureau of Economic Analysis input-output tables for 1987 to 2007.
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 23
+
+Table 1 Relationship between Change in Task Content of Production and Proxies for Automation and New Tasks
+
+Proxies for automation technologies:   Adjusted penetration of robots, 1993–2014
+ Observations   R2
+  Share of routine jobs in industry, 1990
+ Observations   R2
+  Share of firms using automation    technologies, 1988–1993 (SMT data)  Observations   R2 Proxies for new tasks:   Share of new job titles, based on 1991 DOT*    and 1990 employment by occupation  Observations   R2
+  Number of emerging tasks, based on 1990    employment by occupation  Observations   R2
+  Share of employment growth between 1990    and 2016 in new occupations  Observations   R2
+  Percent increase in number of occupations    represented in industry  Observations   R2
+
+Raw data (1)
+−1.404 (0.377)
+61 0.18
+−0.394 (0.122)
+61 0.14
+−0.390 (0.165)
+148 0.08
+1.609 (0.523)
+61 0.12
+8.423 (2.261)
+61 0.14
+2.121 (0.723)
+61 0.08
+0.585 (0.156)
+61 0.14
+
+Controlling for manufacturing
+(2)
+
+Controlling for Chinese import and offshoring
+(3)
+
+−0.985 (0.369)
+61 0.21
+−0.241 (0.159)
+61 0.19
+1.336 (0.530)
+61 0.23
+7.108 (2.366)
+61 0.25
+1.638 (0.669)
+61 0.20
+0.368 (0.207)
+61 0.19
+
+−1.129 (0.362)
+61 0.27
+−0.321 (0.164)
+61 0.27
+−0.397 (0.166)
+148 0.09
+1.602 (0.541)
+61 0.32
+7.728 (2.418)
+61 0.33
+1.646 (0.679)
+61 0.26
+0.351 (0.215)
+61 0.25
+
+Source: Authors. Note: The table reports estimates of the relationship between the change in task content of production between 1987 and 2017 and proxies for automation technologies and new tasks. Each row and column corresponds to a different regression model. Column 1 reports estimates of the bivariate relationship between change in task content of production and the indicated proxy at the industry level. Column 2 includes a dummy for manufacturing industries as a control. In addition, Column 3 controls for the increase in Chinese imports (defined as the increase in imports relative to US consumption between 1991 and 2011, as in Acemoglu et al. 2016) and the increase in offshoring (defined as the increase in the share of imported intermediates between 1993 and 2007, as in Feenstra and Hanson 1999). Except for the third row, which uses the Survey of Manufacturing Technologies (SMT), all regressions are for the 61 industries used in our analysis of the 1987–2017 period. When using the SMT, the regressions are for 148 detailed manufacturing industries. Standard errors robust against heteroskedasticity are in parenthesis. When using the measure of robot penetration, we cluster standard errors at the 19 industries for which this measure is available. * The DOT is the Dictionary of Occupational Titles.
+
+24 Journal of Economic Perspectives
+important in their jobs; 3) the share of employment growth in an industry accounted for by “new occupations,” defined as occupations that were not present in that industry in 1990 but are present in 2016; and 4) the percent increase in the number of occupations in an industry between 1990 and 2016. The first two measures are projected onto industries using the share of these occupations in industry employment in 1990. All four of these measures are meant to capture major changes in the types of activities performed in occupations (then mapped to industries) or the introduction of certain new activities into an industry. We thus expect the correlations between these proxies for new tasks and our measure of changes in task content in favor of labor to be positive and significant, and they are. These results hold regardless of whether or not we include additional controls in columns 2 and 3 of Table 1.
+These correlations bolster the interpretation that our estimates of changes in task content of production contain valuable information on displacement from automation technologies and reinstatement from the introduction of new tasks.
+Confounding Factors Our approach has been predicated on competitive markets and has also
+abstracted from various other changes potentially affecting US labor markets. We now briefly discuss these issues.
+First, as we have already noted, trade in final goods should have no impact on our estimates of the change in the task content of production (because they will affect prices and sales, which are captured by our productivity effect, and they induce sectoral reallocations, which are part of our composition effects). This is confirmed by our results in Table 1. Offshoring, on the other hand, will directly change the task content of production because it involves the replacement of some labor-intensive tasks by services from abroad (Grossman and Rossi-Hansberg 2008). Our estimates in Table 1 are consistent with this, but also show that offshoring does not change the quantitative or qualitative relationship between various measures of automation and our estimates of the change in the task content of production.
+Second, as also noted above, sectoral reallocations resulting from structural transformation do not affect the task content of production either and are part of our composition effects. The fact that these composition effects are small suggests that these sectoral reallocations have not been a major factor in the slowdown in labor demand and changes in labor share in national income.
+Third, we have abstracted from the presence of workers with different skills, and thus a potential question is whether changes in the skill composition of the workforce would affect our estimates of the change in the task content of production. The answer is “no,” provided that industry-level factor payments are well-measured. Hence, as long as the increase in the wage bill caused by skill upgrading in a sector is factored in, this compositional change does not cause a shift in the task content of production. An implication is that secular changes such as population aging and increased female labor force participation, though they will affect the composition of the workforce and factor prices, should not confound our estimates of changes in task content of production.
+
+Daron Acemoglu and Pascual Restrepo 25
+Fourth, changes in factor supplies should also have no impact provided that our estimates of the substitution effect (which form the basis of our estimates of the change in the task content of production) remain accurate.
+In contrast to these factors, deviations from competitive labor or product markets would potentially confound our estimates of task content. Particularly worth noting are deviations from competitive labor markets. If the supply side of the market is determined by bargaining or other rent-sharing arrangements, then our approach still remains valid provided that firms are on their labor demand curve (for overall labor or for different types of labor in the presence of heterogeneity). This is because our analysis only uses information from the labor demand side, so whether workers are along a well-defined labor supply curve is not important. On the other hand, changes in the extent of monopsony and bilateral bargaining and holdup problems forcing firms off their labor demand curve would potentially confound our estimates. A similar confounding would result if there are changing product market markups. Though these issues are important, they are beyond the scope of the current paper and are some of the issues we are investigating in ongoing work.
+What Explains the Changing Nature of Technology and Slow Productivity Growth Since 1987?
+Our results suggest that it is the combination of adverse shifts in the task content of production—driven by accelerated automation and decelerating r­ einstatement—and weak productivity growth that accounts for the sluggish growth of labor demand over the last three decades and especially since 2000. Why has the balance between automation and new tasks changed recently? Why has productivity growth been so disappointing despite the acceleration in automation technologies? Though we do not have complete answers to these questions, our conceptual framework points to a number of ideas worth considering.
+There are two basic reasons why the balance between automation and new tasks may have changed. First, the innovation possibilities frontier linking these two types of technological change may have shifted, facilitating further automation and making the creation of new tasks more difficult (for a formal analysis, see Acemoglu and Restrepo 2018a). For example, new general-purpose technologies based on advances in hardware and software may have made further automation cheaper, or we may have run out of ideas for generating new high-productivity (labor-intensive) tasks. We find a second reason for a change in this balance more plausible: that is, the US economy may have moved along a given innovation possibilities frontier because incentives for automation have increased and those for creating new tasks have declined. Several factors may push in this direction. The US tax code aggressively subsidizes the use of equipment (for example, via various tax credits and accelerated amortization) and taxes the employment of labor (for example, via payroll taxes). A tendency towards further (and potentially excessive) automation may have been reinforced by the growing focus on automation and use of artificial intelligence for removing the human element from most of the production
+
+26 Journal of Economic Perspectives
+process. This focus has recently been boosted both by the central role that large tech companies have come to play in innovation with their business model based on automation and small workforces, and by the vision of many of the luminaries of the tech world (think of the efforts of Tesla to automate production extensively, which turned out to be very costly). Finally, the declining government support for innovation may have also contributed by discouraging research with longer horizons, which likely further disadvantaged the creation of new tasks (which bear fruit more slowly) relative to automation.
+This list of factors may contribute not just to the changing balance between automation and new tasks, but also to the slowdown in productivity growth. First, because new tasks contribute to productivity, slower reinstatement will be associated with slower productivity growth. Therefore, factors tilting the balance against new tasks likely translate into lost opportunities for improved productivity. In addition, slower wage growth resulting from a weak reinstatement effect indirectly makes automation less productive—because productivity gains from automation are increasing in the effective wage in tasks being replaced, and lower wages thus reduce these productivity gains. Second, if innovations in both automation and new tasks are subject to diminishing returns (within a given period of time or over time), a significant change in the balance between these two types of new technologies will push us towards more marginal developments and cause slower productivity growth. Third, as we emphasized earlier, productivity gains from automation could be quite small for so-so technologies—when automation substitutes for tasks in which labor was already productive and capital is not yet very effective. In this light, further automation, especially when it is induced by tax distortions or excessive enthusiasm about automating everything, would take the form of such so-so technologies and would not bring much in productivity gains. Finally, in Acemoglu and Restrepo (2018d), we suggest there may be a mismatch between the available skills of the workforce and the needs for new technologies. This could further reduce productivity gains from automation and hamper the introduction of new tasks, because the lack of requisite skills reduces the efficiency with which new tasks can be utilized.
+If the balance between automation and new tasks has shifted inefficiently and if indeed this is contributing to rapid automation, the absence of powerful reinstatement effects, and the slowdown of productivity growth, then there may be room for policy interventions to improve both job creation and productivity growth. These interventions might include removing incentives for excessive automation (such as the preferential treatment of capital equipment) and implementing new policies designed to rebalance the direction of technological change (for a more detailed discussion in the context of artificial intelligence, see Acemoglu and Restrepo 2019).
+Concluding Remarks
+This paper develops a task-based model to study the effects of different technologies on labor demand. At the center of our framework is the task content of
+
+Automation and New Tasks: How Technology Displaces and Reinstates Labor 27
+production—measuring the allocation of tasks to factors of production. Automation, by creating a displacement effect, shifts the task content of production against labor, while the introduction of new tasks in which labor has a comparative advantage improves it via the reinstatement effect. These technologies are qualitatively different from factor-augmenting ones, which do not impact the task content of production. For example, automation always reduces the labor share and may reduce labor demand, and new tasks always increase the labor share.
+We then show how changes in the task content of production and other contributors to labor demand can be inferred from data on labor shares, value added, and factor prices at the industry level. The main implication of our empirical exercise using this methodology is that the recent stagnation of labor demand is explained by an acceleration of automation, particularly in manufacturing, and a deceleration in the creation of new tasks. In addition, and perhaps reflecting this shift in the composition of technological advances, the economy also experienced a marked slowdown in productivity growth, contributing to sluggish labor demand.
+Our framework has clear implications for the future of work, too. Our evidence and conceptual approach support neither the claims that the end of human work is imminent nor the presumption that technological change will always and everywhere be favorable to labor. Rather, they suggest that if the origin of productivity growth in the future continues to be automation, the relative standing of labor, together with the task content of production, will decline. The creation of new tasks and other technologies raising the labor intensity of production and the labor share are vital for continued wage growth commensurate with productivity growth. Whether such technologies will be forthcoming depends not just on our innovation capabilities but also on the supply of different skills, demographic changes, labor market institutions, government policies including taxes and research and development spending, market competition, corporate strategies, and the ecosystem of innovative clusters. We have pointed out some reasons why the balance between automation and new tasks may have become inefficiently tilted in favor of the former—with potentially adverse implications for jobs and productivity—and some directions for policy interventions to redress this imbalance.
+
+28 Journal of Economic Perspectives
+
+References
+Acemoglu, Daron, and David Autor. 2011. “Skills, Tasks and Technologies: Implications for Employment and Earnings.” Chap. 12 in Handbook of Labor Economics, vol. 4, Part B, edited by David Card and Orley Ashenfelter. Elsevier.
+Acemoglu, Daron, David Autor, David Dorn, Gordon H. Hanson, and Brendan Price. 2016. “Import Competition and the Great US Employment Sag of the 2000s.” Journal of Labor Economics 34(S1): S141–S198.
+Acemoglu, Daron, and Veronica Guerrieri. 2008. “Capital Deepening and Nonbalanced Economic Growth.” Journal of Political Economy 116(3): 476–98.
+Acemoglu, Daron, and Pascual Restrepo. 2018a. “The Race Between Machine and Man: Implications of Technology for Growth, Factor Shares, and Employment.” American Economic Review 108(6): 1488–1542.
+Acemoglu, Daron, and Pascual Restrepo. 2018b. “Robots and Jobs: Evidence from US Labor Markets.” NBER Working Paper 23285.
+Acemoglu, Daron, and Pascual Restrepo. 2018c. “Modeling Automation.” AEA Papers and Proceedings, 108: 48–53.
+Acemoglu, Daron, and Pascual Restrepo. 2018d. “Artificial Intelligence, Automation and Work.” NBER Working Paper 24196.
+Acemoglu, Daron, and Pascual Restrepo. 2018e. “Demographics and Automation.” NBER Working Paper 24421.
+Acemoglu, Daron, and Pascual Restrepo. 2019. “The Wrong Kind of AI? Artificial Intelligence and the Future of Labor Demand.” NBER Working Paper 25682.
+Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2017. “Artificial Intelligence and Economic Growth.” NBER Working Paper 23928.
+Allen, Robert C. 2009. The British Industrial Revolution in Global Perspective. Cambridge University Press.
+Autor, David H., David Dorn, and Gordon H. Hanson. 2013. “The China Syndrome: Local Labor Market Effects of Import Competition in the United States.” American Economic Review 103(6): 2121–68.
+Autor, David H., Frank Levy, and Richard J. Murnane. 2003. “The Skill Content of Recent Technological Change: An Empirical Exploration.” Quarterly Journal of Economics 118(4): 1279–1333.
+Autor, David, and Anna Salomons. 2018. “Is Automation Labor Share–Displacing? Productivity Growth, Employment, and the Labor Share.” Brooking Papers on Economic Activity, no. 1, pp. 1–87.
+
+Ayres, Robert U., and Steven M. Miller. 1983. Robotics: Applications and Social Implications. Ballinger Publishing Company.
+Budd, Edward C. 1960. “Factor Shares, 1850–1910.” Chap. 9 in Trends in the American Economy in the Nineteenth Century. Princeton University Press.
+Chandler, Alfred D. 1977. The Visible Hand: The Managerial Revolution in American Business. Harvard University Press.
+Chirinko, Robert C., Steven M. Fazzari, and Andrew P. Meyer. 2011. “A New Approach to Estimating Production Function Parameters: The Elusive Capital–Labor Substitution Elasticity.” Journal of Business and Economic Statistics 29(4): 587–94.
+Dauth, Wolfgang, Sebastian Findeisen, Jens Suedekum, and Nicole Woessner. 2018. “Adjusting to Robots: Worker-Level Evidence.” Institute Working Paper 13, Opportunity and Inclusive Growth Institute.
+Doms, Mark, Timothy Dunne, and Kenneth R. Troske. 1997. “Workers, Wages, and Technology.” Quarterly Journal of Economics 112(1): 253–90.
+Elsby, Michael W. L., Bart Hobijn, and Ays¸egül Sahin. 2013. “The Decline of the U.S. Labor Share.” Brooking Papers on Economic Activity no. 2, pp. 1–63.
+Feenstra, Robert, and Gordon Hanson. 1999. “The Impact of Outsourcing and High-Technology Capital on Wages: Estimates for the United States, 1979–1990.” Quarterly Journal of Economics 114(3): 907–40.
+Goldin, Claudia, and Lawrence F. Katz. 2008. The Race between Education and Technology. Belknap Press.
+Graetz, Georg, and Guy Michaels. 2018. “Robots at Work.” Review of Economics and Statistics 100(5): 753–68.
+Groover, Mikell P., Mitchell Weiss, Roger N. Nagel, and Nicholas G. Odrey. 1986. Industrial Robotics: Technology, Programming and Applications. McGraw-Hill Inc.
+Grossman, Gene M., and Esteban RossiHansberg. 2008. “Trading Tasks: A Simple Theory of Offshoring.” American Economic Review 98(5): 1978–97.
+Habakkuk, John H. 1962. American and British Technology in the Nineteenth Century: The Search for Labor-Saving Inventions. Cambridge University Press.
+Herrendorf, Berthold, Richard Rogerson, and Ákos Valentinyi. 2013. “Two Perspectives on Preferences and Structural Transformation.” American
+
+Daron Acemoglu and Pascual Restrepo 29
+
+Economic Review 103(7): 2752–89. Hubmer, Joachim. 2018. “The Race Between
+Preferences and Technology.” Unpublished paper, Yale University.
+Lin, Jeffrey. 2011. “Technological Adaptation, Cities, and New Work.” Review of Economics and Statistics 93(2): 554–74.
+Mantoux, Paul. 1928. The Industrial Revolution in the Eighteenth Century: An Outline of the Beginnings of the Modern Factory System in England. Jonathan Cape, Ltd.
+Michaels, Guy. 2007. “The Division of Labor, Coordination, and the Demand for Information Processing.” CEPR Discussion Paper 6358.
+Mokyr, Joel. 1990. The Lever of Riches: Technological Creativity and Economic Progress. Oxford University Press: New York.
+Ngai, L. Rachel, and Christopher A. Pissarides. 2007. “Structural Change in a Multisector Model of Growth.” American Economic Review 97(1): 429–43.
+
+Oberfield, Ezra, and Devesh Raval. 2014. “Micro Data and Macro Technology.” NBER Working Paper 20452
+Olmstead, Alan, and Paul Rhode. 2001. “Reshaping the Landscape: The Impact and Diffusion of the Tractor in American Agriculture, 1910–1960.” Journal of Economic History 61(3): 663–98.
+Rasmussen, Wayne D. 1982. “The Mechanization of Agriculture.” Scientific American 247(3): 76–89.
+vom Lehn, Christian. 2018. “Understanding the Decline in the U.S. Labor Share: Evidence from Occupational Tasks.” European Economic Review 108: 191–220.
+Wright, Greg. 2014. “Revisiting the Employment Impact of Offshoring.” European Economic Review 66: 63–83.
+Zeira, Joseph. 1998. “Workers, Machines, and Economic Growth.” Quarterly Journal of Economics 113(4): 1091–1117.
+
+30 Journal of Economic Perspectives
+
+This article has been cited by:
+1. Lena Bischoff, Marta Ferrer-Serrano, Andrea Ogando-Vidal, Amaya Soto-Rey. Examining the Role of Technology Transfer on Digitalization: Consequences and Challenges 27-59. [Crossref]
+2. Guillaume Chapelle, Gerard Domènech-Arumí, Paula Eugenia Gobbi. Housing, Neighborhoods, and Inequality 1-35. [Crossref]
+3. Yang Shoufu, Ma Dan, Shen Zuiyi, Wen Lin, Dong Li. 2023. The impact of artificial intelligence industry agglomeration on economic complexity. Economic Research-Ekonomska Istraživanja 36:1, 1420-1448. [Crossref]
+4. Fahd Boundi-Chraki. 2023. Do technical change and mechanisation negatively affect employment in the manufacturing sectors? An empirical assessment for the OECD countries. Economic ResearchEkonomska Istraživanja 36:2. . [Crossref]
+5. Navitha Singh Sewpersadh. 2023. Disruptive business value models in the digital era. Journal of Innovation and Entrepreneurship 12:1. . [Crossref]
+6. Gongyan Yang, Shujie Yao, Xinran Dong. 2023. Digital economy and wage gap between high- and low-skilled workers. Digital Economy and Sustainable Development 1:1. . [Crossref]
+7. Yue Lu, Jilin Tian, Minghui Ma. 2023. The effect of automation on firms’ carbon dioxide emissions of China. Digital Economy and Sustainable Development 1:1. . [Crossref]
+8. Shaoxuan Zhai, Zhenpeng Liu. 2023. Artificial intelligence technology innovation and firm productivity: Evidence from China. Finance Research Letters 58, 104437. [Crossref]
+9. Andrea Borsato, André Lorentz. 2023. The Kaldor–Verdoorn law at the age of robots and AI. Research Policy 52:10, 104873. [Crossref]
+10. Jussi T.S. Heikkilä, Mirva Peltoniemi. 2023. The changing work of IPR attorneys: 30 years of institutional transitions. Technological Forecasting and Social Change 197, 122853. [Crossref]
+11. Henry Stemmler. 2023. Automated Deindustrialization: How Global Robotization Affects Emerging Economies—Evidence from Brazil. World Development 171, 106349. [Crossref]
+12. Xinpeng Xing, Tiantian Chen, Xiaoming Yang, Tiansen Liu. 2023. Digital transformation and innovation performance of China's manufacturers? A configurational approach. Technology in Society 75, 102356. [Crossref]
+13. Sebastiaan Van Doorn, Dimitrios Georgakakis, Jana Oehmichen, Marko Reimer. 2023. Opportunity or Threat? Exploring Middle Manager Roles in the Face of Digital Transformation. Journal of Management Studies 60:7, 1684-1719. [Crossref]
+14. Murat Tarakci, Mariano L. M. Heyden, Linda Rouleau, Anneloes Raes, Steven W. Floyd. 2023. Heroes or Villains? Recasting Middle Management Roles, Processes, and Behaviours. Journal of Management Studies 60:7, 1663-1683. [Crossref]
+15. Sai Yuan, Xiongfeng Pan. 2023. Inherent mechanism of digital technology application empowered corporate green innovation: Based on resource allocation perspective. Journal of Environmental Management 345, 118841. [Crossref]
+16. Lionel Fontagné, Ariell Reshef, Gianluca Santoni, Giulio Vannelli. 2023. Automation, global value chains and functional specialization. Review of International Economics 29644. . [Crossref]
+17. Fanfan Zhang, Qinan Zhang, Hang Wu. 2023. Robot adoption and export performance: evidence from Chinese industrial firms. Journal of Manufacturing Technology Management 34:6, 896-916. [Crossref]
+18. Andrea Borsato, André Lorentz. 2023. Data production and the coevolving AI trajectories: an attempted evolutionary model. Journal of Evolutionary Economics 107. . [Crossref]
+
+19. Vivek Choudhary, Arianna Marchetti, Yash Raj Shrestha, Phanish Puranam. 2023. Human-AI Ensembles: When Can They Work?. Journal of Management 7. . [Crossref]
+20. Oscar Afonso, Tiago Sequeira, Derick Almeida. 2023. Technological knowledge and wages: from skill premium to wage polarization. Journal of Economics 140:2, 93-119. [Crossref]
+21. Alexandra Pinheiro, Elena Sochirca, Oscar Afonso, Pedro Cunha Neves. 2023. Automation and off(re)shoring: A meta-regression analysis. International Journal of Production Economics 264, 108980. [Crossref]
+22. Yuqiang Cao, Yong Hu, Qian Liu, Meiting Lu, Yaowen Shan. 2023. Job creation or disruption? Unraveling the effects of smart city construction on corporate employment in China. Technological Forecasting and Social Change 195, 122783. [Crossref]
+23. Sai Yuan, Ran Zhou, Mengna Li, Chengchao Lv. 2023. Investigating the influence of digital technology application on employee compensation. Technological Forecasting and Social Change 195, 122787. [Crossref]
+24. Yannick Bormans, Angelos Theodorakopoulos. 2023. Productivity dispersion, wage dispersion and superstar firms. Economica 90:360, 1145-1172. [Crossref]
+25. David A. Spencer. 2023. Automation and Well-Being: Bridging the Gap between Economics and Business Ethics. Journal of Business Ethics 187:2, 271-281. [Crossref]
+26. Jifeng Zhang, Zirui Yang, Bing He. 2023. Does Digital Infrastructure Improve Urban Economic Resilience? Evidence from the Yangtze River Economic Belt in China. Sustainability 15:19, 14289. [Crossref]
+27. Fredrik B. Kostøl, Elin Svarstad. 2023. Trade Unions and the Process of Technological Change. Labour Economics 84, 102386. [Crossref]
+28. Chenhui Ding, Xiaoming Song, Yingchun Xing, Yuxuan Wang. 2023. Bilateral Effects of the Digital Economy on Manufacturing Employment: Substitution Effect or Creation Effect?. Sustainability 15:19, 14647. [Crossref]
+29. Brice Corgnet, Roberto Hernán-González, Ricardo Mateo. 2023. Peer Effects in an Automated World. Labour Economics 180, 102455. [Crossref]
+30. Irene Brambilla, Andrés César, Guillermo Falcone, Leonardo Gasparini. 2023. The impact of robots in Latin America: Evidence from local labor markets. World Development 170, 106271. [Crossref]
+31. Guibin Luo, Li Zheng, Queling Zeng. 2023. Natural resources perspective of economic performance: Streamlining mineral resources as a path to sustainable development. Resources Policy 86, 104236. [Crossref]
+32. Jeremy Atack, Robert A. Margo, Paul W. Rhode. 2023. De-skilling: Evidence from Late Nineteenth Century American Manufacturing. Explorations in Economic History 108, 101554. [Crossref]
+33. Joanna (Jingwen) Zhao, Xinruo Wang. 2023. Unleashing efficiency and insights: Exploring the potential applications and challenges of ChatGPT in accounting. Journal of Corporate Accounting & Finance 00. . [Crossref]
+34. Mingfang Dong, Guo Wang, Xianfeng Han. 2023. Artificial intelligence, industrial structure optimization, and CO2 emissions. Environmental Science and Pollution Research 33. . [Crossref]
+35. Alejandro Estefan, Martina Improta, Romina Ordoñez, Paul Winters. 2023. Digital Training for Micro-Entrepreneurs: Experimental Evidence from Guatemala. The World Bank Economic Review 33. . [Crossref]
+36. Mirella Damiani, Fabrizio Pompei, Alfred Kleinknecht. 2023. Robots, skills and temporary jobs: evidence from six European countries. Industry and Innovation 30:8, 1060-1109. [Crossref]
+37. Tuğçe OLCAY, Yaşar UYSAL. 2023. Bilgi Toplumunun İstihdama Etkilerinin Türkiye Açısından Değerlendirilmesi. İzmir İktisat Dergisi 38:3, 704-737. [Crossref]
+
+38. Sabrina Genz, Claus Schnabel. 2023. Digitalization is not gender-neutral. Economics Letters 230, 111256. [Crossref]
+39. Başak Dalgıç, Burcu Fazlıoğlu, Aytekin Güven. 2023. Innovation, employment and market structure: firm level evidence from Turkey. Empirical Economics 65:3, 1385-1407. [Crossref]
+40. Javier Silvestre, John E. Murray. 2023. Determinants in the adoption of a non-labor-substitution technology: mechanical ventilation in West Virginia coal mines, 1898–1907. Cliometrica 17:3, 467-500. [Crossref]
+41. Ritu Agarwal, Michelle Dugas, Guodong (Gordon) Gao. 2023. Augmenting physicians with artificial intelligence to transform healthcare: Challenges and opportunities. Journal of Economics & Management Strategy 54. . [Crossref]
+42. Kerstin Hötte, Melline Somers, Angelos Theodorakopoulos. 2023. Technology and jobs: A systematic literature review. Technological Forecasting and Social Change 194, 122750. [Crossref]
+43. Rosa Aisa, Josefina Cabeza, Jorge Martin. 2023. Automation and aging: the impact on older workers in the workforce. The Journal of the Economics of Ageing 208, 100476. [Crossref]
+44. Klemen Knez. 2023. Technology diffusion and uneven development. Journal of Evolutionary Economics 46. . [Crossref]
+45. Haonan Wang, Fangjuan Qiu. 2023. AI adoption and labor cost stickiness: based on natural language and machine learning. Information Technology and Management 114. . [Crossref]
+46. Yilin Zhong, Feng Xu, Longpeng Zhang. 2023. Influence of artificial intelligence applications on total factor productivity of enterprises—evidence from textual analysis of annual reports of Chinese-listed companies. Applied Economics 1-19. [Crossref]
+47. Minerva Evangelina Ramos Valdés, Marcela Elizondo Dávila. 2023. Habilidades del personal ocupado de una empresa logística con tecnología 4.0. Revista Venezolana de Gerencia 28:Especial 9, 390-408. [Crossref]
+48. Hong Luo, Huiying Qiao. 2023. Exploring the impact of industrial robots on firm innovation under circular economy umbrella: a human capital perspective. Management Decision 108. . [Crossref]
+49. Henri Haapanala, Ive Marx, Zachary Parolin. 2023. Robots and unions: The moderating effect of organized labour on technological unemployment. Economic and Industrial Democracy 44:3, 827-852. [Crossref]
+50. Oghenovo A. Obrimah. 2023. Policy-speak evidence that each of Pareto efficient competition and transfer payments are necessary conditions for first-best progressions to welfare. SN Business & Economics 3:8. . [Crossref]
+51. Qianqian Guo, Zhifang Su. 2023. The Application of Industrial Robot and the High-Quality Development of Manufacturing Industry: From a Sustainability Perspective. Sustainability 15:16, 12621. [Crossref]
+52. Qi-nan Zhang, Fan-fan Zhang, Qiang Mai. 2023. Robot adoption and labor demand: A new interpretation from external competition. Technology in Society 74, 102310. [Crossref]
+53. Xin Jin, Baojie Ma, Haifeng Zhang. 2023. Impact of fast internet access on employment: Evidence from a broadband expansion in China. China Economic Review 33, 102038. [Crossref]
+54. Chengming Li, Peng Huo, Zeyu Wang, Weiguang Zhang, Feiyan Liang, Abbas Mardani. 2023. Digitalization generates equality? Enterprises’ digital transformation, financing constraints, and labor share in China. Journal of Business Research 163, 113924. [Crossref]
+55. Henning Vöpel. 2023. Die „unmenschliche“ Revolution – Künstliche Intelligenz als Schicksalstechnologie für Deutschland und Europa. Wirtschaftsdienst 103:8, 513-517. [Crossref]
+
+56. Chuanglian Chen, Shudan Wang, Shujie Yao, Yuting Lin. 2023. Does digital transformation increase the labor income share?: From a perspective of resources reallocation. Economic Modelling 108, 106474. [Crossref]
+57. David A. Spencer. 2023. Technology and work: Past lessons and future directions. Technology in Society 74, 102294. [Crossref]
+58. Chris Callaghan. 2023. Revisiting how scientific research drives technological change: The Fifth Industrial Revolution. South African Journal of Science 119:7/8. . [Crossref]
+59. Per-Anders Edin, Tiernan Evans, Georg Graetz, Sofia Hernnäs, Guy Michaels. 2023. Individual Consequences of Occupational Decline. The Economic Journal 133:654, 2178-2209. [Crossref]
+60. Sarah Kreps, Julie George, Paul Lushenko, Adi Rao. 2023. Exploring the artificial intelligence “Trust paradox”: Evidence from a survey experiment in the United States. PLOS ONE 18:7, e0288109. [Crossref]
+61. Zujie Zhang, Ghulam Rasool Madni, Jaweriya Naeem. 2023. Unleashing the horizons of labor quality, digitalization on upgradation of industrial structure in Asian economies. PLOS ONE 18:7, e0288866. [Crossref]
+62. Junli Shi. 2023. Digital Technology and Value Chain Agglomeration: Evidence from East Asia. Emerging Markets Finance and Trade 59:9, 2866-2881. [Crossref]
+63. Hui Tian, Jiaqi Qin, Chaoyin Cheng, Sohail Ahmad Javeed, Tiansi Chu. 2023. Towards low‐carbon sustainable development under Industry 4.0: The influence of industrial intelligence on China's carbon mitigation. Sustainable Development 2. . [Crossref]
+64. Roberto Antonietti, Luca Cattani, Giulio Pedrini. 2023. Robots and the productivity of local manufacturing systems in Emilia-Romagna: the mediating role of occupational similarity and complexity. European Planning Studies 31:7, 1397-1421. [Crossref]
+65. Lei Wang, Yahong Zhou, Benjamin Chiao. 2023. Robots and firm innovation: Evidence from Chinese manufacturing. Journal of Business Research 162, 113878. [Crossref]
+66. Dirk Czarnitzki, Gastón P. Fernández, Christian Rammer. 2023. Artificial intelligence and firm-level productivity. Journal of Economic Behavior & Organization 211, 188-205. [Crossref]
+67. Codrina Rada, Daniele Tavani, Rudiger von Arnim, Luca Zamparelli. 2023. Classical and Keynesian models of inequality and stagnation. Journal of Economic Behavior & Organization 211, 442-461. [Crossref]
+68. Jing Lu, Qinglan Xiao, Taoxuan Wang. 2023. Does the digital economy generate a gender dividend for female employment? Evidence from China. Telecommunications Policy 47:6, 102545. [Crossref]
+69. Xiangnan Feng, Alex Rutherford. 2023. The dynamic resilience of urban labour networks. Royal Society Open Science 10:7. . [Crossref]
+70. Qiu Huang, Qiaoqi Chen, Xiaochun Qin, Xinlei Zhang. 2023. Study on the influence of industrial intelligence on carbon emission efficiency–empirical analysis of China’s Yangtze River Economic Belt. Environmental Science and Pollution Research 30:34, 82248-82263. [Crossref]
+71. Fanlin Meng, Wenping Wang. 2023. The impact of digitalization on enterprise value creation: An empirical analysis of Chinese manufacturing enterprises. Journal of Innovation & Knowledge 8:3, 100385. [Crossref]
+72. Simon Joyce, Charles Umney, Xanthe Whittaker, Mark Stuart. 2023. New social relations of digital technology and the future of work: Beyond technological determinism. New Technology, Work and Employment 38:2, 145-161. [Crossref]
+73. Debra Howcroft, Phil Taylor. 2023. Automation and the future of work: A social shaping of technology approach. New Technology, Work and Employment 38:2, 351-370. [Crossref]
+
+74. Nicole Wu. 2023. “Restrict foreigners, not robots”: Partisan responses to automation threat. Economics & Politics 35:2, 505-528. [Crossref]
+75. Shaojie Lai, Lihan Chen, Qing Sophie Wang, Hamish D. Anderson. 2023. Bank competition and corporate employment: Evidence from the geographic distribution of bank branches in China. Journal of Banking & Finance 33, 106964. [Crossref]
+76. Chungeun Yoon. 2023. Technology adoption and jobs: The effects of self-service kiosks in restaurants on labor outcomes. Technology in Society 65, 102336. [Crossref]
+77. Qiongyu Huang, Chuhong Xu, Xiaolong Xue, Hui Zhu. 2023. Can digital innovation improve firm performance: Evidence from digital patents of Chinese listed firms. International Review of Financial Analysis 53, 102810. [Crossref]
+78. Jing Wang, Yijing Wang, Jian Song. 2023. The policy evaluation of China's carbon emissions trading scheme on firm employment: A channel from industrial automation. Energy Policy 178, 113590. [Crossref]
+79. Stephen Weymouth. Digital Globalization 3, . [Crossref]
+80. Sharon L. Burton, Darrell Norman Burrell, Calvin Nobles. Adapting to the Cyber-Driven Workforce 130-152. [Crossref]
+81. Fredrik W. Andersson, Henrik Jordahl, Anders Kärnä. 2023. Ballooning bureaucracy? Stylized facts of growing administration in Swedish higher education. Constitutional Political Economy 33. . [Crossref]
+82. Mikhail V. Kolesnikov, Jan Olaf Blech, Udayanto Dwi Atmojo, Valeriy Vyatkin, Maxim Ya Afanasev. Architecture of a Feedback System for Human-Machine Interaction in a Collaborative Environment 1-4. [Crossref]
+83. Francisco Gomes, Thomas Jansson, Yigitcan Karabulut. 2023. Do Robots Increase Wealth Dispersion?. The Review of Financial Studies 112. . [Crossref]
+84. Marius R. Busemeyer, Tobias Tober. 2023. Dealing with Technological Change: Social Policy Preferences and Institutional Context. Comparative Political Studies 56:7, 968-999. [Crossref]
+85. Hongsheng Zhang, Qingqing Liu, Yueling Wei. 2023. Digital product imports and export product quality: Firm-level evidence from China. China Economic Review 79, 101981. [Crossref]
+86. Jinyu Chen, Dandan Zhu, Xiaohang Ren, Wenjing Luo. 2023. Does digital finance promote the “quantity” and “quality” of green innovation? A dynamic spatial Durbin econometric analysis. Environmental Science and Pollution Research 30:28, 72588-72606. [Crossref]
+87. Mikhael Deutsch-Heng, Benoit Dostie, Genevieve Dufour. 2023. Job Attributes and Occupational Changes: A Shift-Share Decomposition by Gender and Age Group for Canada, 2006–2016. Canadian Public Policy 49:2, 162-179. [Crossref]
+88. Sebastian Goldmann, Michael Knörzer. 2023. Technology advancement propels work productivity: Empirical efficiency potential determination in marketing and sales. Managerial and Decision Economics 44:4, 1962-1977. [Crossref]
+89. Alexander Lammers, Felix Lukowski, Kathrin Weis. 2023. The relationship between works councils and firms’ further training provision in times of technological change. British Journal of Industrial Relations 61:2, 392-424. [Crossref]
+90. Ruting Huang, Xin Yao. 2023. The role of power transmission infrastructure in income inequality: Fresh evidence from China. Energy Policy 177, 113564. [Crossref]
+91. Sergio Destefanis, Naqeeb Ur Rehman. 2023. Investment, innovation activities and employment across European regions. Structural Change and Economic Dynamics 65, 474-490. [Crossref]
+92. Esha D. Zaveri, RIchard Damania, Nathan Engle. Export Diversification from an Activity Perspective: An Exploration using Occupation Data 5, . [Crossref]
+
+93. Janine Berg, Francis Green, Laura Nurski, David A Spencer. 2023. Risks to job quality from digital technologies: Are industrial relations in Europe ready for the challenge?. European Journal of Industrial Relations 8, 095968012311789. [Crossref]
+94. Xin Dai, Yue Qiu. 2023. Minimum Wage Hikes and Technology Adoption: Evidence from U.S. Establishments. Journal of Financial and Quantitative Analysis 1-78. [Crossref]
+95. Marta Fana, Davide Villani. 2023. Retos y desafíos de las cadenas globales de valor. Papeles de Europa 36, e84817. [Crossref]
+96. Sumanta Sen, Warish Patel. Exploring The Uncertain Effects of AI-Powered Automation 2554-2558. [Crossref]
+97. Katja Mann, Lukas Püttmann. 2023. Benign Effects of Automation: New Evidence from Patent Texts. Review of Economics and Statistics 105:3, 562-579. [Crossref]
+98. Rafael Grande, Alberto Vallejo Peña. 2023. Emerging Digital Technologies in the Workplace. 3D Printing, Work Organization and Job Quality at the Airbus Spain Case Study. International Journal of Innovation and Technology Management 33. . [Crossref]
+99. Rizwan Raheem Ahmed, Munwar Hussain Pahi, Shahid Nadeem, Riaz Hussain Soomro, Vishnu Parmar, Fouzia Nasir, Faiz Ahmed. 2023. How and When Ethics Lead to Organizational Performance: Evidence from South Asian Firms. Sustainability 15:10, 8147. [Crossref]
+100. Andrea L. Eisfeldt, Antonio Falato, Mindy Z. Xiaolan. 2023. Human Capitalists. NBER Macroeconomics Annual 37, 1-61. [Crossref]
+101. Yiran Cheng, Xiaorui Zhou, Yongjian Li. 2023. The effect of digital transformation on real economy enterprises’ total factor productivity. International Review of Economics & Finance 85, 488-501. [Crossref]
+102. Lee E. Ohanian, Musa Orak, Shihan Shen. 2023. Revisiting capital-skill complementarity, inequality, and labor share. Review of Economic Dynamics 108. . [Crossref]
+103. Wen Chen. 2023. Can low‐carbon development force enterprises to make digital transformation?. Business Strategy and the Environment 32:4, 1292-1307. [Crossref]
+104. Linhui Wang, Zhanglu Cao, Zhiqing Dong. 2023. Are artificial intelligence dividends evenly distributed between profits and wages? Evidence from the private enterprise survey data in China. Structural Change and Economic Dynamics 36. . [Crossref]
+105. Shengming Hu, Kai Lin, Bei Liu, Hui Wang. 2023. Does robotization improve the skill structure? The role of job displacement and structural transformation. Applied Economics 52, 1-16. [Crossref]
+106. Yan Chen, Bin Xu, Yuqi Hou. 2023. Do smart services promote sustainable green transformation? Evidence from Chinese listed manufacturing enterprises. PLOS ONE 18:4, e0284452. [Crossref]
+107. Qingyang Wu. 2023. Sustainable growth through industrial robot diffusion: Quasi‐experimental evidence from a Bartik shift‐share design. Economics of Transition and Institutional Change 22. . [Crossref]
+108. Wu Yunxia, Hao Neng, Ma Yechi. 2023. The Effect of Digital Economy Development on Labor Employment. Journal of Global Information Management 31:6, 1-27. [Crossref]
+109. Franchesca Spektor, Sarah E. Fox, Ezra Awumey, Ben Begleiter, Chinmay Kulkarni, Betsy Stringam, Christine A. Riordan, Hye Jin Rho, Hunter Akridge, Jodi Forlizzi. 2023. Charting the Automation of Hospitality: An Interdisciplinary Literature Review Examining the Evolution of Frontline Service work in the Face of Algorithmic Management. Proceedings of the ACM on Human-Computer Interaction 7:CSCW1, 1-20. [Crossref]
+110. Yeongjun Yeo, Won-Sik Hwang, Jeong-Dong Lee. 2023. THE SHRINKING MIDDLE: EXPLORING THE NEXUS BETWEEN INFORMATION AND COMMUNICATION
+
+TECHNOLOGY, GROWTH, AND INEQUALITY. Technological and Economic Development of Economy 29:3, 874-901. [Crossref]
+111. Yiwen Hu. 2023. Artificial Intelligence and Human Workers Interaction. Highlights in Science, Engineering and Technology 44, 90-95. [Crossref]
+112. Seamus McGuinness, Konstantinos Pouliakas, Paul Redmond. 2023. Skills-displacing technological change and its impact on jobs: challenging technological alarmism?. Economics of Innovation and New Technology 32:3, 370-392. [Crossref]
+113. Jisun Lim, Keun Lee. 2023. Does Innovation by Firms Still Create Jobs even after the Business Stealing Effect at the Sector Level?. Journal of Economic Policy Reform 26:2, 97-125. [Crossref]
+114. Andrea Szalavetz. 2023. Digital technologies shaping the nature and routine intensity of shopfloor work. Competition & Change 27:2, 277-301. [Crossref]
+115. Yang Shen, Zhihong Yang. 2023. Chasing Green: The Synergistic Effect of Industrial Intelligence on Pollution Control and Carbon Reduction and Its Mechanisms. Sustainability 15:8, 6401. [Crossref]
+116. Weiming Zhang, Jiachao Peng, Lian Zhang. 2023. Disruptive Displacement: The Impacts of Industrial Robots on the Energy Industry’s International Division of Labor from a Technological Complexity View. Energies 16:8, 3349. [Crossref]
+117. Wanda J. Orlikowski, Susan V. Scott. 2023. The Digital Undertow and Institutional Displacement: A Sociomaterial Approach. Organization Theory 4:2. . [Crossref]
+118. Erling Barth, James C. Davis, Richard B. Freeman, Kristina McElheran. 2023. Twisting the demand curve: Digitalization and the older workforce. Journal of Econometrics 233:2, 443-467. [Crossref]
+119. . Creation of the People as Technology Theoretical Concept 37-68. [Crossref]
+120. . People as Technology and Systems Thinking in the Context of Human Resource Development 123-146. [Crossref]
+121. Chih-Hai Yang. 2023. R&D responses to labor cost shock in China: does firm size matter?. Small Business Economics 118. . [Crossref]
+122. Rafael Novella, David Rosas-Shady, Alfredo Alvarado. 2023. Are we nearly there yet? New technology adoption and labor demand in Peru. Science and Public Policy 21. . [Crossref]
+123. Goffredo Giordano, Saravana Prashanth Murali Babu, Barbara Mazzolai. 2023. Soft robotics towards sustainable development goals and climate actions. Frontiers in Robotics and AI 10. . [Crossref]
+124. Denise Jackson, Claire Lambert. 2023. Adolescent parent perceptions on sustainable career opportunities and building employability capitals for future work. Educational Review 54, 1-23. [Crossref]
+125. Ron Boschma, Ernest Miguelez, Rosina Moreno, Diego B. Ocampo-Corrales. 2023. The Role of Relatedness and Unrelatedness for the Geography of Technological Breakthroughs in Europe. Economic Geography 99:2, 117-139. [Crossref]
+126. Merih ANGIN, Orçun DOĞMAZER. 2023. Hindistan’ın Yapay Zekâ Gelişimi Üzerine Bir İnceleme. Mevzu – Sosyal Bilimler Dergisi :9, 323-349. [Crossref]
+127. Juan He, Xiaodong Du, Wei Tu. 2023. Can corporate digital transformation alleviate financing constraints?. Applied Economics 79, 1-17. [Crossref]
+128. Emmanuel Monod, Mary Beth Watson-Manheim, Ingrid Qi, Elisabeth Joyce, Anne-Sophie Mayer, Flavia Santoro. 2023. (Un)intended Consequences of AI Sales Assistants. Journal of Computer Information Systems 63:2, 436-448. [Crossref]
+129. Avner Ben-Ner, Ainhoa Urtasun, Bledi Taska. 2023. Effects of New Technologies on Work: The Case of Additive Manufacturing. ILR Review 76:2, 255-289. [Crossref]
+
+130. Cheng Qian, Chun Zhu, Duen-Huang Huang, Shangfeng Zhang. 2023. Examining the influence mechanism of artificial intelligence development on labor income share through numerical simulations. Technological Forecasting and Social Change 188, 122315. [Crossref]
+131. Christian H. Ebeke, Kodjovi M. Eklou. 2023. Automation and the employment elasticity of fiscal policy. Journal of Macroeconomics 75, 103502. [Crossref]
+132. Gang Peng, Rahul Bhaskar. 2023. Artificial Intelligence and Machine Learning for Job Automation. Journal of Database Management 34:1, 1-12. [Crossref]
+133. Chris Gilleard. 2023. More age, less growth? Secular stagnation and societal ageing. International Journal of Sociology and Social Policy 43:1/2, 1-16. [Crossref]
+134. Peikang Zhang, Huailiang Liang, Changjun Yue. 2023. Technological anxiety: How robots impact college graduates’ informal employment?. Journal of Asian Public Policy 110, 1-17. [Crossref]
+135. Nikolas Schöll, Thomas Kurer. 2023. How technological change affects regional voting patterns. Political Science Research and Methods 12, 1-19. [Crossref]
+136. Jiawu Gan, Lihua Liu, Gang Qiao, Qin Zhang. 2023. The role of robot adoption in green innovation: Evidence from China. Economic Modelling 119, 106128. [Crossref]
+137. David Klenert, Enrique Fernández-Macías, José-Ignacio Antón. 2023. Do robots really destroy jobs? Evidence from Europe. Economic and Industrial Democracy 44:1, 280-316. [Crossref]
+138. Jiamin Liu, Xiaoyu Ma, Jiaoning Zhang, Sisi Zhang. 2023. New‑type urbanization construction, shiftshare of employment, and CO2 emissions: evidence from China. Environmental Science and Pollution Research 30:10, 26472-26495. [Crossref]
+139. Milan Miric, Nan Jia, Kenneth G. Huang. 2023. Using supervised machine learning for large‐scale classification in management research: The case for identifying artificial intelligence patents. Strategic Management Journal 44:2, 491-519. [Crossref]
+140. Steffen Künn, Juan Palacios, Nico Pestel. 2023. Indoor Air Quality and Strategic Decision Making. Management Science 4. . [Crossref]
+141. Luis Garcia-Covarrubias, Doris Läpple, Emma Dillon, Fiona Thorne. 2023. Automation and efficiency: A latent class analysis of Irish dairy farms. Q Open 3:1. . [Crossref]
+142. Izak Atiyas, Mark A. Dutz. Digital Technology uses among Microenterprises: Why is Productive use so Low across Sub-Saharan Africa? . [Crossref]
+143. Xiaoxue Du, Xuejian Wang, Patrick Hatzenbuehler. 2023. Digital technology in agriculture: a review of issues, applications and methodologies. China Agricultural Economic Review 15:1, 95-108. [Crossref]
+144. Adio-Adet Tichafara Dinika. 2023. Preparing African youths for the future of work. Digital Policy Studies 1:2, 47-64. [Crossref]
+145. Sean J. Flynn, Andra Ghent. 2023. Does Main Street Benefit from What Benefits Wall Street?. Journal of Financial and Quantitative Analysis 11, 1-37. [Crossref]
+146. Zhihong Yang, Yang Shen. 2023. The impact of intelligent manufacturing on industrial green total factor productivity and its multiple mechanisms. Frontiers in Environmental Science 10. . [Crossref]
+147. P. A. Hancock. 2023. Machining the mind to mind the machine. Theoretical Issues in Ergonomics Science 24:1, 111-128. [Crossref]
+148. Roberto Antonietti, Luca Cattani, Francesca Gambarotto, Giulio Pedrini. 2023. Education, routine, and complexity-biased Key Enabling Technologies: evidence from Emilia-Romagna, Italy. Industry and Innovation 30:1, 103-134. [Crossref]
+149. Annette Bernhardt, Lisa Kresge, Reem Suleiman. 2023. The Data-Driven Workplace and the Case for Worker Technology Rights. ILR Review 76:1, 3-29. [Crossref]
+
+150. Xiaoyi Li, Qibo Tian. 2023. How Does Usage of Robot Affect Corporate Carbon Emissions?— Evidence from China’s Manufacturing Sector. Sustainability 15:2, 1198. [Crossref]
+151. Yunsi Chen, Dezhuang Hu. 2023. Why are exporters more gender-friendly? Evidence from China. Economic Modelling 118, 106087. [Crossref]
+152. Ingvild Almås, Orazio Attanasio, Pamela Jervis. 2023. Economics and Measurement: New Measures to Model Decision Making. SSRN Electronic Journal 4. . [Crossref]
+153. Herbert Dawid, Michael Neugart. 2023. Effects of technological change and automation on industry structure and (wage-)inequality: insights from a dynamic task-based model. Journal of Evolutionary Economics 33:1, 35-63. [Crossref]
+154. Zeshuang Liu, Xin Lei. Research on the Nonlinear Influence of Artificial Intelligence on Employee Development in Manufacturing Enterprise 169-182. [Crossref]
+155. Aysel Guliyeva, Marina V. Faminskaya, Elena V. Potekhina. Dynamic Interaction Between Human Capital Accumulation and Economic Growth 63-74. [Crossref]
+156. Huwei Wen, Nuoyan Li, Fengxiu Zhou. 2023. Digital Economy and Entrepreneurship: Heterogeneity of Labor Force Skills. Asian Economics Letters 4:Early View. . [Crossref]
+157. Joseph Ganem. Introduction: The Difference Between Knowing and Learning 1-7. [Crossref]
+158. Joseph Ganem. Labor Markets: Comparative Learning Advantages 9-24. [Crossref]
+159. Nicoletta Corrocher, Daniele Moschella, Jacopo Staccioli, Marco Vivarelli. 2023. Innovation and the Labor Market: Theory, Evidence and Challenges. SSRN Electronic Journal 4. . [Crossref]
+160. Barbara Ribeiro, Robert Meckin, Andrew Balmer, Philip Shapira. 2023. The digitalisation paradox of everyday scientific labour: How mundane knowledge work is amplified and diversified in the biosciences. Research Policy 52:1, 104607. [Crossref]
+161. Guillaume Chapelle, Gerard Domènech-Arumí, Paula Eugenia Gobbi. Housing, Neighborhoods, and Inequality 1-34. [Crossref]
+162. Daron Acemoglu, David H. Autor, Christina Patterson. 2023. Bottlenecks: Sectoral Imbalances and the US Productivity Slowdown. SSRN Electronic Journal 88. . [Crossref]
+163. Daron Acemoglu, David H. Autor, Christina Patterson. 2023. Bottlenecks: Sectoral Imbalances and the Us Productivity Slowdown. SSRN Electronic Journal 88. . [Crossref]
+164. Kyungsoo Kim, hongkee Kim, Chi Young Song. 2023. 팬팬팬팬 팬팬 팬팬 팬팬팬팬팬팬 팬팬팬 팬팬 (Changes in the International Economic Order in the Post-pandemic and War Era and Challenges for Korea). SSRN Electronic Journal . [Crossref]
+165. BN Kausik. 2023. Long Tails & the Impact of GPT on Labor. SSRN Electronic Journal 33. . [Crossref]
+166. Filippo Belloc, Gabriel Burdin, Fabio Landini. 2023. Advanced Technologies and Worker Voice. Economica 90:357, 1-38. [Crossref]
+167. Radu Vranceanu, Angela Sutan. 2023. Should the firm or the employee pay for upskilling? A contract theory approach. Managerial and Decision Economics 44:1, 197-207. [Crossref]
+168. Kobena T. Hanson, Peter Arthur. Assessing Extractive Natural Resources and Digitalization of Governance Initiatives in Africa: Rethinking Questions of Decline and Resilience 101-123. [Crossref]
+169. Yi Zhang, Wei Xue, Chun Liu. 2023. Go Global, Act Digital: The Impact of Digitalization on Global Value Chain Positioning. SSRN Electronic Journal 33. . [Crossref]
+170. Fabrizio Dell'Acqua, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, Karim R. Lakhani. 2023. Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality. SSRN Electronic Journal . [Crossref]
+
+171. Zhanbing Xiao. 2023. Labor Exposure to Climate Change and Capital Deepening. SSRN Electronic Journal 33. . [Crossref]
+172. Michael Minnis, Andrew Sutherland, Felix Vetter. 2023. Financial Statements not Required. SSRN Electronic Journal 33. . [Crossref]
+173. Naomitsu Yashiro, Tomi Kyyrä, Hyunjeong Hwang, Juha Tuomala. 2022. Technology, labour market institutions and early retirement. Economic Policy 37:112, 811-849. [Crossref]
+174. Siún Carden. 2022. Patterns and Programs: Replication and Creativity in the Place-Based Knitting of Shetland and Ireland. TEXTILE 15, 1-20. [Crossref]
+175. Tyler Baldwin, Wyatt Clarke, Maysa M. Garcia de Macedo, Rogerio de Paula, Subhro Das. Better Skill-based Job Representations, Assessed via Job Transition Data 2182-2185. [Crossref]
+176. Alexandra Fedorets, Stefan Kirchner, Jule Adriaans, Oliver Giering. 2022. Data on Digital Transformation in the German Socio-Economic Panel. Jahrbücher für Nationalökonomie und Statistik 242:5-6, 691-705. [Crossref]
+177. Kamila Moulaï, Gazi Islam, Stephan Manning, Laurianne Terlinden. 2022. "All too human” or the emergence of a techno-induced feeling of being less-able: identity work, ableism and new service technologies. The International Journal of Human Resource Management 33:22, 4499-4531. [Crossref]
+178. Thomas Gries, Wim Naudé. 2022. Modelling artificial intelligence in economics. Journal for Labour Market Research 56:1. . [Crossref]
+179. Pei Zhang, Jiaoe Wang, Mengming Li, Fan Xiao. 2022. Research on the mechanism of information infrastructure affecting industrial structure upgrading. Scientific Reports 12:1. . [Crossref]
+180. Aniruddh Mohan, Parth Vaishnav. 2022. Impact of automation on long haul trucking operator-hours in the United States. Humanities and Social Sciences Communications 9:1. . [Crossref]
+181. Karen Paulina Vargas-Bravo, Paula Andrea Córdova-Coronel, Luis Bernardo Tonon-Ordóñez. 2022. Determinantes en la Contratación de Trabajadores para las Empresas Manufactureras Ecuatorianas. Economía y Negocios 13:2, 93-108. [Crossref]
+182. Xiao Shen, Jingbo Liang, Jiangning Cao, Zhengwen Wang. 2022. How Population Aging Affects Industrial Structure Upgrading: Evidence from China. International Journal of Environmental Research and Public Health 19:23, 16093. [Crossref]
+183. Panda Su, Yu Wang. 2022. Does It Help Carbon Reduction in China? A Research Paper about the Mediating Role of Production Automation Based on the Carbon Kuznets Curve. Sustainability 14:23, 16000. [Crossref]
+184. Jack Stilgoe, Miloš Mladenović. 2022. The politics of autonomous vehicles. Humanities and Social Sciences Communications 9:1. . [Crossref]
+185. Jian Song, Yijing Wang, Jing Wang. 2022. The Impact of SO2 Emissions Trading Scheme on Firm’s Environmental Performance: A Channel from Robot Application. International Journal of Environmental Research and Public Health 19:24, 16471. [Crossref]
+186. Siqi Li, Xintao Li, Qingqing Zhao, Jun Zhang, Haoyu Xue. 2022. An Analysis of the Dimensional Constructs of Green Innovation in Manufacturing Enterprises: Scale Development and Empirical Testing. Sustainability 14:24, 16919. [Crossref]
+187. G. Dosi, M.C. Pereira, A. Roventini, M.E. Virgillito. 2022. Technological paradigms, labour creation and destruction in a multi-sector agent-based model. Research Policy 51:10, 104565. [Crossref]
+188. Minji Rhyu, Sungwon Lee. 2022. Distributional Effects of Fourth Industrial Revolution Technology on Productivity: Evidence from Korean Firm-level Data. International Journal of Empirical Economics 01:04. . [Crossref]
+189. John Gilbert, Onur A. Koska, Reza Oladi. 2022. Labor‐eliminating technology, wage inequality, and trade protectionism. Journal of Public Economic Theory 24:6, 1249-1265. [Crossref]
+
+190. Mari Sako, Matthias Qian, Jacopo Attolini. 2022. Future of professional work: evidence from legal jobs in Britain and the United States. Journal of Professions and Organization 9:2, 143-169. [Crossref]
+191. Toon Van Overbeke. 2022. Conflict or cooperation? Exploring the relationship between cooperative institutions and robotisation. British Journal of Industrial Relations 33. . [Crossref]
+192. David Barrientos, Bruno J. T. Fernandes, Cleyton Mario O. Rodrigues, Leandro Honorato De S. Silva, Allana Rocha, Paulo Christiano Sobral, Bruno Souza, Dionizio Feitosa, Juliana Barreto, Mabel Guimaraes. A Legal Information System for Intelligent Sentence Mining Applied to Civil Law 1-6. [Crossref]
+193. Marcus Wigan, Greg Adamson, Priya Rani, Nick Dyson, Fabian Horton. Chatbots and Explainable Artificial Intelligence 1-5. [Crossref]
+194. Ni Chen, Zhi Li, Bo Tang. 2022. Can digital skill protect against job displacement risk caused by artificial intelligence? Empirical evidence from 701 detailed occupations. PLOS ONE 17:11, e0277280. [Crossref]
+195. Xiangmei Zhu, Bin Zhang, Hui Yuan. 2022. Digital economy, industrial structure upgrading and green total factor productivity——Evidence in textile and apparel industry from China. PLOS ONE 17:11, e0277259. [Crossref]
+196. Sagarika Mishra, Michael T. Ewing, Holly B. Cooper. 2022. Artificial intelligence focus and firm performance. Journal of the Academy of Marketing Science 50:6, 1176-1197. [Crossref]
+197. Linhui Wang, Hui Wang, Zhanglu Cao, Yongda He, Zhiqing Dong, Shixiang Wang. 2022. Can industrial intellectualization reduce carbon emissions? — Empirical evidence from the perspective of carbon total factor productivity in China. Technological Forecasting and Social Change 184, 121969. [Crossref]
+198. Christos A. Makridis, Saurabh Mishra. 2022. Artificial Intelligence as a Service, Economic Growth, and Well-Being. Journal of Service Research 25:4, 505-520. [Crossref]
+199. Christian Brannstrom, Michael Ewers, Peter Schwarz. 2022. Will peak talent arrive before peak oil or peak demand?: Exploring whether career choices of highly skilled workers will accelerate the transition to renewable energy. Energy Research & Social Science 93, 102834. [Crossref]
+200. Tobias Müller, Florian Schuberth, Micha Bergsiek, Jörg Henseler. 2022. How can the transition from office to telework be managed? The impact of tasks and workplace suitability on collaboration and work performance. Frontiers in Psychology 13. . [Crossref]
+201. Qinyi Liu, Belton M. Fleisher. 2022. Job tasks and cognitive skill accumulation. Applied Economics 54:49, 5734-5753. [Crossref]
+202. Xiaozhen Qin, Weipan Xu, Haohui ‘Caron’ Chen, Jiawei Zhong, Yifei Sun, Xun Li. 2022. Automation, firm employment and skill upgrading: firm-level evidence from China. Industry and Innovation 29:9, 1075-1107. [Crossref]
+203. Ekkehard Ernst. 2022. The AI trilemma: Saving the planet without ruining our jobs. Frontiers in Artificial Intelligence 5. . [Crossref]
+204. Felix Creutzig, Daron Acemoglu, Xuemei Bai, Paul N. Edwards, Marie Josefine Hintz, Lynn H. Kaack, Siir Kilkis, Stefanie Kunkel, Amy Luers, Nikola Milojevic-Dupont, Dave Rejeski, Jürgen Renn, David Rolnick, Christoph Rosol, Daniela Russ, Thomas Turnbull, Elena Verdolini, Felix Wagner, Charlie Wilson, Aicha Zekar, Marius Zumwald. 2022. Digitalization and the Anthropocene. Annual Review of Environment and Resources 47:1, 479-509. [Crossref]
+205. David Andersson, Mounir Karadja, Erik Prawitz. 2022. Mass Migration and Technological Change. Journal of the European Economic Association 20:5, 1859-1896. [Crossref]
+206. Manuel A. Hidalgo-Pérez, Benedetto Molinari. 2022. The effect of early automation on the wage distribution with endogenous occupational choices. Economia Politica 39:3, 1055-1082. [Crossref]
+
+207. Carlos Usabiaga, Fernando Núñez, Lukasz Arendt, Ewa Gałecka-Burdziak, Robert Pater. 2022. Skill requirements and labour polarisation: An association analysis based on Polish online job offers. Economic Modelling 115, 105963. [Crossref]
+208. Jakub Growiec. 2022. AUTOMATION, PARTIAL AND FULL. Macroeconomic Dynamics 26:7, 1731-1755. [Crossref]
+209. Alberto Chong, Daniel Velásquez, Mónica Yáñez-Pagans. 2022. Computers and Discretion: Evidence from Two Randomized Natural Experiments. Economic Development and Cultural Change 71:1, 63-109. [Crossref]
+210. Wei Qian, Yongsheng Wang. 2022. How Do Rising Labor Costs Affect Green Total Factor Productivity? Based on the Industrial Intelligence Perspective. Sustainability 14:20, 13653. [Crossref]
+211. Debraj Ray, Dilip Mookherjee. 2022. Growth, automation, and the long-run share of labor. Review of Economic Dynamics 46, 1-26. [Crossref]
+212. Jeremy Schulz. 2022. Future Shocks: Automation Meets the Pandemic. American Behavioral Scientist 23, 000276422211272. [Crossref]
+213. Irina S. Bagdasaryan, Andrey G. Golovko, Emil E. Barinov, Mikhail Y. Ponezhin. Technological Discrimination of Employees Amid the Covid-19 Pandemic and in the Post-Pandemic Period: Labour Conflicts of Express Digitalization and their Solutions 67-80. [Crossref]
+214. Konstantin V. Vodenko, Irina S. Bagdasaryan, Daria O. Tyurina, Galina B. Vlasova. Modelling of Conflict in the Labour Market Under the Conditions of Automatization Based on Robots, Big Data and AI: The Specifics of Technological Inequality of Countries and Conflict Management 121-131. [Crossref]
+215. Mariasole Bannò, Giorgia Maria D'Allura, Emilia Filippi, Sandro Trento. 2022. How do noneconomic goals and priorities affect family firm’s propensity to innovate in automation? The role of ownership, board of director, young successor and generation. European Journal of Innovation Management 25:6, 961-983. [Crossref]
+216. Erika Majzlíková, Matej Vitáloš. 2022. Potential Risk of Automation for Jobs in Slovakia: A Districtand Industry-Level Analysis. Eastern European Economics 60:5, 452-478. [Crossref]
+217. Malo Mofakhami. 2022. Is Innovation Good for European Workers? Beyond the Employment Destruction/Creation Effects, Technology Adoption Affects the Working Conditions of European Workers. Journal of the Knowledge Economy 13:3, 2386-2430. [Crossref]
+218. José-Ignacio Antón, David Klenert, Enrique Fernández-Macías, Maria Cesira Urzì Brancati, Georgios Alaveras. 2022. The labour market impact of robotisation in Europe. European Journal of Industrial Relations 28:3, 317-339. [Crossref]
+219. Braiden Coleman, Kenneth Merkley, Joseph Pacelli. 2022. Human Versus Machine: A Comparison of Robo-Analyst and Traditional Research Analyst Investment Recommendations. The Accounting Review 97:5, 221-244. [Crossref]
+220. Luis Felipe Sáenz. 2022. Time-varying capital intensities and the hump-shaped evolution of economic activity in manufacturing. Journal of Macroeconomics 73, 103429. [Crossref]
+221. Rupika Khanna, Chandan Sharma. 2022. Impact of information technology on firm performance: New evidence from Indian manufacturing. Information Economics and Policy 60, 100986. [Crossref]
+222. Jasmine Mondolo. 2022. The composite link between technological change and employment: A survey of the literature. Journal of Economic Surveys 36:4, 1027-1068. [Crossref]
+223. Diti Goswami. 2022. Productivity and job reallocation: evidence from the Indian manufacturing. International Journal of Manpower 43:6, 1425-1448. [Crossref]
+224. Pablo D. Fajgelbaum, Amit K. Khandelwal. 2022. The Economic Impacts of the US–China Trade War. Annual Review of Economics 14:1, 205-228. [Crossref]
+
+225. Gene M. Grossman, Ezra Oberfield. 2022. The Elusive Explanation for the Declining Labor Share. Annual Review of Economics 14:1, 93-124. [Crossref]
+226. Tuuli Turja, Tuomo Särkikoski, Pertti Koistinen, Oxana Krutova, Harri Melin. 2022. Job well robotized! – Maintaining task diversity and well-being in managing technological changes. European Management Journal 146. . [Crossref]
+227. Adam Seth Litwin, Jessie HF Hammerling, Françoise Carré, Chris Tilly, Chris Benner, Sarah Mason, Steve Viscelli, Beth Gutelius, Nik Theodore. 2022. A Forum on Emerging Technologies. ILR Review 75:4, 807-856. [Crossref]
+228. Yituan Liu, Yabin Bian, Wenhao Zhang. 2022. How Does Enterprises’ Digital Transformation Impact the Educational Structure of Employees? Evidence from China. Sustainability 14:15, 9432. [Crossref]
+229. Aleksandr Christenko. 2022. Automation and occupational mobility: A task and knowledge-based approach. Technology in Society 70, 101976. [Crossref]
+230. Lin William Cong, Wenshi Wei, Danxia Xie, Longtian Zhang. 2022. Endogenous growth under multiple uses of data. Journal of Economic Dynamics and Control 141, 104395. [Crossref]
+231. Luca Eduardo Fierro, Alessandro Caiani, Alberto Russo. 2022. Automation, Job Polarisation, and Structural Change. Journal of Economic Behavior & Organization 200, 499-535. [Crossref]
+232. Jing Zou, Xiaojun Deng. 2022. Housing tenure choice and socio-economic integration of migrants in rising cities of China. China Economic Review 74, 101830. [Crossref]
+233. Michał Jerzmanowski, Robert Tamura. 2022. Aggregate elasticity of substitution between skills: estimates from a macroeconomic approach. Macroeconomic Dynamics 12, 1-31. [Crossref]
+234. Naoum Tsolakis, Dimitris Zissis, Spiros Papaefthimiou, Nikolaos Korfiatis. 2022. Towards AI driven environmental sustainability: an application of automated logistics in container port terminals. International Journal of Production Research 60:14, 4508-4528. [Crossref]
+235. Chen Zhang, Biao Ma, Yujie Gan, Hao Xu. 2022. The Bottom of the Heart of the Property Builder: Evidence from Online Messages of Chinese Rural Migrant Workers. Chinese Political Science Review 33. . [Crossref]
+236. Chia-Hui Lu. 2022. ARTIFICIAL INTELLIGENCE AND HUMAN JOBS. Macroeconomic Dynamics 26:5, 1162-1201. [Crossref]
+237. Chih-Hai Yang. 2022. How Artificial Intelligence Technology Affects Productivity and Employment: Firm-level Evidence from Taiwan. Research Policy 51:6, 104536. [Crossref]
+238. Guendalina Anzolin, Antonio Andreoni, Antonello Zanfei. 2022. What is driving robotisation in the automotive value chain? Empirical evidence on the role of FDIs and domestic capabilities in technology adoption. Technovation 115, 102476. [Crossref]
+239. Eden S. H. Yu, Chi‐Chur Chao. 2022. Online sales, home delivery, and the platform economy. Bulletin of Economic Research 74:3, 722-736. [Crossref]
+240. . Policy Innovation in Africa 16-34. [Crossref]
+241. Fabio D’Orlando. 2022. Social Interaction, Envy, and the Basic Income: Do Remedies to Technological Unemployment Reduce Well-being?. Basic Income Studies 17:1, 53-93. [Crossref]
+242. Jean-Philippe Deranty, Thomas Corbin. 2022. Artificial intelligence and work: a critical review of recent research from the social sciences. AI & SOCIETY 4. . [Crossref]
+243. Frank M. Fossen, Daniel Samaan, Alina Sorgner. 2022. How Are Patented AI, Software and Robot Technologies Related to Wage Changes in the United States?. Frontiers in Artificial Intelligence 5. . [Crossref]
+244. Laurent Giraud, Ali Zaher, Selena Hernandez, Al Ariss Akram. 2022. The impacts of artificial intelligence on managerial skills. Journal of Decision Systems 33, 1-34. [Crossref]
+
+245. Alessio Rebechi, Nicholas Rohde. 2022. Economic insecurity, racial anxiety, and right‐wing populism. Review of Income and Wealth 306. . [Crossref]
+246. Yuhong Du, Xiahai Wei. 2022. Technological change and unemployment: evidence from China. Applied Economics Letters 29:9, 851-854. [Crossref]
+247. Provash Kumer Sarker. 2022. Macroeconomic effects of artificial intelligence on emerging economies: Insights from Bangladesh. Economics Management and Sustainability 7:1, 59-69. [Crossref]
+248. Hong Jiang, Xue Wang, Qian Xiao, Silin Li. 2022. Investment Behavior Related to Automated Machines and Biased Technical Change: Based on Evidence From Listed Manufacturing Companies in China. Frontiers in Psychology 13. . [Crossref]
+249. Silvio Traverso, Massimiliano Vatiero, Enrico Zaninotto. 2022. Robots and labor regulation: a crosscountry/cross-industry analysis. Economics of Innovation and New Technology 23, 1-23. [Crossref]
+250. Antonio Paolillo, Fabrizio Colella, Nicola Nosengo, Fabrizio Schiano, William Stewart, Davide Zambrano, Isabelle Chappuis, Rafael Lalive, Dario Floreano. 2022. How to compete with robots by assessing job automation risks and resilient alternatives. Science Robotics 7:65. . [Crossref]
+251. Limeng Ying, Xiaojing Liu, Menghao Li, Lipeng Sun, Pishi Xiu, Jie Yang. 2022. How does intelligent manufacturing affects enterprise innovation? The mediating role of organisational learning. Enterprise Information Systems 16:4, 630-667. [Crossref]
+252. Marcello Nieddu, Filippo Bertani, Linda Ponta. 2022. The sustainability transition and the digital transformation: two challenges for agent-based macroeconomic models. Review of Evolutionary Political Economy 3:1, 193-226. [Crossref]
+253. Cristian Alonso, Andrew Berg, Siddharth Kothari, Chris Papageorgiou, Sidra Rehman. 2022. Will the AI revolution cause a great divergence?. Journal of Monetary Economics 127, 18-37. [Crossref]
+254. Luís Guimarães, Pedro Mazeda Gil. 2022. Explaining the Labor Share: Automation Vs Labor Market Institutions. Labour Economics 75, 102146. [Crossref]
+255. Daron Acemoglu, David Autor, Jonathon Hazell, Pascual Restrepo. 2022. Artificial Intelligence and Jobs: Evidence from Online Vacancies. Journal of Labor Economics 40:S1, S293-S340. [Crossref]
+256. Filippo Belloc, Gabriel Burdin, Luca Cattani, William Ellis, Fabio Landini. 2022. Coevolution of job automation risk and workplace governance. Research Policy 51:3, 104441. [Crossref]
+257. Nanxu Chen, Dongqing Sun, Jing Chen. 2022. Digital transformation, labour share, and industrial heterogeneity. Journal of Innovation & Knowledge 7:2, 100173. [Crossref]
+258. Jiyong Park, Jongho Kim. 2022. A data-driven exploration of the race between human labor and machines in the 21 st century. Communications of the ACM 65:5, 79-87. [Crossref]
+259. Sergio De Nardis, Francesca Parente. 2022. Technology and task changes in the major EU countries. Contemporary Economic Policy 40:2, 391-413. [Crossref]
+260. Galina N. Tuguskina, Liliya V. Rozhkova, Lyudmila I. Naydenova, Vadim N. Supikov, Shakhrutdin G. Seidov. 2022. Continuing Education as a Condition for Increasing Specialists’ Competitiveness in the Labor Market. Integration of Education 26:1, 111-129. [Crossref]
+261. Rajeev K. Goel, Michael A. Nelson. 2022. Employment effects of R&D and process innovation: evidence from small and medium-sized firms in emerging markets. Eurasian Business Review 12:1, 97-123. [Crossref]
+262. Stefania Innocenti, Marta Golin. 2022. Human capital investment and perceived automation risks: Evidence from 16 countries. Journal of Economic Behavior & Organization 195, 27-41. [Crossref]
+263. Deborah Giustini. 2022. Haken conference interpreters in Japan: Exploring status through the sociology of work and of professions. Interpreting and Society 2:1, 3-31. [Crossref]
+
+264. Sophia J. W. Hamm, Boochun Jung, Woo-Jong Lee, Daniel G. Yang. 2022. Organized Labor and Inventory Stockpiling. The Accounting Review 97:2, 241-266. [Crossref]
+265. Xin Du, Hengming Zhang, Yawen Han. 2022. How Does New Infrastructure Investment Affect Economic Growth Quality? Empirical Evidence from China. Sustainability 14:6, 3511. [Crossref]
+266. Alireza Amini, Behnam Nikbin. 2022. Estimation and Analysis of Gender-Specific Labor Demand Functions in Iran. The Journal of Planning and Budgeting 26:4, 35-64. [Crossref]
+267. María García-Vega. 2022. R&D restructuring during the Great Recession and young firms. International Journal of Industrial Organization 81, 102819. [Crossref]
+268. Juthathip Jongwanich, Archanun Kohpaiboon, Ayako Obashi. 2022. Technological advancement, import penetration and labour markets: Evidence from Thailand. World Development 151, 105746. [Crossref]
+269. Michael Cauvel, Aaron Pacitti. 2022. Bargaining power, structural change, and the falling U.S. labor share. Structural Change and Economic Dynamics 60, 512-530. [Crossref]
+270. Pablo Egana-delSol, Gabriel Cruz, Alejandro Micco. 2022. COVID-19 and automation in a developing economy: Evidence from Chile. Technological Forecasting and Social Change 176, 121373. [Crossref]
+271. Fushu Luan, Xinhui Yang, Yang Chen, Paulo José Regis. 2022. Industrial robots and air environment: A moderated mediation model of population density and energy consumption. Sustainable Production and Consumption 30, 870-888. [Crossref]
+272. Kate A. Hamblin. 2022. Technology in care systems: Displacing, reshaping, reinstating or degrading roles?. New Technology, Work and Employment 37:1, 41-58. [Crossref]
+273. Herman L. Boschken. 2022. Economic inequality in U.S. global cities. Journal of Urban Affairs 25, 1-19. [Crossref]
+274. Vivek Srikrishnan, Yawen Guan, Richard S. J. Tol, Klaus Keller. 2022. Probabilistic projections of baseline twenty-first century CO2 emissions using a simple calibrated integrated assessment model. Climatic Change 170:3-4. . [Crossref]
+275. Pablo Egana-delSol, Monserrat Bustelo, Laura Ripani, Nicolas Soler, Mariana Viollaz. 2022. Automation in Latin America: Are Women at Higher Risk of Losing Their Jobs?. Technological Forecasting and Social Change 175, 121333. [Crossref]
+276. Alexandra Ioannidou, Andrea Parma. 2022. Risk of Job Automation and Participation in Adult Education and Training: Do Welfare Regimes Matter?. Adult Education Quarterly 72:1, 84-109. [Crossref]
+277. Frank M. Fossen, Alina Sorgner. 2022. New digital technologies and heterogeneous wage and employment dynamics in the United States: Evidence from individual-level data. Technological Forecasting and Social Change 175, 121381. [Crossref]
+278. Deniz Güvercin. 2022. Digitalization and populism: Cross-country evidence. Technology in Society 68, 101802. [Crossref]
+279. Chi-Wei Su, Xi Yuan, Muhammad Umar, Oana-Ramona Lobonţ. 2022. Does technological innovation bring destruction or creation to the labor market?. Technology in Society 68, 101905. [Crossref]
+280. Longzheng Du, Weifen Lin. 2022. Does the application of industrial robots overcome the Solow paradox? Evidence from China. Technology in Society 68, 101932. [Crossref]
+281. Meng Niu, Zhenguo Wang, Yabin Zhang. 2022. How information and communication technology drives (routine and non-routine) jobs: Structural path and decomposition analysis for China. Telecommunications Policy 46:1, 102242. [Crossref]
+282. Joao Guerreiro, Sergio Rebelo, Pedro Teles. 2022. Should Robots Be Taxed?. The Review of Economic Studies 89:1, 279-311. [Crossref]
+
+283. Jean-Marie Peretti. Avant-propos. La révolution numérique améliore-t-elle l’impact social des entreprises ? 54-70. [Crossref]
+284. Stanislav Rogachev, Bakytbek Akaev. Algorithms for Labour Income Share Forecasting: Detecting of Intersectoral Nonlinearity 161-180. [Crossref]
+285. Michael Oyelere, Adejoke Ige-Olaobaju, Rashmi Maini. Trade Union Revitalisation: The Impact of Artificial Intelligence and Gig Economy 399-424. [Crossref]
+286. Rita de la Feria, María Amparo Grau Ruiz. Taxing Robots 93-99. [Crossref]
+287. Krige Siebrits. Will This Time Be Different? Effects of Large-Scale Technological Change in Advanced Democracies 37-62. [Crossref]
+288. Agata Frankowska, Bartosz Pawlik. A Decade of Artificial Intelligence Research in the European Union: A Bibliometric Analysis 52-62. [Crossref]
+289. Swati Bhatt. Business Dynamism Over 1994–2020 31-49. [Crossref]
+290. Swati Bhatt. The Mature Startups 87-119. [Crossref]
+291. Mauro Caselli, Andrea Fracasso. COVID-19 and Technology 1-34. [Crossref]
+292. Ying Qiu. The Reconfiguration of Global Value Chains in the Digital Economy: Recent Trends and China's New Agenda 267-294. [Crossref]
+293. Ivan Savin, Ingrid Ott, Chris Konop. 2022. Tracing the evolution of service robotics: Insights from a topic modeling approach. Technological Forecasting and Social Change 174, 121280. [Crossref]
+294. Aina Gallego, Thomas Kurer, Nikolas Schöll. 2022. Neither Left Behind nor Superstar: Ordinary Winners of Digitalization at the Ballot Box. The Journal of Politics 84:1, 418-436. [Crossref]
+295. Dušan Vujović. 2022. Innovations, productivity and growth: Reform and policy challenges for Serbia. Ekonomika preduzeca 70:3-4, 161-178. [Crossref]
+296. Benjamin Moll, Lukasz Rachel, Pascual Restrepo. 2022. Uneven Growth: Automation's Impact on Income and Wealth Inequality. Econometrica 90:6, 2645-2683. [Crossref]
+297. Fabio Montobbio, Jacopo Staccioli, Maria Enrica Virgillito, Marco Vivarelli. 2022. Robots and the origin of their labour-saving impact. Technological Forecasting and Social Change 174, 121122. [Crossref]
+298. Deborah Giustini. COVID-19 and the Configuration of Materiality in Remote Interpreting: Is Technology Biting Back? 197-213. [Crossref]
+299. Pavle Jakšić. 2022. Pandemic crisis: Macroeconomic effects and reaction of economic authorities. Ekonomski pogledi 24:2, 69-96. [Crossref]
+300. Aleksandra Parteka, Joanna Wolszczak-Derlacz, Dagmara Nikulin. 2022. How Digital Technology Affects Working Conditions in Globally Fragmented Production Chains: Evidence from Europe. SSRN Electronic Journal 4. . [Crossref]
+301. Filippo Belloc, Gabriel Burdin, Fabio Landini. 2022. Robots, Digitalization, and Worker Voice. SSRN Electronic Journal 12. . [Crossref]
+302. Yinghua Li, Nuo Shi, Stephen Teng Sun. 2022. Robot Penetration and Asymmetric Cost Behavior. SSRN Electronic Journal 128. . [Crossref]
+303. Dirk Czarnitzki, Gastón P. Fernández, Christian Rammer. 2022. Artificial Intelligence and Firm-Level Productivity. SSRN Electronic Journal 33. . [Crossref]
+304. Jiwon Park. 2022. Digital Transformation and Labor Market: How Much Do We Know?. SSRN Electronic Journal 33. . [Crossref]
+305. Hideki Nakamura. 2022. Can Displaced Workers Have a Fresh Start?. SSRN Electronic Journal 118. . [Crossref]
+
+306. Paul D. McNelis, Guay C. Lim. 2022. Fiscal Policies, Output Growth and the Labor Share of National Income. SSRN Electronic Journal 108. . [Crossref]
+307. Linhui Wang, Hui Wang, Yongda He, Zhiqing Dong, Shixiang Wang, Zhanglu Cao. 2022. Can Industrial Intellectualization Reduce Carbon Emissions? Empirical Evidence from the Perspective of Carbon Total Factor Productivity in China. SSRN Electronic Journal 102. . [Crossref]
+308. Adrian Poignant, Raoul van Maarseveen, Niklas Bengtsson. 2022. The social cost of industrialization: Evidence from the 19th century Swedish iron industry. SSRN Electronic Journal 102. . [Crossref]
+309. Astrid Krenz, Holger Strulik. 2022. Automation and the Fall and Rise of the Servant Economy. SSRN Electronic Journal 4. . [Crossref]
+310. Kaizhao Guo. 2022. Automation, Skill and Job Creation. SSRN Electronic Journal 4. . [Crossref]
+311. Hubert Escaith. 2022. Creative Industry 4.0: Towards a New Globalised Creative Economy (an Overview). SSRN Electronic Journal 33. . [Crossref]
+312. Filippo Belloc, Gabriel Burdin, Luca Cattani, William Ellis, Fabio Landini. 2022. Coevolution of Job Automation Risk and Workplace Governance. SSRN Electronic Journal 55. . [Crossref]
+313. Henri Haapanala, Ive Marx, Zachary Parolin. 2022. Robots and Unions: The Moderating Effect of Organised Labour on Technological Unemployment. SSRN Electronic Journal 113. . [Crossref]
+314. Xue Guo, Zhi Cheng, Paul A. Pavlou. 2022. Skill-Biased Technical Change Again? Online Gig Platforms and Local Employment. SSRN Electronic Journal 93. . [Crossref]
+315. David H. Autor. 2022. The Labor Market Impacts of Technological Change: From Unbridled Enthusiasm to Qualified Optimism to Vast Uncertainty. SSRN Electronic Journal 40. . [Crossref]
+316. José Ignacio Giménez, Almudena Sevilla. 2022. Work Effort in the UK: Trends and Explanations. SSRN Electronic Journal 4. . [Crossref]
+317. Ajay K. Agrawal, Joshua S. Gans, Avi Goldfarb. 2022. Prediction Machines, Insurance, and Protection: An Alternative Perspective on AI's Role in Production. SSRN Electronic Journal 33. . [Crossref]
+318. Oghenovo A. Obrimah. 2022. Inferring Robustness of Implementations of Probabilistic (Formulations of ) Expected Utility Theory: Some Standard Conditions. SSRN Electronic Journal 33. . [Crossref]
+319. Ajay K. Agrawal, Joshua Gans, Avi Goldfarb. 2022. Prediction Machines, Insurance, and Protection: An Alternative Perspective on Ai's Role in Production. SSRN Electronic Journal 33. . [Crossref]
+320. Claudio Baccianti, Vincent Labhard, Jonne Lehtimäki. 2022. Digitalisation, Institutions and Governance, and Diffusion: Mechanisms and Evidence. SSRN Electronic Journal 147. . [Crossref]
+321. Joachim Elmegaard. 2022. The Role of Artificial Intelligence in Accounting - New Perspectives on Empirical Research. SSRN Electronic Journal 12. . [Crossref]
+322. David H. Autor, Caroline Chin, Anna Salomons, Bryan Seegmiller. 2022. New Frontiers: The Origins and Content of New Work, 1940–2018. SSRN Electronic Journal 113. . [Crossref]
+323. Zi An Galvyn Goh, King Wang Poon. A Task-Based Approach to Lifelong Learning, Well-Being, and Resilience in the Workplace of the Future 1-19. [Crossref]
+324. Zeewan Lee, Joelle H. Fong. 2022. Labor Market Competition and Attitudes toward Immigrants: New Evidence from Asia. SSRN Electronic Journal 12. . [Crossref]
+325. Efrim Boritz, Theophanis C. Stratopoulos. 2022. JIS Workshop on AI and the Accounting Profession: Views from Industry and Academia. SSRN Electronic Journal . [Crossref]
+326. C. A. K. Lovell. Productivity Measurement: Past, Present, and Future 3-103. [Crossref]
+327. María López-Martínez, Olga García-Luque, Myriam Rodríguez-Pasquín. 2021. Digital Gender Divide and Convergence in the European Union Countries. Economics 15:1, 115-128. [Crossref]
+328. Urmat Dzhunkeev. 2021. Modelling the impact of digital technologies on the unemployment rate in Russia. Moscow University Economics Bulletin :6, 186-201. [Crossref]
+
+329. Mehmet KAYA. 2021. Sanayi 4.0, İşgücü Piyasası ve Bilgi İşçiliği. The Journal of International Lingual Social and Educational Sciences 7:2, 54-73. [Crossref]
+330. Adam Seth Litwin. Technological Change and Frontline Care Delivery Work: Toward the Quadruple Aim 99-142. [Crossref]
+331. Lei Wang, Provash Sarker, Kausar Alam, Shahneoaj Sumon. 2021. Retracted Article: Artificial Intelligence and Economic Growth: A Theoretical Framework. Scientific Annals of Economics and Business 68:4, 421-443. [Crossref]
+332. Christos A. Makridis, Joo Hun Han. 2021. Future of work and employee empowerment and satisfaction: Evidence from a decade of technological change. Technological Forecasting and Social Change 173, 121162. [Crossref]
+333. Xuan Wang, Yaojie Li, Tom Stafford, Daqi Xin. 2021. The IT Labor Market Amid the Pandemic: The Case of the United States. IEEE Engineering Management Review 49:4, 41-53. [Crossref]
+334. Mauro Caselli, Andrea Fracasso, Silvio Traverso. 2021. Robots and risk of COVID-19 workplace contagion: Evidence from Italy. Technological Forecasting and Social Change 173, 121097. [Crossref]
+335. Khuong Vu, Nobuya Haraguchi, Juergen Amann. 2021. Deindustrialization in developed countries amid accelerated globalization: Patterns, influencers, and policy insights. Structural Change and Economic Dynamics 59, 454-469. [Crossref]
+336. László Czaller, Rikard H. Eriksson, Balázs Lengyel. 2021. Reducing automation risk through career mobility: Where and for whom?. Papers in Regional Science 100:6, 1545-1569. [Crossref]
+337. Rianka Roy. 2021. Precarious Privilege: Globalism, Digital Biopolitics, and Tech-Workers’ Movements in India. The European Legacy 26:7-8, 675-691. [Crossref]
+338. Belton M. Fleisher, William H. McGuire, Xiaojun Wang, Min Qiang Zhao. 2021. Induced innovation: evidence from China’s secondary industry. Applied Economics 53:52, 6075-6093. [Crossref]
+339. Paz Arancibia, Raymond Torres. The Future of Employment and Industrial Relations 143-161. [Crossref]
+340. Pierre-Alexandre Balland, Ron Boschma. 2021. Mapping the potentials of regions in Europe to contribute to new knowledge production in Industry 4.0 technologies. Regional Studies 55:10-11, 1652-1666. [Crossref]
+341. Wei Liu, Yingbo Xu, Di Fan, Yi Li, Xue-Feng Shao, Jingjing Zheng. 2021. Alleviating corporate environmental pollution threats toward public health and safety: The role of smart city and artificial intelligence. Safety Science 143, 105433. [Crossref]
+342. Victor Galaz, Miguel A. Centeno, Peter W. Callahan, Amar Causevic, Thayer Patterson, Irina Brass, Seth Baum, Darryl Farber, Joern Fischer, David Garcia, Timon McPhearson, Daniel Jimenez, Brian King, Paul Larcey, Karen Levy. 2021. Artificial intelligence, systemic risks, and sustainability. Technology in Society 67, 101741. [Crossref]
+343. Nikolaos Terzidis, Raquel Ortega‐Argilés. 2021. Employment polarization in regional labor markets: Evidence from the Netherlands. Journal of Regional Science 61:5, 971-1001. [Crossref]
+344. Sierdjan Koster, Claudia Brunori. 2021. What to do when the robots come? Non-formal education in jobs affected by automation. International Journal of Manpower 42:8, 1397-1419. [Crossref]
+345. Enrique Fernández-Macías, David Klenert, José-Ignacio Antón. 2021. Not so disruptive yet? Characteristics, distribution and determinants of robots in Europe. Structural Change and Economic Dynamics 58, 76-89. [Crossref]
+346. Désiré Avom, Aimé Kocou Dadegnon, Charlemagne Babatoundé Igue. 2021. Does digitalization promote net job creation? Empirical evidence from WAEMU countries. Telecommunications Policy 45:8, 102215. [Crossref]
+
+347. Hemant Jain, Balaji Padmanabhan, Paul A. Pavlou, T. S. Raghu. 2021. Editorial for the Special Section on Humans, Algorithms, and Augmented Intelligence: The Future of Work, Organizations, and Society. Information Systems Research 32:3, 675-687. [Crossref]
+348. Yingying Lu, Yixiao Zhou. 2021. A review on the economics of artificial intelligence. Journal of Economic Surveys 35:4, 1045-1072. [Crossref]
+349. Astrid Krenz, Holger Strulik. 2021. Quantifying reshoring at the macro‐level—Measurement and applications. Growth and Change 52:3, 1200-1229. [Crossref]
+350. David Hémous, Morten Olsen. 2021. Directed Technical Change in Labor and Environmental Economics. Annual Review of Economics 13:1, 571-597. [Crossref]
+351. ARTHUR H. GOLDSMITH. 2021. THE CORONAVIRUS RECESSION IN THE U.S.: IS THERE A LONG-RUN FOOTPRINT?. Journal of Business and Economic Analysis 04:01, 23-41. [Crossref]
+352. Arif Jetha, Ali Shamaee, Silvia Bonaccio, Monique A. M. Gignac, Lori B. Tucker, Emile Tompa, Ute Bültmann, Cameron D. Norman, Cristina G. Banks, Peter M. Smith. 2021. Fragmentation in the future of work: A horizon scan examining the impact of the changing nature of work on workers experiencing vulnerability. American Journal of Industrial Medicine 64:8, 649-666. [Crossref]
+353. MARIUS R. BUSEMEYER, ALEXANDER H. J. SAHM. 2021. Social Investment, Redistribution or Basic Income? Exploring the Association Between Automation Risk and Welfare State Attitudes in Europe. Journal of Social Policy 94, 1-20. [Crossref]
+354. Jean-Paul Carvalho. 2021. Markets and communities: the social cost of the meritocracy. Journal of Institutional Economics 29, 1-19. [Crossref]
+355. Klaas de Vries, Abdul Erumban, Bart van Ark. 2021. Productivity and the pandemic: short-term disruptions and long-term implications. International Economics and Economic Policy 18:3, 541-570. [Crossref]
+356. Davide Dottori. 2021. Robots and employment: evidence from Italy. Economia Politica 38:2, 739-795. [Crossref]
+357. Astrid Krenz, Klaus Prettner, Holger Strulik. 2021. Robots, reshoring, and the lot of low-skilled workers. European Economic Review 136, 103744. [Crossref]
+358. Georges V. Houngbonon, Julienne Liang. 2021. Broadband Internet and Income Inequality. Review of Network Economics 20:2, 55-99. [Crossref]
+359. Warn N. Lekfuangfu, Voraprapa Nakavachara. 2021. Reshaping Thailand’s Labor Market: The Intertwined Forces of Technology Advancements and Shifting Supply Chains. Economic Modelling 33, 105561. [Crossref]
+360. Burcu Ozgun, Tom Broekel. 2021. The geography of innovation and technology news - An empirical study of the German news media. Technological Forecasting and Social Change 167, 120692. [Crossref]
+361. I. P. L. Png, Charmaine H. Y. Tan. 2021. Cost of Cash: Evidence from Cashiers. Service Science 13:2, 88-108. [Crossref]
+362. Ayako Obashi, Fukunari Kimura. 2021. New Developments in International Production Networks: Impact of Digital Technologies*. Asian Economic Journal 35:2, 115-141. [Crossref]
+363. Massimiliano Cali, Giorgio Presidente. Automation and Manufacturing Performance in a Developing Country . [Crossref]
+364. Susanne Leitner-Hanetseder, Othmar M. Lehner, Christoph Eisl, Carina Forstenlechner. 2021. A profession in transition: actors, tasks and roles in AI-based accounting. Journal of Applied Accounting Research 22:3, 539-556. [Crossref]
+
+365. Filippo Bertani, Linda Ponta, Marco Raberto, Andrea Teglio, Silvano Cincotti. 2021. The complexity of the intangible digital economy: an agent-based model. Journal of Business Research 129, 527-540. [Crossref]
+366. Margarita Billon, Jorge Crespo, Fernando Lera-Lopez. 2021. Do educational inequalities affect Internet use? An analysis for developed and developing countries. Telematics and Informatics 58, 101521. [Crossref]
+367. G. Dosi, M. Piva, M.E. Virgillito, M. Vivarelli. 2021. Embodied and disembodied technological change: The sectoral patterns of job-creation and job-destruction. Research Policy 50:4, 104199. [Crossref]
+368. 2021. The Reasons that Affect the Implementation of HR Analytics among HR Professionals. Canadian Journal of Business and Information Studies 29-37. [Crossref]
+369. Ricardo Abramovay. 2021. O fim do trabalho. Entre a distopia e a emancipação. Estudos Avançados 35:101, 139-150. [Crossref]
+370. Anton Korinek, Joseph E Stiglitz. 2021. Covid-19 driven advances in automation and artificial intelligence risk exacerbating economic inequality. BMJ n367. [Crossref]
+371. Giacomo Damioli, Vincent Van Roy, Daniel Vertesy. 2021. The impact of artificial intelligence on labor productivity. Eurasian Business Review 11:1, 1-25. [Crossref]
+372. Jacopo Staccioli, Maria Enrica Virgillito. 2021. Back to the past: the historical roots of labor-saving automation. Eurasian Business Review 11:1, 27-57. [Crossref]
+373. Nikolai Stähler. 2021. The Impact of Aging and Automation on the Macroeconomy and Inequality. Journal of Macroeconomics 67, 103278. [Crossref]
+374. David Jaume. 2021. The labor market effects of an educational expansion. Journal of Development Economics 149, 102619. [Crossref]
+375. Dusan Paredes, David Fleming-Muñoz. 2021. Automation and robotics in mining: Jobs, income and inequality implications. The Extractive Industries and Society 8:1, 189-193. [Crossref]
+376. Serkan UNAL, Çağlar DOĞRU. 2021. Üst Kademe Kuramı Kapsamında Hisse Getirileri Üzerinde CEO’nun Özelliklerinin Etkisi. Süleyman Demirel Üniversitesi Vizyoner Dergisi 12:29, 204-223. [Crossref]
+377. Thomas Wendt. 2021. Organized Futures. On the Ambiguity of the Digital Absorption of Uncertainty. Frontiers in Education 6. . [Crossref]
+378. Erhan İŞCAN. 2021. Yeni Çağda Eski Bir Sorun: Endüstri 5.0 Yolunda Yapay Zekanın İşsizliğe Etkileri. Journal of Yaşar University 16:61, 77-94. [Crossref]
+379. . Bibliographie 113-124. [Crossref]
+380. Cameron Piercy, Angela Gist-Mackey. 2021. Automation Anxieties: Perceptions About Technological Automation and the Future of Pharmacy Work. Human-Machine Communication 2, 191-208. [Crossref]
+381. Pablo Moya-Martínez, Fernando Bermejo, Raúl del Pozo-Rubio. 2021. Hard times for long-term care systems? Spillover effects on the Spanish economy. Economic Systems Research 33:1, 1-19. [Crossref]
+382. John Armour, Richard Parnham, Mari Sako. 2021. Unlocking the potential of AI for English law. International Journal of the Legal Profession 28:1, 65-83. [Crossref]
+383. Emma C. Gardner, John R. Bryson. 2021. The dark side of the industrialisation of accountancy: innovation, commoditization, colonization and competitiveness. Industry and Innovation 28:1, 42-57. [Crossref]
+384. Manos Matsaganis. Marginalised Areas as a Public Policy Concern 39-48. [Crossref]
+385. Michael Thom. Taxing Twenty-First Century Sins 153-176. [Crossref]
+
+386. Robin S. Grenier, Marie-Line Germain. An Introduction to Expertise at Work: Current and Emerging Trends 1-13. [Crossref]
+387. Chu-Chen Rosa Yeh, Wei-Wen Chang, Cze Chiun Wong. The Impact of Artificial Intelligence on Work and Human Value: Views from Social Researchers 419-428. [Crossref]
+388. Jacopo Staccioli, Maria Enrica Virgillito. The Present, Past, and Future of Labor-Saving Technologies 1-16. [Crossref]
+389. Thomas Wendt. Die Kultivierung des Zufalls. Zum Verhältnis von organisationaler Strukturautomation und Unberechenbarkeit in der digitalen Moderne 295-308. [Crossref]
+390. Robert C. Allen. The interplay among wages, technology, and globalization: the labor market and inequality, 1620-2020 795-824. [Crossref]
+391. Thomas M. Flaherty, Ronald Rogowski. 2021. Rising Inequality As a Threat to the Liberal International Order. International Organization 75:2, 495-523. [Crossref]
+392. Merter Mert. 2021. Economic growth under Solow-neutrality. Economic Research-Ekonomska Istraživanja 34:1, 3440-3467. [Crossref]
+393. Nargess Golshan, Inder Khurana, Felipe Bastos G. Silva. 2021. Reporting Transparency and Labor Market Outcomes. SSRN Electronic Journal 110. . [Crossref]
+394. Francesco Seghezzi. 2021. Il Patto per il lavoro della regione Emilia-Romagna: una lettura di relazioni industriali. SOCIOLOGIA DEL LAVORO :161, 218-235. [Crossref]
+395. José Azar, Xavier Vives. 2021. General Equilibrium Oligopoly and Ownership Structure. Econometrica 89:3, 999-1048. [Crossref]
+396. Dušan Vujović. 2021. Policy response to COVID-19 pandemic and related future challenges. Ekonomika preduzeca 69:3-4, 217-229. [Crossref]
+397. Karen Jeffrey, Konstantinos Matakos. 2021. Economic Vulnerability and Belief in the American Dream: How Will Redistributive Preferences Evolve as Automation Displaces Labor?. SSRN Electronic Journal 33. . [Crossref]
+398. Berkay Akyapi. 2021. How Does Automation Affect Aggregate Labor Share and Firm Level Economic Outcomes?. SSRN Electronic Journal 110. . [Crossref]
+399. Sean S. Cao, Wei Jiang, Junbo L. Wang, Baozhong Yang. 2021. From Man vs. Machine to Man + Machine: The Art and AI of Stock Analyses. SSRN Electronic Journal 14. . [Crossref]
+400. Fredrik Andersson, Henrik Jordahl, Anders Kärnä. 2021. Ballooning bureaucracy: tracking the growth of high-skilled administration within Swedish higher education. SSRN Electronic Journal 4. . [Crossref]
+401. James Feigenbaum, Daniel P. Gross. 2021. Organizational Frictions and Increasing Returns to Automation: Lessons from AT&T in the Twentieth Century. SSRN Electronic Journal 33. . [Crossref]
+402. Silvio Traverso, Massimiliano Vatiero, Enrico Zaninotto. 2021. Robots and Labor Regulation: A Cross-Country/Cross-Industry Analysis. SSRN Electronic Journal 33. . [Crossref]
+403. Sabrina Genz, Terry Gregory, Markus Janser, Florian Lehmer, Britta Matthes. 2021. How Do Workers Adjust When Firms Adopt New Technologies?. SSRN Electronic Journal 110. . [Crossref]
+404. Martin Kenney, M. Anne Visser, John Zysman. 2021. COVID-19’s Impact Upon Labor and Value Chains in the Agrifood System. SSRN Electronic Journal 33. . [Crossref]
+405. Sunghoon Chung, Sangmin Aum. 2021. Organizing for Digitalization at the Firm Level. SSRN Electronic Journal 33. . [Crossref]
+
+406. Do Won Kwak, Dong-Eun Rhee, Ju Hyun Pyun. 2021. 팬팬팬 팬팬팬 팬팬 팬팬팬팬팬 팬팬팬 팬팬 팬팬팬 (Digital Transformation and Its Impact on Labor Market Outcomes: Analyses Based on Country-Level, Korean Workers, and Korean Firm-Level Data). SSRN Electronic Journal 8. . [Crossref]
+407. Azio Barani. 2021. Innovazione tecnologica e lavoro: automazione, occupazione e impatti socioeconomici. QUADERNI DI ECONOMIA DEL LAVORO 44:114, 51-79. [Crossref]
+408. Oghenovo A. Obrimah. 2021. Contextualizing Importance of Government for Progressiveness of Improvements to Welfare of Economic Agents. SSRN Electronic Journal 33. . [Crossref]
+409. Carlos Rodriguez‐Lluesma, Pablo García‐Ruiz, Javier Pinto‐Garay. 2021. The digital transformation of work: A relational view. Business Ethics, the Environment & Responsibility 30:1, 157-167. [Crossref]
+410. Robert Dixon, G. C. Lim. 2020. Is the decline in labour’s share in the US driven by changes in technology and/or market power? An empirical analysis. Applied Economics 52:59, 6400-6415. [Crossref]
+411. Alejandro Perez-Laborda, Fidel Perez-Sebastian. 2020. Capital-skill complementarity and biased technical change across US sectors. Journal of Macroeconomics 66, 103255. [Crossref]
+412. Zsófia L. Bárány, Christian Siegel. 2020. Biased technological change and employment reallocation. Labour Economics 67, 101930. [Crossref]
+413. Milojko Arsić. 2020. Impact of Digitalisation on Economic Growth, Productivity and Employment. Economic Themes 58:4, 431-457. [Crossref]
+414. Anthony Strittmatter, Uwe Sunde, Dainis Zegners. 2020. Life cycle patterns of cognitive performance over the long run. Proceedings of the National Academy of Sciences 117:44, 27255-27261. [Crossref]
+415. Filippo Bertani, Marco Raberto, Andrea Teglio. 2020. The productivity and unemployment effects of the digital transformation: an empirical and modelling assessment. Review of Evolutionary Political Economy 1:3, 329-355. [Crossref]
+416. Jinyoung Kim, Cyn‐Young Park. 2020. Education, skill training, and lifelong learning in the era of technological revolution: a review. Asian-Pacific Economic Literature 34:2, 3-19. [Crossref]
+417. Gaaitzen J. de Vries, Elisabetta Gentile, Sébastien Miroudot, Konstantin M. Wacker. 2020. The rise of robots and the fall of routine jobs. Labour Economics 66, 101885. [Crossref]
+418. Szufang Chuang, Carroll M. Graham. 2020. Contemporary Issues and Performance Improvement of Mature Workers in Industry 4.0. Performance Improvement 59:6, 21-30. [Crossref]
+419. Daron Acemoglu, Pascual Restrepo. 2020. Robots and Jobs: Evidence from US Labor Markets. Journal of Political Economy 128:6, 2188-2244. [Crossref]
+420. David Spencer, Gary Slater. 2020. No automation please, we’re British: technology and the prospects for work. Cambridge Journal of Regions, Economy and Society 13:1, 117-134. [Crossref]
+421. Daron Acemoglu, Pascual Restrepo. 2020. The wrong kind of AI? Artificial intelligence and the future of labour demand. Cambridge Journal of Regions, Economy and Society 13:1, 25-35. [Crossref]
+422. Manudeep Bhuller, Lasse Eika. 2020. Nedgang i sysselsettingen fra 2000–2017. Søkelys på arbeidslivet 37:1-2, 20-37. [Crossref]
+423. Daron Acemoglu, Claire Lelarge, Pascual Restrepo. 2020. Competing with Robots: Firm-Level Evidence from France. AEA Papers and Proceedings 110, 383-388. [Abstract] [View PDF article] [PDF with links]
+424. Daron Acemoglu, Pascual Restrepo. 2020. Unpacking Skill Bias: Automation and New Tasks. AEA Papers and Proceedings 110, 356-361. [Abstract] [View PDF article] [PDF with links]
+425. David Autor, David Dorn, Lawrence F Katz, Christina Patterson, John Van Reenen. 2020. The Fall of the Labor Share and the Rise of Superstar Firms*. The Quarterly Journal of Economics 135:2, 645-709. [Crossref]
+
+426. Sofia Hernnäs. 2020. Will digitization harm or help workers in healthcare?. XRDS: Crossroads, The ACM Magazine for Students 26:3, 14-17. [Crossref]
+427. Malin Gardberg, Fredrik Heyman, Pehr-Johan Norbäck, Lars Persson. 2020. Digitization-based automation and occupational dynamics. Economics Letters 189, 109032. [Crossref]
+428. William F. Fox. 2020. The Influence of Autonomous Vehicles on State Tax Revenues. National Tax Journal 73:1, 199-234. [Crossref]
+429. Jolta Kacani. Global Value Chains and the Participation of Emerging Economies in International Trade 33-84. [Crossref]
+430. Laura Barbieri, Chiara Mussida, Mariacristina Piva, Marco Vivarelli. Testing the Employment and Skill Impact of New Technologies 1-27. [Crossref]
+431. Melanie Arntz, Terry Gregory, Ulrich Zierahn. Digitization and the Future of Work: Macroeconomic Consequences 1-29. [Crossref]
+432. Jorge Eduardo Fernandez-Pol, Charles Harvie. Looking to the Near Future 113-144. [Crossref]
+433. Daron Acemoglu. 2020. Comment. NBER Macroeconomics Annual 34, 317-330. [Crossref]
+434. Jiaping Qiu, Chi Wan, Yan Wang. 2020. Automatability and Capital Structure. SSRN Electronic Journal . [Crossref]
+435. Ivan P. L. Png. 2020. Automation, Job Design, and Productivity: Field Evidence. SSRN Electronic Journal 4. . [Crossref]
+436. Pablo Egana del So, Alejandro Micco. 2020. Can COVID-19 Accelerate Technologicaltransformations?. SSRN Electronic Journal . [Crossref]
+437. Braiden Coleman, Kenneth J. Merkley, Joseph Pacelli. 2020. Man Versus Machine: A Comparison of Robo-Analyst and Traditional Research Analyst Investment Recommendations. SSRN Electronic Journal 33. . [Crossref]
+438. Sean Flynn, Andra C. Ghent. 2020. What does Wall Street tell us about Main Street?. SSRN Electronic Journal 108. . [Crossref]
+439. Kelvin Law, Michael Shen. 2020. How Does Artificial Intelligence Shape the Audit Industry?. SSRN Electronic Journal 33. . [Crossref]
+440. Martin Jacob, Robert Vossebürger. 2020. The Role of Personal Income Taxes in Corporate Investment Decisions. SSRN Electronic Journal 116. . [Crossref]
+441. Jiafu An, Raghavendra Rau. 2019. Finance, technology and disruption. The European Journal of Finance 12, 1-12. [Crossref]
+442. . Technological Change 136-157. [Crossref]
+443. Yasuyuki Sawada. 2019. Infrastructure investments, technologies and jobs in Asia. International Journal of Training Research 17:sup1, 12-25. [Crossref]
+444. Swati Bhatt. Diminished Risk-Taking 117-151. [Crossref]
+445. Seamus McGuinness, Konstantinos Pouliakas, Paul Redmond. 2019. Skills-Displacing Technological Change and its Impact on Jobs: Challenging Technological Alarmism?. SSRN Electronic Journal 33. . [Crossref]
+446. Alissa Bruehne, Martin Jacob, Harm H. Schütt. 2019. Technological Change and Countries' Tax Policy Design. SSRN Electronic Journal 69. . [Crossref]
+447. Mustafa Dogan, Alexandre Jacquillat, Pinar Yildirim. 2018. Strategic Automation and DecisionMaking Authority. SSRN Electronic Journal 122. . [Crossref]
+448. Aina Gallego, Thomas Kurer, Nikolas Schoell. 2018. Not So Disruptive after All: How Workplace Digitalization Affects Political Preferences. SSRN Electronic Journal 33. . [Crossref]
+
+449. Thomas Jansson, Yigitcan Karabulut. 2018. Do Robots Increase Wealth Dispersion?. SSRN Electronic Journal 112. . [Crossref]
+450. Georges Vivien Houngbonon, Julienne Liang. 2017. Broadband Internet and Income Inequality. SSRN Electronic Journal 108. . [Crossref]
+
+

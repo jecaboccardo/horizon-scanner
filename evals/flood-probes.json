@@ -1,0 +1,29 @@
+{
+  "_comment": "Geo-only flood probes (2026-06-22). Each query implies LAC geography (inferGeographyFromQuery fires) but matches NO SCL_TOPICS keyword (inferTopicsFromQuery === []), forcing the topicGeoChannel geo-only path that pulls ANY LAC paper regardless of subject. Verified clean of every SCL keyword incl. the bare 'ai' substring and labor's 'taxing wages'/'informality'. These have NO canaries — they measure PRECISION/NOISE (meanCos, offTopic, tgCount, tgMeanCos), not recall. Used by scripts/probe-topicgeo-hyde-ablation.mjs via --extra. NOT part of the canonical gold set (kept out of evals/queries.json so eval-gold/baseline are unaffected).",
+  "queries": [
+    {
+      "id": "fl01-tax-enforcement-revenue-lac",
+      "query": "How does corporate income tax enforcement affect government revenue collection in Latin America and the Caribbean?",
+      "intent": "Fiscal capacity / tax administration topic with no SCL keyword. Relevant LAC papers exist (tax-enforcement RCTs, audit studies). Flood test: does topicGeo inject off-topic LAC papers (health, education, gender) because geography alone matched?",
+      "filters": { "evidenceMatch": "both" },
+      "flood_probe": true,
+      "canary_papers": []
+    },
+    {
+      "id": "fl02-central-bank-price-stability-lac",
+      "query": "What is the effect of central bank independence and monetary policy credibility on price stability in Latin America?",
+      "intent": "Monetary policy topic with no SCL keyword (avoids social_protection's 'targeting'). Relevant LAC macro literature exists. Flood test as above.",
+      "filters": { "evidenceMatch": "both" },
+      "flood_probe": true,
+      "canary_papers": []
+    },
+    {
+      "id": "fl03-road-infrastructure-development-lac",
+      "query": "What is the impact of public investment in road and transport infrastructure on regional economic development in Brazil and Mexico?",
+      "intent": "Infrastructure / transport economics topic with no SCL keyword. Relevant LAC papers exist. Flood test as above.",
+      "filters": { "evidenceMatch": "both" },
+      "flood_probe": true,
+      "canary_papers": []
+    }
+  ]
+}

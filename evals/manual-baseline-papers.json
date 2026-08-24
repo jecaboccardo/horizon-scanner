@@ -1,0 +1,182 @@
+[
+  {
+    "work_id": "10.1093/qje/qjs017",
+    "category": "RCT positive",
+    "expected_design": "RCT",
+    "note": "College application assistance RCT - clear positive effect on college enrollment"
+  },
+  {
+    "work_id": "10.1257/app.5.1.1",
+    "category": "RCT null",
+    "expected_design": "RCT",
+    "note": "EITC tax code information experiment - null/very small effect; tests extraction of null direction"
+  },
+  {
+    "work_id": "10.1257/app.20130537",
+    "category": "RCT negative",
+    "expected_design": "RCT",
+    "note": "Microcredit RCT - null/limited income impacts; tests that Qwen doesn't overclaim causal positive effects"
+  },
+  {
+    "work_id": "10.2139/ssrn.2438038",
+    "category": "RCT mixed",
+    "expected_design": "RCT",
+    "note": "Microcredit takeup RCT with heterogeneous effects across subgroups; tests multi_finding_flag"
+  },
+  {
+    "work_id": "10.1093/qje/qjw025",
+    "category": "RCT positive 2",
+    "expected_design": "RCT",
+    "note": "Unconditional cash transfers Kenya RCT - strong consumption effect; core IADB paper type"
+  },
+  {
+    "work_id": "10.3386/w26164",
+    "category": "RCT multi-arm",
+    "expected_design": "RCT",
+    "note": "Moving to Opportunity neighborhood choice - multiple treatment arms; tests multi-arm extraction"
+  },
+  {
+    "work_id": "10.1186/1471-2458-11-s3-s25",
+    "category": "Systematic review of RCTs (health)",
+    "expected_design": "review",
+    "note": "Maternal nutrition complementary feeding — actually a systematic review + meta-analysis of RCTs, not an RCT itself. Corrected 2026-05-04."
+  },
+  {
+    "work_id": "10.1093/qje/qjt008",
+    "category": "RCT LAC",
+    "expected_design": "RCT",
+    "note": "State capabilities Mexico RCT - explicitly in LAC; tests country/region extraction"
+  },
+  {
+    "work_id": "10.1162/rest_a_00754",
+    "category": "DiD",
+    "expected_design": "quasi-experimental",
+    "note": "Robots at Work - landmark DiD study; tests DiD identification_strategy extraction"
+  },
+  {
+    "work_id": "10.1111/1468-0262.00183",
+    "category": "RDD",
+    "expected_design": "quasi-experimental",
+    "note": "RDD identification and estimation - applied RDD; tests regression discontinuity extraction"
+  },
+  {
+    "work_id": "10.1017/s0003055418000588",
+    "category": "IV",
+    "expected_design": "quasi-experimental",
+    "note": "Compulsory schooling IV for immigration attitudes; tests IV instrument extraction"
+  },
+  {
+    "work_id": "10.18235/0008425",
+    "category": "DiD multi-outcome",
+    "expected_design": "quasi-experimental",
+    "note": "CCT growth in LAC (IDB) - review of multiple CCT programs with multiple outcomes; tests multi_finding_flag"
+  },
+  {
+    "work_id": "10.1073/pnas.1608207113",
+    "category": "Quasi-experimental LAC",
+    "expected_design": "quasi-experimental",
+    "note": "Growth mindset Chile quasi-experiment (PNAS); tests LAC setting + quasi-exp design extraction"
+  },
+  {
+    "work_id": "10.1016/j.jhealeco.2019.06.004",
+    "category": "Quasi-experimental labor",
+    "expected_design": "quasi-experimental",
+    "note": "Children education → parents health IV; tests IV with education/health spillover"
+  },
+  {
+    "work_id": "10.1093/wber/lhi008",
+    "category": "Observational multivariate",
+    "expected_design": "observational",
+    "note": "Microfinance panel Bangladesh - WB Economic Review; tests observational + prohibition on causal language"
+  },
+  {
+    "work_id": "10.2307/2297968",
+    "category": "Observational panel",
+    "expected_design": "observational",
+    "note": "Arellano-Bond panel specification tests - applied panel econometrics"
+  },
+  {
+    "work_id": "10.3390/ijerph19138125",
+    "category": "Observational cross-sectional",
+    "expected_design": "observational",
+    "note": "HIV national household survey South Africa - cross-sectional; tests survey-based cross-sectional"
+  },
+  {
+    "work_id": "10.1111/j.1468-0262.2005.00584.x",
+    "category": "Observational with causal claim risk",
+    "expected_design": "observational",
+    "note": "Rivkin et al teachers/schools achievement - observational that uses impact language; fidelity test"
+  },
+  {
+    "work_id": "10.3386/w25147",
+    "category": "Observational descriptive",
+    "expected_design": "observational",
+    "note": "Opportunity Atlas - childhood roots of social mobility; descriptive mapping study"
+  },
+  {
+    "work_id": "10.3386/w20884",
+    "category": "Quasi-experimental policy discontinuity",
+    "expected_design": "quasi-experimental",
+    "note": "Unemployment benefit extensions — policy discontinuity at state borders + exogenous variation. Quasi-experimental, not observational. Corrected 2026-05-04."
+  },
+  {
+    "work_id": "10.1001/jama.298.16.1900",
+    "category": "Systematic review",
+    "expected_design": "review",
+    "note": "CCT for health service uptake JAMA systematic review - core IADB domain"
+  },
+  {
+    "work_id": "10.3102/0034654317723008",
+    "category": "Meta-analysis quantitative",
+    "expected_design": "review",
+    "note": "CCT educational impacts meta-analysis - pooled effect sizes; tests effect_size_text from pooled estimates"
+  },
+  {
+    "work_id": "10.1002/14651858.cd011135.pub2",
+    "category": "Systematic review LAC",
+    "expected_design": "review",
+    "note": "Unconditional cash transfers Cochrane review - poverty/vulnerability developing countries"
+  },
+  {
+    "work_id": "10.1080/0969595980050102",
+    "category": "Narrative review",
+    "expected_design": "review",
+    "note": "Assessment and classroom learning - narrative review without quantitative synthesis"
+  },
+  {
+    "work_id": "10.1257/0002828041302109",
+    "category": "LAC-specific RCT",
+    "expected_design": "RCT",
+    "note": "PROGRESA child health RCT Mexico - iconic LAC CCT study; strongest LAC fidelity test"
+  },
+  {
+    "work_id": "10.1093/ajae/aay110",
+    "category": "LAC-specific quasi",
+    "expected_design": "quasi-experimental",
+    "note": "Agricultural productivity + forest conservation Brazil DiD; LAC quasi-exp in resource context"
+  },
+  {
+    "work_id": "10.1086/654320",
+    "category": "LAC policy document",
+    "expected_design": "descriptive",
+    "note": "Fiscal policy in Latin America (JPE) - policy-focused LAC paper"
+  },
+  {
+    "work_id": "10.18235/0000069",
+    "category": "Spanish-language policy brief",
+    "expected_design": "descriptive",
+    "note": "IDB Breve Spanish - pharmaceutical policy Mexico. Policy brief, not empirical study. Corrected 2026-05-04. Note: abstract has Latin-1→UTF-8 mojibake (upstream ingestion bug)."
+  },
+  {
+    "work_id": "10.18235/0000030",
+    "category": "Spanish-language policy brief",
+    "expected_design": "descriptive",
+    "note": "IDB WP Spanish - financial inclusion LAC. Situational analysis / policy paper, not empirical study. Corrected 2026-05-04. Note: abstract has Latin-1→UTF-8 mojibake."
+  },
+  {
+    "work_id": "10.18235/0013997",
+    "category": "Observational descriptive (LGBTQ Mexico)",
+    "expected_design": "observational",
+    "note": "IDB WP — N=44,189 nationally representative survey on LGBTQ labor market disparities. Descriptive/observational, not thin. Originally mislabeled as thin. Corrected 2026-05-04."
+  }
+]

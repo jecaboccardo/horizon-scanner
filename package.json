@@ -1,0 +1,48 @@
+{
+  "name": "horizon-scanner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:server": "npm run start:api",
+    "start:api": "cd server-deno && deno run --allow-net --allow-env --allow-read --allow-sys --allow-write=/tmp --env-file=../.env server.ts",
+    "start:local": "start-local.cmd",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-stale-references.mjs --strict && npm run check:scripts && npm run check:invariants && npm run smoke:react && npm run test:deno && npm run test:node && npx tsc --noEmit && npm run build",
+    "check:scripts": "node scripts/check-scripts.mjs",
+    "check:invariants": "node scripts/check-invariants.mjs",
+    "smoke:api": "node scripts/smoke-deno-api.mjs",
+    "smoke:react": "node scripts/smoke-react-defaults.mjs",
+    "eval": "node scripts/eval-gold.mjs",
+    "test:deno": "node scripts/run-deno-tests.mjs",
+    "test:node": "node scripts/run-node-tests.mjs",
+    "backfill:abs": "node scripts/backfill-abs-rating.mjs",
+    "backfill:proquest": "node scripts/backfill-abstracts-proquest-browser.mjs --manual-login --preset applied-econ --abs-ratings \"3,4,4*\" --year-min 2000 --limit 1000",
+    "backfill:proquest:pre2000": "node scripts/backfill-abstracts-proquest-browser.mjs --manual-login --year-min 1900 --year-max 1999 --limit 200"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.102.1",
+    "docx": "^9.6.1",
+    "dotenv": "^17.4.1",
+    "fuzzball": "^2.2.3",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^6.0.227",
+    "posthog-js": "^1.376.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "xlsx": "^0.18.5",
+    "@google/generative-ai": "^0.24.1",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "playwright-core": "^1.60.0",
+    "ssh2": "^1.17.0",
+    "supabase": "^2.98.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

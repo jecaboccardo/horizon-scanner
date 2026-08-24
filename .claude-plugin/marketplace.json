@@ -1,0 +1,13 @@
+{
+  "name": "horizon-scanner",
+  "owner": {
+    "name": "Horizon Scanner (IADB)"
+  },
+  "plugins": [
+    {
+      "name": "horizon-scanner",
+      "source": "./claude-plugin",
+      "description": "Generate IADB-grade JEL survey papers from Horizon Scanner evidence, using your own Claude subscription."
+    }
+  ]
+}

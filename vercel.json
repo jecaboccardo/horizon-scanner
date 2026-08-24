@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://horizon-api.nextminder.com/api/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "http://15.235.47.35:8000/auth/:path*"
+    },
+    {
+      "source": "/rest/:path*",
+      "destination": "http://15.235.47.35:8000/rest/:path*"
+    }
+  ]
+}

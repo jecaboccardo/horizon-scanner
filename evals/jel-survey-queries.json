@@ -1,0 +1,87 @@
+{
+  "$schema_version": "1",
+  "$purpose": "Pinned canonical queries for the Full JEL Article eval harness. Each query gets one search_run_id pinned so retrieval is held constant during model A/Bs and skill-quality gates. Mirrors evals/queries.json conventions where they overlap.",
+  "$pinning_instructions": "Run scripts/jel-survey/pin-eval-search-runs.ts to (re)pin search_run_ids. Default skips queries already pinned; pass --force to repin. Inserts via admin client and bypasses the HTTP auth gate.",
+  "$standard_sections": [
+    "intro-and-prior-surveys",
+    "stylized-facts",
+    "theory",
+    "identification-debates",
+    "causal-evidence",
+    "mechanisms",
+    "external-validity-lac",
+    "research-agenda"
+  ],
+  "queries": [
+    {
+      "id": "cash-transfers-education-lac",
+      "query": "What is the impact of conditional cash transfers on school enrollment and learning outcomes?",
+      "intent": "CCT/UCT programs (PROGRESA/Oportunidades, Bolsa Familia, Familias en Accion, Juntos) effects on enrollment, attendance, attainment, learning. RCT-heavy. LAC-origin literature. DIR: program -> education outcome with causal design. INDIRECT: theoretical/structural models without CCT data; cash transfers with non-education outcomes that mention education in passing; descriptive evaluations without comparison group. IRRELEVANT: cash assistance outside the LAC CCT family or with no link to schooling.",
+      "filters": {
+        "topics": [
+          "cash transfers",
+          "education"
+        ],
+        "regions": [
+          "Latin America"
+        ]
+      },
+      "designProfile": "RCT-heavy + DiD/RDD",
+      "citationProfile": "DOI-heavy (JDE, AEJ-Applied, WB Econ Review)",
+      "exemplarPriority": [
+        "list-experiments-children.txt",
+        "duflo.txt",
+        "globalization-inequality-lac.txt"
+      ],
+      "expectedSectionsMin": 7,
+      "pinnedSearchRunId": "6ce2d1cc-91ac-4b27-9eae-5b62fd3813f3",
+      "notes": "Canonical development-economics survey topic. Should yield 200+ candidates after retrieval. Use to validate: outline generation, anchor+replication+contrary discipline, LAC register from style calibration. List et al. 2023 JEL is the strongest register match (real JEL, experiments-with-children frame, methodological); Banerjee-Duflo on-domain; Globalization-LAC carries the LAC register."
+    },
+    {
+      "id": "ai-automation-labor",
+      "query": "How does artificial intelligence and automation affect employment, wages, and the task content of work?",
+      "intent": "AI / automation / robotics effects on labor markets. DIR: technology adoption shock -> employment, wage, or task-content changes with causal design. INDIRECT: macro productivity papers without an explicit labor channel; pure forecasting without causal identification; papers on technology adoption without labor outcomes. IRRELEVANT: pure CS/ML papers; AI in non-labor settings (e.g., healthcare diagnosis accuracy).",
+      "filters": {
+        "topics": [
+          "AI",
+          "automation",
+          "labor"
+        ]
+      },
+      "designProfile": "Quasi-experimental + observational + theoretical",
+      "citationProfile": "NBER/SSRN-HEAVY (Acemoglu, Autor, Restrepo). EXERCISES THE Gemini ss: PREFIX HALLUCINATION BUG.",
+      "exemplarPriority": [
+        "acemoglu-restrepo-automation.txt",
+        "korinek-generative-ai.txt",
+        "chetty-mobility.txt"
+      ],
+      "expectedSectionsMin": 7,
+      "pinnedSearchRunId": "380f4cbe-1056-4fec-8570-96722185c299",
+      "notes": "Bug-magnet query. Validate: claim-auditor, reference dedup/normalization (specifically the ss: bug fix), section drafting under non-DOI citation pressure. Acemoglu-Restrepo is topical anchor; Korinek 2023 JEL on Generative AI is recent register match for the Gen-AI subtopic; Chetty provides empirical-methodology voice."
+    },
+    {
+      "id": "informality-lac",
+      "query": "What policies effectively reduce labor market informality in Latin America?",
+      "intent": "Policies targeting informality reduction: simplified tax regimes (Monotributo, Simples Nacional), enforcement intensity, formalization incentives, social insurance portability, contributory pension design. LAC focus. DIR: policy lever -> informality measure with causal design. INDIRECT: descriptive informality measurement papers without policy intervention; cross-country macro papers without LAC focus. IRRELEVANT: informality outside labor (housing, finance) unless an explicit labor channel is identified.",
+      "filters": {
+        "topics": [
+          "informality",
+          "labor"
+        ],
+        "regions": [
+          "Latin America"
+        ]
+      },
+      "designProfile": "Mixed (DiD, IV, observational, theoretical)",
+      "citationProfile": "Mixed DOI + LAC institutional (IDB working papers, CEPAL, World Bank LAC reports)",
+      "exemplarPriority": [
+        "globalization-inequality-lac.txt",
+        "shy-cash-alive.txt",
+        "duflo.txt"
+      ],
+      "expectedSectionsMin": 7,
+      "pinnedSearchRunId": "b253dac0-633f-4c2c-8668-d3a935219c2c",
+      "notes": "LAC-specific structural topic. Validate: prior-survey positioning (Levy 'Good Intentions, Bad Outcomes' 2008; Perry et al. 'Informality: Exit and Exclusion' WB 2007), LAC register, mixed-evidence handling when RCTs are rare. Globalization-and-Inequality carries LAC institutional voice; Shy 2023 JEL on Cash use is topically adjacent (cash is the medium of informal economy) and provides real JEL register; Duflo for experimental methodology voice."
+    }
+  ]
+}

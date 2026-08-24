@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.env
+.env.local
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vercel
+.env.vercel
+
+# Windows clipboard / screenshot drops at repo root
+/image*.png
+/Google*.docx
+
+# Local backfill caches
+data/semantic-scholar-abstract-misses.txt
+.playwright-*-profile*/
+
+# Local env scratch (NEVER commit — may contain secrets)
+.env.txt
+.env.backup
+
+# Excel temp lock files (created when Excel has the workbook open)
+~$*.xlsx
+~$*.xlsm
+
+# sklearn pickle artifacts (deployable JSON is the canonical runtime artifact;
+# pickle is platform-dependent and large — keep local-only)
+evals/*.pkl
+
+# graphify knowledge-graph output (local-only)
+graphify-out/
+
+# brainstorming visual companion mockups
+.superpowers/
+
+# Internal development planning and spec docs (not part of the deliverable)
+.planning/
+docs/superpowers/
+
+# Claude Code local harness state (NEVER commit — settings.local.json may hold secrets)
+.claude/worktrees/
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+
+# Test run artifacts (the *.test.ts files are tracked; these data dumps are not)
+Tests/*.xlsx
+Tests/*.csv
+Tests/*.png
+Tests/noise_audit_out/
+
+# Oversized one-off corpus exports (>100MB — GitHub limit)
+reports/missing-abstracts-all-fields-*.json
+
+# Internal corpus operations logs — not part of the product deliverable
+reports/
+
+# Generated paper artifacts (survey drafts, citation sheets)
+horizon-paper-*.md
+horizon-paper-*.docx
+horizon-paper-*.xlsx
+
+# .env.test contains stubs but should never hold real values
+.env.test
+
+# One-off eval/backfill scratch docs (kept locally, not part of the deliverable)
+Gold Eval Label Review*.txt
+Missing abstracts_june14.xlsx
+missing-abstracts-abs4-2020plus.csv
+proquest-nyu-abstracts.cmd

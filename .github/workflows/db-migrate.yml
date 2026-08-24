@@ -1,0 +1,79 @@
+name: Apply DB Migrations
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'supabase/migrations/**.sql'
+  workflow_dispatch:
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/vps_key
+          chmod 600 ~/.ssh/vps_key
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+
+      - name: Ensure schema_migrations tracking table exists
+        run: |
+          ssh -i ~/.ssh/vps_key ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
+            "pct exec 133 -- su postgres -c \"psql -d iadb -c \\\"
+              create table if not exists schema_migrations (
+                filename text primary key,
+                applied_at timestamptz not null default now()
+              );
+            \\\"\""
+
+      - name: Apply pending migrations
+        run: |
+          SSH="ssh -i ~/.ssh/vps_key ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}"
+
+          # Get list of already-applied migrations from Postgres
+          APPLIED=$($SSH "pct exec 133 -- su postgres -c \"psql -d iadb -t -A -c \\\"select filename from schema_migrations order by filename;\\\"\"")
+
+          APPLIED_COUNT=0
+          SKIPPED_COUNT=0
+          FAILED=0
+
+          for file in $(ls supabase/migrations/*.sql 2>/dev/null | sort); do
+            filename=$(basename "$file")
+
+            if echo "$APPLIED" | grep -Fxq "$filename"; then
+              echo "skip: $filename"
+              SKIPPED_COUNT=$((SKIPPED_COUNT + 1))
+              continue
+            fi
+
+            echo "applying: $filename"
+            if cat "$file" | $SSH "pct exec 133 -- su postgres -c 'psql -d iadb'"; then
+              $SSH "pct exec 133 -- su postgres -c \"psql -d iadb -c \\\"insert into schema_migrations(filename) values('$filename') on conflict do nothing;\\\"\""
+              echo "applied: $filename"
+              APPLIED_COUNT=$((APPLIED_COUNT + 1))
+            else
+              echo "FAILED: $filename"
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo ""
+          echo "=== Migration summary ==="
+          echo "Applied:  $APPLIED_COUNT"
+          echo "Skipped:  $SKIPPED_COUNT"
+          echo "Failed:   $FAILED"
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "One or more migrations failed. Check output above."
+            exit 1
+          fi
+
+      - name: Clean up SSH key
+        if: always()
+        run: rm -f ~/.ssh/vps_key

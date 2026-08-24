@@ -1,0 +1,21 @@
+name: Learning Agent (48h)
+
+on:
+  schedule:
+    - cron: '0 3 */2 * *'  # 3am UTC every 2 days
+  workflow_dispatch: {}      # Allow manual trigger
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger learning agent
+        run: |
+          curl -X POST "${{ secrets.API_URL }}/api/admin/learning-agent/run" \
+            -H "Authorization: Bearer ${{ secrets.SERVICE_ROLE_KEY }}" \
+            -H "Content-Type: application/json" \
+            --fail-with-body \
+            --max-time 30
+        env:
+          API_URL: ${{ secrets.API_URL }}
+          SERVICE_ROLE_KEY: ${{ secrets.SERVICE_ROLE_KEY }}

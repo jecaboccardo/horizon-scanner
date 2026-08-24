@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-20",
+  "csv": "evals/classifier-training-set-2026-05-20.csv",
+  "best": "random_forest",
+  "summaries": {
+    "logistic_l2": {
+      "accuracy": 0.5201465201465202,
+      "macro_f1": 0.5167115978997167,
+      "per_class_f1": [
+        0.5274725274725275,
+        0.4444444444444444,
+        0.5782178217821782
+      ],
+      "confusion_matrix": [
+        [
+          48,
+          9,
+          6
+        ],
+        [
+          40,
+          90,
+          93
+        ],
+        [
+          31,
+          83,
+          146
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.5915750915750916,
+      "macro_f1": 0.5935083435083435,
+      "per_class_f1": [
+        0.6142857142857143,
+        0.5277777777777778,
+        0.6384615384615384
+      ],
+      "confusion_matrix": [
+        [
+          43,
+          12,
+          8
+        ],
+        [
+          23,
+          114,
+          86
+        ],
+        [
+          11,
+          83,
+          166
+        ]
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.5879120879120879,
+      "macro_f1": 0.589307773279867,
+      "per_class_f1": [
+        0.6101694915254238,
+        0.518348623853211,
+        0.6394052044609665
+      ],
+      "confusion_matrix": [
+        [
+          36,
+          18,
+          9
+        ],
+        [
+          13,
+          113,
+          97
+        ],
+        [
+          6,
+          82,
+          172
+        ]
+      ]
+    }
+  },
+  "features": [
+    "facet_sim_0",
+    "facet_sim_1",
+    "facet_sim_2",
+    "facet_sim_0_above_floor",
+    "facet_sim_1_above_floor",
+    "facet_sim_2_above_floor",
+    "facet_sims_geometric_mean",
+    "single_vector_sim",
+    "geography_hit",
+    "year",
+    "age_years",
+    "citation_count",
+    "citation_rate",
+    "sms_level",
+    "has_abstract",
+    "abstract_length",
+    "abs_rating_numeric",
+    "repec_percentile"
+  ]
+}

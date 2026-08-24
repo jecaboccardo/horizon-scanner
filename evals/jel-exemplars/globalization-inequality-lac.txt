@@ -1,0 +1,887 @@
+IDB WORKING PAPER SERIES No IDB-WP-01485
+Globalization and Inequality in Latin America
+Rafael Dix-Carneiro Brian K. Kovak
+Inter-American Development Bank June, 2023
+
+Globalization and Inequality in Latin America
+Rafael Dix-Carneiro Brian K. Kovak
+Inter-American Development Bank June, 2023
+
+Cataloging-in-Publication data provided by the Inter-American Development Bank Felipe Herrera Library Rafael, Dix-Carneiro Globalization and inequality in Latin America / Rafael Dix-Carneiro, Brian K. Kovak. p. cm. — (IDB Working Paper Series ; 1485) Includes bibliographical references. 1. Globalization-Latin America. 2. Equality-Latin America. 3. Social stratification-Latin America. I. Kovak, Brian K. II. Inter-American Development Bank. Vice Presidency for Sectors and Knowledge. III. Title. IV. Series. IDB-WP-1485
+JEL codes: F14; F16; J16; J46 Keywords: Equality; Globalization; Labor Force; Inequality; Informal Economy; Integration and Trade; Tariff System; Labor Market; Free Trade; Labor; Industry
+http://www.iadb.org
+Copyright © 2023 Inter-American Development Bank. This work is licensed under a Creative Commons IGO 3.0 AttributionNonCommercial-NoDerivatives (CC-IGO BY-NC-ND 3.0 IGO) license (http://creativecommons.org/licenses/by-ncnd/3.0/igo/legalcode) and may be reproduced with attribution to the IDB and for any non-commercial purpose, as provided below. No derivative work is allowed. Any dispute related to the use of the works of the IDB that cannot be settled amicably shall be submitted to arbitration pursuant to the UNCITRAL rules. The use of the IDB’s name for any purpose other than for attribution, and the use of IDB’s logo shall be subject to a separate written license agreement between the IDB and the user and is not authorized as part of this CC-IGO license. Following a peer review process, and with previous written consent by the Inter-American Development Bank (IDB), a revised version of this work may also be reproduced in any academic journal, including those indexed by the American Economic Association’s EconLit, provided that the IDB is credited and that the author(s) receive no income from the publication. Therefore, the restriction to receive income from such publication shall only extend to the publication’s author(s). With regard to such restriction, in case of any inconsistency between the Creative Commons IGO 3.0 Attribution-NonCommercial-NoDerivatives license and these statements, the latter shall prevail. Note that link provided above includes additional terms and conditions of the license. The opinions expressed in this publication are those of the authors and do not necessarily reflect the views of the Inter-American Development Bank, its Board of Directors, or the countries they represent.
+
+Globalization and Inequality in Latin America∗
+Rafael Dix-Carneiro† Brian K. Kovak‡ June 2023
+Abstract We survey the recent literature studying the effects of globalization on inequality in Latin America. Our focus is on research emerging from the late 2000s onward, with an emphasis on empirical work considering new mechanisms, studying new dimensions of inequality, and developing new methodologies to capture the many facets of globalization’s relationship to inequality. After summarizing both design-based and quantitative work in this area, we propose directions for future work. Our overarching recommendation is that researchers develop unifying frameworks to help synthesize the results of individual studies that focus on distinct aspects of globalization’s relationship to inequality.
+∗Thanks to Maria Lara Cuervo and Huixuan Li for excellent research assistance, to Na´ercio Menezes-Filho and Elena Ianchovichina for insightful discussant comments, and to Penny Goldberg, Anna Salomons, and seminar participants at the LACIR conference and the World Bank for helpful comments and suggestions. We thank the Inter-American Development Bank (IDB), the International Inequalities Institute (III) at the London School of Economics and Political Science (LSE), Yale University, and the Institute for Fiscal Studies (IFS) for funding this project and the broader Latin America and Caribbean Inequality Review.
+†Economics Department, Duke University; NBER; BREAD (rafael.dix.carneiro@duke.edu) ‡Heinz College, Carnegie Mellon University; NBER; IZA (bkovak@cmu.edu).
+1
+
+1 Introduction
+While there are many channels through which globalization may affect inequality, perhaps the most basic dates back to Stolper and Samuelson (1941), who posited that trade affects real factor returns by changing the prices of the goods countries trade. Specifically, a trade-induced increase in the relative price of a good that intensively uses highly skilled labor should benefit the country’s highly skilled workers and hurt its less skilled workers. The Hecksher-Ohlin theorem then dictates that as richer skilled-labor abundant countries integrate with poorer unskilledlabor abundant countries, the skill premium should increase in richer countries and decline in poorer countries.
+However, in their excellent survey of the literature on globalization and inequality in developing countries up to the mid 2000s, Goldberg and Pavcnik (2007) emphasize that wage inequality and the skill premium increased in many developing countries that went through trade liberalization episodes in the 1980s and 1990s (e.g., Mexico, Argentina, Colombia, India), contrary to the simple theory’s predictions.1 This seeming contradiction posed a challenge to international trade economists, who either had to reinterpret or enrich the standard Hecksher-Ohlin model or consider alternative theoretical foundations.
+Researchers responded by considering new mechanisms, studying new dimensions of inequality, and developing new methodologies to capture the many facets of globalization’s relationship to inequality. In this paper, we survey these recent approaches, focusing on work that emerged from the late 2000s onward, after Goldberg and Pavcnik’s literature review. We focus our attention on research covering Latin American countries, which play an outsized role in the study of globalization’s impacts primarily because they deliver a combination of policy variation and data availability that facilitates careful empirical research.2 Partly due to this favorable research environment, studies of Latin American countries introduced many new approaches to studying the effects of globalization on inequality. While in a few cases we discuss theoretical work or empirical research on countries outside Latin America, we focus attention on papers empirically studying the effects of globalization in this region.
+This recent literature has documented a number of important empirical regularities regarding the effects of globalization on inequality in Latin America. Trade liberalization and other globalization shocks tend to bring about labor market disruptions in the form of unemployment and shifts to informal employment or low-paying service jobs, and the process of labor market
+1An exception to this list is Gonzaga et al. (2006) who showed that the evolution of inequality in Brazil following its trade liberalization is consistent with Stolper-Samuelson effects.
+2Our review focusing on Latin America complements that of Dorn and Levell (2021) who focus on the effects of increased trade with China on inequality in Europe and the U.S.
+2
+
+adjustment can take many years. Labor market institutions are important determinants of these effects, with stringent labor market regulations and large informal sectors playing particularly important roles in Latin America. While earlier work focused on economic inequality by education level or across workers in different industries, the more recent literature has documented quantitatively important effects of globalization on inequality across firms, locations, races, and genders. Recent work has also found effects beyond the labor market, including on consumption, education, crime, health, and political outcomes. In this sense, the literature we review in this paper reinforces the Institute for Fiscal Studies Deaton Review’s focus on multifaceted “inequalities” rather than a single dimension of inequality (Joyce and Xu, 2019).
+To set the stage, Section 2 presents descriptive patterns showing the evolution of trade flows, inequality, unemployment, and informality around the period of liberalization for 18 Latin American countries. Many of these countries ended long periods of import-substituting industrialization by sharply reducing tariffs and other trade barriers over a short period of time, resulting in large increases in trade as a share of GDP. The results for the other outcomes are somewhat noisy but suggest a period of disruption beginning shortly before trade liberalization and persisting for a decade or more afterward, with elevated inequality, unemployment, and informality, followed by a normalization of these outcomes.
+Given this context, we turn to the heart of our review in Section 3, focusing on important new directions in the literature studying the effects of globalization on inequality. We first survey the large literature using a local-labor-markets approach to study how globalization affected inequality across regions within a given country. These studies utilize variation from unilateral trade liberalizations and from the sharp increase in Chinese exports during the 2000s (the “China Shock”) to find substantial differences in employment and wage growth across locations. While the regional approach has become quite popular, we emphasize the limits to its interpretation. It can be tempting to interpret these results as demonstrating the negative consequences of trade, but the design does not reveal absolute effects, only relative effects across different locations. Therefore, although the regional approach is silent regarding the aggregate welfare impacts of globalization, it is informative about the impacts of trade on inequality across regions.
+We then turn to one of the defining features of Latin American labor markets: stringent but poorly enforced labor regulations and the resulting large informal sector. We survey the research on these topics, arguing that it is essential to incorporate the informal sector in studies of Latin American labor markets and calling for more work on the effects of labor market regulations and their enforcement. We then review papers examining outcomes beyond the labor market. These studies are particularly important because they consider outcomes like
+3
+
+consumption, crime, and health, which capture dimensions of wellbeing beyond earnings and employment. They also consider channels such as education and political outcomes through which short-run changes in economic conditions may affect long-run policies and outcomes. The fact that political outcomes are affected by trade shocks is particularly convincing evidence that voters believe that globalization meaningfully affects them.
+While most of the literature considered in Section 3 is reduced-form or design-based, in Section 4 we survey the structural and quantitative literature, which specifies particular mechanisms and quantifies the effects of globalization in general equilibrium. For the reasons mentioned above, much of this work studies the effects of globalization in Latin America, considering mechanisms including quality upgrading, frictions in moving between industries and regions, worker sorting, and inequality across firms.
+The paper concludes in Section 5 with a discussion of policies designed to compensate those who lose from globalization and ensure that the gains from trade are shared more broadly. We also provide specific recommendations for future research on the effects of globalization on inequality. Given the evidence that globalization has generated winners and losers across a variety of dimensions (education, location, industry, etc.), we strongly encourage research on policies that can effectively compensate those harmed by globalization. More broadly, we encourage researchers to develop unifying frameworks incorporating the many rich mechanisms, inequality dimensions, and time horizons studied in individual papers in the recent literature. As we discuss throughout this paper, the literature has generated many new insights regarding the ways in which globalization can affect various dimensions of inequality. Yet, in the absence of a synthesis facilitating quantitative comparisons across dimensions, it remains difficult to draw broad conclusions on the impact of globalization on inequality in Latin America.
+2 Descriptive Patterns
+A hallmark of globalization in Latin America since the 1970s is the abandonment of former import-substituting industrialization policies by implementing large trade liberalizations. In this section, we descriptively examine the evolution of trade, inequality, unemployment, and informality around each country’s liberalization date, looking for regularities in these timeseries patterns. Our analysis is necessarily descriptive, since many countries implemented other reforms simultaneously with trade liberalization; see Section 2.1 and Table 1 in Goldberg and Pavcnik (2007) for a discussion of the scope of policy changes involved in the trade liberalization episodes under study. We closely follow Bellon (2018), who documents the evolution of trade
+4
+
+and inequality around large liberalization episodes.3 Our analysis differs in two ways: we restrict attention to Latin America, and we incorporate two additional outcomes: unemployment and informality.4 We then focus on informality, a particularly salient feature of Latin American labor markets, by compiling results on the evolution of informality from the prior literature. In brief, following liberalization we find substantial and persistent increases in trade flows and suggestive evidence for a temporary period of disruption, with increased inequality, unemployment, and informality, followed by a normalization of these outcomes.
+2.1 Event Study Analysis
+We construct consistent outcome measures for each country-year observation using a variety of data sources. Our measure of trade is the sum of imports and exports as a share of GDP, which we measure using the World Bank’s World Development Indicators (WDI). Inequality measures come from the May 2021 version of the United Nations’ UNU-WIDER World Income Inequality Database (WIID), which provides various measures of inequality covering overlapping time periods in each country. We restrict attention to the same Gini index measures used in Bellon (2018) and calculate the simple average across Gini-index measures within each countryyear cell.5 The unemployment rate, measured as unemployed workers as a share of the labor force, comes from the World Bank’s WDI. Finally, the informal share of employment comes from the 2021 Socio-Economic Database for Latin America and the Caribbean (CEDLAS and the World Bank), which measures the informality rate as the share of total employment accounted for by salaried workers at small firms, self-employed unskilled workers, and workers with zero income. Together, these data sources yield outcome measures spanning the time ranges for each country shown in Table 1.
+To summarize the evolution of each outcome in the years preceding and following each country’s major trade liberalization, for each outcome yc in each country c we first calculate the average value in the years preceding liberalization, ycpre. We then express the outcome in year t as the deviation from the country’s pre-liberalization average: yct − ycpre. Because the pre-liberalization coverage varies by country and outcome (Table 1), we use different preliberalization periods for each outcome in an effort to maximize the set of countries included in each analysis. For trade as a share of GDP, we use the 20 years preceding liberalization, inequality 10 years, and unemployment and informality 5 years. Once we have calculated the outcome normalized to the pre-liberalization period for each country, we align each country’s
+3Special thanks to Matthieu Bellon for sharing his data and code. 4Table 1 reports the countries included in our analysis and the year of each country’s major liberalization. 5See Table A1 for the list of WIID sources used and the characteristics of each source.
+5
+
+Table 1: Outcome Time Coverage and Liberalization Years
+
+Argentina Bolivia Brazil Chile
+Colombia Costa Rica Dominican Rep.
+Ecuador El Salvador Guatemala Honduras
+Mexico Nicaragua Panama Paraguay
+Peru Uruguay Venezuela
+
+Trade/GDP min max 1960 2021 1960 2021 1960 2021 1960 2021 1960 2021 1960 2021 1960 2021 1960 2021 1965 2021 1960 2021 1960 2021 1960 2021 1960 2021 1960 2021 1962 2021 1960 2021 1960 2021 1960 2014
+
+Inequality min max 1974 2019 1990 2020 1981 2020 1964 2020 1992 2020 1961 2020 1986 2020 1994 2020 1961 2019 1986 2014 1989 2019 1984 2020 n/a n/a 1979 2019 1983 2020 1986 2020 1989 2020 1979 2010
+
+Unemployment min max 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020 1991 2020
+
+Informality min max 1987 2019 1997 2019 1992 2019 n/a n/a n/a n/a 1989 2019 1996 2019 1994 2019 1991 2019 n/a n/a 1991 2019 1992 2018 1993 2005 1989 2019 1995 2019 1997 2019 1989 2019 1989 2006
+
+liberalization year 1991 1985 1991 1976 1986 1986 1992 1991 1989 1988 1991 1986 1991 1996 1989 1991 1990 1996
+
+See main text and Appendix Table A1 for data sources. Liberalization years are from Bellon (2018), who in turn uses the years from Wacziarg and Welch (2008).
+data relative to the liberalization year and average across countries, weighting by the country’s population in the liberalization year (from WDI). In all cases, we multiply the underlying change in share or index by 100, so changes are expressed in percentage points.
+The results appear in Figure 1. The circles show the average normalized outcome in each year relative to liberalization, and the dashed lines show their 95-percent confidence intervals. The solid lines are 3-year moving averages around each point. Panel (a) shows the average change in trade as a share of GDP relative to the average value during the 20 years preceding trade liberalization. As expected, there is a clear increase in trade following liberalization, with average trade as a share of GDP increasing by more than 10 percentage points 10 years following the liberalization event. Panel (b) shows the average change in Gini index relative to the 10 years preceding liberalization. Although the estimates are somewhat imprecise, there appears to be a modest increase in inequality in the years leading up to the trade liberalization event, with inequality remaining high for the following decade, before falling back to the initial level during the subsequent decade. This pattern is quite similar to that found by Bellon (2018) across a much larger sample of countries, including those outside Latin America. Note that these changes in inequality occur in the context of quite high initial levels; Appendix Table A2 shows that
+
+6
+
+30
+
+20
+
+10
+
+chg. in trade/GDP x 100 (vs. pre-lib average)
+
+Figure 1: Evolution of Average Outcomes Relative to Liberalization Year
+
+chg. in Gini index x 100 (vs. pre-lib average) -6 -4 -2 0 2 4 6
+
+-20
+
+-10
+
+0
+
+10
+
+20
+
+years since liberalization
+
+Pre-liberalization average calculated over periods -20 to 0 relative to liberaliztaion.
+
+Panel (a): Trade / GDP
+
+-10
+
+0
+
+10
+
+20
+
+years since liberalization
+
+Pre-liberalization average calculated over periods -10 to 0 relative to liberaliztaion.
+
+Panel (b): Inequality
+
+0
+
+-10
+
+15
+
+10
+
+5
+
+chg. in informality rate x 100 (vs. pre-lib average)
+
+6
+
+4
+
+2
+
+chg. in unemployment rate x 100 (vs. pre-lib average)
+
+0
+
+0
+
+-2
+
+-5
+
+-4
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+years since liberalization
+
+Pre-liberalization average calculated over periods -5 to 0 relative to liberaliztaion.
+
+Panel (c): Unemployment
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+years since liberalization
+
+Pre-liberalization average calculated over periods -5 to 0 relative to liberaliztaion.
+
+Panel (d): Informality
+
+Each panel plots the evolution of the associated outcome across Latin American countries in the years before and after trade liberalization (countries and liberalization dates appear in Table 1). For each outcome and in each country, we subtract the country’s pre-liberalization average outcome and multiply by 100, so changes are expressed in percentage points. These normalized outcomes are then averaged across countries, weighted by population in the liberalization year. The circles show the average normalized outcome in each year relative to liberalization, the dashed lines show their 95-percent confidence intervals, and the solid lines are 3-year moving averages around each point. See main text and Appendix Table A1 for data sources and Table 1 for time coverage.
+
+the Gini index in or shortly before the liberalization year ranged from 38.2 in Costa Rica to 60.0 in Brazil. These figures are substantially higher than those in the US (35.2), UK (28.5), or France (34.0) in 1980.6 Average unemployment growth in Panel (c) also exhibits a hump-shaped pattern, with an average increase of roughly 3 percentage points a decade following liberalization, followed by a decline. Finally, Panel (d) suggests a hump-shaped pattern to informality, but these results are somewhat imprecise, and there is little pre-liberalization information, so the results should be interpreted with caution.
+6Gini index measures for the US, UK, and France from the World Bank’s World Development Indicators.
+
+7
+
+Figure 2: Informality in Prior Literature
+0.9
+
+Informal Share of Employment
+
+0.8
+
+0.7
+
+Peru
+
+0.6
+
+Colombia
+
+Brazil
+
+0.5
+
+Argentina
+
+0.4 0.3
+
+0.2 0.1
+
+0 -12 -10 -8 -6 -4 -2 0 2 4 6 8 10 12
+Years Since Liberalization
+
+Data for Argentina come from Cruces et al. (2018) Table 1. They measure informality in urban areas across all sectors except the public sector, agriculture, and mining. An Argentine worker is coded as informal if the worker’s employer does not make statutory payroll tax and social insurance payments, and the analysis omits self-employed individuals. Data for Brazil come from Bosch et al. (2012) Figure 1 a). They measure informality in six major metropolitan areas across all sectors. A Brazilian worker is coded as informal if they do not have a signed work card providing them access to the benefits and labor protections afforded by the legal employment system or if they are self-employed. Data for Colombia come from Goldberg and Pavcnik (2003) Table 3b. They measure informality in urban areas across all sectors. A Colombian worker is coded as informal if their employer does not pay social security taxes, including self-employed workers. Data for Peru come from Cisneros-Acevedo (2022) Figure 3, which measures informality in a nationally representative sample of manufacturing workers. A Peruvian worker is coded as informal if they are employed by an unregistered employer, they do not pay taxes on their income (including among self-employed), or they are an unpaid family worker. Note that Cisneros-Acevedo (2022) considers a liberalization episode in 2009 rather than the 1991 liberalization listed in Table 1.
+These findings show that trade liberalization had the intended effect of increasing trade flows
+in Latin American countries. However, the effects on inequality, unemployment, and informality
+are less clear. Inequality and informality both exhibit visible pre-trends in the years prior
+to liberalization, complicating causal inference from a simple event-study analysis. Although
+noisy, the patterns suggest a period of disruption in the decade or more following liberalization,
+with temporary increases in inequality, unemployment, and informality relative to the pre-
+liberalization period. Since trade liberalization was often concurrent with other policy changes
+that may have influenced these outcomes (Goldberg and Pavcnik, 2007), these findings should
+not be over-interpreted as the causal effects of liberalization alone.
+
+8
+
+2.2 Informality Measures from Prior Literature
+A salient feature of Latin American labor markets is the presence of large informal sectors. In Figure 2 we present informality series for four Latin American countries reported in the prior literature as a supplement to the informality results in Figure 1. These prior papers provide longer informality time series for the four relevant countries than available in the SocioEconomic Database for Latin America and the Caribbean used in Figure 1, particularly in the years preceding liberalization. Note that these series all use distinct definitions of informality, which means that their levels are not always comparable. For example, Cruces et al. (2018) measure informality in Argentina omitting self-employed workers, while Bosch et al. (2012), Goldberg and Pavcnik (2003), and Cisneros-Acevedo (2022) include self-employed workers in their definitions of informality in Brazil, Colombia, and Peru, respectively.7
+Although the levels are not necessarily comparable across countries, they are comparable over time within country. Yet, the series in Figure 2 do not tell a consistent story regarding the descriptive relationship between informality and trade liberalization. Informality increased following liberalization in Argentina and Brazil, but both countries exhibit positive pre-liberalization trends in informality, with Argentina’s lasting more than a decade. Informality was relatively steady in Colombia following liberalization and fell in Peru. This wide variation in the informality time series across countries highlights the difficulty in drawing general conclusions from such data and is consistent with the finding of Dix-Carneiro et al. (2021) that the effects of trade liberalization on informality are theoretically ambiguous (discussed in Section 3.2 below). The heterogeneity may also explain the noisy estimates in Panel (d) of Figure 1, with the countries in the broader sample exhibiting similar variation in trajectories to those seen in Figure 2.
+3 New Directions
+In this section, we begin our survey of the literature on the effects of globalization on inequality in Latin America by focusing on new developments since the mid 2000s. Our discussion here focuses primarily on reduced-form / design-based empirical work, leaving a detailed discussion of the quantitative structural literature for Section 4.
+7The figure note for Figure 2 provides details on the coverage and informality definitions used in each study. See Perry et al. (2007) for a thorough examination of informality and its relationship with self-employment in Latin America.
+9
+
+3.1 Local Labor Market Effects and Dynamics
+3.1.1 Local Effects of Changes in Trade Policy
+While earlier empirical work focused on the differences in globalization’s effects on workers in different industries or with different education levels, a newer literature examines differences in the impacts of trade across geographic regions, using an approach pioneered by Topalova (2010). This strategy leverages three empirical regularities: (i) regions within a country tend to produce different goods; (ii) trade liberalization episodes typically lead to large variation in tariff changes across these goods; and (iii) workers are not perfectly mobile across regions in response to local labor demand shocks, at least not in the short to medium run. These observations lead to the insight that regions initially specialized in sectors facing larger tariff declines experience larger labor demand declines relative to the national average. In the presence of imperfect geographic mobility of workers, these labor demand shifts affect wages differently across regions, leading to unequal geographical impacts of trade.
+Topalova (2010) applies this insight to study the regional impacts of the Indian trade liberalization of the 1990s, estimating linear regressions equivalent to
+
+∆yr = α + θRT Rr + εr,
+
+(1)
+
+where ∆yr is the change in outcome y for region r, RT Rr is a measure of the liberalizationinduced change in labor demand in region r, which we refer to as the “regional tariff reduction,” and εr is a region r-specific residual.8 In Topalova (2010), the term RT Rr is calculated as
+
+RT Rr = − λri∆τi,
+
+(2)
+
+i
+
+where λri is the pre-liberalization share of region r’s total employment in industry i and ∆τi is the change in the tariff of sector i. We include a negative sign in this definition, so RT Rr represents the regional reduction in tariffs rather than the change in tariffs. Therefore, RT RA > RT RB implies that region A faces a larger reduction in labor demand than region B. If θ < 0 then outcome y falls in region A relative to region B. In Topalova (2010), the sum in (2) covers all industries, and nontradable industries (services, wholesale and retail trade, transport) are assigned a zero change in tariff.
+Equation (2) clarifies that variation in RT Rr across regions comes from variation in both
+8Rather than using the differenced specification in (1), Topalova (2010) estimates an equivalent panel regression with region fixed effects. See equation (1) in Topalova (2010).
+
+10
+
+{λri} and {∆τi}. To apply this procedure, it is therefore important to have ample variation in initial industry composition across regions and ample variation in tariff reductions across
+
+sectors. Topalova studies many outcomes y, including the poverty rate and log real wages. In
+
+her main findings, regions of India specialized in goods facing larger tariff reductions (regions
+
+with larger values of RT Rr) experienced larger increases in poverty and larger reductions in average wages relative to the national average. As we emphasize below, these results do not
+
+imply that India’s liberalization increased poverty and lowered wages. Rather, they reflect the
+
+effect of liberalization on inter-regional inequality, i.e. the differential effect of liberalization
+
+across Indian regions.
+
+Although equation (2) is intuitive, it is helpful to ground the measure in an explicit theo-
+
+retical framework to understand the conditions under which RT Rr is a sufficient statistic for liberalization-induced changes in local labor demand and to address questions of functional form
+
+and how to treat the nontraded sector. Kovak (2013) rationalizes (and amends) the approach
+
+in Topalova (2010) using a specific-factors model of regional economies that builds upon Jones
+
+(1975). In Kovak’s model, workers are immobile across regions but perfectly mobile across indus-
+
+tries within a region. The model is closed with a regional equilibrium condition: all nontraded
+
+goods produced in a given region are fully consumed within that region. This condition ties
+
+the prices of local nontraded goods to the wages in that region, implying that imputing zero
+
+tariff changes in equation (2) is inappropriate. Instead, this framework suggests the following
+
+formulation of RT Rr:
+
+RT Rr = − βri∆ ln (1 + τi) ,
+
+(3)
+
+i∈T
+
+where
+
+βri =
+
+λri/φi , j∈T λrj /φj
+
+(4)
+
+φi is the cost share of nonlabor factors, and T is the set of tradable industries (which includes agriculture, mining, and manufacturing).
+
+Equation (3) highlights three differences relative to the measure used by Topalova (2010).
+
+First, and most importantly, the summation is taken only over traded sectors, and the shares βri sum to 1 within regions.9 Second, the weights βri allow for variation in labor demand elasticities across industries by incorporating information on the non-labor factor shares, φi. However, Kovak (2013) finds that this adjustment is of minimal quantitative importance in the
+
+Brazilian context. Third, the tariff change measure differs, but note that for small tariff levels,
+
+9This approach resolves the problem of assuming zero price changes for the nontradable goods and avoids the “incomplete shares problem” that often arises when using “shift-share” research designs, including those mapping industry-level shocks to the region level using a weighted average as in (2) (Borusyak et al., 2022b).
+
+11
+
+Change in ln(1+tariff), 1990-95
+Agriculture Metals
+Apparel Food Processing Wood, Furniture, Peat
+Textiles Nonmetallic Mineral Manuf Paper, Publishing, Printing
+Mineral Mining Footwear, Leather
+Chemicals Auto, Transport, Vehicles Electric, Electronic Equip.
+Machinery, Equipment Plastics
+Other Manuf. Pharma., Perfumes, Detergents
+Petroleum Reﬁning Rubber
+Petroleum, Gas, Coal
+
+Figure 3: Import Tariff Changes in Brazil Between 1990 and 1995
+0.00 -0.05 -0.10 -0.15 -0.20 -0.25
+Source: Dix-Carneiro and Kovak (2017)
+∆ ln (1 + τi) ≈ ∆τi. Figure 3 depicts the sector-specific changes ∆ ln (1 + τi) implemented during Brazil’s trade
+liberalization of the 1990s. These sector-specific shocks are combined with variation in the industry mix across regions to generate the local labor demand shocks given by RT Rr, shown in Figure 4. Kovak estimates equation (1) using the definition of RT Rr in (3) and (4) and finds a similar result to Topalova’s: even ten years after the start of the liberalization process, regions producing goods more exposed to tariff declines experienced larger relative reductions in wages.
+The long-lasting effects of liberalization documented in Topalova (2010) and Kovak (2013) were surprising. Economists had long assumed that the effects of local labor demand shocks would be significant only in the short run, as workers face substantial short-run frictions to moving away from harder-hit regions. The prevalent view held that wage, poverty, and unemployment effects would dissipate in the longer run, as worker migration gradually arbitraged away regional differences in local labor market outcomes. This view was partly based on the findings of Blanchard and Katz (1992), who estimated a vector-autoregressive model of U.S.state labor markets to estimate dynamic regional responses to local labor demand shocks. In their simulations, a state typically returns to “normal” following a labor demand shock in approximately ten years—as workers slowly leave adversely affected states. Yet, Topalova (2010)
+12
+
+Figure 4: Local Labor Demand Shocks Induced by Liberalization: Regional Tariff Reductions in Brazil
+
+MMaannaauuss
+8% to 15% 4% to 8% 3% to 4% 1% to 3% -1% to 1%
+
+BBeelléémm
+
+FFoorrttaalleezzaa RReecciiffee
+
+BBrraassíílliiaa
+
+SSaallvvaaddoorr
+
+BBeelloo HHoorriizzoonnttee
+SSããoo PPaauulloo CCuurriittiibbaa
+
+PPoorrttoo AAlleeggrree
+
+Geographical distribution of RT Rr computed using equation (3). Source: Dix-Carneiro and Kovak (2017)
+finds no migration responses at the ten-year horizon in the context of India’s trade liberalization. This led economists to investigate the dynamics of adjustment in response to trade liberalization, especially in countries like India and Brazil, which experienced persistent regional wage effects of trade liberalization and limited observed migration responses.10
+Dix-Carneiro and Kovak (2017) revisit the Brazilian trade liberalization episode to document the evolution of liberalization’s effects on regional outcomes. In Brazil, trade liberalization involved tariff cuts between 1990 and 1995 (see Figure 3), but tariffs remained approximately constant afterwards. This presented an excellent opportunity for the analysis of the short-, medium- and long-run impacts of tariff reductions on local labor markets. Dix-Carneiro and
+10These findings of no migration response should be interpreted with care. Borusyak et al. (2022a) show that estimating equations like (1) with changes in population on the left hand side is not informative about the extent of inter-regional mobility in response to local shocks. To estimate the population sensitivity to a given local shock, the researcher needs to appropriately incorporate information on concurrent shocks to typical migrant sources and destinations.
+
+13
+
+Figure 5: Effects of Liberalization on Formal Sector Regional Employment in Brazil
+
+1.5	   Pre-­‐liberaliza6on	   (chg.	  from	  1986)	  
+
+Liberaliza6on 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  Post-­‐liberaliza6on	   (chg.	  from	  1991)	  	  
+
+0.5	  
+
+1987	   1988	   1989	   1990	   1991	   1992	   1993	   1994	   1995	   1996	   1997	   1998	   1999	   2000	   2001	   2002	   2003	   2004	   2005	   2006	   2007	   2008	   2009	   2010	   -­‐0.5	  
+
+-­‐1.5	  
+
+-­‐2.5	  
+
+-­‐3.5	  
+
+-­‐4.5	  
+
+-­‐5.5	  
+
+-­‐6.5	  
+This figure plots the evolution of θt in equation (5) when the outcome y is the log of formal sector employment. Coefficients θt for t ≤ 1991 measure the correlation between pre-existing local trends and the shocks RT Rr. Given that liberalization was only concluded in 1995, the coefficients θt for 1992 ≤ t ≤ 1994 should be interpreted with care. Source: Dix-Carneiro and Kovak (2017).
+Kovak implemented this analysis using an estimating equation of the form
+
+yrt − yr,1991 = αt + θtRT Rr + εrt,
+
+(5)
+
+where yrt is the value of outcome y in region r at time t, RT Rr is given by (3), and θt is the time varying impact of liberalization on local labor markets. Given that all outcomes and parameters are indexed by t, this specification is estimated separately for each year. Note, however, that RT Rr is fixed across years and always computed using changes in tariffs between 1990 and 1995. Consequently, the time path for θt reflects the evolution of the effects of the one-time shock RT Rr on local labor markets. The base year is 1991, chosen to take advantage of detailed industry information in the 1991 Demographic Census when calculating the industry distribution of regional employment λri. Two main outcomes y are considered: log formal employment and log formal earnings.
+Dix-Carneiro and Kovak (2017) find that regions more exposed to tariff cuts experienced
+
+14
+
+Figure 6: Effects of Liberalization on Formal Sector Regional Earnings in Brazil
+
+1.0	   Pre-­‐liberaliza6on	   (chg.	  from	  1986)	  
+
+Liberaliza6on 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  Post-­‐liberaliza6on	   (chg.	  from	  1991)	  	  
+
+0.5	  
+
+0.0	   1987	   1988	   1989	   1990	   1991	   1992	   1993	   1994	   1995	   1996	   1997	   1998	   1999	   2000	   2001	   2002	   2003	   2004	   2005	   2006	   2007	   2008	   2009	   2010	  
+-­‐0.5	  
+
+-­‐1.0	  
+
+-­‐1.5	  
+
+-­‐2.0	  
+This figure plots the evolution of θt in equation (5) when the outcome y is the log of formal sector earnings. Coefficients θt for t ≤ 1991 measure the correlation between pre-existing local trends and the shocks RT Rr. Given that liberalization was only concluded in 1995, the coefficients θt for 1992 ≤ t ≤ 1994 should be interpreted with care. Source: Dix-Carneiro and Kovak (2017).
+large and slowly evolving declines in formal employment relative to the national average (Figure 5). This finding is consistent with standard spatial equilibrium models, which typically predict permanent declines in population and employment in response to a negative labor demand shock. However, these models also predict that adverse wage effects are short lived. Specifically, at impact, lower labor demand reduces wages, as workers are immobile in the short run. As workers leave hard-hit regions, relative wages there gradually increase, eventually restoring spatial equilibrium. In contrast to this prediction, Dix-Carneiro and Kovak find slowly increasing wage effects (Figure 6): long-run (15 year) wage effects are three times as large as medium-run (5 year) effects (θ2010 = −1.6 vs. θ2000 = −0.5). After examining and rejecting a list of potential alternative explanations, they argue that these growing effects can be rationalized by a mechanism involving both imperfect interregional labor mobility and dynamics in labor demand. These dynamics are, in turn, driven by a combination of slow regional capital adjustment and agglomeration economies.
+15
+
+Labor demand falls on impact in regions that are harder-hit by tariff cuts, but keeps falling for years after this initial impact for two reasons. First, capital slowly reallocates away from relatively hard-hit regions as installed capital slowly depreciates and new investment flows to more favorably affected locations. Second, as formal employment in negatively affected regions declines, local productivity falls due to lost agglomeration economies. In a series of empirical and quantitative exercises, the analysis demonstrates that both mechanisms explain the estimated magnitudes and dynamics in the impact of trade liberalization.
+In Brazil, the initially richer regions faced larger tariff reductions. Therefore, the results in Dix-Carneiro and Kovak (2017) imply that Brazil’s trade liberalization contributed to a decline in inter-regional inequality. If we use equation (5) to predict liberalization-induced changes in region-specific labor-market earnings and the resulting distribution of earnings across regions in 2010, we find that the Brazilian trade liberalization accounted for over a quarter of the total reduction in the inter-regional standard deviation in log earnings.
+Inter-regional inequality is just one component of overall inequality. It is therefore natural to ask how liberalization in Brazil impacted within-region inequality. Dix-Carneiro and Kovak (2015) extend the model of Kovak (2013) to include two different types of workers (skilled and unskilled) that interact with each other in production (which takes a Cobb-Douglas functional form). From this model, they derive a simple equation linking changes in within-region skill premia to changes in tariffs. Although the impact of liberalization on the skill premium was statistically significant, the tariff shocks can explain at most 14 percent of the 1991-2010 overall decline in skill premium in the country. These results are broadly consistent with the industry-level analysis in Gonzaga et al. (2006). Their analysis showed that prices fell in skillintensive sectors relative to unskilled-intensive sectors, and that employment shifted from skilled to unskilled intensive sectors in the aftermath of the Brazilian liberalization. The appeal of the analysis in Dix-Carneiro and Kovak (2015) is that the regional approach allows for an analysis including all sectors, not just traded ones. In addition, the methodology allows for a quantification of the impact of liberalization on the skill premium.
+An unsatisfying aspect of the papers by Dix-Carneiro and Kovak (2015, 2017) is that they speak to different dimensions of inequality but do not provide a cohesive framework to assess the impact of trade liberalization on overall inequality. Specifically, the analysis in Dix-Carneiro and Kovak (2017) is informed by a theoretical framework with homogeneous workers and perfect mobility across industries within regions—abstracting from inequality across industries, firms and worker types. On the other hand, Dix-Carneiro and Kovak (2015) consider a framework that allows them to estimate skill-premium consequences within regions, but the framework does
+16
+
+not allow them to speak to inequality across regions. This is not a problem specific to these two papers, but rather a challenge to the broader empirical literature attempting to quantify the consequences of globalization on inequality. Typically, researchers have chosen a particular dimension of inequality to study—across industries, regions, firms, or worker types—but do not comprehensively consider all these dimensions jointly.11 In fact, the theoretical frameworks motivating the different approaches are often mutually inconsistent; for example, perfect crossindustry mobility is often assumed in studies of regional impacts, which contradicts models with wage premia across sectors and firms. A comprehensive analysis of the inequality effects of trade would ideally incorporate all these dimensions within a single consistent framework, allowing for a theoretically sound decomposition of the inequality impacts of trade. Given the current state of affairs, it is not possible to confidently say whether globalization contributed to an increase or decline in aggregate inequality in a given country.
+
+3.1.2 Local Effects of Changes in Trade Flows
+The papers discussed so far exploited changes in tariffs to study the local labor market effects of trade liberalization episodes. An alternative approach relies on exploiting rapid changes in trade flows induced by strong productivity growth in China. Autor et al. (2013) pioneered this approach to study the effects of Chinese productivity growth on U.S. regional labor markets. In particular, they estimated specifications of the form
+
+∆yrt = α + θ∆IP Wrt + εrt,
+
+(6)
+
+where ∆ denotes changes between periods t and t + 1, yrt is an economic outcome specific to region r measured at time t, such as manufacturing employment or wages, and ∆IP Wrt is the change in “imports per worker” faced by the labor market in region r between t and t + 1, given
+
+by
+
+∆IP Wrt
+
+=
+
+i∈T
+
+λrit
+
+∆Mit Lit
+
+.
+
+(7)
+
+11For example, Goldberg and Pavcnik (2005) focus on the impact of tariff reductions on industry premia; Kovak (2013), Dix-Carneiro and Kovak (2017), and Costa et al. (2016) analyze region-specific impacts of trade shocks; Co¸sar et al. (2016), Helpman et al. (2017), and Dix-Carneiro et al. (2021) limit their attention to inequality across firms; Dix-Carneiro (2014) considers unequal effects of trade across sectors and worker characteristics (such as skill and age) but abstracts from firms and regions; Gonzaga et al. (2006) and Dix-Carneiro and Kovak (2015) focus on the skill premium; and the papers discussed in Section 3.4 study gender-specific impacts.
+
+17
+
+In equation (7), λrit is the share of region r’s total employment in industry i at time t, ∆Mit is the observed change in US imports from China in industry i between periods t and t + 1.12 When one estimates an equation such as (6), εrt may be correlated with ∆IP Wrt. For example, imagine that there is a supply-driven decline in output of the U.S. furniture industry, which occurred independently of import competition from China. This decline leads to a reduction in manufacturing employment in North Carolina, home to a furniture manufacturing cluster, which in turn leads to an increase in imports from China to meet the domestic demand for furniture. In that case, regressing changes in local manufacturing employment on the change in imports per worker will yield a misleading interpretation; the decline in U.S. furniture manufacturing caused the increase in imports from China, not the other way around.
+Autor et al. (2013) circumvent this problem using a clever instrumental variables strategy. They seek to isolate the effect of Chinese productivity growth by instrumenting the change in imports per worker in (7) with changes in industry-level imports from China to OECD countries other than the U.S. The intuition behind this strategy is that the component of Chinese import growth common to countries other than the U.S. must be driven by productivity growth in China as opposed to local changes in supply or demand conditions. Autor et al. (2013) estimate that rising imports from China, driven by its strong productivity growth, led to relative declines in wages and labor force participation and increases in unemployment in regions that were specialized in goods facing stiffer import competition. These results align remarkably well with the findings of Topalova (2010) and Kovak (2013).
+Costa et al. (2016) applied this approach in Brazil, emphasizing the impacts of trade in a commodity-abundant country. Strong productivity growth in China led to fiercer import competition in sectors such as textiles, apparel and furniture, but it also created greater demand for exports of commodities. This means that some regions of Brazil experienced deteriorating relative labor market outcomes driven by Chinese competition, but other regions, such as those specialized in agriculture and mining, experienced more favorable relative effects.
+Costa et al. (2016) also investigate the impact of Chinese import competition and export demand on within-region inequality. They find that import competition from China was associated with an increase in local wage inequality. However, they did not find a strong effect of export demand on within-region wage inequality. Note, however, that this type of regression is hard to interpret. Kovak (2013) and Autor et al. (2013) derive their empirical specifications using (3) or (7) from models with homogeneous workers who can freely move across industries within regions. Therefore, by construction, in their frameworks tariff reductions or import com-
+12Note that the sum in equation (7) is over manufacturing industries, such that the weights λrit sum to the manufacturing share of employment in region r in year t.
+18
+
+petition from China have no impact on within-region inequality. It is therefore hard to interpret regressions relating changes in within-region inequality to RT Rr or ∆IP Wrt. Dix-Carneiro and Kovak (2015) show that once we deviate from the homogeneous worker assumption, RT Rr is no longer a sufficient statistic for local wage changes.
+Blyde et al. (2023) apply an approach similar to that of Autor et al. (2013) to the Mexican context, with a focus on adjustment margins and their evolution over time. They find substantial short-run reductions in manufacturing employment in Mexican locations facing larger increases in Chinese imports, with formal employees partly replaced with outsourced or informal workers. However, the negative relative effects dissipated substantially over time, with generally small and statistically insignificant effects 20 years following the initial China Shock.13
+3.1.3 Limitations of the Regional Approach
+The regional regressions just discussed have become a popular tool for studying the labor market impacts of trade. These specifications have appealing features relative to the previous literature exploiting changes in tariffs and trade flows across sectors. For example, the regional approach allows us to transparently investigate the impacts of trade shocks on a broader set of outcomes including spillovers to nontradable sectors, unemployment, migration, and informality. Moreover, the regional approach directly highlights how globalization affects inter-regional inequality, a previously neglected dimension of inequality.
+While these specifications are indeed informative about the unequal effects of trade shocks across locations and therefore about spatial inequality, it can be tempting to over-interpret what these regressions really deliver. Specifically, consider equations (1), (5), and (6) when outcome yr is either the log wage in region r or the share of working-age individuals in region r who are employed. One might be tempted to conclude that θ < 0 implies that trade liberalization or Chinese import competition led to a reduction in local wages or employment rate, or that these specifications highlight the negative consequences of trade. These interpretations are incorrect and must be avoided.
+To see why, consider a policy that is implemented between periods τ = t and t + 1 that “treats” (T = 1) some units and not others (T = 0). We then wish to ask “What is the effect
+13One possible explanation for these more favorable long-run effects in the Mexican context is that growing suppliers to U.S. auto, aerospace, and medical device industries were co-located with labor-intensive firms facing Chinese import competition, partly offsetting the initial negative effects (see Gordon Hanson’s remarks in the General Discussion of Autor et al., 2021).
+19
+
+Figure 7: Differences in Differences, No Spillovers from Treated to Untreated Units
+
+Outcome !
+
+Treatment group
+
+! Δ#! Δ$! = 1]
+
+θ
+
+! Δ#! Δ$! = 0]
+
+Control group
+
+"=$ Pre-policy
+
+" = $+1 Post-policy
+
+of the policy on an outcome of interest Y ?” To do that, consider the linear model,
+
+Yiτ = γi + γτ + θTiτ + εiτ ,
+
+(8)
+
+where Yiτ is the outcome of interest for unit i at time τ , Tiτ indicates if unit i was treated at
+
+time τ , γi is unit-i fixed effect, and γτ is a time trend common to all units. Suppose that at τ = t no unit was treated (Tit = 0 for all i), and that at t + 1 some units were randomly chosen
+
+to be treated.
+
+Differencing equation (8), between t and t + 1 we obtain a specification paralleling those in
+
+(1) and (6):
+
+∆Yi = α + θ∆Ti + ∆εi,
+
+(9)
+
+where α ≡ γt+1 − γt. Randomization implies that E (∆εi|∆Ti = 1) = E (∆εi|∆Ti = 0). In this case, θ is the difference-in-differences impact of the policy on outcome Y ,
+
+θ = E (∆Yi|∆Ti = 1) − E (∆Yi|∆Ti = 0) .
+
+(10)
+
+Figure 7 describes this logic graphically. Thus far, we have assumed that the policy only affected the treated units. However, when the
+policy consists of a large shock with potentially important general equilibrium effects, this will no longer be the case. To make the argument concrete, consider a trade liberalization episode
+
+20
+
+Figure 8: Differences in Differences, Effect of Treatment Spills Over to Untreated Units
+
+Outcome !
+
+Treatment group
+
+θ
+inferred counterfactual
+true counterfactual
+
+Control group
+
+with policy w/o policy
+
+"=$ Pre-policy
+
+" = $+1 Post-policy
+
+and imagine splitting regions into those that are treated (regions with large values of RT Rr) and those that are not treated (regions with values of RT Rr close to zero). In this context, we would expect the shock to indirectly affect untreated regions as well. For example, a reduction in tariffs leads to negative labor demand shocks in regions producing import-competing goods. However, the short-run increase in imports in excess of exports will tend to drive a devaluation of the country’s currency, propelling exports and increasing labor demand in export-oriented regions, which were not directly exposed to the “treatment.” Another example is that as wages fall in regions facing increased import competition, workers migrate away from these regions and into export-oriented regions, reducing wages in untreated regions.
+These mechanisms imply that α in equation (9) is actually a function of the entire vector of shocks under study: α = α ({Tiτ }); that is, the episode under consideration may shift average outcomes for all units.14 Therefore the total effect of the policy/shock is a combination of θ, which can be estimated using difference-in-differences, and the impact of the shock on the intercept α. This latter effect is not identified with difference-in-difference methods, as time trends are affected by a myriad of other factors. Figure 8 illustrates this issue, where outcomes of the control group are also affected by the policy. Although this illustration utilized a binary treatment, the same interpretation problem arises in settings with continuous treatment variables, such as RT Rr or ∆IP Wrt, in equations (1), (5) or (6).
+In sum, when the shock under study has general equilibrium impacts or generates spillovers
+14This is an example of a violation of the Stable Unit Treatment Value Assumption (SUTVA).
+21
+
+across units, difference-in-differences specifications can only measure how the shock affects different units differently, i.e. we can only talk about relative effects. These relative effects can be quite useful, since they reveal the impact of the shock on interregional inequality. However, they do not measure the overall or aggregate effect of the shock. To do that, we need a general equilibrium model capturing how the shock affects average outcomes subsumed in the intercept term α. Examples of this approach include Caliendo et al. (2019) and Ada˜o et al. (2019), who develop general equilibrium frameworks to translate empirically-estimated regional effects of trade into aggregate impacts. Intuitively, their models deliver the aforementioned mapping α ({Tit}). For example, Caliendo et al. (2019) finds that the U.S. as a whole experiences a small increase in aggregate welfare as a result of strong Chinese productivity growth, but that these welfare effects are very heterogeneous across regional labor markets. Some regions strongly benefit from trade with China, while others lose.
+More recently, Borusyak et al. (2022a) have identified a distinct problem in estimating regressions similar to equation (9) when the dependent variable (∆Yi) is a measure of the change in population in region i. Papers using this approach tend to estimate θ ≈ 0; examples include Topalova (2010), Autor et al. (2013), and Dix-Carneiro and Kovak (2017, 2019), among many others. This apparent absence of population response was puzzling, since the same analyses found large impacts of trade-induced local labor demand shocks on other labor market outcomes including wages, unemployment, and informality. A common interpretation of these results is that inter-regional labor mobility in response to local labor market conditions is very limited. Borusyak et al. (2022a) challenge that conclusion by arguing that equation (9) is misspecified when studying the change in regional population. The decision to migrate in to or out of region i depends not only on the labor demand shock facing region i but also upon shocks to typical migrant sources and destinations for region i. Borusyak et al. develop a simple spatial equilibrium model to argue that one can estimate θ ≈ 0 in migration regressions following (9) even if: (i) the observed shocks ({∆Ti}) drove substantial spatial reallocation; (ii) workers are highly responsive to local conditions; and (iii) responses to counterfactual shocks would be large. They propose a simple alternative estimation procedure that is better suited to understanding and studying migration responses. Their paper emphasizes the difficulties associated with estimating simple reduced-form specifications in the presence of a shock that has significant spatial equilibrium impacts, and underscores the benefit of using model-consistent approaches to study the labor market effects of globalization.
+22
+
+3.2 Informal Labor Markets
+In contrast to many higher-income economies, labor markets in Latin America are typically characterized by burdensome regulations and large informal sectors (Heckman and Pag´es, 2000, 2004). Informality has both firm- and worker-level dimensions. Informal firms are those that do not register with the tax authorities or comply with labor regulations and are essentially invisible to the government. Informal workers are typically those who are not covered by labor regulations, i.e. those without a formal labor contract with their employer. These workers generally do not benefit from employer-sponsored health insurance, social security payments, or other mandated benefits. They tend to have little job security, as their employers are not liable for separation costs, and are typically not eligible for unemployment insurance. Usually, “selfemployed” workers are defined as informal, as are workers employed by unregistered firms or workers employed at registered firms but without formal contracts (Ulyssea, 2018). As already discussed in Section 2 and shown in Figure 2, informality is very pervasive in Latin America. According to Perry et al. (2007), informality rates range from 35 percent of the labor force in Chile to 80 percent in Peru.
+Large informal sectors are a source of concern for several reasons. First, informality often results in a high rate of tax evasion, undermining the government’s ability to raise tax revenues and provide public goods. Second, informal firms tend to be small and unproductive (Ulyssea, 2020). Therefore, in countries with substantial informal sectors, larger firms pay a disproportionate share of taxes and bear the burden of regulations, so the government is effectively subsidizing smaller and less productive firms relative to larger and more productive ones. This can lead to severe misallocation of resources in which more productive firms underproduce relative to the social optimum (Atkin and Donaldson, 2022). For workers, informal sector jobs are widely considered to be of low quality, as they tend to provide lower wages, social security contributions, health insurance, unemployment insurance, and job stability (Goldberg and Pavcnik, 2003). On the other hand, informality may provide de facto flexibility for firms and workers to cope with adverse shocks in the context of heavily regulated labor markets; we return to this topic below.
+Despite its importance in developing countries generally and Latin America specifically, the informal sector is nearly absent from the international trade literature. One explanation for this omission is the inherent difficulty in measuring informal-sector outcomes in standard data sources. However, another likely explanation is that, until recently, the informal sector was absent from the conceptual frameworks and theoretical models researchers use to motivate their empirical analyses. Given that the informal sector tends to generate lower quality jobs and drive a misallocation of resources, informality has important implications for both efficiency and
+23
+
+inequality. Thus, studying the consequences of trade in environments with large informal sectors should rank high on the agenda of trade and labor economists.
+Given this context, Dix-Carneiro and Kovak (2019) extend the formal-sector analyses in DixCarneiro and Kovak (2017) by investigating the various margins through which liberalizationinduced trade shocks affect Brazilian local labor markets. As in the earlier regional analysis, they find persistent and growing effects of tariff cuts on individual workers. Manufacturing workers initially employed in locations facing larger tariff declines are, over time, less and less likely to be employed in the formal sector. Some of these workers eventually find new employment in low-paying service sectors, but this reallocation is not strong enough to compensate for the losses in employment in manufacturing. Non-manufacturing workers who are initially employed in these hard-hit regions are similarly affected by the trade shocks, both because relative local demand for non-tradable services falls and because the nontradable sector is flooded by workers who were previously employed in manufacturing. There is no indication that workers responded to these deteriorating local conditions by migrating to more favorably affected locations.15
+Dix-Carneiro and Kovak (2019) then augment these findings on the formal sector using Decennial Demographic Census data, which identify workers who are informally employed, selfemployed, unemployed, or out of the labor force. They show that regions facing larger tariff cuts experience increases in non-employment and informality five years following the end of liberalization. However, fifteen years after the end of liberalization, they found zero effect on non-employment and a large positive effect on informal employment. This pattern of results implies that despite substantial short-run disruption, relative employment in harder-hit locations recovered in the long run, primarily through increased informal employment.16 This led DixCarneiro and Kovak to hypothesize that the informal sector served as a fallback sector for tradedisplaced workers; in other words, the effect of liberalization on local unemployment might have been more severe and longer lasting in the absence of a large informal sector.17
+This hypothesis is corroborated by Ponczek and Ulyssea (2022), building upon the empirical strategy of Almeida and Carneiro (2012) who showed that there is ample variation in the intensity
+15As mentioned in footnote 10 and Section 3.1.3, these “no-migration” results may not reflect true population responses to local shocks (Borusyak et al., 2022a).
+16Both the relative decrease in formal employment and the relative increase in informal employment appear primarily in tradable sectors, indicating that the relative increase in informality is not primarily driven by shifts between tradable and nontradable sectors.
+17Previous work by Goldberg and Pavcnik (2003) and Menezes-Filho and Muendler (2011) found no effect of tariff cuts on informality. There are a few key differences between these papers and Dix-Carneiro and Kovak (2019). First, they only exploit cross-industry variation and focus on informality rates within sectors. This approach omits changes in informality rates driven by worker reallocation across sectors with varying degrees of informality, which can be important in practice. Second, they only consider short-run effects. Finally, they only focus on manufacturing industries, whereas Dix-Carneiro and Kovak (2019) include services and agriculture in their analysis.
+24
+
+of Ministry of Labor audits across Brazilian regions. This implies that regions where labor inspections are more frequent have de facto more stringent labor regulations than regions where labor inspections are relatively rare. Ponczek and Ulyssea find that the effect of liberalization on unemployment is larger and the effect on informality is smaller in regions that are more tightly monitored. They conclude that in regions where labor inspections are more frequent, firms and workers are less able to smooth adverse shocks by shifting to informality. Instead, they are more likely to leave the market altogether in these tightly monitored locations, so the relative unemployment effects tend to be larger.
+Many other papers have examined the impact of trade liberalization on informality in Latin America.18 However, three challenges prevent the direct comparison of results across countries and studies. First, the definition of informality is not uniform across countries. For example, in Brazil a worker is informal if they do not hold a formal labor contract (their work booklet is not signed by their employer); in Colombia a worker is considered informal if the firm does not pay payroll taxes; and in Mexico informal employees are those without access to mandated health insurance and social security benefits. Second, the methodologies employed also vary. Some papers exploit variation across sectors whereas others use a local labor markets approach. Finally, the sector coverage also differs across papers, with some focusing solely on manufacturing and others including all sectors. In general, these papers find that increasing import competition (at the sector or regional level) is associated with relative increases in informal employment.19
+According to the empirical findings of Dix-Carneiro and Kovak (2019), shifts to unemployment and informality are empirically significant margins of adjustment to trade. However, there are three important questions their paper cannot address. First, as we discussed in Section 3.1.3, given the empirical design based on differences-in-differences, it cannot infer the aggregate effects of the trade liberalization episode on informality and therefore cannot answer whether trade liberalization increased or decreased the total share of informal employment in the Brazilian economy. Second, it is unclear whether incorporating informality into models of trade is quantitatively important, or if it brings new insights on the labor market consequences of trade. In particular, it is unclear if increased openness will amplify or reduce the extent of misallocation
+18Cruces et al. (2018) study this relationship in the context of Argentina; Goldberg and Pavcnik (2003), Menezes-Filho and Muendler (2011), and Paz (2014) focus on Brazil; Cisneros-Acevedo (2022) studies Peru; and Ben Yahmed and Bombarda (2020) and investigate these variables in the context of Mexico. In addition, Blyde et al. (2023) study the effects of the China Shock on informality in Mexico.
+19Exceptions include Cruces et al. (2018), who argue that tariff cuts in Argentina decreased aggregate informality in the manufacturing sector but increased it in the non-traded sector, and Goldberg and Pavcnik (2003) who find no statistically significant effects of tariff cuts on informality in the context of Brazil. In the context of Mexico, Bas and Bombarda (2023) exploit changes in input tariffs induced by NAFTA, finding that productivity increases resulting from cheaper inputs tend to increase within-sector rates of formalization.
+25
+
+in economies with a large informal sector. Finally, it cannot answer how trade impacts the labor market in environments characterized by higher or lower rates of informality.
+Dix-Carneiro et al. (2021) develop a general equilibrium framework to address these questions. In their model, firms with heterogeneous productivity choose whether to operate in the formal sector, in which case they pay taxes and have to comply with labor market regulations such as minimum wages and firing costs, or in the informal sector, in which case they do not pay taxes nor comply with regulations. However, informal firms face an expected cost of informality, reflecting both fines if they are detected by the authorities and other opportunity costs such as an increased cost of capital (Cata˜o et al., 2009). Both of these mechanisms suggest that the cost of informality increases with firm size, as firms become more visible to the government and their demand for capital increases as they grow. This combination of burdensome taxes and regulations and imperfect enforcement creates incentives for small and unproductive firms to self-select into informal status.
+The model features labor market frictions and equilibrium unemployment, highlighting essential trade-offs between informality and unemployment. The model has a rich institutional structure: formal firms pay value-added and payroll taxes and face firing costs, minimum wages, and import tariffs. International trade affects the economy through two channels: all firms in the economy (including firms in services and informal firms) use manufactured inputs, some of which are imported, and firms can access export markets after incurring fixed export costs. The model is estimated using a rich collection of Brazilian datasets, including household and firm surveys covering formal and informal activities as well as administrative records covering the formal sector.
+Dix-Carneiro et al. (2021) simulate the impact of reductions in trade costs and find that globalization has sector-specific effects. Openness tends to reduce informality within manufacturing irrespective of the initial level of trade costs. In contrast, the effect in services depends upon the initial level of trade barriers, with trade barrier reductions initially sharply increasing informality but further reductions reducing nontradable-sector informality somewhat. Overall, the effect of openness on aggregate informality is inverse U shaped: small increases in openness lead to rising informality, while larger increases in openness reduce informality back to the initial level. The analysis finds an important role for the informal sector as a labor market buffer; the impact of negative labor demand shocks on unemployment is larger when the government represses the informal sector, consistent with the empirical results in Dix-Carneiro and Kovak (2019) and Ponczek and Ulyssea (2022). On the other hand, shifting resources to the informal sector amplifies the misallocation of resources in the economy, so the informal sector acts as an
+26
+
+unemployment buffer but not a welfare buffer. The paper also investigates the consequences of trade on across-firm inequality, a topic we revisit in the next section. The authors find that the impact of trade openness on wage inequality is negative for the entire manufacturing sector, but is positive within formal manufacturing, a finding consistent with Helpman et al. (2017).
+3.3 Labor Market Regulations
+Labor markets in Latin America are characterized by strict regulations ranging from mandated benefits such as employer-sponsored social security payments, health insurance, minimum wages, payroll taxes, and worker dismissal costs. Even though many countries in the region undertook important labor market reforms in the 1980s and 1990s, Heckman and Pag´es (2000) argue that labor market regulations in Latin America remain comparable to those of Southern Europe on average. However, enforcement of these burdensome regulations tends to be weak, giving rise to large informal sectors throughout the region.
+As discussed in the prior subsection, Ponczek and Ulyssea (2022) use spatial variation in the enforcement of Brazilian labor regulations to argue that the informal sector works as a fallback for trade-displaced workers. In tightly monitored regions firms facing stiff foreign competition are more likely to shed workers or exit the market, while in less monitored regions firms facing increasing competition are more likely to reduce costs by switching to informal operations rather than shedding workers. However, because labor market regulations are generally applied nationally, this empirical approach is not available in many contexts. The literature on this topic has therefore relied primarily on theoretical and quantitative work. Kambourov (2009) calibrates a small open economy model to data from Mexico and Chile to argue that high firing costs in Latin American countries significantly slow down inter-sectoral labor reallocation in the aftermath of trade reform. According to his model, to maximize welfare gains, trade reforms must be complemented by labor market reforms giving firms more flexibility to adjust to shocks.
+Although Kambourov’s paper does not examine how the inequality consequences of trade interact with labor market regulations, Ruggieri (2021) extends the model in Co¸sar et al. (2016) to analyze how transition paths in response to trade liberalization are modulated by firing costs and minimum wages. The model is estimated using data from Colombia and Mexico, with Mexico having higher firing costs and Colombia higher minimum wages. The results show that the short-to-medium run effects of liberalization on unemployment are very sensitive to the initial level of these regulations. In counterfactual trade liberalization experiments, lower trade costs improve long-run aggregate welfare more in Colombia than Mexico but at a cost of higher inequality and a higher unemployment rate. These differences in outcomes are substantially
+27
+
+driven by the different regulations in place in the two countries. Despite these informative analyses of how labor market regulations influence the effects of
+trade on labor markets, an important omission from these quantitative models is the informal sector. As discussed above, labor market regulations give incentives for firms to operate informally, and that can generate important misallocation of resources. An important question then is whether trade liberalization will increase or decrease the extent of misallocation created by a large informal sector. Dix-Carneiro et al. (2021) is a step in this direction, but this is still a topic that deserves further work, especially considering the burden of regulations and the sheer size of the informal sector in most Latin American countries.
+3.4 Gender- and Race-Specific Impacts
+A growing literature studies the effects of globalization on gender inequality in Latin American countries.20 This literature has considered a variety of potential mechanisms. First, men and women may be treated as separate and complementary inputs to the production process. If production technology in different industries uses women’s and men’s labor with different intensities, then liberalization-induced shifts toward comparative-advantage industries may affect gender gaps through standard Heckscher-Ohlin mechanisms. However, we find this approach to be unsatisfying, since few production technologies literally utilize women’s and men’s labor as separate inputs.21 A more realistic approach is one in which production aggregates different types of skills (e.g. brains vs. brawn), women and men possess different amounts of these skills on average, and individuals sort endogenously into particular occupations and industries, as in a Roy model.22 Second, globalization may incentivize firms to adopt technologies that change the optimal mix of worker skills, which in turn affects the average returns across worker types. Third, women and men may be similar in their productive characteristics, but may have different preferences for working in particular industries or may face different costs of switching industries.23 Finally, globalization may change gender gaps by increasing competition such that taste-based gender discrimination becomes more costly for employers.
+The most commonly invoked mechanism treats female and male workers as different factors of production in a standard factor-intensity analysis. These mechanisms motivated a set of papers utilizing the local labor markets approach discussed in Section 3.1 to study gender inequality in a variety of outcomes. Gaddis and Pieters (2017) study the local effects of Brazil’s 1991 unilat-
+20Due to the nature of available data, all studies in this literature consider only binary gender, so our discussion will also focus exclusively on differences in outcomes between those reporting their gender as female or male.
+21An exception that proves the rule is actors being allocated to gender-specific roles. 22For example, see Hsieh et al. (2019). 23See our discussion of worker identity in Section 5.1
+28
+
+eral trade liberalization using a specification similar to (1), but examining gender-specific local outcomes. They find that increased import competition drove relative reductions in labor force participation and employment for both men and women, with larger negative effects for men.24 Mansour et al. (2022) use the approach of Autor et al. (2013) to study the regional effects of Chinese import competition in Peru, using a specification similar to (6) but with gender-specific local outcomes. In contrast to Gaddis and Pieters (2017), they find that import competition widened the relative gender gap in employment, with the largest relative employment reductions among low-education women. Ben Yahmed and Bombarda (2020) focus on changes in formal vs. informal employment by gender in Mexico in response to tariff reductions under NAFTA. They find that tariff cuts decreased women’s relative probability of working formally, both in manufacturing and in nontradables, particularly for those with low levels of education. Chong and Vela´squez (forthcoming) consider the gender-specific effects of Peruvian tariff reductions on employment, earnings, and hours in their broader study of the effects of liberalization on intimate partner violence (Section 3.5.3 discusses this paper in detail).
+It is difficult to synthesize the results of these studies, since they study different countries, focus on different outcome measures, and examine the effects of different types of shocks. The papers also disagree upon how to correctly measure shocks facing men and women in the labor force. All four studies use weighted-average measures similar to (2), (3), and (7) mapping industry-level shocks to the regional level. Ben Yahmed and Bombarda (2020) and Chong and Vel´asquez (forthcoming) compute shocks separately for men and women using gender-specific regional employment weights, while Gaddis and Pieters (2017) and Mansour et al. (2022) use a single shock measure calculated using the overall industry mix of each region, including men and women. A priority for this part of the literature is to use economic models to determine the conditions under which each approach is valid and whether alternative approaches are needed.25
+Globalization not only induces shifts across industries that use female and male labor with different intensities, but it also can affect factor intensity within industries by incentivizing firms to adopt new production technologies. If new technology has a gender bias, say because it automates tasks that on average require a high degree of physical strength, trade-induced technology adoption can in turn affect gender gaps. In a pair of papers, Aguayo-Tellez et al. (2013) and Juhn et al. (2014) study this mechanism in the context of the NAFTA tariff cuts in
+24Note that the effects in Gaddis and Pieters (2017) are of similar magnitude for both genders when measured in proportional terms.
+25For example, in a very similar model to that of Ben Yahmed and Bombarda (2020), Dix-Carneiro and Kovak (2015) show that the effects of trade liberalization on the wages of each worker type depend upon the industry mixes of both worker types. Therefore, type-specific shocks can not be calculated separately while remaining consistent with the model’s assumptions.
+29
+
+Mexico. Aguayo-Tellez et al. (2013) show that Mexican industries facing larger tariff reductions on exports to the U.S. experienced larger increases in the female share of employment and the wage bill. Juhn et al. (2014) then argue that this within-industry reduction in the gender gap was driven by the adoption of new technologies. They show that Mexican firms facing larger U.S. tariff reductions were more likely to start exporting and to adopt new automated or computerized machinery and equipment. This in turn led to increased relative employment and wages for women in the blue-collar jobs directly affected by the new technology. In contrast, Juhn et al. (2014) find no gender difference in effects for white-collar jobs, which were less likely to be directly affected by technology adoption.
+While the simplest models presume costless factor mobility across industries, the effects of globalization on gender inequality may depend upon female and male workers’ costs of switching across industries. Brussevich (2018) builds a dynamic model of labor mobility across sectors to study the effects of Chinese imports on the U.S. gender wage gap. The analysis finds that Chinese import competition narrowed the gender wage gap, both because men were concentrated in the goods-producing industries facing direct import competition and because men faced higher costs of transitioning into services than did women. We are not aware of any papers studying this mechanism in Latin America but suggest this as a potentially fruitful area for future work on countries in the region.
+The final mechanism considered in the literature is taste-based gender discrimination. If trade liberalization increases competitive pressure, discriminating firms will face an incentive to reduce discriminatory behavior or potentially exit the market. Black and Brainerd (2004) provide evidence for this mechanism in the U.S. context. They assume that there is more scope for gender discrimination in initially more concentrated industries, which are presumably less competitive. They then show that the gender wage gap closed more quickly in initially more concentrated industries when facing an increase in imports, which is consistent with imports increasing competition and reducing gender discrimination to a larger degree in the initially more concentrated industries. Ederington et al. (2009) study the same mechanism in the context of Colombian trade liberalization. They show that exporting plants have a higher baseline share of women in their workforce and that plants facing increased import competition as a result of tariff reductions increased their share of female workers. The authors interpret these findings as reflecting discriminatory firms reducing discrimination when increased competition made it more costly, either due to competing on the global market by exporting or through increased import competition. They find no evidence of increased exit in response to import competition among firms with initially lower female shares of employment. The regional analysis of Gaddis and
+30
+
+Pieters (2017) discussed above also considers the discrimination channel, but finds no evidence that increased competition increases the female share of employment at the regional level; if anything, their point estimates suggest the opposite.
+As in other parts of this literature, these results are difficult to synthesize due to substantial differences in research design. Black and Brainerd (2004) study outcomes at the industry level and base their analysis on heterogeneity by initial industry concentration. Ederington et al. (2009) have a firm-level design in which their primary specification does not rely on variation in concentration, but an additional analysis surprisingly finds smaller effects in more concentrated industries. Gaddis and Pieters (2017) use a regional design that does not consider industry concentration. Developing an integrated framework facilitating comparisons across contexts is a priority for this literature.
+While this section has thus far focused on gender inequality, we are aware of one paper studying the effects of globalization on racial inequality in a Latin American country. Hirata and Soares (2020) use the local labor markets approach to study the effects of Brazilian trade liberalization on racial wage gaps, using an estimating equation similar to (1) and the regional tariff reduction measure in (3). The outcome they study is the change in racial wage gap between white and non-white workers in each region (adjusted for changes in other demographic and educational characteristics). They find substantially larger declines in racial wage gaps in locations facing larger reductions in tariffs on imports and interpret their results as supporting theories predicting a reduction in discrimination when facing increased competition, in this case from imports.
+All of the preceding mechanisms focus on changes in labor demand, but globalization could also affect labor supply in ways that differ by gender. For example, labor economists have long studied the so-called “added-worker effect” in which a worker changes their labor supply behavior in response to their spouse’s job loss.26 These effects should apply when job losses or gains are driven by globalization. More broadly, globalization can affect household income and composition in ways that affect members’ labor supply decisions, and if those decisions vary the gender mix of the labor force, gender inequality may be affected as well.27 We are unaware of papers investigating this mechanism in Latin America.
+26See Stephens (2002) for a literature review and empirical evidence for the U.S. 27For example, Autor et al. (2019) provide evidence that import competition from China reduced young men’s probability of being married and increased their probability of neither working nor being enrolled in school in the U.S. They also find a higher share of mothers who are unmarried and children living in poverty in locations facing larger increases in Chinese imports.
+31
+
+3.5 Beyond the Labor Market
+While a majority of the literature on globalization’s effects on inequality in Latin America focuses on labor market outcomes, smaller literatures examine effects on other outcomes that are relevant for welfare, including consumption, education, crime, health, and political outcomes.
+3.5.1 Consumption
+The welfare effect of globalization depends not only upon changes in incomes but also upon changes in the prices of goods that consumers purchase. A recent line of research has begun to examine the latter, often in integrated frameworks that allow the authors to quantitatively compare effects on incomes and consumer prices to derive measures of welfare changes. Because consumers with different income levels tend to consume a different mix of products, the consumption channel can be an important mechanism through which globalization affects inequality. Moreover, in standard economic models consumption is more directly tied to consumer wellbeing than labor market outcomes, and changes in consumption at least partly reflect effects on earnings.
+In a seminal analysis, Porto (2006) studies the effects of Mercosur tariff changes on households in Argentina, considering the trade liberalization’s effect on both workers’ wages and on goods prices. Using detailed micro data, he observes the mix of consumption and sources of wage income for Argentine households at different points in the income distribution and uses that heterogeneity to measure how the tariff changes affected workers with different income levels. The analysis shows that the changes in goods prices increased inequality, primarily because Mercosur increased the prices of food and beverages, which constitute a larger share of lower-income households’ expenditures. In contrast, the effects on labor income were more positive for lower-income households because Mercosur drove larger increases in relative prices of goods whose production is intensive in low-skilled labor. Because the labor income effects were much larger than those on goods prices, the net effect is pro-poor, with low-income households benefiting by around 6 percent of initial household expenditure and roughly zero effect on the highest-income households.
+While Porto’s (2006) analysis focuses exclusively on the prices of final goods, Faber (2014) introduces an additional mechanism focused on imported intermediate inputs. His study of the effects of NAFTA tariff cuts in Mexico uses detailed production and consumption data to show that higher quality goods tend to use imported intermediate inputs more intensively and that these goods comprise a larger share of consumption for higher income individuals. Because tariff reductions under NAFTA disproportionately reduced the prices of imported intermediates from
+32
+
+the U.S. and Canada, relative prices of higher quality final goods fell, which in turn increased inequality.
+Using a similarly rich and detailed set of data for Mexico, Atkin et al. (2018) study the effects of foreign direct investment on consumer prices. Specifically, they study the effects of the entry of large foreign-owned supermarkets during 2002-2014, a period of rapid investment in the Mexican retail market. Using an event study approach coupled with a theoretically consistent decomposition, the authors document how foreign supermarket entry affected household welfare. The average welfare gains are large (around 6 percent of household income) and primarily driven by price reductions and increased product variety at the foreign supermarkets themselves and by price reductions at existing domestic markets. Although households at all income levels are estimated to benefit from the entry of foreign supermarkets, the gains to the richest households are about 50 percent larger than those for the poorest households, largely because high income households shift consumption toward foreign supermarkets much more than do poorer households.
+While the preceding papers use detailed household consumption data to estimate heterogeneous effects on consumption of richer and poorer households, another line of research uses the structure of the demand system to infer differences in consumption behavior throughout the income distribution. Fajgelbaum and Khandelwal (2016) use an Almost-Ideal Demand System to infer which countries produce high- or low-income elastic goods in a gravity equation framework. They then uses these estimates in the context of a modern quantitative trade model to argue that trade has a pro-poor bias (relative to autarky) in all countries, primarily because poorer consumers spend more on tradables. He (2019) extends this framework to include multiple factors of production and worker reallocation across sectors, and similarly finds a pro-poor effect of Chinese productivity growth from 1995 to 2007 on real-wage inequality in Brazil and Mexico. Nigai (2016) builds and calibrates a multi-country trade model with demand non-homotheticity resulting from households’ minimum consumption of agricultural goods. His analysis finds a pro-rich bias to the effects of lower trade costs. These contrasting results highlight the inherent difficulties in inferring income elasticities from aggregate data and highlight the value of directly measuring differences in consumption by income level using detailed data. For example, Borusyak and Jaravel (2021) use detailed consumption data for the U.S., finding that trade is approximately income-neutral and that estimates based on demand system restrictions can be substantially biased.
+33
+
+3.5.2 Education
+A large literature studies how trade affects inequality between workers with different education levels, with many studies in developing countries (including those in Latin America) finding that globalization increased the skill premium and other related measures of inequality across education groups (see the survey in Goldberg and Pavcnik, 2007). This finding suggests that globalization would incentivize increases in educational attainment in these countries. Yet, Atkin (2016) finds the opposite in the context of the large increase in export-oriented manufacturing in Mexico between 1985 and 2000. Birth cohorts that turned 16 (a pivotal age for schoolleaving) during a period when local export-industry job growth was particularly high were substantially less likely to complete high school than older or younger cohorts. The emergence of export manufacturing jobs seems to have increased the opportunity cost of schooling, leading some students to choose employment over continued education. This finding suggests a tradeoff between the policy goals of export-led industrialization and increasing educational attainment. Atkin argues that the schooling effects in Mexico were large because the new job opportunities demanded particularly low average education levels and because many youths were close to the drop-out margin. Future work examining other contexts in which these features vary can help shed light on the circumstances under which export-led growth and increased educational attainment face a trade-off.
+3.5.3 Crime
+A rich literature has documented the relationships between deteriorations in economic conditions and local crime rates.28 Given the evidence in Section 3.1 showing that globalization can drive substantial differences in economic performance across local labor markets, it is natural to investigate whether these changes in economic conditions affected local crime rates.
+Dix-Carneiro et al. (2018) follow the research design of Kovak (2013) and Dix-Carneiro and Kovak (2017) to study the effects of increased import competition on local crime rates in Brazil. They find that a region facing a 1 percentage point larger tariff reduction experienced a 3.8 percentage point larger average increase in homicide rate between 1991 and 2000, five years after the trade liberalization was complete. Yet, this effect largely disappears by 2010, with a point estimate that is less than half the magnitude and not statistically significantly different from zero. This time pattern of crime effects mirrors that of employment, with substantial relative reductions in employment by 2000 in locations facing larger tariff cuts and small and statis-
+28See Dix-Carneiro et al. (2018) Sections IV.A and IV.B for a literature review.
+34
+
+tically insignificant estimates in 2010.29 The relative decline in employment was accompanied by earnings reductions, plant closures, and reduced regional wagebill in the formal sector. In turn, these reductions in relative economic activity reduced government revenue and spending, particularly on public safety personnel. The authors develop a bounding methodology based on (i) assuming that the linear relationship between crime and its underlying determinants is stable over time and (ii) imposing sign restrictions motivated by prior literature on the determinants of crime (e.g. expanding police forces or reducing inequality does not increase crime rates). Using this approach, the authors conclude that effects on labor market conditions account for 75 to 93 percent of the medium run (1991-2000) effect of tariff cuts on relative violent crime rates across regions.
+Dell et al. (2019) also use a local labor markets approach to study violence in Mexico, but rather than examining the direct effects of import competition, they study how competition from China in the U.S. export market indirectly affected manufacturing employment and violent crime rates in Mexican localities. Specifically, they measure the extent to which each Mexican municipio’s mix of industries was subject to increased imports from China in the U.S. They then use this measure as an instrument for changes in local manufacturing employment when examining the effects of changes in employment on local drug-related homicides.30 They find that increased competition in the U.S. reduces relative manufacturing employment across Mexican regions, which in turn substantially increases relative rates of violence. This effect only arises in locations with significant presence of drug-trafficking organizations, consistent with the idea that the increase in violence reflects conflict over newly economical trafficking routes where labor is more freely available following manufacturing declines. Overall, their estimates suggest that drug-related homicides in Mexico would have been 27 percent lower in the absence of increased Chinese competition in the U.S.. However, this back of the envelope calculation relies on an absolute interpretation of the relative effects identified using a regional difference-in-differences design, so it should be interpreted with caution (see Section 3.1.3).
+Both Dix-Carneiro et al. (2018) and Dell et al. (2019) emphasize that their findings of substantial effects of economic conditions on violent crime, specifically homicides, differ from those of related studies in countries with higher average incomes, stronger institutions, and lower baseline crime rates than Brazil and Mexico. This sharp difference in findings across countries should motivate additional research on the economic determinants of crime in Latin
+29These employment results echo those Dix-Carneiro and Kovak (2019), who show that the relatively recovery in employment during the 2000s is accounted for by informal employment, while relative formal employment does not recover.
+30Note that this approach raises an exclusion-restriction concern analogous to the problem that Dix-Carneiro et al. (2018) address using their bounding methodology.
+35
+
+America and other countries with similar institutional contexts, with trade shocks providing an additional source of identifying variation. Yet, the existing evidence suggests that crime represents a substantial source of adjustment costs to trade shocks in Brazil and Mexico, with these costs accruing to individuals throughout society who are affected by increased crime even if not directly affected through changes in labor market outcomes.
+While the preceding papers focus on violent crime generally, Chong and Vel´asquez (forthcoming) focus specifically on the effects of tariff reductions on intimate-partner violence in Peru. This paper calculates gender-specific versions of the regional tariff reduction based on each gender’s initial industry mix and compares changes in rates of intimate-partner violence in places where men or women face different tariff reductions. They find very substantial increases in intimate-partner violence in places where men faced larger tariff reductions and smaller increases when women faced larger cuts. Additional analyses find that these increases in relative violence are associated with men’s earnings reductions, poverty-related stress, and alcohol use.
+3.5.4 Health
+An emerging literature documents alarming effects of import competition on mortality and serious health outcomes for adults in the U.S. (Autor et al., 2019; Adda and Fawaz, 2020; Pierce and Schott, 2020). In the Latin American context, Fern´andez Guerrico (2021) shows that trade-induced changes in labor market conditions had important impacts on health outcomes in Mexico. Specifically, the paper uses detailed administrative data to study the effects of import competition driven by the China shock, finding that trade-induced job losses led to increased mortality from diabetes, increased obesity rates, reduced physical activity, and reduced access to health insurance. However, these increases in mortality were offset by reductions in mortality from heart and pulmonary disease associated with alcohol and tobacco use. Diaz-Gutierrez (2023) uses a similar regional approach to show that Colombian local markets that were more exposed to the country’s 2010 tariff reform saw increased drug abuse compared to less exposed regions. Using administrative records on emergency room visits and hospitalizations, the paper finds the largest relative increases related to alcohol and cocaine abuse, which coincide with negative relative effects on local employment, firm creation, and wages.
+Charris et al. (2021) study an alternative dimension of health in the Brazilian context: infant mortality. They use the research design of Kovak (2013) and Dix-Carneiro and Kovak (2017) and find a surprising relative decline in infant mortality in locations facing larger tariff reductions, despite confirming the relative deterioration of labor market outcomes documented in prior work. They present evidence that this effect is driven by the reduced opportunity cost of receiving
+36
+
+prenatal care among women of childbearing age. Women in locations facing larger tariff cuts saw larger reductions in labor force participation and increased usage of preventative prenatal medical services. The observed reductions in relative infant mortality were concentrated among causes that could be influenced by medical care, as opposed to other causes such as accidents. Moreover, places with larger import shocks exhibited reductions in the impact of the Family Health Program, which provides free health services through home visits. This result highlights the importance of economic and healthcare institutions in driving the apparent tradeoff between female labor force participation and infant mortality documented by the paper. We encourage researchers to pursue similar questions in other institutional context to assess the generality of these results.
+3.5.5 Political Outcomes
+A trio of recent papers uses the local-markets approach discussed in Section 3.1 to study how globalization affected voting outcomes in Brazil and Mexico, alongside similar studies in the U.S. (Autor et al., 2020; Che et al., 2022; Choi et al., 2022) and Germany (Dippel et al., 2022). Political outcomes are particularly important because they reflect voters’ overall perceptions of how globalization has affected or will affect them, and because political changes driven by short-run economic outcomes can change long-run policy trajectories, with similarly long-lived implications.
+Iacoella et al. (2020) and Ogeda et al. (2021) both study the effect of Brazil’s 1990 trade liberalization on subsequent presidential election outcomes at the microregion level using designs that closely follow Dix-Carneiro and Kovak (2017). Iacoella et al. (2020) argue that regions facing larger tariff reductions were more likely to vote for the liberal candidate Lula da Silva in 2002 and the conservative candidate Jair Bolsonaro in 2018. Similar effects do not appear in the presidential elections in intervening years, which the authors argue is due to austerity policies preceding the 2002 and 2018 elections that drove support for populist candidates. Ogeda et al. (2021) find shifts away from left-wing presidential candidates in regions facing larger tariff cuts in all presidential elections from from 1994 to 2018, providing evidence that import competition weakened unions, which in turn reduced the vote shares for union-affiliated left-wing parties.
+The apparently contradictory findings across these two studies are likely explained by an important difference in outcome variable. While Iacoella et al. (2020) study the effect of regional tariff reductions on the level of each candidate’s local vote share, Ogeda et al. (2021) examine the change in vote share for left vs. right leaning parties relative to the share in 1989. Because Ogeda et al. (2021) find a shift away from left-wing parties that was much larger in 2018
+37
+
+than in 2002, the two papers’ findings are not necessarily contradictory. Which result is most informative regarding the causal effects of liberalization depends upon one’s view regarding the counterfactual absent liberalization, with Ogeda et al. (2021) assuming persistence in vote shares following 1989 and Iacoella et al. (2020) assuming no such persistence.31
+Bustos and Morales-Arilla (2022) employ a similar approach to study how opposition to NAFTA affected the vote share received by Andr´es Manuel L´opez Obrador in the 2006 Mexican presidential election across commuting zones. Rather than examine the effects of cuts in import tariffs, the authors focus on the local effects of gaining freer access to the U.S. market under NAFTA.32 In the 2006 election, Lo´pez Obrador proposed extending tariff protections for Mexican agricultural goods, contradicting the NAFTA agreement and putting in jeopardy reciprocal tariff reductions in the U.S. The paper finds that locations benefiting most from the U.S. tariff cuts exhibited larger declines in vote shares for Lo´pez Obrador’s party (the PRD) in 2006 relative to either 1994 or 2000. Similar effects do not appear in other years, when trade policy was a less salient election issue.
+These studies make clear that changes in trade policy can alter how people vote, with lasting effects on political outcomes, driving increased support for parties on either side of the political spectrum, depending on the context and circumstances. To the extent that these effects on voting patterns drive changes in broader economic policies, the political channel may be an additional mechanism through which globalization indirectly affects inequality. Moreover, if the effects of trade policy are dynamic, with short-run adjustment costs preceding long-run benefits, short-run political outcomes may be affected in ways that alter the trajectories of economic policies and outcomes.
+4 Structural and Quantitative Analyses in General Equilibrium
+As discussed in Section 3, a large body of recent empirical work finds that globalization has driven significant disruptions in the labor market and led to important effects on inequality in Latin America across a variety of dimensions. This reduced-form empirical literature has led to an explosion of interest in understanding, modeling, and quantifying the adjustment processes in response to globalization shocks. The quantitative structural approach makes it possible to measure aggregate effects that are not identified by the difference-in-differences designs utilized in much of the literature already discussed (see Section 3.1.3) and to directly consider welfare and
+31The choice of appropriate base year was also important in reconciling differences in findings between Autor et al. (2020) and Che et al. (2022).
+32The authors additionally control for changes in Mexican tariffs on imports from the U.S. and Canada under NAFTA, finding that their results are robust.
+38
+
+distributional consequences of globalization. The structural approach also allows researchers to quantitatively assess the relative importance of alternative mechanisms in a unified framework and to consider the potential impacts of both observed and hypothetical interventions. Of course, these benefits come at the cost of requiring stronger assumptions.
+When building a structural model of globalization and inequality, the researcher must specify the potential mechanisms relating these quantities. The classic mechanism in international trade is based on the Stolper and Samuelson (1941) theorem in a Heckscher-Ohlin model, showing how trade affects the real returns to different factors of production by changing the prices of the goods countries trade. Specifically, a trade-induced increase in the relative price of the skill-intensive good should benefit skilled workers and hurt unskilled workers within a country. Since lowerincome countries are assumed to be relatively abundant in unskilled labor, the Stolper-Samuelson and Heckscher-Ohlin theorems together imply that inequality, measured as the skill premium, should fall in lower-income countries when they integrate with a higher-income world. However, Goldberg and Pavcnik (2007) find that wage inequality and the skill premium tended to increase in many developing countries that went through trade liberalization episodes in the 1980s and 1990s (e.g., Mexico, Argentina, Colombia, and India).33 This posed a challenge to international trade economists, leading them to consider alternative or additional mechanisms that might explain how and why freer trade might increase inequality in developing countries.
+4.1 Capital-Skill Complementarity
+One such alternative relies on capital-skill complementarity (Krusell et al., 2000). As countries reduce tariffs and trade costs decline, the price of capital decreases, particularly in lower-income countries that tend to import a large share of their capital equipment. If capital complements skilled labor but substitutes unskilled labor, then increased openness can lead to increases in the skill premium, even in countries that are abundant in unskilled labor. Recent work on this topic (Parro, 2013; Dix-Carneiro and Traiberman, 2023) has shown that capital-skill complementarity can indeed quantitatively dominate the standard Stolper-Samuelson effects in general equilibrium models of trade, providing a plausible explanation for the increase in the skill premium in many Latin American countries in the wake of their trade reforms.
+33An exception to this list is Gonzaga et al. (2006) who show that the evolution of inequality in Brazil following its trade liberalization is consistent with Stolper-Samuelson effects.
+39
+
+4.2 Non-Homothetic Demand and Quality Upgrading
+Another potential mechanism assumes that higher-income consumers have greater demand for quality products, i.e. demand is non-homothetic in quality. If the production of higher quality products is more skill-intensive than producing lower quality products, then the relative demand for skill will increase when a lower-income country trades more freely with higher-income countries. Verhoogen (2008) is the seminal contribution on this topic, in the context of Mexico’s manufacturing sector. He finds that Mexican exporters did indeed experience an increase in the relative demand for high-quality goods during the peso crisis when Mexico’s currency devalued sharply, increasing relative demand from abroad, particularly the U.S. This increase in the relative demand for high-quality products then translated into relative increases in the domestic demand for skilled workers, pushing the skill premium up. Brambilla et al. (2012) find similar results for Argentina. When the Brazilian currency devalued in 1999, Argentine firms shifted their exports away from Brazil and toward high-income countries, which in turn drove an increase product quality and an increase in the relative demand for highly skilled workers.
+Fieler et al. (2018) document the quantitative relevance of this channel in the context of Colombia. They develop a quantitative model where trade liberalization leads importers to upgrade the quality of the goods they produce, because foreign inputs reduce the cost of producing higher quality products, and exporters upgrade the quality of the goods they sell abroad to meet foreign demand for high-quality products. According to the estimated model, the Colombian trade liberalization increased the relative demand for skills, consistent with post-liberalization data, showing increases in the skill intensity at the firm level.
+In a related paper, Medina (2022) investigates how Peruvian apparel producers were affected by China’s accession to the WTO. In the face of low-cost import competition from China, Peruvian producers lost domestic market share, initially leading to sharp reductions in output. However, due to the local availability of a high-quality input – pima cotton – producers were able to upgrade the quality of their products without changing their production equipment, exporting the new high-quality products to high-income countries. This export-led increase in production offset losses in production caused by head-to-head domestic competition with lowerquality Chinese apparel products. After structurally estimating a model incorporating this mechanism, Medina finds that the domestic availability of pima cotton and access to qualityhungry rich-countries’ markets were key factors behind the recovery of the Peruvian apparel sector. If Peruvian firms had to import this higher quality input or if Peruvian firms had no access to rich countries’ consumers, annual industrial output would have been substantially lower.
+40
+
+4.3 Wage Inequality Across Sectors and Regions
+As emphasized by Goldberg and Pavcnik (2005), trade can affect wage inequality not just between workers with different levels of education but across otherwise similar workers in different sectors. If workers face mobility frictions across sectors, wages will not necessarily be equalized, and changes in the structure of protection can have important implications for the structure of industry wage premia. In addition, Section 3.1 summarizes many papers finding substantial effects of globalization on regional inequality in Latin American countries, and similar effects have been documented in other countries as well. Topalova (2010) finds substantial differences in the growth of poverty rates across Indian regions facing larger or small tariff cuts on imports. Autor et al. (2013) and Pierce and Schott (2016) find that U.S. regions more exposed to Chinese import competition experienced less favorable economic conditions compared to less exposed regions. Similar conclusions arise for European countries: see Utar (2018) on Denmark and Dauth et al. (2014) on Germany.
+Given this empirical evidence for imperfect mobility across industries and locations in a wide variety of contexts, researchers have developed quantitative frameworks incorporating crossindustry and spatial labor market frictions, to understand how labor markets adjust to shocks from globalization. Prominent examples of this approach include Artu¸c et al. (2010), DixCarneiro (2014), Caliendo et al. (2019), Traiberman (2019) and Dix-Carneiro et al. (2023).34 These frameworks help us understand impacts and tradeoffs of adjustment and smoothing policies including retraining programs and relocation subsidies.
+Specific to Latin America, Dix-Carneiro (2014) develops an equilibrium model of the Brazilian labor market where workers face several barriers to mobility across sectors. The model features heterogeneous workers (in terms of age, gender, education and sector-specific experience) who choose in what sector to work (or to work at all). These workers have comparative advantage across sectors: they are inherently more productive in some sectors than in others, and this is in part determined by their observed characteristics. As they choose where to work and accumulate sector-specific experience, their initial pattern of comparative advantage is reinforced, making them less likely to move in response to sector-specific shocks. In addition, workers face costs of switching sectors. The model also features overlapping generations, which lends flexibility to the labor market as older, lower mobility workers leave the labor market and are replaced by younger, more mobile workers. The model is estimated using administrative data from Brazil (Relac¸o˜es de Informa¸co˜es Sociais—RAIS), which allow researchers to observe
+34Bourguignon and Bussolo (2013) summarize a related literature using Computable General Equilibrium (CGE) models to study the effects of various shocks on income distributions.
+41
+
+detailed worker characteristics and follow them across sectors for extended periods of time. An important conclusion from estimating this model is that workers face substantial mobility costs in switching across sectors, but these are very heterogeneous across the population, with older and less educated workers facing larger mobility costs.
+The estimated model is then used for counterfactual experiments. Consistent with the empirical findings of Dix-Carneiro and Kovak (2017), the model predicts a slow adjustment process following trade liberalization. Given this slow and costly adjustment process, the gains from trade can be significantly smaller than in standard models assuming instantaneous reallocation. The model can also be used to quantify the distributional impacts of various trade policies. For example, in the wake of a hypothetical tariff cut in High-Tech Manufacturing, workers initially employed in that sector face welfare losses, but workers in other sectors gain. Even within sectors, the losses are unevenly distributed, with older and more skilled workers losing the most.
+The model also sheds light on potential policies designed to compensate those who lose from globalization. For example, subsidizing workers in adversely affected sectors to switch to a new sector tends to outperform policies that retrain workers to enter new sectors. Understanding why highlights the importance of considering general equilibrium effects when comparing potential interventions. Retraining policies perform relatively poorly because eligible workers disproportionately choose to relocate to the Transportation/Utilities/Communication industry, depressing the wage in that sector. This wage reduction hurts all workers who would have switched to that sector in the absence of intervention, so although the policy benefits many switchers from High-Tech Manufacturing into Transportation/Utilities/Communication, it also hurts all those workers who would have switched unconditionally. Summing the effects across these two types of workers, we obtain that the retraining policies fail to successfully compensate those who lose due to the tariff cut.
+4.4 Commodity Prices and Worker Sorting
+Many Latin American countries are highly exposed to the behavior of commodity prices, which led to a debate over the role of the 2000s commodity boom on wage inequality throughout the region. The magnitude of the boom and the common simultaneous decline in inequality across many countries in the region led many economists to hypothesize that the evolution of commodity prices was an important driver of this decline in inequality. Motivated by this context, Ada˜o (2016) developed a quantitative framework specifically designed to analyze the distributional consequences of commodity price shocks in Brazil. The paper assumes that Brazil consists of a collection of small open economies with segmented labor markets. Within each
+42
+
+region, workers can be employed in commodity or non-commodity sectors. Workers have different productivity levels across sectors, leading them to select into sectors in which they have a comparative advantage, as in the classic Roy model. After estimating the model using Brazilian Demographic Census data between 1991 and 2010, the analysis finds a small role for commodity price shocks in explaining the reduction in wage inequality over that period; only up to 10% of the decline in Brazilian wage inequality of this period can be explained by changes in world commodity prices.
+4.5 Wage Inequality Across Firms
+While the discussion thus far has focused on inequality across sectors, locations, and individuals, given the increased availability of firm-level datasets researchers have begun studying the impacts of trade on wage inequality across firms. The starting point of this literature is the empirical regularity that larger (and more productive) firms tend to pay higher wages (i.e., there is a size wage premium) and that conditional on size (or productivity) exporters tend to pay even higher wages (i.e., there is an exporter wage premium). Therefore, globalization may affect inequality across workers by shifting the firm size distribution, changing the share of firms that export, or by affecting the size of the exporter wage premium.
+Relevant models predict that declines in trade barriers allow marginally less productive firms to export and increase the exporter wage premium (Helpman et al., 2010; Amiti and Davis, 2011). These changes can lead to either increasing or decreasing wage inequality across firms, depending on the location of the productivity threshold for exporting and the size of the increase in the exporter wage premium. Helpman et al. (2017) fit the model in Helpman et al. (2010) to the Brazilian formal manufacturing sector using matched employer-employee data (RAIS). According to their estimates, the Brazilian trade liberalization of the 1990s was responsible for a quarter of the increase in wage inequality between 1986 and 1995, showing that selection into exporting and the exporter wage premium are quantitatively important mechanisms linking trade openness to wage inequality.
+Another prominent example in this literature is Co¸sar et al. (2016), who study the evolution of cross-firm wage inequality in Colombia. The Colombian context poses two particular challenges during their sample period. First, the country implemented labor market reforms concurrently with trade liberalization, potentially confounding the independent impact of trade on wage inequality. Second, due to a broader integration with trading partners, trade costs fell beyond the reductions from falling import tariffs. It is therefore difficult to disentangle the key drivers of wage inequality over this period. To overcome these challenges, Co¸sar et al.
+43
+
+(2016) develop a dynamic model where heterogeneous firms make hiring and firing decisions in a frictional labor market and international trade is subject to import tariffs and iceberg trade costs. The authors fit the model to plant-level data for the Colombian formal manufacturing sector. The main conclusion of the paper is that declining trade costs with the rest of the world, beyond the decline in tariffs, improved income per capita income but also reduced job security and increased wage inequality across firms in Colombia.
+It is important to emphasize that the results in Helpman et al. (2017) and Co¸sar et al. (2016) only address wage inequality across firms within the formal manufacturing sector.35 Results from Dix-Carneiro et al. (2021), which incorporate the informal sector, also find that reductions in trade costs can lead to increases in wage inequality within the formal manufacturing sector. However, when considering the full manufacturing sector, including the informal sector, reductions in trade costs actually reduce cross-firm wage inequality in manufacturing by forcing the exit of the lowest paying firms and compressing the distribution of wages. This finding highlights the importance of incorporating the informal sector into analyses of the impacts of globalization on labor markets.
+In a particularly rich analysis, Ada˜o et al. (2022) study the impact of trade on earnings inequality in Ecuador, incorporating both firm- and worker-level heterogeneity. They leverage granular data on firm-to-firm transactions, matched employer-employee records, and customs data, which together allow them to observe heterogeneous workers and how their firms engage with both international and domestic trade. This makes it possible to characterize workers’ direct and indirect exposure to international trade through the entire production network. They ground their analysis in the factor content approach of Deardorff and Staiger (1988). In their model, increases in foreign demand for Ecuadorian exports lead to changes in the demand for domestic factors at firms directly engaged in these exports, but also at firms that trade with these exporters and so on recursively through the rest of the supply chain. These effects, and similar effects of import competition, depend on micro-elasticities of substitution between goods in consumption, and between factors at the firm level. The Ecuadorian data allow for a rich description of exposure of factors to both exports and imports, which Ada˜o et al. show depends on the full production network and the aforementioned elasticities. The paper highlights many dimensions of trade’s effects on inequality, but its key conclusion is that that increased trade contributed to an increase in earnings inequality in Ecuador, with imports being the dominating channel through which this effect materialized.
+Together, the studies discussed in this section document the qualitative and quantitative
+35In addition, the data used by Co¸sar et al. (2016) only include manufacturing firms with at least 10 workers.
+44
+
+importance of many different mechanisms linking globalization to various dimensions of inequality. As with the reduced-form studies surveyed in Section 3, the quantitative literature faces a challenge of synthesis across mechanisms and dimensions of inequality. As we emphasize in Section 5.2 below, future quantitative work should strive to incorporate multiple mechanisms and multiple dimensions of inequality in order to assess their relative importance. An additional challenge is the recurrent finding that trade’s impacts on inequality evolve over time.36 Incorporating these dynamics poses technical challenges but is essential to understanding how globalization impacts inequality, since short-run and long-run effects can differ substantially.
+5 Implications
+5.1 Smoothing Policies
+The economic argument for free trade generally centers on aggregate economic gains, which imply the possibility that trade is Pareto improving. Yet, the preceding discussion has documented many dimensions over which globalization has affected inequality, including across education levels, locations, industries, and genders. These findings imply that the benefits and costs of globalization are not evenly shared across these different groups of workers, suggesting a role for policies designed to compensate those who lose as a result of globalization and/or to overcome frictional adjustment by speeding worker transitions from negatively to positively affected markets. These are precisely the kinds of policies that one has in mind when arguing for the possibility of Pareto-improving trade. Moreover, even if a proponent of free trade is unconcerned regarding the distributional consequences of globalization, compensation of those facing losses may be necessary to avoid a political backlash against globalization that leads to protectionism (see Section 3.5.5).
+Latin American countries have pursued a wide variety of active labor market policies, both to cushion worker losses when facing job loss or wage reductions and to hasten worker transitions into more favorable industries and occupations. Training programs designed to help workers transition into jobs with more favorable opportunities are the most common type of intervention in Latin America (ILO, 2016). Other common interventions include public works programs, which generally provide jobs to unemployed workers during economic downturns, employment subsidies designed to increase employment, labor market services to more efficiently match
+36Examples include Dix-Carneiro (2014), who considers dynamic impacts across worker groups and industries; Bellon (2018) and Ruggieri (2021), who consider dynamic impacts across firms; Dix-Carneiro and Kovak (2017), who consider dynamic impacts across regions; and Dix-Carneiro and Traiberman (2023) who consider dynamic impacts on the skill premium.
+45
+
+workers and employers, and policies to facilitate self employment (ILO, 2016). Yet, the evidence on the effectiveness of these policies is mixed, and the data and methodolo-
+gies used to evaluate the policies are often limited (ILO, 2016; Escudero et al., 2019; McKenzie, 2017). Most studies rely on selection-on-observables assumptions, with only a few recent papers using randomization to overcome selection bias concerns (ILO, 2016). Many studies focusing on Latin American countries also observe only short-run outcomes, making it difficult to assess program effectiveness or implement credible cost-benefit calculations (McKenzie, 2017). Moreover, these studies often face high rates of attrition, with most relevant analyses losing 20 percent or more of the baseline sample when measuring post-intervention outcomes (McKenzie, 2017). Resolving these methodological and data issues is essential for generating credible evidence on the effectiveness of active labor market policies in Latin America.
+In this regard, Attanasio et al. (2017) provide a model for future work in their study of Colombia’s J´ovenes en Acci´on vocational training program. Program participation was randomly assigned, which mitigates causal identification concerns. The authors were also able to match all program participants and a random sample of control applicants to administrative data on formal-sector employment outcomes covering 3 to 9 years following program participation. This approach avoids attrition issues while maintaining the ability to observe long-run outcomes. The results of the study are also very positive, finding sustained increases in formal employment, formal earnings, and the probability of working at a large firm for workers randomized into training eligibility.
+While active labor market policies are designed to support workers in general, they do not specifically focus on those facing losses due to import competition. We are unaware of specific globalization-targeted policies in Latin American countries, but in the U.S. the Trade Adjustment Assistance (TAA) program is available only to workers who lose their jobs as a result of import competition or offshoring. This program provides extended unemployment insurance benefits, subsidized training, and modest job search and reallocation benefits to eligible workers. Hyman (2018) identifies the effects of TAA eligibility using an investigator-leniency design leveraging the fact that some displaced workers are approved or denied TAA benefits based on random assignment to strict or lenient investigators. He finds very favorable effects of the program, with eligible workers having $50,000 greater cumulative earnings after 10 years. The program also appears to be highly cost-effective despite the substantial costs of extended unemployment and training benefits.
+Hyman’s results regarding TAA in the U.S. give reason for optimism, but their broader applicability remains uncertain. It is an open question whether targeting globalization-affected
+46
+
+workers in this way has important benefits or shortcomings relative to otherwise similar programs with broader eligibility.37 It is also unclear whether similar effects would be observed in the distinct economic and institutional environments in Latin America; ILO (2016) and Escudero et al. (2019) emphasize that similar policies can have very different outcomes in OECD and Latin American countries. For example, Latin American training programs that target youths tend to have favorable estimated effects, while similar programs in OECD countries are generally found to be ineffective. Moreover, as emphasized in Section 4, the effects of labor market interventions may differ substantially when implemented at a small scale vs. economy-wide. As policies are scaled up, general equilibrium effects become quantitatively important, and in many cases these adjustments can dampen the effects relative to smaller-scale interventions.
+Finally, even if policies are successful in financially compensating those who lose from globalization, worker discontent may remain. Many workers strongly identify with their industry or occupation and may suffer a loss of that identity when leaving their prior job (Akerlof and Kranton, 2000; Goldin, 2006; Bertrand, 2011). For example, Stevenson (2016) argues that the perception of certain jobs as associated mainly with women impedes the reallocation of men from shrinking manufacturing sectors into growing service sectors such as education and healthcare. If these perceptions persist, even apparently successful programs in terms of financial outcomes or observed worker adjustment may lead to psychic costs in terms of a loss of worker identity, which in turn may drive the kinds of political backlash discussed in Section 3.5.5.
+5.2 Future Work
+We conclude by discussing directions for future work that we consider particularly valuable when studying the effects of globalization on inequality.
+First, the empirical findings of Dix-Carneiro and Kovak (2017) demonstrate the importance of modeling imperfect capital mobility across sectors and regions to understand and characterize the dynamics of Brazil’s labor market adjustment process following trade liberalization. As argued in Dix-Carneiro (2014), imperfect mobility of capital can substantially delay labor market adjustment, and can affect the long-run impact of trade shocks on wages and employment. Recent work by Artu¸c et al. (2022) makes progress in this direction by developing a model in which workers face mobility frictions across sectors, and firms face capital adjustment costs. They estimate their model using Argentine plant-level panel data and household survey data and conduct simulation exercises to characterize the adjustment process in response to trade
+37Feenstra and Lewis (1994) show that a version of trade adjustment assistance subsidizing those who switch industries can restore Pareto gains from trade with an optimal pattern of commodity taxes in a setting where all factors of production face transition costs.
+47
+
+shocks. Consistent with the aforementioned empirical results for Brazil, they show that capital adjustment can lead to long-run real wage responses that are larger than the short-run responses. We encourage further empirical work incorporating imperfect capital adjustment, particularly in contexts with high-quality data on capital stocks and investment across plants, sectors, and regions.
+The empirical findings of Dix-Carneiro and Kovak (2017) also highlight the importance of taking sub-national economies into account in our models of trade. In particular, negative local labor demand shocks induced by trade can lead to vicious spirals with declining local employment, falling capital stocks, and, through lost agglomeration economies, declining productivity. For example, although Caliendo et al. (2019) provide a powerful and flexible framework incorporating both industry and spatial labor mobility frictions, it would be desirable for future work to incorporate local agglomeration economies. Agglomeration spillovers were not only shown to be an empirically relevant amplification mechanism in Dix-Carneiro and Kovak (2017), but they can also have an important impact on the distributional consequences of trade.
+In Sections 3.2 and 3.3, we have argued for the importance of taking the informal sector into account when assessing the impacts of trade and globalization. Shifts between formal and informal employment in response to trade shocks have been empirically established in Colombia (Goldberg and Pavcnik, 2003), Argentina (Cruces et al., 2018), Brazil (Dix-Carneiro and Kovak, 2019), Mexico (Ben Yahmed and Bombarda, 2020), and Peru (Cisneros-Acevedo, 2022). However, there is room for additional research on the consequences of these adjustments. An example of such work is Dix-Carneiro et al. (2021), which may be extended in many directions. For example, their framework considers homogeneous workers, whereas the empirical share of unskilled workers in the informal sector is much larger than in the formal sector (Ulyssea, 2020). If trade-displaced unskilled workers cannot be absorbed by skill-intensive firms in the formal sector, the policy implications for how to address the informal sector can be quite different. In addition, although Dix-Carneiro et al. (2021) consider a model with firm dynamics, they only focus on analyses across steady states, without examining transitional dynamics. As Dix-Carneiro and Kovak (2019) emphasized, the dynamics of adjustment into unemployment and then into informal employment can also have important policy implications.
+A few very recent papers examine a feature of labor markets that we have not emphasized above but that constitutes an exciting area for future research: firms’ oligopsony power in labor markets. In a recent example of this literature, Felix (2021) shows that local labor markets in Brazil are characterized by significant labor market power exercised by firms. In particular, she estimates that an average Brazilian worker is paid only 50 cents for the marginal dollar they
+48
+
+add to their firm’s revenue.38 Because liberalization tends to reallocate resources to larger firms, driving the smaller ones out of the market, Felix investigates whether trade liberalization led to increases in Brazilian firms’ market power. This increase in market power would depress wages even further, and could help explain the amplified wage effects documented by DixCarneiro and Kovak (2017). The empirical findings point toward no economically significant trade-induced increases in firms’ labor market power. Still, we encourage further investigation of this mechanism, both in Brazil and other Latin American countries. Since much of the literature on labor market power, including Felix (2021), abstracts from the informal sector, there is substantial scope to tighten the link between the modeling framework and the empirical context. A noteworthy exception is Amodio et al. (2022) who estimate a model of labor market power in Peru in the presence of self-employment.
+The recent literature on the welfare consequences of trade has uncovered an example of the classic tradeoff between economic efficiency and inequality that we believe merits additional study. The quantitative literature on the welfare impacts of reduced trade barriers tends to find modest aggregate gains (Costinot and Rodr´ıguez-Clare, 2014), while the empirical literature discussed in Section 3.1 finds substantiallly heterogeneous effects across space. This apparent trade-off between efficiency and inequality is well illustrated by Caliendo et al. (2019) who estimate modest consequences of increased trade with China on aggregate U.S. welfare alongside large distributional consequences; specifically, estimated aggregate welfare increases by only 0.2%, while some U.S. states lose by as much as 0.8% and others gain by as much as 1%. This trade-off has been studied more formally in Artu¸c et al. (2019) and Galle et al. (2022), highlighting that governments seeking to improve economic efficiency through further globalization may experience large distributional consequences. This poses a challenge for policymakers seeking to develop policies to ensure that the gains from freer trade are broadly shared, because even modest distortions from inclusive policies can undermine a substantial portion of the aggregate gains. Better understanding these tradeoffs and the menu of potential interventions to address trade’s distributional effects, including transfers, training, and tax policy, should be a priority for future work.
+Throughout the preceding sections of this paper we have highlighted numerous areas of the literature in which individual papers demonstrate the importance of particular mechanisms driving certain dimensions of inequality. For example, studies consistently find evidence that globalization’s impacts vary across locations with different industrial structures and that the same shocks affect inequality between different types of workers within the same local markets.
+38Zavala (2022) finds a similar markdown figure for farmers producing cash crops in Ecuador as a result of market power among firms who purchase crops from farmers and export them internationally.
+49
+
+As discussed in Section 3.1.1, Kovak (2013) shows that Brazilian liberalization had important distributional effects across workers in different regions, while Dix-Carneiro and Kovak (2015) document effects of the same policy change on within-region inequality. Although each paper’s conclusion is presumably valid, the two approaches are distinct and based upon different theoretical assumptions. We therefore are unable to quantitatively compare the effects on cross-region vs. within-region inequality or to reach well-defined conclusions about the effects of liberalization on overall wage inequality. In this part of the literature and elsewhere, it should be a priority to develop frameworks capturing multiple mechanisms through which globalization may affect various dimensions of inequality.
+The recent literature studying how globalization affects inequality in Latin America has uncovered important empirical regularities that appear to apply broadly across a range of contexts. Trade liberalization and other globalization shocks tend to drive long-lasting disruptions in labor markets, with periods of heightened relative unemployment and persistent relative increases in informality. Globalization affects inequality across industries, locations, firms, education levels, and other worker characteristics and affects many outcomes beyond the labor market, including consumption, education, health, crime, and political outcomes. Despite these important and compelling findings, broad conclusions remain elusive. Not only can institutional differences lead to heterogeneity in the effects of similar shocks across different countries or time periods, but there is strong evidence that the effects of a particular shock evolve dynamically over time, so the impacts of trade are both context and time-horizon specific.
+Quoting Goldberg (2015) “... unqualified statements about the effects of globalization on inequality are unwarranted. Each case is different, and an informed perspective on this topic requires a careful study of the institutional setting, the production structure, the functioning of the markets in each country and the degree and nature of liberalization.” This is a conclusion with which we very much agree. Given the rich set of mechanisms linking trade to inequality and their dependence on the exact constellation and dynamics of the shocks under consideration (DixCarneiro and Traiberman, 2023), it remains difficult to draw general lessons on the impact of globalization on inequality. It is our hope that future research will synthesize these dimensions in consistent analytical frameworks to help sharpen our understanding of the complex relationships between globalization and inequality.
+References
+Ada˜o, R., C. Arkolakis, and F. Esposito (2019): “General Equilibrium Effects in Space: Theory and Measurement,” NBER Working Paper 25544.
+Ada˜o, R., P. Carrillo, A. Costinot, D. Donaldson, and D. Pomeranz (2022): “Imports, Exports, and
+50
+
+Earnings Inequality: Measures of Exposure and Estimates of Incidence,” The Quarterly Journal of Economics, 137, 1553–1614. Ada˜o, R. (2016): “Worker Heterogeneity, Wage Inequality, and International Trade: Theory and Evidence from Brazil,” Unpublished Manuscript. Adda, J. and Y. Fawaz (2020): “The Health Toll of Import Competition,” Economic Journal, 130, 1501–1540. Aguayo-Tellez, E., J. Airola, C. Juhn, and C. Villegas-Sanchez (2013): “Did trade liberalization help women? The case of Mexico in the 1990s,” in New analyses of worker well-being, ed. by S. W. Polachek and K. Tatsiramos, Emerald Group Publishing Limited, vol. 38 of Research in Labor Economics, 1–35. Akerlof, G. A. and R. E. Kranton (2000): “Economics and Identity,” Quarterly Journal of Economics, 115, 715–753. Almeida, R. and P. Carneiro (2012): “Enforcement of Labor Regulation and Informality,” American Economic Journal: Applied Economics, 4, 64–89. Amiti, M. and D. R. Davis (2011): “Trade, Firms, and Wages: Theory and Evidence,” The Review of Economic Studies, 79, 1–36. Amodio, F., P. Medina, and M. Morlacco (2022): “Labor Market Power, Self-employment, and Development,” University of Toronto. Artuc¸, E., S. Chaudhuri, and J. McLaren (2010): “Trade Shocks and Labor Adjustment: A Structural Empirical Approach,” American Economic Review, 100, 1008–45. Artuc¸, E., I. Brambilla, and G. Porto (2022): “Patterns of Labour Market Adjustment to Trade Shocks with Imperfect Capital Mobility,” The Economic Journal, 132, 2048–2074. Artuc¸, E., G. Porto, and B. Rijkers (2019): “Trading off the income gains and the inequality costs of trade policy,” Journal of International Economics, 120, 1–45. Atkin, D. (2016): “Endogenous Skill Acquisition and Export Manufacturing in Mexico,” American Economic Review, 106, 2046–2085. Atkin, D. and D. Donaldson (2022): “The Role of Trade in Economic Development,” in Handbook of International Economics, ed. by G. Gopinath, E. Helpman, and K. Rogoff, Elsevier, vol. 5, 1–59. Atkin, D., B. Faber, and M. Gonzalez-Navarro (2018): “Retail Globalization and Household Welfare: Evidence from Mexico,” Journal of Political Economy, 126, 1–73. Attanasio, O., A. Guar´ın, C. Medina, and C. Meghir (2017): “Vocational Training for Disadvantaged Youth in Colombia: A Long-Term Follow-Up,” American Economic Journal: Applied Economics, 9, 131–143. Autor, D., D. Dorn, and H. Gordon (2021): “On the Persistence of the China Shock,” Brookings Ppaers on Economic Activity. Autor, D., D. Dorn, and G. Hanson (2019): “When Work Disappears: Manufacturing Decline and the Falling Marriage Market Value of Young Men,” American Economic Review: Insights, 1, 161–78. Autor, D., D. Dorn, G. Hanson, and K. Majlesi (2020): “Importing Political Polarization? The Electoral Consequences of Rising Trade Exposure,” American Economic Review, 110, 3139–3183. Autor, D. H., D. Dorn, and G. H. Hanson (2013): “The China Syndrome: Local Labor Market Effects of Import Competition in the United States,” American Economic Review, 103, 2121–2168. Bas, M. and P. Bombarda (2023): “Input-Trade Liberalization and Formal Employment: Evidence from Mexico,” THEMA Working Paper. Bellon, M. (2018): “Trade liberalization and inequality: a dynamic model with rm and worker heterogeneity,” . Ben Yahmed, S. and P. Bombarda (2020): “Gender, informal employment and trade liberalization in Mexico,” The World Bank Economic Review, 34, 259–283. Bertrand, M. (2011): “Chapter 17 - New Perspectives on Gender,” Elsevier, vol. 4 of Handbook of Labor Economics, 1543–1590. Black, S. E. and E. Brainerd (2004): “Importing Equality? The Impact of Globalization on Gender Discrimination,” Industrial and Labor Relations Review, 57, 540–559. Blanchard, O. and L. Katz (1992): “Regional Evolutions,” Brookings Papers on Economic Activity, 1, 1–75. Blyde, J., M. Busso, K. Park, and D. Romero (2023): “Short- and long-run labor market adjustment to import competition,” Review of International Economics, 1–18. Borusyak, K., R. Dix-Carneiro, and B. Kovak (2022a): “Understanding Migration Responses to Local Shocks,” SSRN. Borusyak, K., P. Hull, and X. Jaravel (2022b): “Quasi-Experimental Shift-Share Research Designs,” Review of Economic Studies, 89, 181–213. Borusyak, K. and X. Jaravel (2021): “The Distributional Effects of Trade: Theory and Evidence from the United States,” working paper.
+51
+
+Bosch, M., E. Gon˜i-Pacchioni, and W. Maloney (2012): “Trade liberalization, labor reforms and formal– informal employment dynamics,” Labour Economics, 19, 653–667.
+Bourguignon, F. and M. Bussolo (2013): “Chapter 21 - Income Distribution in Computable General Equilibrium Modeling,” in Handbook of Computable General Equilibrium Modeling SET, Vols. 1A and 1B, ed. by P. B. Dixon and D. W. Jorgenson, Elsevier, vol. 1 of Handbook of Computable General Equilibrium Modeling, 1383–1437.
+Brambilla, I., D. Lederman, and G. Porto (2012): “Exports, Export Destinations, and Skills,” American Economic Review, 102, 3406–3438.
+Brussevich, M. (2018): “Does trade liberalization narrow the gender wage gap? The role of sectoral mobility,” European Economic Review, 109, 305–333.
+Bustos, S. and J. Morales-Arilla (2022): “Gains from globalization and economic nationalism: AMLO versus NAFTA in the 2006 Mexican elections,” Economics & Politics.
+Caliendo, L., M. Dvorkin, and F. Parro (2019): “Trade and Labor Market Dynamics: General Equilibrium Analysis of the China Trade Shock,” Econometrica, 87, 741–835.
+Cata˜o, L., C. Pages, and M. Rosales (2009): “Financial Dependence, Formal Credit, and Informal Jobs: New Evidence from Brazilian Household Data,” IZA Discussion Paper No. 4609.
+Charris, C., D. Branco, and B. Carrillo (2021): “Trade and Health: Evidence on Trade Reform, Public Health Policy, and Infant Mortality in Brazil,” working paper.
+Che, Y., Y. Lu, J. R. Pierce, P. K. Schott, and Z. Tao (2022): “Did trade liberalization with China influence US elections?” Journal of International Economics, 139.
+Choi, J., I. Kuziemko, E. Washington, and G. Wright (2022): “Local Economic and Political Effects of Trade Deals: Evidence from NAFTA,” NBER working paper.
+Chong, A. and D. Vela´squez (forthcoming): “Does Trade Liberalization Foster Intimate Partner Violence?” Economic Development and Cultural Change.
+Cisneros-Acevedo, C. (2022): “Unfolding trade effect in two margins of informality. The Peruvian case,” The World Bank Economic Review, 36, 141–170.
+Co¸sar, A., N. Guner, and J. Tybout (2016): “Firm Dynamics, Job Turnover, and Wage Distributions in an Open Economy,” American Economic Review, 106, 625–663.
+Costa, F., J. Garred, and J. P. Pessoa (2016): “Winners and losers from a commodities-for-manufactures trade boom,” Journal of International Economics, 102, 50–69.
+Costinot, A. and A. Rodr´ıguez-Clare (2014): “Trade Theory with Numbers: Quantifying the Consequences of Globalization,” in Handbook of International Economics, ed. by G. Gopinath, E. Helpman, and K. Rogoff, Elsevier, vol. 4 of Handbook of International Economics, 197–261.
+Cruces, G., G. Porto, and M. Viollaz (2018): “Trade liberalization and informality in Argentina: exploring the adjustment mechanisms,” Latin American Economic Review, 27, 1–29.
+Dauth, W., S. Findeisen, and J. Suedekum (2014): “The Rise of the East and the Far East: German Labor Markets and Trade Integration,” Journal of the European Economic Association, 12, 1643–1675.
+Deardorff, A. V. and R. W. Staiger (1988): “An interpretation of the factor content of trade,” Journal of International Economics, 24, 93–107.
+Dell, M., B. Feigenberg, and K. Teshima (2019): “The Violent Consequences of Trade-Induced Worker Displacement in Mexico,” American Economic Review: Insights, 1, 43–58.
+Diaz-Gutierrez, J. (2023): “Trade Effects on Substance Abuse: Evidence from Colombia’s Liberalization,” working paper.
+Dippel, C., R. Gold, S. Heblich, and R. Pinto (2022): “The Effect of Trade on Workers and Voters,” The Economic Journal, 132, 199–217.
+Dix-Carneiro, R. (2014): “Trade Liberalization and Labor Market Dynamics,” Econometrica, 82, 825–885. Dix-Carneiro, R., P. Goldberg, C. Meghir, and G. Ulyssea (2021): “Trade and Informality in the Presence
+of Labor Market Frictions and Regulations,” NBER Working Paper 28391. Dix-Carneiro, R. and B. K. Kovak (2015): “Trade Liberalization and the Skill Premium: A Local Labor
+Markets Approach,” American Economic Review: Papers and Proceedings, 105, 551–557. ——— (2017): “Trade Liberalization and Regional Dynamics,” American Economic Review, 107, 2908–46. ——— (2019): “Margins of Labor Market Adjustment to Trade,” Journal of International Economics, 117, 125–
+142. Dix-Carneiro, R., J. P. Pessoa, R. Reyes-Heroles, and S. Traiberman (2023): “Globalization, Trade
+Imbalances, and Labor Market Adjustment,” The Quarterly Journal of Economics. Dix-Carneiro, R., R. R. Soares, and G. Ulyssea (2018): “Economic Shocks and Crime: Evidence from the
+52
+
+Brazilian Trade Liberalization,” American Economic Journal: Applied Economics, 10, 158–95. Dix-Carneiro, R. and S. Traiberman (2023): “Globalization, trade imbalances and inequality,” Journal of
+Monetary Economics, 133, 48–72. Dorn, D. and P. Levell (2021): “Trade and Inequality in Europe and the U.S.” IFS Deaton Review on
+Inequalities. Ederington, J., J. Minier, and K. R. Troske (2009): “Where the Girls Are: Trade and labor market
+segregation in Colombia,” IZA discussion paper. Escudero, V., J. Kluve, E. Lo´pez Mourelo, and C. Pignatti (2019): “Active Labour Market Programmes
+in Latin America and the Caribbean: Evidence from a Meta Analysis,” Journal of Development Studies, 55, 2644–2661. Faber, B. (2014): “Trade Liberalization, the Price of Quality, and Inequality: Evidence from Mexican Store Prices,” UC Berkeley Department of Economics. Fajgelbaum, P. D. and A. K. Khandelwal (2016): “Measuring the Unequal Gains from Trade,” Quarterly Journal of Economics, 131, 1113–1180. Feenstra, R. C. and T. R. Lewis (1994): “Trade adjustment assistance and Pareto gains from trade,” Journal of International Economics, 36, 201–222. Felix, M. (2021): “Trade, Labor Market Concentration, and Wages,” MIT. Ferna´ndez Guerrico, S. (2021): “The effects of trade-induced worker displacement on health and mortality in Mexico,” Journal of Health Economics, 80, 102538. Fieler, A. C., M. Eslava, and D. Y. Xu (2018): “Trade, Quality Upgrading, and Input Linkages: Theory and Evidence from Colombia,” American Economic Review, 108, 109–146. Gaddis, I. and J. Pieters (2017): “The gendered labor market impacts of trade liberalization evidence from Brazil,” Journal of Human Resources, 52, 457–490. Galle, S., A. Rodr´ıguez-Clare, and M. Yi (2022): “Slicing the Pie: Quantifying the Aggregate and Distributional Effects of Trade,” The Review of Economic Studies, 90, 331–375. Goldberg, P. and N. Pavcnik (2007): “Distributional Effects of Globalization in Developing Countries,” Journal of Economic Literature, 45, 39–82. Goldberg, P. K. (2015): Trade and Inequality, Edward Elgar Research Collections. Goldberg, P. K. and N. Pavcnik (2003): “The Response of the Informal Sector to Trade Liberalization,” Journal of Development Economics, 72, 463–496. ——— (2005): “Trade, Wages, and the Political Economy of Trade Protection: Evidence from the Colombian Trade Reforms,” Journal of International Economics, 66, 75–105. Goldin, C. (2006): “The Quiet Revolution That Transformed Women’s Employment, Education, and Family,” American Economic Review, 96, 1–21. Gonzaga, G., N. Menezes Filho, and C. Terra (2006): “Trade Liberalization and the Evolution of Skill Earnings Differentials in Brazil,” Journal of International Economics, 68, 345–367. He, Z. (2019): “Trade and Real Wages of the Rich and Poor: Evidence from Brazil and Mexico,” IDB Working Paper Series. Heckman, J. and C. Page´s (2000): “The Cost of Job Security Regulation: Evidence from the Latin American Labor Markets,” Journal of the Latin American and Caribbean Economic Association, 1, 109–154. ——— (2004): “Introduction,” in Law and Employment: Lessons from Latin American and the Caribbean, University of Chicago Press. Helpman, E., O. Itskhoki, M.-A. Muendler, and S. J. Redding (2017): “Trade and Inequality: From Theory to Estimation,” The Review of Economic Studies, 84, 357–405. Helpman, E., O. Itskhoki, and S. Redding (2010): “Inequality and Unemployment in a Global Economy,” Econometrica, 78, 1239–1283. Hirata, G. and R. R. Soares (2020): “Competition and the racial wage gap: Evidence from Brazil,” Journal of Development Economics, 146, 102519. Hsieh, C.-T., E. Hurst, C. I. Jones, and P. J. Klenow (2019): “The Allocation of Talent and U.S. Economic Growth,” Econometrica, 87, 1439–1474. Hyman, B. (2018): “Can Displaced Labor be Retrained? Evidence from Quasi-Random Assignment to Trade Adjustment Assistance,” NY Fed. Iacoella, F., P. Justino, and B. Martorano (2020): “Roots of dissent: Trade Liberalization and the Rise of Populism in Brazil,” UNU-MERIT Working Papers. ILO (2016): “What works: Active labor market policies in Latin America and the Caribbean,” Tech. rep., International Labor Organization.
+53
+
+Jones, R. W. (1975): “Income distribution and effective protection in a multicommodity trade model,” Journal of Economic Theory, 11, 1–15.
+Joyce, R. and X. Xu (2019): Inequalities in the twenty-first century: introducting the IFS Deaton Review, The Institute for Fiscal Studies.
+Juhn, C., G. Ujhelyi, and C. Villegas-Sanchez (2014): “Men, women, and machines: How trade impacts gender inequality,” Journal of Development Economics, 106, 179–193.
+Kambourov, G. (2009): “Labour market regulations and the sectoral reallocation of workers: The case of trade reforms,” The Review of Economic Studies, 76, 1321–1358.
+Kovak, B. K. (2013): “Regional Effects of Trade Reform: What is the Correct Measure of Liberalization?” American Economic Review, 103, 1960–1976.
+Krusell, P., L. E. Ohanian, J.-V. R´ıos-Rull, and G. L. Violante (2000): “Capital-skill Complementarity and Inequality: A Macroeconomic Analysis,” Econometrica, 68, 1029–1053.
+Mansour, H., P. Medina, and A. Velasquez (2022): “Import competition and gender differences in labor reallocation,” Labour Economics, 76, 102149.
+McKenzie, D. (2017): “How Effective Are Active Labor Market Policies in Developing Countries? A Critical Review of Recent Evidence,” World Bank Research Observer, 32, 127–154.
+Medina, P. (2022): “Import Competition, Quality Upgrading, and Exporting: Evidence from the Peruvian Apparel Industry,” The Review of Economics and Statistics, 1–45.
+Menezes-Filho, N. A. and M.-A. Muendler (2011): “Labor Reallocation in Response to Trade Reform,” NBER Working Paper 17372.
+Nigai, S. (2016): “On Measuring the Welfare Gains from Trade Under Consumer Heterogeneity,” Economic Journal, 126, 1193–1237.
+Ogeda, P. M., E. Ornelas, and R. R. Soares (2021): “Labor Unions and the Electoral Consequences of Trade Liberalization,” CESifo Working Paper No. 9418.
+Parro, F. (2013): “Capital-Skill Complementarity and the Skill Premium in a Quantitative Model of Trade,” American Economic Journal: Macroeconomics, 5, 72–117.
+Paz, L. S. (2014): “The impacts of trade liberalization on informal labor markets: A theoretical and empirical evaluation of the Brazilian case,” Journal of International Economics, 92, 330–348.
+Perry, G. E., W. F. Maloney, O. S. Arias, P. Fajnzylber, A. D. Mason, and J. Saavedra-Chanduvi (2007): Informality: Exit and Exclusion, Washington, DC: World Bank Latin American and Caribbean Studies.
+Pierce, J. R. and P. K. Schott (2016): “The Surprisingly Swift Decline of US Manufacturing Employment,” American Economic Review, 106, 1632–62.
+——— (2020): “Trade Liberalization and Mortality: Evidence from US Counties,” American Econoimc Review: Insights, 2, 47–64.
+Ponczek, V. and G. Ulyssea (2022): “Enforcement of Labour Regulation and the Labour Market Effects of Trade: Evidence from Brazil,” The Economic Journal, 132, 361–390.
+Porto, G. (2006): “Using Survey Data to Assess the Distributional Effects of Trade Policy,” Journal of International Economics, 70, 140–160.
+Ruggieri, A. (2021): “Trade and Labor Market Institutions: A Tale of Two Liberalizations,” University of Nottingham.
+Stephens, Jr., M. (2002): “Worker Displacement and the Added Worker Effect,” Journal of Labor Economics, 20, 504–537.
+Stevenson, B. (2016): “Manly Men Need to Do More Girly Jobs,” Bloomberg View. Stolper, W. F. and P. A. Samuelson (1941): “Protection and Real Wages,” The Review of Economic Studies,
+9, 58–73. Topalova, P. (2010): “Factor Immobility and Regional Impacts of Trade Liberalization: Evidence on Poverty
+from India,” American Economic Journal: Applied Economics, 2, 1–41. Traiberman, S. (2019): “Occupations and Import Competition: Evidence from Denmark,” American Economic
+Review, 109, 4260–4301. Ulyssea, G. (2018): “Firms, Informality, and Development: Theory and Evidence from Brazil,” American
+Economic Review, 108, 2015–2147. ——— (2020): “Informality: Causes and Consequences for Development,” Annual Review of Economics, 12,
+525–546. Utar, H. (2018): “Workers beneath the Floodgates: Low-Wage Import Competition and Workers’ Adjustment,”
+The Review of Economics and Statistics, 100, 631–647. Verhoogen, E. (2008): “Trade, Quality Upgrading, and Wage Inequality in the Mexican Manufacturing Sector,”
+54
+
+Quarterly Journal of Economics, 123, 489–530. Wacziarg, R. and K. H. Welch (2008): “Trade liberalization and growth: New evidence,” The World Bank
+Economic Review, 22, 187–231. Zavala, L. (2022): “Unfair Trade? Monopsony Power in Agricultural Value Chains,” working paper.
+55
+
+Online Appendices
+(Not for publication)
+A Data Sources
+The UNU-WIDER World Income Inequality Database (WIID) compiles many different sources of inequality data for each country. We follow Bellon (2018) in our choice of data sources. Table A1 lists the chosen data sources along with characteristics of each source. We additionally use Gini index information from the World Bank’s World Development Indicators (WDI) for Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay, El Salvador, and Uruguay.
+56
+
+Table A1: World Income Inequality Database Sources
+
+Country Argentina
+Bolivia Brazil Chile Colombia Costa Ricaa
+Dominican Republic Ecuador
+El Salvador
+Guatemala Honduras
+Mexico Panama Paraguay
+Peru
+Uruguay Venezuela
+
+Source Fishlow et al. 1993 Cerisola et al. 2000
+SEDLAC SEDLAC SEDLAC Szekely 2003 SEDLAC Szekely 2003 SEDLAC SEDLAC SEDLAC Farne 1994 Chile Ministry of Planning and Cooperation 1994 SEDLAC Chile Ministry of Planning and Cooperation 1994 SEDLAC 2012 SEDLAC 2012 SEDLAC Fields 1989 Psacharopoulos et al. 1997 Sauma Fiatt 1990 SEDLAC Psacharopoulos et al. 1997 Deininger and Squire, World Bank 2004 SEDLAC SEDLAC Deininger and Squire, World Bank 2004 Jain 1975 Jain 1975 Jain 1975 Jain 1975 SEDLAC Psacharopoulos et al. 1997 Deininger and Squire, World Bank 2004 Deininger and Squire, World Bank 2004 Deininger and Squire, World Bank 2004 Deininger and Squire, World Bank 2004 SEDLAC Deininger and Squire, World Bank 2004 OECD.Stat SEDLAC OECD.Stat SEDLAC Deininger and Squire, World Bank 2004 Psacharopoulos et al. 1997 SEDLAC SEDLAC Psacharopoulos et al. 1997 Psacharopoulos et al. 1997 Szekely and Hilgert 2002 Szekely and Hilgert 2002 Szekely and Hilgert 2002 Szekely and Hilgert 2002 Szekely and Hilgert 2002 Szekely and Hilgert 2002 SEDLAC Szekely 2003 SEDLAC SEDLAC Rodriguez 2000 SEDLAC Rodriguez 2000 Rodriguez 2000 SEDLAC 2012
+
+Geographic Coverage Metropolitan area Metropolitan area 15 main cities 28 main cities Urban Urban Urban All All Without rural north With rural north Capital All All All Urban All All All All All All All All Urban All All Agricultural sector
+Nonagricultural sector All All All All All All All All All All All All All All All
+Metropolitan area Capital All Capital Capital
+All, excl. Costa Rural, Selva Rural and Selva Urbana (30% of the population) All, excl. Costa Rural, Selva Rural and Selva Urbana (30% of the population) All, excl. Costa Rural, Selva Rural and Selva Urbana (30% of the population)
+All All All All All Urban All All All All All All
+
+Population Coverage Economically active All All All All All All All All All All All All All All All All All All All All All All All All All All Economically active Economically active Economically active All All All All All All All All All All All All All All All All All All All All All All All All All All All All All All All All All All
+
+Unit of Analysis Person Person Person Person Person Person Person Person Person Person Person
+Household Person Person Person Person Person Person
+Household Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person Person
+
+Resource Concept Monetary income, net Monetary income, net
+Income, net/gross Income, net/gross Income, net/gross Monetary income, net Income, net/gross Monetary income, net Income, net/gross Income, net/gross Income, net/gross Income, net/gross
+Income, gross Income, net/gross
+Income, net Income, net/gross Income, net/gross Income, net/gross Income, net/gross Monetary income, net
+Income, gross Income, net/gross Monetary income, gro Monetary income, net Income, net/gross Income, net/gross
+Income, net Income, net/gross Income, net/gross Income, net/gross Income, net/gross Income, net/gross
+Income, net Income, net Income, net Consumption Earnings, net Income, net/gross Income, net Income, net Income, net/gross Market income Income, net/gross Monetary income, net Monetary income, net Income, net/gross Income, net/gross Consumption Consumption Income, net Monetary income, net Earnings, net Income, net Monetary income, net Earnings, net Income, net/gross Income, net Income, net/gross Income, net/gross Earnings, net Income, net/gross Monetary income, net Earnings, net Income, net/gross
+
+Quality Low Low High High High Low High
+Average High High High Low Low High Low High High High Low
+Average Low High Low
+High High
+Low Low Low Low High Low
+High
+High High High High
+Low High High Low Average Average Average Average Average Average Average High Average High High Low High Average Average High
+
+The table lists inequality data sources and characteristics for sources included in the UNU-WIDER, World Income Inequality Database (WIID). See WIID documentation for detailed citations and additional information on each data source. We additionally use Gini index information from the World Bank’s World Development Indicators (WDI) for Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay, El Salvador, and Uruguay.
+
+57
+
+B Initial Inequality
+Table A2 shows our Gini index measure of inequality using the UNU-WIDER World Income Inequality Database (WIID), averaged across measures within year, as described in Section 2. See Table A1 for the underlying data sources used in each country. We present the Gini index measure of inequality in the most recent year up to the liberalization year listed in Table 1.
+
+Table A2: Initial Inequality
+
+Country Argentina Brazil Chile Costa Rica Dominican Rep. El Salvador Guatemala Honduras Mexico Panama Peru Paraguay Uruguay Venezuela
+
+Year 1991 1990 1976 1986 1992 1969 1987 1991 1984 1996 1991 1983 1989 1996
+
+Gini Index 44.9 59.7 53.8 38.2 51.4 46.5 57.9 50.6 45.2 55.4 47.1 45.1 41.4 53.3
+
+The table reports the average Gini index measure based on the sources listed in Table A1 from the UNU-WIDER, World Income Inequality Database (WIID), in the most recent available year up to the liberalization year listed in Table 1. Countries for which inequality information begins after the liberalization year are omitted.
+
+58
+
+

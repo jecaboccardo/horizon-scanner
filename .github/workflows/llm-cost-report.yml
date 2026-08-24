@@ -1,0 +1,46 @@
+name: Weekly LLM cost report
+
+on:
+  schedule:
+    # Mondays 08:00 UTC — an hour before the weekly ingest, so the report
+    # reflects a clean pre-ingest week.
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Window in days'
+        required: false
+        default: '7'
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      # No npm ci — the script is dependency-free (raw fetch to PostgREST).
+      - name: Run cost report
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          DAYS="${{ inputs.days || '7' }}"
+          node scripts/llm-cost-report.mjs --days "$DAYS" | tee cost-report.txt
+          {
+            echo "## LLM cost report (last $DAYS days)"
+            echo '```'
+            cat cost-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: llm-cost-report
+          path: cost-report.txt
+          retention-days: 90

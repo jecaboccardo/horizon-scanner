@@ -1,0 +1,3569 @@
+{
+  "$schema_version": "3",
+  "$labels": {
+    "relevant": "Directly answers the policy question — causal evidence on the stated direction.",
+    "partial": "On-topic but indirect — adjacent mechanism, reverse direction, methodology-only, non-English with relevant content, or descriptive without causal design. HIGH BAR: most papers that touch the topic should be partial, not irrelevant.",
+    "irrelevant": "Truly off-topic — no substantive connection to the query's policy domain. Reserve for papers that should never appear. Non-English papers are NOT automatically irrelevant if they address the topic."
+  },
+  "$design_rank_scale": {
+    "1": "RCT",
+    "2": "Quasi-experimental (DiD, RDD, IV, natural experiment, event study)",
+    "3": "Observational with credible identification",
+    "4": "Discrete choice / hypothetical / survey-based",
+    "5": "Systematic review / meta-analysis"
+  },
+  "$status": "q01-q03 fully labeled. q04-q23 retrieved but need manual label review.",
+  "$canary_repin_2026_07_06": "Baseline re-pin after corpus-drift investigation: default-weights canary_top20 read 0.200 vs the pinned 0.220 bar. Diagnosis against the live DB found ZERO canaries lost to dedup/denylist/embedding-null — instead 11 canaries carried doi_hints that pointed to DIFFERENT real papers (wrong-DOI citations baked in at authoring time; verified via Crossref). Those 11 hints were remapped to the intended papers' true in-corpus works.id. Exceptions: galiani-schargrodsky-2010 corrected to its true DOI but the paper is NOT in corpus (kept as a tracked corpus-gap miss); campos-esquivel-2023 referenced a paper that does not exist anywhere (remapped to the same authors' real Mexico MW quasi-experiment). 0 canaries removed. All remaining misses are genuine top-20 recall misses on clean, embedded rows. See per-canary notes marked 'doi_hint corrected 2026-07-06'.",
+  "queries": [
+    {
+      "id": "q01-teacher-incentives-hard-staff",
+      "query": "what is impact of monetary incentives attracting teachers to hard to staff schools",
+      "intent": "Financial incentives (bonuses, salary premiums, transfer stipends) for teachers in disadvantaged/hard-to-staff schools. DIR: incentive → staffing/retention/student outcomes. INDIRECT: performance pay not targeted at hard-to-staff. IRRELEVANT: descriptive teacher workforce reports.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-08",
+      "labels": {
+        "1": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1002/pam.22037",
+          "title": "The Impact of Incentives to Recruit and Retain Teachers in Hard-to-Staff Subjects (FL loan-forgiveness + bonus, JPAM 2017)"
+        },
+        "2": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.18235/0013366",
+          "title": "Impact of Monetary Incentives on Teacher Decisions: São Paulo (IDB 2025)"
+        },
+        "3": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1002/pam.21818",
+          "title": "Incentives, Selection, and Teacher Performance: IMPACT (DC, JPAM 2015)"
+        },
+        "4": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.3386/w19529",
+          "title": "(NBER WP version of #3 — duplicate)"
+        },
+        "5": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1016/j.econedurev.2018.06.010",
+          "title": "Do Bonuses Affect Teacher Staffing… High-Poverty Schools (WA NBCT, EER 2018)"
+        },
+        "6": {
+          "label": "partial",
+          "design_rank": 1,
+          "doi": "10.1257/aer.102.4.1241",
+          "title": "Incentives Work: Getting Teachers to Come to School (India absenteeism, AER 2012)"
+        },
+        "7": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1086/666955",
+          "title": "Tournament Incentives for Teachers (Chile, EDCC 2012)"
+        },
+        "8": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1002/pam.22375",
+          "title": "Can Financial Incentives Help Disadvantaged Schools Attract High-Performing Teachers? (Chile AEP, JPAM 2022)"
+        },
+        "9": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.3386/w31051",
+          "title": "Attracting and Retaining Highly Effective Educators in Hard-to-Staff Schools (Dallas ACE, NBER 2023)"
+        },
+        "10": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.3386/w34845",
+          "title": "Is Teacher Effectiveness Fully Portable? Transfer Incentives (NBER 2026)"
+        },
+        "11": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.3386/w18439",
+          "title": "Incentive Strength and Teacher Productivity: Group-Based Pay (NBER 2012)"
+        },
+        "12": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1002/pam.22146",
+          "title": "Teacher Incentives and Student Achievement: TAP Louisiana (JPAM 2019)"
+        },
+        "13": {
+          "label": "partial",
+          "design_rank": 1,
+          "doi": "10.3386/w21598",
+          "title": "Achievement Effects of Individual Performance Incentives (NBER 2015)"
+        },
+        "14": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.18235/0001820",
+          "title": "(IDB version of Chile AEP — duplicate of rank 8)"
+        },
+        "15": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1086/706059",
+          "title": "Do Educator Performance Incentives Help Students? TIF national eval (JOLE 2019)"
+        },
+        "16": {
+          "label": "partial",
+          "design_rank": 3,
+          "doi": "10.3386/w30714",
+          "title": "Preferences, Inequities, Incentives in Substitute Teacher Labor Market (NBER 2022)"
+        },
+        "17": {
+          "label": "partial",
+          "design_rank": 3,
+          "doi": "10.3386/w34151",
+          "title": "Information Frictions and Labor Market for Public School Teachers (NBER 2025)"
+        },
+        "18": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1086/667757",
+          "title": "Teacher Incentives and Student Achievement: NYC (JOLE 2013)"
+        },
+        "19": {
+          "label": "partial",
+          "design_rank": 1,
+          "doi": "10.1257/aer.101.5.1739",
+          "title": "Peer Effects, Teacher Incentives, and Tracking (Kenya RCT, AER 2011)"
+        },
+        "20": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.3386/w16850",
+          "title": "(NBER WP version of #18 — duplicate)"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "glazerman-2013-tti",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Transfer Incentives for High-Performing Teachers: Final Results from a Multisite RCT (TTI)",
+          "authors": "Glazerman et al.",
+          "year": 2013,
+          "doi_hint": null
+        },
+        {
+          "id": "evans-mendez-2023-lmic",
+          "label": "relevant",
+          "design_rank": 5,
+          "title": "How to Recruit Teachers for Hard-to-Staff Schools: Systematic Review from LMICs",
+          "authors": "Evans & Mendez Acosta",
+          "year": 2023,
+          "doi_hint": null
+        },
+        {
+          "id": "elacqua-2025-giving-advice",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "The Giving Advice Effect: Reducing Teacher Sorting Through Self-Persuasion",
+          "authors": "Elacqua et al.",
+          "year": 2025,
+          "doi_hint": null
+        },
+        {
+          "id": "peru-altruism-money-jle-2024",
+          "label": "partial",
+          "design_rank": 1,
+          "title": "Altruism or Money? Reducing Teacher Sorting Using Behavioural Strategies",
+          "year": 2024,
+          "doi_hint": "10.1086/730483"
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "specific intervention (monetary incentives) + hard-to-staff context; foundational papers; methodology-specific"
+    },
+    {
+      "id": "q02-gender-violence-labor",
+      "query": "what is the impact of gender violence on labor outcomes",
+      "intent": "Effect of gender-based/domestic/intimate-partner violence on women's labor — employment, wages, LFP. DIR: violence → labor outcomes. INDIRECT: labor → violence (reverse), wage gap → violence. IRRELEVANT: off-topic, non-paper entries.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-08",
+      "labels": {
+        "1": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1080/00220388.2023.2286890",
+          "title": "Local Labor Market Opportunities on Female Bargaining Power, India"
+        },
+        "2": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.2139/ssrn.3273713",
+          "title": "Violence and Female Labor Supply (India SSRN 2018)"
+        },
+        "3": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.1257/aer.103.3.274",
+          "title": "Sexual Violence against Women and Labor Market Outcomes (AER 2013)"
+        },
+        "4": {
+          "label": "irrelevant",
+          "design_rank": 3,
+          "doi": "10.1080/00220388.2025.2521490",
+          "title": "Culture, Kinship and Women's Labour Opportunities (no violence)"
+        },
+        "5": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1093/qje/qjad045",
+          "title": "Violence against Women at Work (Finland, QJE 2023)"
+        },
+        "6": {
+          "label": "irrelevant",
+          "design_rank": 2,
+          "doi": "10.3386/w34886",
+          "title": "Shielding Women from Violence: IPV centers Türkiye"
+        },
+        "7": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.2139/ssrn.6504456",
+          "title": "(Türkiye dup)"
+        },
+        "8": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1016/j.jdeveco.2026.103718",
+          "title": "Labor consequences of homicides: gender perspective Mexico"
+        },
+        "9": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1016/j.worlddev.2022.106166",
+          "title": "Impact of IPV on Women's Labour Market Outcomes (World Dev 2022)"
+        },
+        "10": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.2139/ssrn.6290399",
+          "title": "(Türkiye dup 2)"
+        },
+        "11": {
+          "label": "partial",
+          "design_rank": 3,
+          "doi": "10.3368/jhr.0421-11603r4",
+          "title": "Does Gender Wage Gap Influence IPV in Brazil?"
+        },
+        "12": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1086/702770",
+          "title": "Contributors (front matter)"
+        },
+        "13": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.3386/w18994",
+          "title": "Caution! Men Not at Work"
+        },
+        "14": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1111/padr.12584",
+          "title": "(book review)"
+        },
+        "15": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1353/eco.2015.a601528",
+          "title": "Editors' Summary (front matter)"
+        },
+        "16": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.1016/j.worlddev.2019.104732",
+          "title": "Workplace harassment and domestic violence on work outcomes"
+        },
+        "17": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1596/0-8213-2958-8",
+          "title": "Indigenous People and Poverty in LAC (1994 book, off-topic)"
+        },
+        "18": {
+          "label": "partial",
+          "design_rank": 3,
+          "doi": "10.1016/j.jebo.2025.107130",
+          "title": "Unions Shape Gender Wage Outcomes"
+        },
+        "19": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1080/00220388.2022.2069491",
+          "title": "Public Work and Private Violence — MGNREGA"
+        },
+        "20": {
+          "label": "partial",
+          "design_rank": 2,
+          "doi": "10.1093/wber/lhz030",
+          "title": "IPV: Influence of Job Opportunities for Men and Women"
+        }
+      },
+      "$retrieval_note_2026_05_13": "New retrieval (conjunction ranking + FTS synonyms active) returns predominantly crime→labor in LAC or gender→labor papers, NOT the direct gender violence→labor chain. 0/20 papers are the canonical IPV/domestic-violence→labor papers. Root cause: vector space doesn't bridge 'gender violence' → 'intimate partner violence'/'domestic violence' conjunction. FTS synonym expansion added these terms — verify in next run whether they surface.",
+      "canary_papers": [
+        {
+          "id": "aizer-2010-aer",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "The Gender Wage Gap and Domestic Violence",
+          "authors": "Aizer",
+          "year": 2010,
+          "doi_hint": "10.1257/aer.100.4.1847",
+          "in_corpus": true,
+          "note": "Foundational — wage gap → IPV direction, reverse of primary question but core adjacent evidence"
+        },
+        {
+          "id": "bhalotra-2021-ipv",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "Job Displacement, Unemployment Benefits and Domestic Violence",
+          "authors": "Bhalotra et al.",
+          "year": 2021,
+          "doi_hint": null,
+          "note": "Brazil mass layoffs + criminal court registers — reverse direction (job loss → DV) but key evidence"
+        },
+        {
+          "id": "anderberg-2016-ej",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "Unemployment and Domestic Violence: Theory and Evidence",
+          "authors": "Anderberg et al.",
+          "year": 2016,
+          "doi_hint": null
+        },
+        {
+          "id": "hidrobo-fernald-2013",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Cash Transfers and Domestic Violence (Ecuador BDH Programme)",
+          "authors": "Hidrobo & Fernald",
+          "year": 2013,
+          "doi_hint": "10.1016/j.jhealeco.2012.11.002",
+          "note": "RCT in Ecuador — cash transfer → domestic violence reduction + female empowerment. Direct: intervention addresses the violence→labor nexus. doi_hint corrected 2026-07-06: was 10.1016/j.jdeveco.2013.04.004 (a different paper — Cantoni & Yuchtman); true venue is J Health Econ 2012, in corpus."
+        },
+        {
+          "id": "calderon-gafaro-ibanez-2011",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Forced Migration, Female Labour Force Participation and Intra-household Bargaining (Colombia)",
+          "authors": "Calderón, Gafaro & Ibáñez",
+          "year": 2011,
+          "doi_hint": null,
+          "note": "IDB Working Paper — displacement violence → female LFP in Colombia. Direct chain."
+        },
+        {
+          "id": "tsaneva-rockmore-2019",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "The Effect of Violent Crime on Female Decision-Making within the Household: Evidence from the Mexican War on Drugs",
+          "authors": "Tsaneva, Rockmore & Albohmood",
+          "year": 2019,
+          "doi_hint": null,
+          "note": "Violence → female household decision-making including labor supply."
+        },
+        {
+          "id": "ribero-sanchez-2005",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Determinants, Effects and Costs of Domestic Violence (Colombia)",
+          "authors": "Ribero & Sánchez",
+          "year": 2005,
+          "doi_hint": null,
+          "note": "CEDE Colombia — domestic violence → female labor. Direct chain, LAC."
+        },
+        {
+          "id": "de-hoop-tribin-velasquez-2026",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Hidden Costs of Violence: How Crime Shapes Women's Labour Market Outcomes",
+          "authors": "De Hoop, Tribin & Velásquez",
+          "year": 2026,
+          "doi_hint": null,
+          "note": "World Bank 2026 — direct chain: crime/violence → women's labor market outcomes."
+        },
+        {
+          "id": "kondylis-2025-safe-space",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Demand for 'Safe Space': Avoiding Harassment and Complying with Norms (Rio de Janeiro)",
+          "authors": "Kondylis et al.",
+          "year": 2025,
+          "doi_hint": null,
+          "note": "RCT Rio de Janeiro — harassment avoidance behavior affects commuting and labor supply. Direct."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "2 facets (violence→labor), compound semantic, dense corpus, pre-2010 foundational papers"
+    },
+    {
+      "id": "q03-digital-health-edu-labor",
+      "query": "what is best evidence on digital health, what works and impact on education and labor outcomes",
+      "intent": "Digital health interventions and downstream effects on education/labor. DIR: mHealth/eHealth → education or labor outcomes. INDIRECT: digital health → health only (no edu/labor). IRRELEVANT: conceptual/narrative reviews.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-08",
+      "labels": {
+        "1": {
+          "label": "irrelevant",
+          "design_rank": 5,
+          "doi": "10.9745/ghsp-d-18-00167",
+          "title": "Digital Technologies for Health Workforce Development in LMICs"
+        },
+        "2": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1093/oodh/oqae033",
+          "title": "Strengthening evidence base for digital health technologies"
+        },
+        "3": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.1093/pubmed/fdy171",
+          "title": "Digital health, gender and health equity"
+        },
+        "4": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.38193/ijrcms.2025.7329",
+          "title": "Digital Economy Transformation and Labor Productivity (Vietnam)"
+        },
+        "5": {
+          "label": "partial",
+          "design_rank": 5,
+          "doi": "10.1787/2ce05eb6-en",
+          "title": "Digital and Innovative Tools for Health and Productivity (OECD WP)"
+        },
+        "6": {
+          "label": "partial",
+          "design_rank": 5,
+          "doi": "10.2196/35816",
+          "title": "Digital Health Literacy Bibliometric (JMIR 2022)"
+        },
+        "7": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.1111/roiw.70033",
+          "title": "Does Adult Digital Learning Pay Off? Labor Market Returns"
+        },
+        "8": {
+          "label": "partial",
+          "design_rank": 4,
+          "doi": "10.2196/48685",
+          "title": "Digital Health Literacy Germany Survey"
+        },
+        "9": {
+          "label": "partial",
+          "design_rank": 3,
+          "doi": "10.1038/s41598-024-57788-3",
+          "title": "Digital Economy and Public Health Efficiency"
+        },
+        "10": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.2196/jmir.7126",
+          "title": "Developing Digital Interventions for Behavior Change (methods)"
+        },
+        "11": {
+          "label": "relevant",
+          "design_rank": 5,
+          "doi": "10.1177/14614448211043189",
+          "title": "Outcomes of Gaining Digital Skills for Young People's Lives"
+        },
+        "12": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.3386/w32992",
+          "title": "Equity and Efficiency in Technology Adoption: Digital Health (NBER 2024)"
+        },
+        "13": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.1186/s12889-025-22325-y",
+          "title": "Digital Economy Development and Chinese Residents' Health"
+        },
+        "14": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.61093/hem.2024.4-06",
+          "title": "Digital Economy in Public Health Transformation (conceptual)"
+        },
+        "15": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.37287/ijghr.v7i2.5869",
+          "title": "Digital Education on Adolescent Reproductive Health (Nigeria)"
+        },
+        "16": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "10.1016/j.socscimed.2024.116624",
+          "title": "Digital Infrastructure → Public Health: China Broadband"
+        },
+        "17": {
+          "label": "irrelevant",
+          "design_rank": null,
+          "doi": "10.2196/19361",
+          "title": "Digital Health Equity and COVID-19 (commentary)"
+        },
+        "18": {
+          "label": "relevant",
+          "design_rank": 3,
+          "doi": "10.1016/j.techsoc.2023.102210",
+          "title": "Digitalization, Income Inequality, Public Health"
+        },
+        "19": {
+          "label": "partial",
+          "design_rank": null,
+          "doi": "10.1002/ajim.23517",
+          "title": "AI Work-Health Interface Research Agenda"
+        },
+        "20": {
+          "label": "relevant",
+          "design_rank": 2,
+          "doi": "oa:W7135308883",
+          "title": "Digital Infrastructure → Employment Outcomes Türkiye (WB 2026)"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "lenel-2022-indonesia",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Can mHealth Campaigns Improve CCT Outcomes? SMS Nudges in Indonesia",
+          "authors": "Lenel et al.",
+          "year": 2022,
+          "doi_hint": null
+        }
+      ],
+      "retrieval_class": "sparse_multi",
+      "retrieval_class_reason": "3 domains (health+education+labor), genuinely sparse intersection, multi-vector needed"
+    },
+    {
+      "id": "q04-minwage-informality-lac",
+      "query": "causal impact of minimum wage increases on informality in Latin America",
+      "intent": "DIR: minimum wage → informality. EXPECT: DiD, event study, policy-shock papers on LAC minimum wage changes and formal/informal employment shifts. INDIRECT: wage/employment effects without informality. IRRELEVANT: descriptive labor market overviews.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1080/00220388.2024.2312833",
+          "title": "Does the Minimum Wage Affect Wage Inequality? A Study for the Six Largest Latin American Economies",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "10.5089/9781484393840.001",
+          "title": "Impacts of Labor Market Institutions and Demographic Factors on Labor Markets in Latin America",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1371/journal.pone.0261277",
+          "title": "Informality in the time of COVID-19 in Latin America: Implications and policy options",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.1111/rode.12326",
+          "title": "Assessing the distributive effects of minimum wage",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.7866/hpe-rpe.24.1.5",
+          "title": "Informality and Taxation: Evidence from Seven Latin American Countries",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1086/209878",
+          "title": "The Impact of Minimum Wages in Mexico and Colombia",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.1177/0019793915575703",
+          "title": "The Consequences of Increased Enforcement of Legal Minimum Wages in a Developing Country",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1080/00220388.2022.2130056",
+          "title": "The Effect of the Minimum Wage on Poverty: Evidence from a Quasi-Experiment in Mexico",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1002/jae.2586",
+          "title": "Estimating the effects of the minimum wage in a developing country: A density discontinuity design approach",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1080/00220380701259947",
+          "title": "Minimum wage effects across the private and public sectors in Brazil",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.1086/714114",
+          "title": "Does an Increasing Minimum Wage Reduce Formal Sector Employment? Evidence from Brazil",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.labeco.2008.07.003",
+          "title": "Minimum wage effects in a developing country",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1136/bmjopen-2020-044920",
+          "title": "Association between informal employment and mortality rate by welfare regime in Latin America and the Caribbean: an ecological study",
+          "label": "irrelevant"
+        },
+        "14": {
+          "doi": "10.1016/j.worlddev.2020.105182",
+          "title": "Can the minimum wage reduce poverty and inequality in the developing world? Evidence from Brazil",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1186/s12992-021-00792-3",
+          "title": "Informal employment and poor self-perceived health in Latin America and the Caribbean: a gender-based comparison between countries and welfare states in a pooled analysis of 176,786 workers",
+          "label": "irrelevant"
+        },
+        "16": {
+          "doi": "10.1017/elr.2024.48",
+          "title": "The impact of skill mismatch on unemployment, informality, and labour turnover",
+          "label": "irrelevant"
+        },
+        "17": {
+          "doi": "10.1080/00220388.2020.1841170",
+          "title": "Regional Labour Informality in Colombia and a Proposal for a Differential Minimum Wage",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1596/1813-9450-4888",
+          "title": "Informality in Latin America and the Caribbean",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.18235/0012394",
+          "title": "Andemic Informality: Assessing Labor Informality, Employment and Income Risk in the Andes",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1016/j.worlddev.2005.04.017",
+          "title": "The effect of minimum wages on actual wages in formal and informal sectors in Costa Rica",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "dube-lester-reich-2010",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "Minimum Wage Effects Across State Borders: Estimates Using Contiguous Counties",
+          "authors": "Dube, Lester & Reich",
+          "year": 2010,
+          "doi_hint": "10.1162/REST_a_00039",
+          "note": "US context — gold standard cross-border quasi-experiment. LAC literature references this design."
+        },
+        {
+          "id": "comola-mello-2011",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "How Does Decentralized Minimum Wage Setting Affect Employment and Informality? Evidence from Indonesia",
+          "authors": "Comola & de Mello",
+          "year": 2011,
+          "doi_hint": "10.1111/j.1475-4991.2011.00455.x",
+          "note": "Shows 'lighthouse' effect: raises informal-sector wages. LAC-adjacent mechanism."
+        },
+        {
+          "id": "campos-esquivel-2023-mexico",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Effect of the Minimum Wage on Poverty: Evidence from a Quasi-Experiment in Mexico",
+          "authors": "Campos-Vazquez & Esquivel",
+          "year": 2022,
+          "doi_hint": "10.1080/00220388.2022.2130056",
+          "note": "Quasi-experiment — 100% MW hike on Mexico border. Direct LAC evidence. doi_hint corrected 2026-07-06: the originally cited 'Minimum Wage and Informality in Mexico' (10.1016/j.jdeveco.2023.103079) does not exist — that DOI is Gao/Song/Timmins on clean air, and Crossref has no such Campos-Esquivel informality paper. Remapped to the same authors' real Mexico border-MW quasi-experiment (JDS 2022), in corpus."
+        },
+        {
+          "id": "gindling-terrell-2004-costa-rica",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The effects of multiple minimum wages throughout the labor market: The case of Costa Rica",
+          "authors": "Gindling & Terrell",
+          "year": 2006,
+          "doi_hint": "10.1016/j.labeco.2006.01.004",
+          "note": "RD + panel — formal/uncovered sector substitution, LAC direct evidence. doi_hint corrected 2026-07-06: was 10.1016/j.jdeveco.2006.01.001 (a different paper — Chowdhury, group lending); true venue is Labour Economics (10.1016/j.labeco.2006.01.004), in corpus."
+        },
+        {
+          "id": "lemos-2004-brazil-minwage",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Are Wage and Employment Effects of the Minimum Wage Larger in the Informal Sector?",
+          "authors": "Lemos",
+          "year": 2004,
+          "doi_hint": null,
+          "note": "Brazil minimum wages and sectoral employment — LAC directly."
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "LAC geography required; foundational papers pre-2010 (Dube 2010); policy-specific"
+    },
+    {
+      "id": "q05-cct-school-attendance-learning",
+      "query": "do cash transfer programs increase school attendance and learning outcomes",
+      "intent": "DIR: cash transfers → education (enrollment, attendance, test scores). EXPECT: RCTs, Progresa/Oportunidades/Bolsa Família evaluations. INDIRECT: transfers affecting nutrition/health only, not education. IRRELEVANT: poverty-schooling correlations without causal design.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1080/01488376.2024.2448187",
+          "title": "Are Conditional Cash Transfer Programs the Answer to Social Inequalities in Rural Education? Insights from Morocco’s Tayssir Program",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1007/s11524-024-00838-y",
+          "title": "Cash Transfers and After-School Programs: A Randomized Controlled Trial for Young Men at Risk of Violence Exposure in Wilmington, Delaware",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1596/1813-9450-9989",
+          "title": "Cash Transfers after Ebola in Guinea: Lessons Learned on Human Capital",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1016/j.jdeveco.2010.05.006",
+          "title": "Does more cash in conditional cash transfer programs always lead to larger impacts on school attendance?",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.18235/0011174",
+          "title": "Demand and Supply-Side Determinants of Conditional Cash Transfer Program Effectiveness: Improving the First-Generation Programs",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "—",
+          "title": "How school quality affects the success of a conditional cash transfer program",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.2139/ssrn.3703566",
+          "title": "Does More Schooling Imply Improved Learning? Evidence From a Conditional Cash Transfer Programme in India",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1016/j.lana.2024.100803",
+          "title": "Joining forces for healthier futures: a call to action for South American child health policies",
+          "label": "irrelevant"
+        },
+        "9": {
+          "doi": "10.7916/d81c287b",
+          "title": "Essays on Human Capital, Labor and Development Economics",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1016/j.econedurev.2023.102406",
+          "title": "Does more schooling imply improved learning? Evidence from the Kanyashree Prakalpa in India",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.4314/gjss.v19i1.3",
+          "title": "Relationship between cash transfer programmes and school outcomes in Africa and Latin America: A systematic review",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.econedurev.2022.102332",
+          "title": "The educational impacts of cash transfers in Tanzania",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1086/733427",
+          "title": "Can Conditional Cash Transfers Alter the Effectiveness of Other Human Capital Development Policies?",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.1016/j.econedurev.2017.06.002",
+          "title": "Short-term impacts of an unconditional cash transfer program on child schooling: Experimental evidence from Malawi",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.18235/0011660",
+          "title": "The Effect of Cash Transfers to Schools on Voluntary Contributions",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "—",
+          "title": "Cash and Cognition: The Impact of Transfer Timing on Standardized Test Performance and Human Capital",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.18235/0012881",
+          "title": "Can Conditional Cash Transfers Alter the Effectiveness of Other Human Capital Development Policies?",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1371/journal.pone.0205957",
+          "title": "The effect of cash transfer programs on educational mobility",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1016/j.jdeveco.2019.102392",
+          "title": "Can large, untargeted conditional cash transfers increase urban high school graduation rates? Evidence from Mexico City's Prepa Sí",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1086/714010",
+          "title": "Dependence or Constraints? Cash Transfers and Labor Supply",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "schultz-2004-progresa",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "School Subsidies for the Poor: Evaluating the Mexican Progresa Poverty Program",
+          "authors": "Schultz, T. Paul",
+          "year": 2004,
+          "doi_hint": "10.1016/j.jdeveco.2003.12.009",
+          "note": "Seminal PROGRESA RCT evaluation — IRR ~8%."
+        },
+        {
+          "id": "de-brauw-hoddinott-2011",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Must Conditional Cash Transfer Programs Be Conditioned to Be Effective?",
+          "authors": "de Brauw & Hoddinott",
+          "year": 2011,
+          "doi_hint": "10.2139/ssrn.1011901",
+          "note": "Natural experiment — missing monitoring forms in PROGRESA. Conditionality crucial for schooling. doi_hint corrected 2026-07-06: was 10.1016/j.jdeveco.2010.01.006 (a different paper — Sharif, Sri Lanka). The published JDE DOI (10.1016/j.jdeveco.2010.08.014) is not in corpus; remapped to the in-corpus SSRN version."
+        },
+        {
+          "id": "baird-mcintosh-ozler-2011",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Cash or Condition? Evidence from a Cash Transfer Experiment (Malawi)",
+          "authors": "Baird, McIntosh & Özler",
+          "year": 2011,
+          "doi_hint": "10.1093/qje/qjr032",
+          "note": "RCT — conditional vs unconditional. Conditional raises enrollment more; unconditional fewer adverse effects."
+        },
+        {
+          "id": "fiszbein-schady-2009",
+          "label": "relevant",
+          "design_rank": 5,
+          "title": "Conditional Cash Transfers: Reducing Present and Future Poverty",
+          "authors": "Fiszbein & Schady",
+          "year": 2009,
+          "doi_hint": null,
+          "note": "World Bank book — broad LAC synthesis."
+        },
+        {
+          "id": "behrman-sengupta-todd-2005",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Progressing through PROGRESA: An Impact Assessment of a School Subsidy Experiment in Rural Mexico",
+          "authors": "Behrman, Sengupta & Todd",
+          "year": 2005,
+          "doi_hint": "10.1596/1813-9450-3402"
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "CCT→education, very well-studied, foundational pre-2010 papers (Schultz 2004, Baird 2011)"
+    },
+    {
+      "id": "q06-migration-native-wages",
+      "query": "impact of immigration on native worker wages in receiving countries",
+      "intent": "DIR: migration inflows → native wages. EXPECT: labor market causal studies using immigration waves or supply shocks as instruments. INDIRECT: migrant integration outcomes or migrant wage-gap studies. IRRELEVANT: determinants of migration flows.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1016/j.labeco.2011.02.002",
+          "title": "Complements or substitutes? Task specialization by gender and nativity in Spain",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1093/restud/rds019",
+          "title": "The Effect of Immigration along the Distribution of Wages",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1257/jep.9.2.23",
+          "title": "The Impact of Immigrants on Host Country Wages, Employment and Growth",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1111/padr.12048",
+          "title": "National Academies of Sciences, Engineering, and MedicineThe Economic and Fiscal Consequences of ImmigrationWashington, DC: National Academies Press, 2016. 508 p. $85.00.",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.1111/joes.12300",
+          "title": "THE IMPACT OF IMMIGRATION ON THE LABOR MARKET",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.3368/jhr.50.3.694",
+          "title": "Remittances and the Wage Impact of Immigration",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1007/bf00173618",
+          "title": "Native wage impacts of foreign labor: a random effects panel analysis",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1111/roie.12163",
+          "title": "Selective Immigration Policies and Wages Inequality",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.3368/jhr.xli.2.221",
+          "title": "Native Internal Migration and the Labor Market Impact of Immigration",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1257/aer.97.2.383",
+          "title": "Differential Impacts of Immigrants on Native Black and White Workers",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1111/j.1542-4774.2011.01052.x",
+          "title": "Rethinking the Effect of Immigration on Wages",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.labeco.2019.101753",
+          "title": "Minimum wages and the labor market effects of immigration",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1086/298217",
+          "title": "The Impact of Immigration on the Human Capital of Natives",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.1016/j.labeco.2020.101902",
+          "title": "Who competes with whom? Using occupation characteristics to estimate the impact of immigration on native wages",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.1016/j.labeco.2025.102815",
+          "title": "Does immigration affect native wages? A meta-analysis",
+          "label": "relevant"
+        },
+        "16": {
+          "doi": "10.1007/s00148-004-0204-3",
+          "title": "The effect of immigration on wages in three european countries",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1093/oep/gpad011",
+          "title": "How does low-skilled immigration affect native wages? Evidence from Employment Permit System in Korea",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1093/oxfordjournals.oep.a028579",
+          "title": "IMMIGRATION AND THE EARNINGS OF YOUNG NATIVE WORKERS",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1086/374961",
+          "title": "The Effect of Immigration on Native Self‐Employment",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1016/j.labeco.2006.09.006",
+          "title": "Does immigration affect wages? A look at occupation-level evidence",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "card-1990-mariel-boatlift",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Impact of the Mariel Boatlift on the Miami Labor Market",
+          "authors": "Card, David",
+          "year": 1990,
+          "doi_hint": "10.2307/2523702",
+          "note": "Classic supply-shock experiment — 7% labor force increase, minimal wage/employment effect on natives."
+        },
+        {
+          "id": "borjas-2003-native-wages",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Labor Demand Curve Is Downward Sloping: Reexamining the Impact of Immigration on the Labor Market",
+          "authors": "Borjas, George",
+          "year": 2003,
+          "doi_hint": "10.1162/003355303322552810",
+          "note": "10% supply increase → 3-4% wage reduction for competing workers. Key dissenting view."
+        },
+        {
+          "id": "peri-2012-immigration-productivity",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Effect of Immigration on Productivity: Evidence from U.S. States",
+          "authors": "Peri, Giovanni",
+          "year": 2012,
+          "doi_hint": "10.1162/REST_a_00137",
+          "note": "Productivity channel — immigration raises TFP, income gains ~0.5% per 1% employment growth. Counterpoint to Borjas."
+        },
+        {
+          "id": "altonji-card-1991",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "The Effects of Immigration on the Labor Market Outcomes of Less-Skilled Natives",
+          "authors": "Altonji & Card",
+          "year": 1991,
+          "doi_hint": "10.7208/9780226117799-007",
+          "note": "Spatial correlation approach — foundational but spatially biased."
+        },
+        {
+          "id": "ottaviano-peri-2012",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Rethinking the Effect of Immigration on Wages",
+          "authors": "Ottaviano & Peri",
+          "year": 2012,
+          "doi_hint": "10.1093/jeea/jvs019",
+          "note": "Imperfect substitution — native/immigrant workers complement each other; small negative effects on prior immigrants."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "immigration→native wages, seminal papers pre-2003 (Card 1990, Borjas 2003), year filter harmful"
+    },
+    {
+      "id": "q07-childcare-female-labor-participation",
+      "query": "does access to childcare increase female labor force participation",
+      "intent": "DIR: childcare access/expansion → FLFP. EXPECT: childcare policy evaluations, natural experiments on childcare subsidies or availability. INDIRECT: childcare effects on child outcomes only. IRRELEVANT: descriptive gender norms papers without FLFP outcomes.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1111/ecin.12740",
+          "title": "EASING THE CONSTRAINTS OF MOTHERHOOD: THE EFFECTS OF ALL‐DAY SCHOOLS ON MOTHERS' LABOR SUPPLY",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1596/29395",
+          "title": "Preschool Availability and Female Labor Force Participation: Evidence from Indonesia",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.3386/w31916",
+          "title": "The Outlook for Women's Employment and Labor Force Participation",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.18235/0009205",
+          "title": "Childcare and Women's Labor Participation: Evidence for Latin America and the Caribbean",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.3386/w33835",
+          "title": "The Effect of Childcare Access on Women's Careers and Firm Performance",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "—",
+          "title": "Female Employment and Childcare",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1093/epolic/eiae037",
+          "title": "Longer school schedules, childcare and the quality of mothers’ employment",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1596/978-1-4648",
+          "title": "le rôle des transports publics dans l’autonomisation économique des femmes. Abrégé",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1016/j.labeco.2015.07.003",
+          "title": "Does the cost of child care affect female labor market participation? An evaluation of a French reform of childcare subsidies",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1093/wber/lhae004",
+          "title": "Public Child Care Provision: Unraveling the Consequences of Implementation Variations for Women's Time Allocation",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1111/j.1468-232x.1977.tb00102.x",
+          "title": "Changing Patterns of Female Labor Force Participation",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1016/j.labeco.2021.102100",
+          "title": "Does more free childcare help parents work more?",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1257/app.20230227",
+          "title": "Childcare, Labor Supply, and Business Development: Experimental Evidence from Uganda",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.18235/0001449",
+          "title": "Female Labor Force Participation, Labor Market Dynamic and Growth in LAC",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1016/j.jpubeco.2025.105557",
+          "title": "Women’s labor market opportunities and equality in the household",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.3386/w34831",
+          "title": "More Hours, More Work: Head Start Expansions Boost Maternal Employment",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1787/5k46cvrgnms6-en",
+          "title": "Drivers of Female Labour Force Participation in the OECD",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.3386/w17678",
+          "title": "Family Proximity, Childcare, and Women's Labor Force Attachment",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "—",
+          "title": "Unlocking Women’s Entrepreneurship through Childcare Reform",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1596/1813-9450-9828",
+          "title": "Childcare and Mothers' Labor Market Outcomes in Lower- and Middle-Income Countries",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "baker-gruber-milligan-2008-canada",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Universal Child Care, Maternal Labor Supply, and Family Well-Being",
+          "authors": "Baker, Gruber & Milligan",
+          "year": 2008,
+          "doi_hint": "10.1086/528898",
+          "note": "Québec universal childcare rollout — raises FLFP but some adverse child outcomes. Key design study."
+        },
+        {
+          "id": "berlinski-galiani-2007-argentina",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Effect of a Large Expansion of Pre-Primary School Facilities on Preschool Attendance and Maternal Employment",
+          "authors": "Berlinski & Galiani",
+          "year": 2007,
+          "doi_hint": "10.1016/j.labeco.2007.01.003",
+          "note": "DiD — LAC quasi-experiment. Preschool construction → maternal employment. Direct LAC. doi_hint corrected 2026-07-06: was 10.1016/j.jdeveco.2006.01.005 (a different paper — Fafchamps & Wahba, child labor); true venue is Labour Economics (10.1016/j.labeco.2007.01.003), in corpus."
+        },
+        {
+          "id": "attanasio-vera-hernandez-2004",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Medium and Long-Run Effects of Nutrition and Child Care: Evaluation of a Community Nursery Programme in Rural Colombia",
+          "authors": "Attanasio & Vera-Hernández",
+          "year": 2004,
+          "doi_hint": null,
+          "note": "Colombia childcare costs and maternal labour supply. LAC developing-country evidence."
+        },
+        {
+          "id": "havnes-mogstad-2011-norway",
+          "label": "partial",
+          "design_rank": 2,
+          "title": "No Child Left Behind: Subsidized Child Care and Children's Long-Run Outcomes",
+          "authors": "Havnes & Mogstad",
+          "year": 2011,
+          "doi_hint": "10.1257/app.3.2.97",
+          "note": "Norway universal childcare — effects on children's adult earnings. High-income context but important for long-run child outcomes."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "childcare→FLFP, well-defined causal chain, pre-2010 papers needed"
+    },
+    {
+      "id": "q08-land-titling-investment",
+      "query": "effect of land titling and property rights formalization on household investment and welfare",
+      "intent": "DIR: land titling → investment, credit access, consumption. EXPECT: property rights causal studies (Peru, Argentina, Brazil). INDIRECT: agricultural productivity or land markets without titling program. IRRELEVANT: descriptive land ownership statistics.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1016/j.jdeveco.2023.103238",
+          "title": "Property rights, factor allocation and household welfare: Experimental evidence from a land titling program in India",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1086/725453",
+          "title": "The Power of Securing Property Rights: Evidence from China’s Land Titling Policy",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1080/00220388.2018.1506576",
+          "title": "Heterogeneous Effects of Urban Land Titling: A Replication of ‘Property Rights for the Poor’",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1016/j.jdeveco.2022.102853",
+          "title": "Land property rights and rural enterprise growth: Evidence from land titling reform in China",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.3386/w22482",
+          "title": "The Deregularization of Land Titles",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1093/jeea/jvab034",
+          "title": "Digitization and Development: Property Rights Security, and Land and Labor Markets",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1080/00220388.2015.1075977",
+          "title": "Inter-Generational Effects of Titling Programmes: Physical vs. Human Capital",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1596/1813-9450-10043",
+          "title": "How Urban Land Titling and Registry Reform Affect Land and Credit Markets: Evidence from Lesotho",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.1080/00220388.2023.2207254",
+          "title": "Land Tenure and Agricultural Investment: Do Ugandan Polygynous Households Comport with Theory?",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1111/j.1574-0862.2004.tb00180.x",
+          "title": "Investment and equity effects of land regularisation: the case of Nicaragua<sup>⋆</sup>",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.3368/le.91.1.91",
+          "title": "Property Rights and Productivity: The Case of Joint Land Titling in Vietnam",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.worlddev.2020.105020",
+          "title": "Property rights and risk aversion: Evidence from a titling program",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1016/j.worlddev.2021.105654",
+          "title": "Investment impacts of gendered land rights in customary tenure systems: Substantive and methodological insights from Malawi",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1162/1542476054472937",
+          "title": "Property Rights and Investment in Urban Slums",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.18235/0011274",
+          "title": "Titling and Chronic Diseases: Evidence from A Natural Experiment in Uruguay",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1162/jeea.2005.3.2-3.279",
+          "title": "Property Rights and Investment in Urban Slums",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1093/wber/5.1.135",
+          "title": "Land Tenure and Property Rights: Theory and Implications for Development Policy",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1093/ajae/aat001",
+          "title": "Does Sharecropping Affect Long‐term Investment? Evidence from West Bengal's Tenancy Reforms",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.18235/0011327",
+          "title": "Titling, Credit Constraints and Rental Markets in Rural Peru: Exploring Channels and Conditioned Impacts",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.18235/0013245",
+          "title": "Effects of Land Administration: Evaluation of Ecuador's Rural Land Administration Program, SigTierras (en)",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "field-2005-peru-property-rights",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Property Rights and Investment in Urban Slums",
+          "authors": "Field, Erica",
+          "year": 2005,
+          "doi_hint": "10.1162/jeea.2005.3.2-3.279"
+        },
+        {
+          "id": "galiani-schargrodsky-2010-argentina",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Property Rights for the Poor: Effects of Land Titling",
+          "authors": "Galiani & Schargrodsky",
+          "year": 2010,
+          "doi_hint": "10.1016/j.jpubeco.2010.06.002",
+          "in_corpus": false,
+          "note": "doi_hint corrected 2026-07-06: was 10.1016/j.jpubeco.2009.12.002 (a different paper — Angelucci et al., family networks). True DOI is 10.1016/j.jpubeco.2010.06.002 but the paper is NOT in corpus (only the 2018 JDS replication is). Kept as a tracked corpus-gap miss — ingest candidate."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "titling→investment, LAC quasi-experiments, foundational (Field 2005, Galiani 2010)"
+    },
+    {
+      "id": "q09-early-nutrition-adult-earnings",
+      "query": "does early childhood nutrition improve long-term earnings and labor market outcomes",
+      "intent": "DIR: nutrition intervention → adult labor/earnings. EXPECT: longitudinal evaluations linking early nutrition to adult wages, or intervention studies with long-run follow-up. INDIRECT: nutrition → short-term child health only. IRRELEVANT: income-nutrition correlations.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.3386/w29292",
+          "title": "Effect of the Jamaica Early Childhood Stimulation Intervention on Labor Market Outcomes at Age 31",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "10.1016/j.jpubeco.2018.08.008",
+          "title": "Childhood nutrition and labor market outcomes: Evidence from a school breakfast program",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.2307/3559035",
+          "title": "Incomes and Outcomes in Early Childhood",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.1016/s0047-2727(00)00118-3",
+          "title": "Early childhood nutrition and academic achievement: a longitudinal analysis",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.1177/0379572120907763",
+          "title": "Early Childhood Nutrition and Cognitive Functioning in Childhood and Adolescence",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1080/00220388.2019.1605056",
+          "title": "Early Childhood Nutrition, Parental Growth Perceptions and Educational Aspirations in Rural Burkina Faso",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.1162/rest_a_00790",
+          "title": "Infant Health Care and Long-Term Outcomes",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.3368/jhr.xxxix.4.980",
+          "title": "Incomes and Outcomes in Early Childhood",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1086/533542",
+          "title": "Early Childhood Nutrition, Schooling, and Sibling Inequality in a Dynamic Context: Evidence from South Africa",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1093/restud/rdab028",
+          "title": "Long-Term Effects of Childhood Nutrition: Evidence from a School Lunch Reform",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.3386/w19185",
+          "title": "Labor Market Returns to Early Childhood Stimulation: a 20-year Followup to an Experimental Intervention in Jamaica",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.6027/9789289329873-2-en",
+          "title": "Long-Term Effects of Early Childhood Care and Education",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1093/jn/125.suppl_4.1027s",
+          "title": "The effects of improved nutrition in early childhood: the Institute of Nutrition of Central America and Panama (INCAP) follow-up study.",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.1596/16953",
+          "title": "Improving Nutrition through Multisectoral Approaches",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.3386/w26691",
+          "title": "Effects of the Minimum Wage on Child Health",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.18235/0011477",
+          "title": "Boys' Cognitive Skill Formation and Physical Growth: Long-term Experimental Evidence on Critical Ages for Early Childhood Interventions",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1016/j.jpubeco.2023.105046",
+          "title": "Early childhood human capital formation at scale",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1086/719364",
+          "title": "Effects of the Minimum Wage on Child Health",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.3386/w22993",
+          "title": "The Life-cycle Benefits of an Influential Early Childhood Program",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.3386/w18535",
+          "title": "Long Run Impacts of Childhood Access to the Safety Net",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "hoddinott-2008-guatemala",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Effect of a Nutrition Intervention during Early Childhood on Economic Productivity in Guatemalan Adults",
+          "authors": "Hoddinott et al.",
+          "year": 2008,
+          "doi_hint": "10.1016/s0140-6736(08)60205-6",
+          "note": "Atole longitudinal study — +46% hourly wages in adulthood. Strongest causal evidence nutrition → wages."
+        },
+        {
+          "id": "maluccio-2009-guatemala-followup",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Impact of Improving Nutrition During Early Childhood on Education among Guatemalan Adults",
+          "authors": "Maluccio et al.",
+          "year": 2009,
+          "doi_hint": "10.1111/j.1468-0297.2009.02220.x",
+          "note": "Same Guatemala experiment — persistent schooling and wage gains for atole group."
+        },
+        {
+          "id": "gertler-2014-jamaica-earnings",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Labor Market Returns to an Early Childhood Stimulation Intervention in Jamaica",
+          "authors": "Gertler et al.",
+          "year": 2014,
+          "doi_hint": "10.1126/science.1251178",
+          "note": "RCT Jamaica — psychosocial stimulation → 25% higher earnings at age 20-22."
+        },
+        {
+          "id": "heckman-2010-ecd-returns",
+          "label": "relevant",
+          "design_rank": 5,
+          "title": "The Rate of Return to the HighScope Perry Preschool Program",
+          "authors": "Heckman et al.",
+          "year": 2010,
+          "doi_hint": "10.1016/j.jpubeco.2009.11.001",
+          "note": "Perry Preschool — long-run earnings and crime returns. Seminal ECD evidence."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "nutrition→adult earnings, long-run RCTs, foundational (Hoddinott 2008, Gertler 2014)"
+    },
+    {
+      "id": "q10-trade-liberalization-wage-inequality",
+      "query": "impact of trade liberalization on wage inequality in developing countries",
+      "intent": "DIR: trade opening (tariff cuts, WTO accession) → wage inequality. EXPECT: trade shock studies using tariff variation. INDIRECT: trade effects on employment levels or productivity only. IRRELEVANT: descriptive globalization papers without causal design.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1111/j.1467-9361.2007.00388.x",
+          "title": "Trade Liberalization and Wage Inequality: Evidence from India",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.18235/0010785",
+          "title": "Economics Reform and Wage Differentials in Latin America",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "—",
+          "title": "The impact of trade liberalization upon inequality in developing countries : a review of theory and evidence",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1016/j.jinteco.2019.05.001",
+          "title": "Trading off the income gains and the inequality costs of trade policy",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.1016/s0304-3878(99)00007-3",
+          "title": "Trade liberalization and wage inequality",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1111/j.0013-0133.2004.00188.x",
+          "title": "Trade Liberalisation and Wages in Developing Countries",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1111/j.1467-9396.2007.00674.x",
+          "title": "Trade, Wage Gaps, and Specific Human Capital Accumulation*",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1111/ehr.13234",
+          "title": "Review of periodical literature for 2021",
+          "label": "irrelevant"
+        },
+        "9": {
+          "doi": "10.1016/j.worlddev.2008.06.002",
+          "title": "Trade and Income Inequality in Developing Countries",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1111/padr.12438",
+          "title": "CharlesGoodhart and ManojPradhanThe Great Demographic Reversal: Ageing Societies, Waning Inequality, and an Inflation RevivalPalgrave‐Macmillan, 2020, 280 p., €29.99.",
+          "label": "irrelevant"
+        },
+        "11": {
+          "doi": "10.1093/ei/cbh061",
+          "title": "Trade and Wage Inequality in Developing Countries",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1111/j.1467-9396.2010.00887.x",
+          "title": "Wage Inequality, Increased Competition, and Trade Liberalization: Short Run vs Long Run",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1016/s0304-3878(03)00117-2",
+          "title": "The impact of trade liberalization on wage inequality: evidence from Argentina",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.52587/jems020201",
+          "title": "THE IMPACT OF TRADE LIBERALIZATION ON EMPLOYMENT AND WAGES: PANEL EVIDENCE FROM DEVELOPING COUNTRIES",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.1016/j.worlddev.2006.02.010",
+          "title": "Economic Liberalization and Wage Inequality in India",
+          "label": "relevant"
+        },
+        "16": {
+          "doi": "10.1086/732798",
+          "title": "Between Sticky Floors and Glass Ceilings: Trade Liberalization and Wage Inequality by Gender and Race in Brazil",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1093/wber/lhh045",
+          "title": "Trade Liberalization and Industry Wage Structure: Evidence from Brazil",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1016/j.jmoneco.2004.04.012",
+          "title": "Trade liberalization and the skill premium in developing economies",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1016/0306-9192(92)90056-4",
+          "title": "Agricultural trade liberalization implications for developing countries",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1111/j.0092-5853.2003.00546.x",
+          "title": "Short‐ versus Long‐Run Implications of Trade Liberalization for Poverty in Three Developing Countries",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "autor-dorn-hanson-2013",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the US",
+          "authors": "Autor, Dorn & Hanson",
+          "year": 2013,
+          "doi_hint": "10.1257/aer.103.6.2121",
+          "note": "China-shock methodology — commuting zone exposure. US but defines the modern design."
+        },
+        {
+          "id": "goldberg-pavcnik-2007",
+          "label": "relevant",
+          "design_rank": 5,
+          "title": "Distributional Effects of Globalization in Developing Countries",
+          "authors": "Goldberg & Pavcnik",
+          "year": 2007,
+          "doi_hint": "10.1257/jel.45.1.39",
+          "note": "Authoritative survey — LAC and Asia. Trade generally raises skill premium, can increase inequality."
+        },
+        {
+          "id": "topalova-2010-india",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Factor Immobility and Regional Impacts of Trade Liberalization: Evidence on Poverty from India",
+          "authors": "Topalova",
+          "year": 2010,
+          "doi_hint": "10.1257/app.2.4.1",
+          "note": "DiD — tariff cuts across districts. Trade liberalization increased poverty in exposed rural districts."
+        },
+        {
+          "id": "porto-2006-argentina",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Using Survey Data to Assess the Distributional Effects of Trade Policy",
+          "authors": "Porto, Guido",
+          "year": 2006,
+          "doi_hint": "10.1016/j.jinteco.2005.09.003",
+          "note": "Structural model — Argentina tariff reductions, wage and price channels. LAC direct evidence. doi_hint corrected 2026-07-06: was 10.1016/j.jinteco.2005.01.003 (a different paper — Edmonds & Pavcnik, child labor); true DOI 10.1016/j.jinteco.2005.09.003, in corpus."
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "trade shock methodology-specific; major papers (Autor-Dorn-Hanson, Topalova) in corpus but not retrieved"
+    },
+    {
+      "id": "q11-teacher-quality-student-learning",
+      "query": "does teacher quality causally affect student learning outcomes",
+      "intent": "DIR: teacher quality/effectiveness → student test scores and long-run outcomes. EXPECT: teacher VA studies, random assignment designs, teacher incentive RCTs with learning outcomes. INDIRECT: general school quality studies without teacher-specific variation. IRRELEVANT: descriptive education system reports.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1162/edfp_a_00180",
+          "title": "Linking Teacher Quality, Student Attendance, and Student Achievement",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1162/edfp.a.441",
+          "title": "Presidential Essay: AEFP’s Role in an Evidence-Informed Education Ecosystem",
+          "label": "irrelevant"
+        },
+        "3": {
+          "doi": "10.1002/jae.2539",
+          "title": "Teacher Quality and Student Achievement: Evidence from a Sample of Dutch Twins",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1086/653808",
+          "title": "Does Professor Quality Matter? Evidence from Random Assignment of Students to Professors",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.3368/jhr.1023-13180r2",
+          "title": "How to Measure a Teacher",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1086/722227",
+          "title": "The Multidimensional Impact of Teachers on Students",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.3386/w18624",
+          "title": "Non-Cognitive Ability, Test Scores, and Teacher Quality: Evidence from 9th Grade Teachers in North Carolina",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1016/j.learninstruc.2022.101600",
+          "title": "Opening up the black box: Teacher competence, instructional quality, and students’ learning progress",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1086/676017",
+          "title": "Teacher Quality at the High School Level: The Importance of Accounting for Tracks",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1016/j.labeco.2016.01.005",
+          "title": "Estimating effects of school quality using multiple proxies",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.1111/j.1468-0262.2005.00584.x",
+          "title": "Teachers, Schools, and Academic Achievement",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1257/aer.100.2.267",
+          "title": "Generalizations about Using Value-Added Measures of Teacher Quality",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1162/edfp_a_00251",
+          "title": "Validating Teacher Effects on Students’ Attitudes and Behaviors: Evidence from Random Assignment of Teachers to Students",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.3386/w17722",
+          "title": "Teacher Quality at the High-School Level: The Importance of Accounting for Tracks",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.64780/jole.v1i3.88",
+          "title": "Teacher Competence and Student Learning Outcomes: A Correlational Study in Primary Education",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.3386/w22805",
+          "title": "The Compositional Effect of Rigorous Teacher Evaluation on Workforce Quality",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1093/qje/qjw016",
+          "title": "Teacher Quality and Learning Outcomes in Kindergarten*",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1920/wp.ifs.2016.0916",
+          "title": "Teacher Quality and Learning Outcomes in Kindergarten",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.3386/w27089",
+          "title": "Do Differences in School Quality Generate Heterogeneity in the Causal Returns to Education?",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.2307/2109862",
+          "title": "Does School Quality Matter? Evidence from the National Longitudinal Survey of Youth",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "chetty-friedman-rockoff-2014",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Measuring the Impacts of Teachers I & II",
+          "authors": "Chetty, Friedman & Rockoff",
+          "year": 2014,
+          "doi_hint": "10.1257/aer.104.9.2593",
+          "note": "Matched school+tax records — high VA teachers → college attendance, lifetime earnings +$250k. Landmark."
+        },
+        {
+          "id": "rockoff-2004",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Impact of Individual Teachers on Student Achievement: Evidence from Panel Data",
+          "authors": "Rockoff",
+          "year": 2004,
+          "doi_hint": "10.1257/0002828041302244",
+          "note": "Teacher FE estimation — foundational VA methodology."
+        },
+        {
+          "id": "muralidharan-sundararaman-2011-india",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Teacher Performance Pay: Experimental Evidence from India",
+          "authors": "Muralidharan & Sundararaman",
+          "year": 2011,
+          "doi_hint": "10.1086/659655",
+          "note": "RCT — individual bonuses tied to test scores significantly raise student achievement."
+        },
+        {
+          "id": "rivkin-hanushek-kain-2005",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Teachers, Schools, and Academic Achievement",
+          "authors": "Rivkin, Hanushek & Kain",
+          "year": 2005,
+          "doi_hint": "10.1111/j.1468-0262.2005.00584.x",
+          "note": "Texas panel — teacher FE variation. Substantial heterogeneity in teacher quality."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "teacher VA→learning, well-defined mechanism, foundational (Chetty 2014, Rivkin 2005)"
+    },
+    {
+      "id": "q12-climate-shocks-poverty-food",
+      "query": "do climate shocks increase poverty and food insecurity in developing countries",
+      "intent": "DIR: climate shocks (drought, flood, heat) → poverty/food insecurity. EXPECT: natural disaster or weather-shock causal studies. INDIRECT: adaptation or resilience capacity studies. IRRELEVANT: climate opinion, awareness, or attitude papers.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1002/fes3.567",
+          "title": "The ripple effects of climate change on agricultural sustainability and food security in Africa",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "10.1016/j.crm.2014.10.001",
+          "title": "The Household Economy Approach. Managing the impact of climate change on poverty and food security in developing countries",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1016/j.worlddev.2021.105511",
+          "title": "Food insecurity and compound environmental shocks in Nepal: Implications for a changing climate",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.37939/jhcc.v3i1.4",
+          "title": "Climate Change Causes Food Insecurity for Developing Countries",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.1590/0102-311xen217824",
+          "title": "Climate change, food insecurity, and the impacts on child health and nutrition in Brazil: proposal for a conceptual model",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1596/978-1-4648-0673-5",
+          "title": "Shock Waves: Managing the Impacts of Climate Change on Poverty",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1016/0306-9192(80)90055-x",
+          "title": "Food insecurity in developing countries",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1016/0305-750x(89)90247-7",
+          "title": "On the causes of food insecurity in less developed countries: An empirical evaluation",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1002/fes3.261",
+          "title": "Impacts of land use, population, and climate change on global food security",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1016/j.worlddev.2019.104691",
+          "title": "Climate and poverty in Africa South of the Sahara",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1080/00220388.2023.2236272",
+          "title": "Impact of Weather Shocks on Food Security: How Effective are Forests as Natural Insurance?",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.foodpol.2025.102910",
+          "title": "Climate shocks, household food security and welfare in Afghanistan",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1016/j.jafr.2024.100978",
+          "title": "Food insecurity in East Africa: An integrated strategy to address climate change impact and violence conflict",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1016/s0169-5150(99)00051-1",
+          "title": "The geography and causes of food insecurity in developing countries",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.26565/2524-2547-2025-70-03",
+          "title": "IMPACTS OF INCOME SHOCKS AND SOCIAL PROTECTION ON RURAL HOUSEHOLDS’ FOOD INSECURITY EXPERIENCES DURING THE COVID-19 PANDEMIC IN CONFLICT-AFFECTED STATES IN NORTHERN NIGERIA",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1057/s41599-024-02847-3",
+          "title": "Climate change and food security in South Asia: the importance of renewable energy and agricultural credit",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.3389/fsufs.2021.691191",
+          "title": "Food Security and Climate Change: Differences in Impacts and Adaptation Strategies for Rural Communities in the Global South and North",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1016/j.eneco.2021.105338",
+          "title": "Energy poverty, climate shocks, and health deprivations",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.1371/journal.pone.0293563",
+          "title": "RETRACTED: Socioeconomic shocks, social protection and household food security amidst COVID-19 pandemic in Africa’s largest economy",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.3390/agriculture14101729",
+          "title": "Smallholder Farmers’ Climate Change Adaptation Strategies and Their Effect on Household Food Security: Evidence from KwaZulu-Natal, South Africa",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "dell-jones-olken-2012",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Temperature Shocks and Economic Growth: Evidence from the Last Half Century",
+          "authors": "Dell, Jones & Olken",
+          "year": 2012,
+          "doi_hint": "10.1257/mac.4.3.66",
+          "note": "Panel 50 years — temperature increases reduce growth in poor countries. Core climate-economy paper."
+        },
+        {
+          "id": "barnwal-kothari-2014",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Shining a Light on Floods: Heterogeneous Impacts of Rainfall on Agricultural Productivity",
+          "authors": "Barnwal & Kothari",
+          "year": 2014,
+          "doi_hint": null
+        },
+        {
+          "id": "schlenker-roberts-2009",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Nonlinear Temperature Effects Indicate Severe Damages to U.S. Crop Yields under Climate Change",
+          "authors": "Schlenker & Roberts",
+          "year": 2009,
+          "doi_hint": "10.1073/pnas.0906865106",
+          "note": "Nonlinear crop yield damage function — key quantitative climate-agriculture evidence."
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "climate shock → poverty; geography varies (global, dev countries); methodology-specific (weather shocks)"
+    },
+    {
+      "id": "q13-financial-inclusion-resilience",
+      "query": "does financial inclusion improve household resilience to economic shocks",
+      "intent": "DIR: financial services access (savings, credit, insurance, mobile money) → resilience to shocks. EXPECT: mobile money/banking causal studies, savings experiments. INDIRECT: financial literacy outcomes without shock-resilience channel. IRRELEVANT: descriptive banking access statistics.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.3390/su162411065",
+          "title": "Understanding the Role of Financial Literacy in Enhancing Economic Stability and Resilience in Montenegro: A Data-Driven Approach",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "10.1080/00220388.2021.2013467",
+          "title": "The Gender-Differential Effect of Financial Inclusion on Household Financial Resilience",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1080/00220388.2017.1380798",
+          "title": "Thinking Inside the Box: A Closer Look at Financial Inclusion and Household Income",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.1007/s10668-025-06040-7",
+          "title": "Financial inclusion as a catalyst for poverty reduction: unraveling the impact amidst global challenges",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.5089/9781513568928.001",
+          "title": "Financial Inclusion: Zooming in on Latin America",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1016/j.jebo.2017.07.027",
+          "title": "Is financial inclusion good for bank stability? International evidence",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.18235/0004969",
+          "title": "Re-thinking Social Protection: From Poverty Alleviation to Building Resilience in Middle-Income Households (en)",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.35408/comuybd.1516794",
+          "title": "The Relationship Between Financial Inclusion and Real Economic Growth: Examples from Turkey, Developing Countries, Developed Countries, and the World",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1093/wber/lhv029",
+          "title": "Financial Inclusion, Productivity Shocks, and Consumption Volatility in Emerging Economies",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1016/j.econmod.2024.106707",
+          "title": "Revisiting the relation between financial inclusion and economic growth: a global analysis using panel threshold regression",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1080/23322039.2025.2587236",
+          "title": "Financial inclusion, poverty, and income inequality",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.30574/wjarr.2023.18.1.0709",
+          "title": "Financial inclusion strategies for poverty reduction and economic empowerment in underbanked rural populations globally",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1016/j.worlddev.2018.06.020",
+          "title": "Does financial literacy improve financial inclusion? Cross country evidence",
+          "label": "irrelevant"
+        },
+        "15": {
+          "doi": "10.1596/978-1-4648-1575-1",
+          "title": "Adaptive Social Protection: Building Resilience to Shocks",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1186/s40008-020-00214-4",
+          "title": "Does financial inclusion reduce poverty and income inequality in developing countries? A panel data analysis",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1080/23322039.2025.2476093",
+          "title": "Role of financial inclusion in enhancing the effect of remittance on economic growth in developing countries",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1111/rode.13062",
+          "title": "Financial inclusion, vulnerability coping strategies and multidimensional poverty: Does conceptualisation of financial inclusion matter?",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1080/00220388.2022.2075733",
+          "title": "Building Resilience through Social Protection: Evidence from Malawi",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1177/21582440241232585",
+          "title": "Financial Inclusion and Economic Growth: Comparative Panel Evidence from Developed and Developing Asian Countries",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "jack-suri-2014-mpesa",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Risk Sharing and Transactions Costs: Evidence from Kenya's Mobile Money Revolution",
+          "authors": "Jack & Suri",
+          "year": 2014,
+          "doi_hint": "10.1257/aer.104.1.183",
+          "note": "M-Pesa — mobile money enables risk sharing across households. Core financial inclusion evidence."
+        },
+        {
+          "id": "dupas-robinson-2013-savings",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
+          "authors": "Dupas & Robinson",
+          "year": 2013,
+          "doi_hint": "10.1257/app.5.1.163",
+          "note": "RCT — savings account access → investment in health and business."
+        },
+        {
+          "id": "suri-jack-2016-mpesa-welfare",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "The Long-Run Poverty and Gender Impacts of Mobile Money",
+          "authors": "Suri & Jack",
+          "year": 2016,
+          "doi_hint": "10.1126/science.aah5309",
+          "note": "Long-run M-Pesa — consumption up, savings up, female financial inclusion especially. Strong causal evidence."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "financial access→resilience, RCT-heavy (M-Pesa, Dupas), post-2010 most canonical"
+    },
+    {
+      "id": "q14-cct-poverty-reduction-mechanisms",
+      "query": "through what mechanisms do cash transfers reduce poverty",
+      "intent": "DIR: cash transfers → poverty reduction channels (consumption, investment, human capital, productive assets, behavior change). EXPECT: mediation analyses, mechanism papers. INDIRECT: transfer targeting or admin design papers. IRRELEVANT: broad anti-poverty commentary without causal evidence.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1016/j.socscimed.2021.114521",
+          "title": "‘Poverty can break a home’: Exploring mechanisms linking cash plus programming and intimate partner violence in Ghana",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "10.1371/journal.pone.0281283",
+          "title": "Do cash transfers alleviate common mental disorders in low- and middle-income countries? A systematic review and meta-analysis",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1016/j.wdp.2025.100744",
+          "title": "Inheriting subsidies: Intergenerational correlation in Conditional Cash Transfers in Colombia",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "—",
+          "title": "Conditional cash transfers and poverty eradication in Latin America",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.3386/w27157",
+          "title": "Poverty, Depression, and Anxiety: Causal Evidence and Mechanisms",
+          "label": "irrelevant"
+        },
+        "6": {
+          "doi": "10.4314/gjds.v14i2.1",
+          "title": "SOCIAL CASH TRANSFERS: SOME UNDERLYING DEBATES AND IMPLICATIONS FOR POLICY MAKING",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.2307/1955045",
+          "title": "On Comparing Income Maintenance Alternatives",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1002/14651858.cd011135.pub2",
+          "title": "Unconditional cash transfers for reducing poverty and vulnerabilities: effect on use of health services and health outcomes in low- and middle-income countries.",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1016/j.jdeveco.2019.102418",
+          "title": "Cash-plus: Poverty impacts of alternative transfer-based approaches",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1016/j.worlddev.2019.04.016",
+          "title": "Effect of capacity building in alleviating poverty and improving forest conservation in the communal forests of Mexico",
+          "label": "irrelevant"
+        },
+        "11": {
+          "doi": "10.1111/j.1468-2397.2011.00801.x",
+          "title": "Cash transfers, social protection and poverty reduction",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.6007/ijarbss/v12-i8/14256",
+          "title": "Perceptions on Interventions to Empower Girls and Families to Reduce Child Marriage in Kampung Seri Menanti, Negeri Sembilan, Malaysia",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.55214/25768484.v9i3.5758",
+          "title": "The poverty alleviation program in A Tsunami impacted area: Models PKH and BPNT Indonesia",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1596/978-1-4648-0423-6/pt4.ch23",
+          "title": "Cash Transfers and Child and Adolescent Development",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1073/pnas.2222103120",
+          "title": "Unconditional cash transfers reduce homelessness",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1016/j.worlddev.2019.104812",
+          "title": "From experimental findings to evidence-based policy",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1016/0306-9192(87)90041-8",
+          "title": "Cash transfers to the poorest",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1111/deve.12455",
+          "title": "Conditional Cash Transfers: A Quantitative Approach",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1080/00220388.2015.1134776",
+          "title": "Accessing the ‘Right’ Kinds of Material and Symbolic Capital: the Role of Cash Transfers in Reducing Adolescent School Absence and Risky Behaviour in South Africa",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1007/978-3-319-53094-9",
+          "title": "Poverty Reduction, Education, and the Global Diffusion of Conditional Cash Transfers",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "gertler-martinez-rubio-codina-2012",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Investing Cash Transfers to Raise Long-Term Living Standards",
+          "authors": "Gertler, Martinez & Rubio-Codina",
+          "year": 2012,
+          "doi_hint": "10.1257/app.4.1.164",
+          "note": "Oportunidades Mexico — productive asset investment channel. Long-term poverty escape mechanism."
+        },
+        {
+          "id": "bandiera-etal-2017-graduation-bangladesh",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Labor Markets and Poverty in Village Economies",
+          "authors": "Bandiera et al.",
+          "year": 2017,
+          "doi_hint": "10.1093/qje/qjx003",
+          "note": "BRAC graduation RCT — occupational transitions from transfer, persistence."
+        }
+      ],
+      "retrieval_class": "sparse_multi",
+      "retrieval_class_reason": "mechanism query — asks HOW, not just WHETHER; multi-channel causal paths; mediation analysis"
+    },
+    {
+      "id": "q15-violence-youth-education",
+      "query": "how does violence exposure affect educational attainment and school performance among youth",
+      "intent": "DIR: crime/violence/conflict exposure → education (attendance, attainment, performance). EXPECT: causal studies using geographic/policy variation in violence. INDIRECT: violence impacts on mental health only, without education link. IRRELEVANT: low education causing crime (reverse).",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.3386/w34482",
+          "title": "Violent Peers at School: Impacts and Mechanisms",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.2307/146425",
+          "title": "Local Violence and Educational Attainment",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1177/0038040714523795",
+          "title": "Exposure to Local Homicides and Early Educational Achievement in Mexico",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1007/s13524-019-00850-x",
+          "title": "Crime and Inequality in Academic Achievement Across School Districts in the United States",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.1177/0038040713494225",
+          "title": "School Violent Crime and Academic Achievement in Chicago",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1111/rode.12342",
+          "title": "Human capital consequences of violence in schools: Estimating the impact of violence in schools on education outcomes in Brazil",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1177/0038040718779063",
+          "title": "Neighborhood Violence, Peer Effects, and Academic Achievement in Chicago",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.3386/w28311",
+          "title": "Trauma at School: The Impacts of Shootings on Students' Human Capital and Economic Outcomes",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.1016/j.worlddev.2025.107054",
+          "title": "Violent conflicts and learning outcomes: Evidence from Sub-Saharan Africa",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1086/721656",
+          "title": "When Crime Comes to the Neighborhood: Short-Term Shocks to Student Cognition and Secondary Consequences",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1093/restud/rdaf027",
+          "title": "Trauma at School: The Impacts of Shootings on Students’ Human Capital and Economic Outcomes",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1162/rest_a_01186",
+          "title": "Police Violence, Student Protests, and Educational Performance",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.3368/jhr.0825-14475",
+          "title": "Reconsidering Peer Effects from Schoolmates Exposed to Violence at Home",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.1016/b978-0-08-044894-7.01229-x",
+          "title": "Education and crime",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1093/jeea/jvy051",
+          "title": "Learning The Hard Way: The Effect of Violent Conflict on Student Academic Achievement",
+          "label": "relevant"
+        },
+        "16": {
+          "doi": "10.1007/s40865-022-00214-x",
+          "title": "School Performance and Young Adult Crime in a Brazilian Birth Cohort",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.3386/w26759",
+          "title": "School Effects on Socio-emotional Development, School-Based Arrests, and Educational Attainment",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.3386/w28307",
+          "title": "Exposure to a School Shooting and Subsequent Well-Being",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.3386/w33317",
+          "title": "In-Person Schooling and Juvenile Violence",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1162/edfp_a_00234",
+          "title": "The Effect of Community Traumatic Events on Student Achievement: Evidence from the Beltway Sniper Attacks",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "blattman-annan-2010-soldiers",
+          "label": "partial",
+          "design_rank": 1,
+          "title": "The Consequences of Child Soldiering",
+          "authors": "Blattman & Annan",
+          "year": 2010,
+          "doi_hint": "10.1162/REST_a_00036",
+          "note": "Forced recruitment natural experiment Uganda — violence exposure → education and earning losses."
+        },
+        {
+          "id": "heller-etal-2017-cbt-chicago",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Thinking, Fast and Slow? Some Field Experiments to Reduce Crime and Dropout in Chicago",
+          "authors": "Heller et al.",
+          "year": 2017,
+          "doi_hint": "10.1093/qje/qjw033",
+          "note": "RCT — CBT reduces crime AND dropout simultaneously. Direct violence→education link. doi_hint corrected 2026-07-06: was 10.1093/qje/qjx033 (a different paper — Embrey et al., prisoner's dilemma); true DOI 10.1093/qje/qjw033, in corpus."
+        },
+        {
+          "id": "monteiro-rocha-2017-violence-education-brazil",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Drug Battles and School Achievement: Evidence from Rio de Janeiro's Favelas",
+          "authors": "Monteiro & Rocha",
+          "year": 2017,
+          "doi_hint": "10.1162/REST_a_00628",
+          "note": "Drug battles → school attendance and performance. LAC direct evidence. doi_hint corrected 2026-07-06: was 10.1162/REST_a_00591 (a different paper — Gumpert et al., tax havens); true DOI 10.1162/REST_a_00628, in corpus."
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "violence exposure → education; geography varies; requires crime-education intersection"
+    },
+    {
+      "id": "q16-automation-labor-polarization-developing",
+      "query": "does automation reduce middle-skill employment and increase labor polarization in developing countries",
+      "intent": "DIR: automation/technology adoption → routine task displacement, polarization. EXPECT: task-exposure or automation-shock studies. INDIRECT: AI adoption effects on productivity or firm performance only. IRRELEVANT: future-of-work opinion pieces.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.3386/w30528",
+          "title": "Automation and Polarization",
+          "label": "partial"
+        },
+        "2": {
+          "doi": "—",
+          "title": "Skill-Based Labor Market Polarization in the Age of AI: A Comparative Analysis of India and the United States",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1257/mac.20180205",
+          "title": "Offshoring, Automation, Low-Skilled Immigration, and Labor Market Polarization",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.26480/seps.02.2025.87.94",
+          "title": "EXAMINING THE ECONOMIC IMPLICATION OF AUTOMATION ON LABOR MARKETS IN DEVELOPING COUNTRIES",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.1162/rest_a_00366",
+          "title": "Has ICT Polarized Skill Demand? Evidence from Eleven Countries over Twenty-Five Years",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1017/s1365100523000470",
+          "title": "The race between offshoring and automation in explaining wage polarization",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.54660/ijmfd.2024.5.1.58-64",
+          "title": "Industrial Automation's Impact on Workforce: A Review in the USA and Africa",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.3386/w23283",
+          "title": "Horizontal and Vertical Polarization: Task-Specific Technological Change in a Multi-Sector Economy",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1017/s1365100522000177",
+          "title": "Difficulties in finding middle-skilled jobs under increased automation",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.3386/w26064",
+          "title": "Is Employment Polarization Informative About Wage Inequality and Is Employment Really Polarizing?",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.3386/w21030",
+          "title": "Labor Market Polarization Over the Business Cycle",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1111/rode.13263",
+          "title": "How Does Automation Reshape the Labor Market: Evidence From China",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1017/s1365100524000087",
+          "title": "Automation, job reallocation, occupational choice, and related government policy",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1596/1813-9450-8741",
+          "title": "Does Automation in Rich Countries Hurt Developing Ones?: Evidence from the U.S. and Mexico",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.3386/w22315",
+          "title": "International Trade and Job Polarization: Evidence at the Worker-Level",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1787/06804863-en",
+          "title": "Labour Market Polarization in Advanced Countries",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.3386/w27122",
+          "title": "The Macroeconomics of Automation: Data, Theory, and Policy Analysis",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1111/irel.12138",
+          "title": "Task Polarization in the Japanese Labor Market: Evidence of a Long‐Term Trend",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.5089/9781484361900.001",
+          "title": "The Exposure to Routinization: Labor Market Implications for Developed and Developing Economies",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.3386/w22110",
+          "title": "The March of the Techies: Technology, Trade, and Job Polarization in France, 1994-2007",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "autor-levy-murnane-2003",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "The Skill Content of Recent Technological Change: An Empirical Exploration",
+          "authors": "Autor, Levy & Murnane",
+          "year": 2003,
+          "doi_hint": "10.1162/003355303322552801",
+          "note": "Task framework — routine vs non-routine cognitive/manual. Foundational for labor polarization literature."
+        },
+        {
+          "id": "acemoglu-restrepo-2022-tasks",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Tasks, Automation, and the Rise in U.S. Wage Inequality",
+          "authors": "Acemoglu & Restrepo",
+          "year": 2022,
+          "doi_hint": "10.3982/ecta19815",
+          "note": "Quantifies task displacement effects — automation explains bulk of rising inequality."
+        },
+        {
+          "id": "goos-manning-salomons-2014",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Explaining Job Polarization: Routine-Biased Technological Change and Offshoring",
+          "authors": "Goos, Manning & Salomons",
+          "year": 2014,
+          "doi_hint": "10.1257/aer.104.8.2509",
+          "note": "16 EU countries — routine task intensity predicts employment polarization. Direct polarization evidence."
+        }
+      ],
+      "retrieval_class": "sparse_multi",
+      "retrieval_class_reason": "automation+polarization+developing countries; 3 concepts; canonical US papers may not apply"
+    },
+    {
+      "id": "q17-migration-remittances-children-education",
+      "query": "does parental migration and remittances improve educational outcomes for children left behind",
+      "intent": "DIR: migration/remittances → child education in origin household. EXPECT: remittance causal studies with education outcomes. INDIRECT: migration impacts on household income only without education channel. IRRELEVANT: migration determinants or destination-country outcomes.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1016/j.worlddev.2025.107284",
+          "title": "Restricting mothers’ international migration and human capital investment",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1215/00703370-9411336",
+          "title": "Does Parental Migration During Childhood Affect Children's Lifetime Educational Attainment? Evidence From Mexico",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1017/s0022216x1600002x",
+          "title": "¿Educación o desintegración? Parental Migration, Remittances and Left-behind Children's Education in Western Guatemala",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1007/s00148-012-0423-y",
+          "title": "Gender, educational attainment, and the impact of parental migration on children left behind",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.18235/0002795",
+          "title": "Parent Migration and Education Outcomes of Children Left Behind in El Salvador (en)",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1111/rode.12410",
+          "title": "Parental absence, remittances and educational investment in children left behind: Evidence from Nepal",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1080/00220388.2013.866224",
+          "title": "How do Migration and Remittances Affect Human Capital Investment? The Effects of Relaxing Information and Liquidity Constraints",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1080/00220388.2017.1333108",
+          "title": "Effect of Parental Migration on the Academic Performance of Left Behind Children in North Western China",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.1016/j.worlddev.2010.05.008",
+          "title": "Accounting for Remittance and Migration Effects on Children’s Schooling",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1093/wber/lhx005",
+          "title": "Can Parental Migration Reduce Petty Corruption in Education?",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.1080/00220388.2011.563298",
+          "title": "School Attendance, Child Labour, and Remittances from International Migration in El Salvador",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1086/713931",
+          "title": "Moving toward a Better Future? Migration and Children’s Health and Education",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1111/j.1728-4457.2014.00673.x",
+          "title": "Effects of Parents' Migration on the Education of Children Left Behind in Rural China",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.1093/oep/gpy060",
+          "title": "Out of sight, out of mind? The education outcomes of children with parents working abroad",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.1057/s41599-024-04334-1",
+          "title": "The role of parent–child communication on Chinese rural left-behind children’s educational expectation: a moderated mediation analysis",
+          "label": "relevant"
+        },
+        "16": {
+          "doi": "10.1016/j.labeco.2015.02.011",
+          "title": "Educational spillovers and parental migration",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1016/j.worlddev.2021.105593",
+          "title": "The effect of parental migration on the schooling of children left behind in rural Cambodia",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1016/j.jdeveco.2024.103338",
+          "title": "Childhood migration and educational attainment: Evidence from Indonesia",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.1080/00220388.2019.1585812",
+          "title": "Will Skill-Based Immigration Policies Lead to Lower Remittances? An Analysis of the Relations between Education, Sponsorship, and Remittances",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1002/psp.70118",
+          "title": "Migrating Together or Leaving Behind: The Impact of Migrants' Early Urban Migration on Their Children",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "yang-2008-philippines",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "International Migration, Remittances and Household Investment: Evidence from Philippine Migrants' Exchange Rate Shocks",
+          "authors": "Yang",
+          "year": 2008,
+          "doi_hint": "10.1111/j.1468-0297.2008.02134.x"
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "remittances→child education, well-defined (Yang 2008), LAC-adjacent"
+    },
+    {
+      "id": "q18-social-protection-labor-supply",
+      "query": "what is the impact of social protection programs on labor supply and work incentives",
+      "intent": "DIR: cash transfers/social insurance → labor supply (both work disincentive and poverty trap escape). EXPECT: RCTs/quasi-experimental evaluations with labor supply outcomes. INDIRECT: program targeting or administrative efficiency without labor supply. IRRELEVANT: descriptive welfare system summaries.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1002/pam.70040",
+          "title": "Why debt matters",
+          "label": "irrelevant"
+        },
+        "2": {
+          "doi": "10.2307/2522251",
+          "title": "Evaluating the Labor-Market Effects of Social Programs.",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1016/j.jpubeco.2014.04.015",
+          "title": "Work and tax evasion incentive effects of social insurance programs",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1086/260656",
+          "title": "<i>Evaluating the Labor-Market Effects of Social Programs</i>. Orley Ashenfelter , James Blum",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.1257/app.20130401",
+          "title": "Labor Market Effects of Social Programs: Evidence from India's Employment Guarantee",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.18235/0009097",
+          "title": "Social Assistance and Labor Market Outcomes: Evidence from the Uruguayan PANES",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1596/978-1-4648-2238-4",
+          "title": "(In)Formalizing Jobs in Latin America and the Caribbean: Taxes, Benefits, and Labor Market Incentives",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.1086/298095",
+          "title": "Labor Supply Response to Welfare Programs: A Dynamic Analysis",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.1016/j.jpubeco.2023.104987",
+          "title": "The disparate effects of information provision: A field experiment on the work incentives of social welfare",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.3386/w25586",
+          "title": "Market Inefficiency and Household Labor Supply: Evidence from Social Security’s Survivors Benefits",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1016/j.labeco.2024.102595",
+          "title": "Home work: Exploring the labor market effects of subsidizing domestic services",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.3386/w32793",
+          "title": "Labor Unions and Social Insurance",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1016/j.labeco.2024.102630",
+          "title": "The labor market effects of facilitating social security contributions under part-time employment contracts: Evidence from Colombia",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1111/j.1467-9396.1996.tb00092.x",
+          "title": "Incentive Pay, Worker Effort, and Trade Protection",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1596/1813-9450-10155",
+          "title": "The Social Tax: Redistributive Pressure and Labor Supply",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.3386/w32751",
+          "title": "Social Insurance Spillovers: Evidence From Paid Sick Leave Mandates and Workers' Compensation",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1086/504642",
+          "title": "The Effects of Welfare‐to‐Work Program Activities on Labor Market Outcomes",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.2139/ssrn.2158000",
+          "title": "Labor Market Impacts of a Large-Scale Public Works Program: Evidence from the Indian Employment Guarantee Scheme",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.3386/w31978",
+          "title": "Firm Accommodation After Disability: Labor Market Impacts and Implications for Social Insurance",
+          "label": "partial"
+        },
+        "20": {
+          "doi": "10.1016/s0047-2727(99)00110-3",
+          "title": "Incentive effects of social security on labor force participation: evidence in Germany and across Europe",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "alzua-cruces-ripani-2013",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Welfare Programs and Labor Supply in Developing Countries: Experimental Evidence from Latin America",
+          "authors": "Alzua, Cruces & Ripani",
+          "year": 2013,
+          "doi_hint": "10.1007/s00148-012-0458-0",
+          "note": "doi_hint corrected 2026-07-06: was 10.1016/j.jdeveco.2013.01.004 (a different paper — Naoussi & Tripier, trend shocks); true venue is J Population Economics (10.1007/s00148-012-0458-0), in corpus."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "CCT→labor supply, well-studied, LAC RCT evidence (Alzua et al.)"
+    },
+    {
+      "id": "q19-inequality-social-mobility-lac",
+      "query": "does high inequality reduce intergenerational social mobility in Latin America",
+      "intent": "DIR: inequality → reduced mobility (Great Gatsby Curve). EXPECT: intergenerational income mobility studies, cross-country or within-LAC. INDIRECT: inequality impacts on poverty only without mobility channel. IRRELEVANT: mobility rankings without causal or explanatory analysis.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1016/j.jdeveco.2018.05.016",
+          "title": "Educational inequality and intergenerational mobility in Latin America: A new database",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1111/puar.13936",
+          "title": "Great Gatsby and the Global SouthBy DidingSakri, AndySumner, Arief AnshoryYusuf, Cambridge: Cambridge University Press. 2023. 75 pp. $22.00 (paperback). <scp>ISBN</scp> 9781009382724",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1787/5kggdtfpvhr7-en",
+          "title": "Ascendance by Descendants?",
+          "label": "relevant"
+        },
+        "4": {
+          "doi": "10.1007/s10888-019-09415-9",
+          "title": "Intergenerational mobility and the rise and fall of inequality: Lessons from Latin America",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.1146/annurev-soc-071811-145521",
+          "title": "Intergenerational Mobility and Inequality: The Latin American Case*",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.35188/unu-wider/2023/347-5",
+          "title": "Inequality of opportunity and intergenerational persistence in Latin America",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1257/jep.27.3.79",
+          "title": "Income Inequality, Equality of Opportunity, and Intergenerational Mobility",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.4236/me.2016.75070",
+          "title": "Inequality and Mobility: Gatsby in the Americas *",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.21953/lse.hq3w372vbpdv",
+          "title": "Inherited inequality in Latin America",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "—",
+          "title": "Intergenerational Mobility in Latin America: Deeper Markets and Better Schools Make a Difference",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1353/eco.2008.0003",
+          "title": "Social Mobility and Preferences for Redistribution in Latin America",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1016/j.euroecorev.2004.09.009",
+          "title": "Income taxation with intergenerational mobility: Can higher inequality lead to less progression?",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1111/j.1468-0297.2007.02036.x",
+          "title": "Nonlinearities in Intergenerational Earnings Mobility: Consequences for Cross‐Country Comparisons",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1086/322882",
+          "title": "Inequality and Intergenerational Mobility in Schooling: The Case of Mexico",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.18235/0008068",
+          "title": "Intergenerational Social Mobility in Latin America: A Review of Existing Evidence",
+          "label": "relevant"
+        },
+        "16": {
+          "doi": "10.1016/j.worlddev.2025.107237",
+          "title": "Economic convergence, intragenerational economic mobility, and inequality in a native Amazonian small-scale society of Indigenous People in Bolivia",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1257/app.20210686",
+          "title": "Intergenerational Mobility in India: New Measures and Estimates across Time and Social Groups",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1086/691971",
+          "title": "Intergenerational Transmission of Poverty and Inequality: Parental Resources and Schooling Attainment and Children’s Human Capital in Ethiopia, India, Peru, and Vietnam",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.1007/s40503-015-0030-x",
+          "title": "On intergenerational (im)mobility in Latin America",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1007/s00148-025-01131-1",
+          "title": "Intergenerational mobility in Latin America: the multiple facets of social status and the role of mothers",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "corak-2013-gatsby-curve",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Income Inequality, Equality of Opportunity, and Intergenerational Mobility",
+          "authors": "Corak",
+          "year": 2013,
+          "doi_hint": "10.1257/jep.27.3.79",
+          "note": "Great Gatsby Curve — cross-country evidence. High inequality → low mobility."
+        },
+        {
+          "id": "chetty-2014-geography-mobility",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States",
+          "authors": "Chetty et al.",
+          "year": 2014,
+          "doi_hint": "10.1093/qje/qju022",
+          "note": "Geographic variation in intergenerational mobility within the US. Key benchmark."
+        },
+        {
+          "id": "neidhoefer-serrano-2018-lac-mobility",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Educational inequality and intergenerational mobility in Latin America: A new database",
+          "authors": "Neidhöfer, Serrano & Gasparini",
+          "year": 2018,
+          "doi_hint": "10.1016/j.jdeveco.2018.05.016",
+          "note": "LAC-specific mobility estimates using census data. Direct regional evidence. doi_hint corrected 2026-07-06: was 10.1257/mac.20150212 (DOI does not exist in Crossref) with a garbled title; the real Neidhöfer-Serrano-Gasparini 2018 paper is the JDE 'new database' one (10.1016/j.jdeveco.2018.05.016), in corpus."
+        }
+      ],
+      "retrieval_class": "constrained",
+      "retrieval_class_reason": "LAC geography required; Great Gatsby curve + LAC-specific evidence needed"
+    },
+    {
+      "id": "q20-school-vs-household-learning",
+      "query": "are poor learning outcomes driven more by school quality or household socioeconomic conditions",
+      "intent": "DIR: school quality vs household SES → learning. EXPECT: decomposition studies, comparative evaluations. INDIRECT: school infrastructure-only papers without household comparison. IRRELEVANT: descriptive test score reports without causal decomposition.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1177/0038040720919379",
+          "title": "Learning Inequality in Francophone Africa: School Quality and the Educational Achievement of Rich and Poor Children",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1596/1813-9450-7730",
+          "title": "Evidence from a randomized evaluation of the household welfare impacts of conditional and unconditional cash transfers given to mothers or fathers",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1353/eco.2015.a572733",
+          "title": "Peer Effects on a Fertility Decision: An Application for Medellín, Colombia",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.1177/0038040719830698",
+          "title": "Do Well-off Families Compensate for Low Cognitive Ability? Evidence on Social Inequality in Early Schooling from a Twin Study",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "—",
+          "title": "Evidence from a Randomized Evaluation of the Household Welfare Impacts of Conditional and Unconditional Cash Transfers Given to Mothers or Fathers",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1177/00380407231191541",
+          "title": "School Attendance and Academic Achievement: Understanding Variation across Family Socioeconomic Status",
+          "label": "partial"
+        },
+        "7": {
+          "doi": "10.1590/0102-311x00109315",
+          "title": "Diferenciais de mortalidade jovem no Brasil: a importância dos fatores socioeconômicos dos domicílios e das condições de vida nos municípios e estados brasileiros",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1177/0038040719870683",
+          "title": "The Distribution of School Quality: Do Schools Serving Mostly White and High-SES Children Produce the Most Learning?",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.1590/0102-311xen050822",
+          "title": "The National Wealth Score in the Brazilian National Survey on Child Nutrition (ENANI-2019)",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1080/09645292.2010.511852",
+          "title": "The impact of school quality, socioeconomic factors, and child health on students’ academic performance: evidence from Sri Lankan primary schools",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1016/s0304-3878(02)00010-x",
+          "title": "The impact of school quality on earnings and educational returns—evidence from a low-income country",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1016/j.foodpol.2024.102616",
+          "title": "Looking at gender is not enough—How diversity of farmers’ marginalization relates to varietal trait preferences",
+          "label": "irrelevant"
+        },
+        "13": {
+          "doi": "10.1093/ej/ueaa077",
+          "title": "Biased Aspirations and Social Inequality at School: Evidence from French Teenagers",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1590/0102-311x00121419",
+          "title": "Skin color, social inequalities and health in older adults: an analysis based on the SABE survey in Colombia",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1590/s0034-8910.2015049005659",
+          "title": "Users’ dissatisfaction with dental care: a population-based household study",
+          "label": "irrelevant"
+        },
+        "16": {
+          "doi": "10.3386/w21023",
+          "title": "Correlation, Consumption, Confusion, or Constraints: Why do Poor Children Perform so Poorly?",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1177/00031224211049188",
+          "title": "Does Schooling Decrease Socioeconomic Inequality in Early Achievement? A Differential Exposure Approach",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1590/0102-311x00216620",
+          "title": "Idosos no contexto da pandemia da COVID-19 no Brasil: efeitos nas condições de saúde, renda e trabalho",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.1177/0038040714562006",
+          "title": "Do Differences in School Quality Matter More Than We Thought? New Evidence on Educational Opportunity in the Twenty-first Century",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1590/0102-311xpt255621",
+          "title": "A cor e o sexo da fome: análise da insegurança alimentar sob o olhar da interseccionalidade",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "hanushek-woessmann-2011",
+          "label": "relevant",
+          "design_rank": 5,
+          "title": "The Economics of International Differences in Educational Achievement",
+          "authors": "Hanushek & Woessmann",
+          "year": 2011,
+          "doi_hint": "10.1016/b978-0-444-53429-3.00002-8"
+        }
+      ],
+      "retrieval_class": "sparse_multi",
+      "retrieval_class_reason": "decomposition question — needs comparative evidence across two explanatory factors"
+    },
+    {
+      "id": "q21-ai-adoption-wage-inequality",
+      "query": "does AI adoption increase wage inequality between high and low skill workers",
+      "intent": "DIR: AI/automation adoption → skill premium and wage inequality. EXPECT: automation-shock or AI-exposure causal studies. INDIRECT: AI effects on productivity or firm performance only. IRRELEVANT: general AI trend commentary or opinion pieces.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.5089/9798229006828.001",
+          "title": "AI Adoption and Inequality",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.2139/ssrn.6515438",
+          "title": "Early AI Adoption and Firm Productivity Growth in a Middle-Income Economy",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.54097/7t0k2573",
+          "title": "Multiple Impacts of Artificial Intelligence on Occupations and Labor Markets",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.3386/w34781",
+          "title": "Enhancing Worker Productivity Without Automating Tasks: A Different Approach to AI and the Task-Based Model",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.3390/systems13070586",
+          "title": "How Does Artificial Intelligence Technology Influence Labor Share: The Role of Labor Structure Upgrading",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.2139/ssrn.3368605",
+          "title": "The Variable Impact of Artificial Intelligence on Labor: The Role of Complementary Skills and Technologies",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1111/joes.70072",
+          "title": "Automation as an Equalizer: How Easy‐to‐Use Technologies Narrow Skill Gaps Between Low‐ and High‐Skilled Workers",
+          "label": "relevant"
+        },
+        "8": {
+          "doi": "10.2139/ssrn.5169611",
+          "title": "Augmenting or Automating Labor? The Effect of AI Development on New Work, Employment, and Wages",
+          "label": "relevant"
+        },
+        "9": {
+          "doi": "10.33215/ck54dk85",
+          "title": "Exploring the Dual Impact of AI on Employment and Wages in Chinese Manufacturing",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.36948/ijfmr.2025.v07i06.61047",
+          "title": "Impact of Artificial Intelligence on Labor Markets: An Economic Perspective",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.1007/s40821-025-00314-w",
+          "title": "Impact of robots and artificial intelligence on labor and skill demand: evidence from the UK",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.euroecorev.2025.105043",
+          "title": "AI innovation and the labor share in European regions",
+          "label": "relevant"
+        },
+        "13": {
+          "doi": "10.1016/j.techfore.2023.123180",
+          "title": "Does artificial intelligence promote common prosperity within enterprises? —Evidence from Chinese-listed companies in the service industry",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.3386/w34444",
+          "title": "Artificial Intelligence, Competition, and Welfare",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.1016/j.jebo.2025.107206",
+          "title": "Artificial intelligence adoption and workplace training",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.3386/w33509",
+          "title": "Artificial Intelligence and the Labor Market",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.22617/wps250038-2",
+          "title": "Implications of Artificial Intelligence and Robots for Employment and Labor Productivity: Firm-Level Evidence from the Republic of Korea",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.3389/frai.2022.832736",
+          "title": "Artificial Intelligence and Employment: New Cross-Country Evidence",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.18235/0013677",
+          "title": "The Potential Distributive Impact of AI-driven Labor Changes in Latin America (en)",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.1787/c2c1d276-en",
+          "title": "Artificial intelligence and employment",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "frey-osborne-2017",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "The Future of Employment: How Susceptible Are Jobs to Computerisation?",
+          "authors": "Frey & Osborne",
+          "year": 2017,
+          "doi_hint": "10.1016/j.techfore.2016.08.019",
+          "note": "47% US jobs at high automation risk. Foundational occupational exposure framework."
+        },
+        {
+          "id": "acemoglu-restrepo-2022",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Tasks, Automation, and the Rise in U.S. Wage Inequality",
+          "authors": "Acemoglu & Restrepo",
+          "year": 2022,
+          "doi_hint": "10.3982/ecta19815",
+          "note": "Causal task displacement model — automation explains majority of rising wage inequality."
+        },
+        {
+          "id": "acemoglu-restrepo-2020-robots",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Robots and Jobs: Evidence from US Labor Markets",
+          "authors": "Acemoglu & Restrepo",
+          "year": 2020,
+          "doi_hint": "10.1086/705716",
+          "note": "Industrial robot exposure — 1 robot/1000 workers reduces employment 0.2%, wages 0.42%."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "automation→inequality, well-defined (Acemoglu, Frey-Osborne), post-2010 canon"
+    },
+    {
+      "id": "q22-chronic-poverty-interventions",
+      "query": "what interventions causally reduce chronic poverty and graduation outcomes in the long run",
+      "intent": "DIR: multi-dimensional/graduation interventions → sustained poverty reduction. EXPECT: long-term RCT evaluations (BRAC, Graduation approach, ultra-poor). INDIRECT: short-term poverty alleviation without durability evidence. IRRELEVANT: descriptive poverty profiles or cross-section correlations.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.7910/dvn/nhixnt",
+          "title": "A Multifaceted Program Causes Lasting Progress for the Very Poor: Evidence From Six Countries",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.3386/w32165",
+          "title": "Early Childhood Intervention for the Poor: Long Term Outcomes",
+          "label": "partial"
+        },
+        "3": {
+          "doi": "10.1002/pam.20613",
+          "title": "The long‐term effects on children and adolescents of a policy providing work supports for low‐income parents",
+          "label": "partial"
+        },
+        "4": {
+          "doi": "10.1093/jeea/jvae005",
+          "title": "Experimental Evidence from a Conditional Cash Transfer Program: Schooling, Learning, Fertility, and Labor Market Outcomes After 10 Years",
+          "label": "relevant"
+        },
+        "5": {
+          "doi": "10.3368/jhr.58.3.1019-10515r1",
+          "title": "Food for Thought?",
+          "label": "partial"
+        },
+        "6": {
+          "doi": "10.1080/00220388.2019.1677887",
+          "title": "Integrated Graduation Program and its Effect on Women and Household Economic Well-being: Findings from a Randomised Controlled Trial in Burkina Faso",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.18235/0000486",
+          "title": "Do Conditional Cash Transfers Lead to Better Secondary Schools?: Evidence from Jamaica's PATH",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.3386/w31735",
+          "title": "Aspiring to a Better Future: Can a Simple Psychological Intervention Reduce Poverty?",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.18235/0011482",
+          "title": "More Schooling and More Learning?: Effects of a Three-Year Conditional Cash Transfer Program in Nicaragua after 10 Years",
+          "label": "partial"
+        },
+        "10": {
+          "doi": "10.1257/aer.103.3.232",
+          "title": "Achieving Escape Velocity: Neighborhood and School Interventions to Reduce Persistent Inequality",
+          "label": "partial"
+        },
+        "11": {
+          "doi": "10.3386/w20284",
+          "title": "Improving Educational Outcomes in Developing Countries: Lessons from Rigorous Impact Evaluations",
+          "label": "partial"
+        },
+        "12": {
+          "doi": "10.1257/pol.20180510",
+          "title": "Reducing Inequality through Dynamic Complementarity: Evidence from Head Start and Public School Spending",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1257/app.4.4.121",
+          "title": "Longer-Term Impacts of Mentoring, Educational Services, and Learning Incentives: Evidence from a Randomized Trial in the United States",
+          "label": "partial"
+        },
+        "14": {
+          "doi": "10.1257/app.20230108",
+          "title": "Sustainable Poverty Reduction through Social Assistance: Modality, Context, and Complementary Programming in Bangladesh",
+          "label": "relevant"
+        },
+        "15": {
+          "doi": "10.3386/w23489",
+          "title": "Reducing Inequality Through Dynamic Complementarity: Evidence from Head Start and Public School Spending",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.1086/732179",
+          "title": "Scalable Nutrition Interventions in a Graduation Model Program: Experimental Evidence from Ethiopia",
+          "label": "relevant"
+        },
+        "17": {
+          "doi": "10.1093/wbro/lky005",
+          "title": "Long-Term Impacts of Conditional Cash Transfers: Review of the Evidence",
+          "label": "relevant"
+        },
+        "18": {
+          "doi": "10.1596/1813-9450-5681",
+          "title": "Assessing the Long-Term Effects of Conditional Cash Transfers on Human Capital: Evidence from Colombia",
+          "label": "partial"
+        },
+        "19": {
+          "doi": "10.3386/w31611",
+          "title": "Psychosocial Constraints, Impact Heterogeneity and Spillovers in a Multifaceted Graduation Program in Kenya",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.3386/w19862",
+          "title": "The (Surprising) Efficacy of Academic and Behavioral Intervention with Disadvantaged Youth: Results from a Randomized Experiment in Chicago",
+          "label": "relevant"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "banerjee-etal-2015-graduation-six-countries",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "A Multifaceted Program Causes Lasting Progress for the Very Poor: Evidence from Six Countries",
+          "authors": "Banerjee et al.",
+          "year": 2015,
+          "doi_hint": "10.1126/science.1260799",
+          "note": "6-country BRAC graduation RCT — asset transfers + training + psychosocial support → sustained poverty exit."
+        },
+        {
+          "id": "balboni-etal-2022-graduation-persistence",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Why Do People Stay Poor?",
+          "authors": "Balboni et al.",
+          "year": 2022,
+          "doi_hint": "10.1093/qje/qjab045",
+          "note": "Bangladesh graduation long-run — poverty traps; asset threshold matters for durability."
+        }
+      ],
+      "retrieval_class": "dense_causal",
+      "retrieval_class_reason": "graduation programs→long-run poverty escape, RCT-specific (BRAC, Banerjee 2015)"
+    },
+    {
+      "id": "q23-informality-productivity-bidirectional",
+      "query": "does informality reduce firm and aggregate productivity or do low-productivity firms self-select into informality",
+      "intent": "DIR: bidirectional causality — informality → productivity and productivity → informality. EXPECT: structural models or firm-level causal studies that address selection. INDIRECT: labor regulation or tax compliance studies only. IRRELEVANT: descriptive informality statistics.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-05-12",
+      "labels": {
+        "1": {
+          "doi": "10.1017/s1365100517001055",
+          "title": "INFORMAL SECTOR MISALLOCATION",
+          "label": "relevant"
+        },
+        "2": {
+          "doi": "10.1111/rode.12697",
+          "title": "Casting a shadow: Productivity of formal firms and informality",
+          "label": "relevant"
+        },
+        "3": {
+          "doi": "10.1787/080a17ce-en",
+          "title": "Like it or not? The impact of online platforms on the productivity of incumbent service",
+          "label": "irrelevant"
+        },
+        "4": {
+          "doi": "10.3386/w20205",
+          "title": "Informality and Development",
+          "label": "partial"
+        },
+        "5": {
+          "doi": "10.1257/aer.20141745",
+          "title": "Firms, Informality, and Development: Theory and Evidence from Brazil",
+          "label": "relevant"
+        },
+        "6": {
+          "doi": "10.1093/wber/lhad034",
+          "title": "Allocative Efficiency between and within the Formal and Informal Manufacturing Sectors in Zimbabwe",
+          "label": "relevant"
+        },
+        "7": {
+          "doi": "10.1093/jeea/jvac010",
+          "title": "Efficiency Under Endogenous Information Choice: A Price-Setting Application",
+          "label": "partial"
+        },
+        "8": {
+          "doi": "10.1257/jep.28.3.109",
+          "title": "Informality and Development",
+          "label": "partial"
+        },
+        "9": {
+          "doi": "10.1596/978-0-8213-7092-6",
+          "title": "Informality: Exit and Exclusion",
+          "label": "relevant"
+        },
+        "10": {
+          "doi": "10.1080/00220388.2015.1046442",
+          "title": "Informality and Profitability: Evidence from a New Firm Survey in Ecuador",
+          "label": "relevant"
+        },
+        "11": {
+          "doi": "10.1596/22697",
+          "title": "Evidence from a New Firm Survey in Ecuador",
+          "label": "relevant"
+        },
+        "12": {
+          "doi": "10.1016/j.jfineco.2024.103855",
+          "title": "Financial constraints, cash flow timing patterns, and asset prices",
+          "label": "partial"
+        },
+        "13": {
+          "doi": "10.1146/annurev-economics-082119-121914",
+          "title": "Informality: Causes and Consequences for Development",
+          "label": "relevant"
+        },
+        "14": {
+          "doi": "10.3386/w29066",
+          "title": "Regulating Conglomerates in China: Evidence from an Energy Conservation Program",
+          "label": "partial"
+        },
+        "15": {
+          "doi": "10.3386/w18347",
+          "title": "Wages and Informality in Developing Countries",
+          "label": "partial"
+        },
+        "16": {
+          "doi": "10.18235/0011688",
+          "title": "Macroprudential Policy and Labor Market Dynamics in Latin America",
+          "label": "partial"
+        },
+        "17": {
+          "doi": "10.1093/restud/rdac004",
+          "title": "Product Life Cycle, Learning, and Nominal Shocks",
+          "label": "partial"
+        },
+        "18": {
+          "doi": "10.1016/j.jdeveco.2006.05.007",
+          "title": "What causes firms to hide output? The determinants of informality",
+          "label": "relevant"
+        },
+        "19": {
+          "doi": "10.1080/00220388.2022.2061853",
+          "title": "What Sustains Informality? A Study of the Interactions between Formal and Informal Sector Firms",
+          "label": "relevant"
+        },
+        "20": {
+          "doi": "10.3386/w20455",
+          "title": "Export Markets and Labor Allocation in a Low-income Country",
+          "label": "partial"
+        }
+      },
+      "canary_papers": [
+        {
+          "id": "levy-2008",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Good Intentions, Bad Outcomes: Social Policy, Informality, and Economic Growth in Mexico",
+          "authors": "Levy, Santiago",
+          "year": 2008,
+          "doi_hint": null,
+          "note": "Mexico — social security system structure → informality trap. Key policy-informality causality."
+        },
+        {
+          "id": "hsieh-klenow-2009-misallocation",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Misallocation and Manufacturing TFP in China and India",
+          "authors": "Hsieh & Klenow",
+          "year": 2009,
+          "doi_hint": "10.1162/qjec.2009.124.4.1403",
+          "note": "Misallocation framework — informal sector keeps low-productivity firms alive. Structural."
+        },
+        {
+          "id": "de-paula-scheinkman-2011-informal-formal",
+          "label": "relevant",
+          "design_rank": 3,
+          "title": "Value-Added Taxes, Chain Effects, and Informality",
+          "authors": "de Paula & Scheinkman",
+          "year": 2011,
+          "doi_hint": "10.1257/mac.3.4.195",
+          "note": "VAT chain effects — informal firms cluster, formal firms purchase from formal. Productivity spillovers."
+        }
+      ],
+      "retrieval_class": "sparse_multi",
+      "retrieval_class_reason": "bidirectional causality — requires structural/firm-level studies; non-standard methodology"
+    },
+    {
+      "id": "q24-returns-to-schooling-info-lac",
+      "query": "Can we improve student learning outcomes and school performance by providing students with information on the returns to schooling? Latin America and the Caribbean, middle and high school students.",
+      "intent": "Information-on-returns-to-schooling interventions (telling students/families the earnings/employment payoff of more education) and their effect on effort, test scores, dropout, enrollment, and program choice. DIR: returns-information RCT → learning/participation/choice in LAC. INDIRECT: human-capital expectations, financial-aid information, perceived returns. IRRELEVANT: returns-to-schooling estimation with no information treatment.",
+      "filters": {
+        "evidenceMatch": "both"
+      },
+      "labeled_at": "2026-06-09",
+      "provenance": "Built from Rafael de Hoyos (IADB) Claude-Projects output, 2026-06-09. Ideal answer = his 12-reference set. Corpus contains 6/12 (journals/NBER); 6 working-paper/gray-lit refs absent (see corpus_gap_refs). Avitabile&deHoyos abstract backfilled 2026-06-09 (WB-PRWP twin) — moved it from >#300 to #5 in the vector channel.",
+      "canary_papers": [
+        {
+          "id": "jensen-2010-qje",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "The (Perceived) Returns to Education and the Demand for Schooling (Dominican Republic)",
+          "authors": "Jensen",
+          "year": 2010,
+          "doi_hint": "10.1162/qjec.2010.125.2.515"
+        },
+        {
+          "id": "avitabile-dehoyos-2018-jde",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "The Heterogeneous Effect of Information on Student Performance: RCT in Mexico (Percepciones, +0.22SD)",
+          "authors": "Avitabile & de Hoyos",
+          "year": 2018,
+          "doi_hint": "10.1016/j.jdeveco.2018.07.008"
+        },
+        {
+          "id": "hastings-neilson-zimmerman-2015-nber",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "The Effects of Earnings Disclosure on College Enrollment Decisions (Chile)",
+          "authors": "Hastings, Neilson & Zimmerman",
+          "year": 2015,
+          "doi_hint": "10.3386/w21300"
+        },
+        {
+          "id": "dinkelman-martinez-2014-restat",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Investing in Schooling in Chile: Information about Financial Aid for Higher Education",
+          "authors": "Dinkelman & Martinez",
+          "year": 2013,
+          "doi_hint": "10.1162/rest_a_00384"
+        },
+        {
+          "id": "busso-dinkelman-2017-labeco",
+          "label": "relevant",
+          "design_rank": 1,
+          "title": "Effects of Financial Aid and Returns Information in Selective and Less-Selective Schools (Chile)",
+          "authors": "Busso, Dinkelman, Martinez & Romero",
+          "year": 2016,
+          "doi_hint": "10.1016/j.labeco.2016.11.001"
+        },
+        {
+          "id": "attanasio-kaufmann-2014-jde",
+          "label": "relevant",
+          "design_rank": 2,
+          "title": "Education Choices and Returns to Schooling: Mothers and Youths Subjective Expectations by Gender (Mexico)",
+          "authors": "Attanasio & Kaufmann",
+          "year": 2014,
+          "doi_hint": "10.1016/j.jdeveco.2014.04.003"
+        }
+      ],
+      "corpus_gap_refs": [
+        {
+          "title": "Information interventions in education in LAC (IDB)",
+          "authors": "Arias Ortiz, Eusebio, Vasquez & Vergara",
+          "year": 2022,
+          "note": "IDB note — absent despite 12.7k IDB pubs"
+        },
+        {
+          "title": "Information policies and higher education choices: Colombia",
+          "authors": "Bonilla-Mejia, Bottan & Ham",
+          "year": 2019,
+          "note": "J Behav Exp Econ — journal, absent"
+        },
+        {
+          "title": "Changing perceptions of educational returns in LMICs: a meta-analysis",
+          "authors": "Evans & Mendez Acosta",
+          "year": 2024,
+          "note": "CGD WP 699 — CGD coverage ~3 papers"
+        },
+        {
+          "title": "Cost-effective approaches to improve global learning: Smart Buys",
+          "authors": "GEEAP",
+          "year": 2023,
+          "note": "World Bank report — WB reports thin"
+        },
+        {
+          "title": "Information on the returns to education and school dropout: at scale from Peru",
+          "authors": "Neilson, Gallego & Molina / MineduLAB",
+          "year": 2018,
+          "note": "IPA/J-PAL WP — J-PAL coverage = 0"
+        },
+        {
+          "title": "Information, role models and perceived returns to education: Madagascar",
+          "authors": "Nguyen",
+          "year": 2008,
+          "note": "MIT WP, non-LAC — unindexed JMP"
+        }
+      ]
+    }
+  ],
+  "$retrieval_classes": {
+    "dense_causal": "Single X→Y causal direction, high corpus density, often pre-2010 foundational papers. Optimal: single-vector + FTS, NO year floor.",
+    "sparse_multi": "3+ concept domains, low intersection density. Optimal: multi-vector + geometric mean ranking.",
+    "constrained": "Explicit geography/methodology constraint + causal direction. Optimal: single-vector + hard geo pre-filter, post-2010 default."
+  }
+}

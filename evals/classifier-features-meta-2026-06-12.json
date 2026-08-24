@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-06-12T21:41:58.183Z",
+  "features": [
+    "facet_sim_0",
+    "facet_sim_1",
+    "facet_sim_2",
+    "facet_sim_0_above_floor",
+    "facet_sim_1_above_floor",
+    "facet_sim_2_above_floor",
+    "facet_sims_geometric_mean",
+    "single_vector_sim",
+    "geography_hit",
+    "geography_stored_lac",
+    "geography_stored_none",
+    "year",
+    "age_years",
+    "citation_count",
+    "citation_rate",
+    "sms_level",
+    "has_abstract",
+    "abstract_length",
+    "abs_rating_numeric",
+    "repec_percentile"
+  ],
+  "target": "label_int",
+  "targetMap": {
+    "0": "irrelevant",
+    "1": "partial",
+    "2": "relevant"
+  },
+  "perQueryFacets": {
+    "manual-2026-05-20-ai-labor-lac": [
+      "AI",
+      "Labor Productivity",
+      "Workforce Transition"
+    ],
+    "manual-2026-05-20-informality-lac": [
+      "labor_market_informality",
+      "policies",
+      "effectiveness"
+    ],
+    "manual-2026-05-20-gender-violence-labor": [
+      "gender_violence",
+      "long_term_impacts",
+      "labor_outcomes"
+    ]
+  },
+  "PER_FACET_FLOOR": 0.35,
+  "MAX_FACETS": 3,
+  "currentYear": 2026
+}

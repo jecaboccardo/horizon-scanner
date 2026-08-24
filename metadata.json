@@ -1,0 +1,5 @@
+{
+  "name": "Antigravity Evidence Explorer",
+  "description": "A high-fidelity interaction prototype for structured evidence exploration in development economics. It features a multi-tier evidence classification engine and automated methodology extraction from a dynamic document index.",
+  "requestFramePermissions": []
+}

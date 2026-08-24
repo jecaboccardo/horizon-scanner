@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-05-13T15:31:50.533Z",
+  "features": [
+    "facet_sim_0",
+    "facet_sim_1",
+    "facet_sim_2",
+    "facet_sim_0_above_floor",
+    "facet_sim_1_above_floor",
+    "facet_sim_2_above_floor",
+    "facet_sims_geometric_mean",
+    "single_vector_sim",
+    "geography_hit",
+    "year",
+    "age_years",
+    "citation_count",
+    "citation_rate",
+    "sms_level",
+    "has_abstract",
+    "abstract_length",
+    "abs_rating_numeric",
+    "repec_percentile"
+  ],
+  "target": "label_int",
+  "targetMap": {
+    "0": "irrelevant",
+    "1": "partial",
+    "2": "relevant"
+  },
+  "perQueryFacets": {
+    "q01-teacher-incentives-hard-staff": [
+      "Monetary Incentives",
+      "Teachers",
+      "Hard to Staff Schools"
+    ],
+    "q02-gender-violence-labor": [
+      "Gender Violence",
+      "Labor Outcomes"
+    ],
+    "q03-digital-health-edu-labor": [
+      "Digital Health",
+      "Education Outcomes",
+      "Labor Outcomes"
+    ],
+    "q04-minwage-informality-lac": [
+      "Policy",
+      "Economic Effect",
+      "Informality"
+    ],
+    "q05-cct-school-attendance-learning": [
+      "Program Type",
+      "Outcome",
+      "Impact"
+    ],
+    "q06-migration-native-wages": [
+      "Topic",
+      "Economic Effect",
+      "Native Workers"
+    ],
+    "q07-childcare-female-labor-participation": [
+      "Policy",
+      "Childcare",
+      "Female Labor Force Participation"
+    ],
+    "q08-land-titling-investment": [
+      "Land Titling",
+      "Property Rights Formalization",
+      "Household Investment"
+    ],
+    "q09-early-nutrition-adult-earnings": [
+      "nutrition",
+      "early childhood",
+      "long-term earnings"
+    ],
+    "q10-trade-liberalization-wage-inequality": [
+      "Trade Liberalization",
+      "Wage Inequality",
+      "Developing Countries"
+    ],
+    "q11-teacher-quality-student-learning": [
+      "Subject",
+      "Quality",
+      "Impact"
+    ],
+    "q12-climate-shocks-poverty-food": [
+      "Climate Shocks",
+      "Poverty",
+      "Food Insecurity"
+    ],
+    "q13-financial-inclusion-resilience": [
+      "Financial Inclusion",
+      "Household Resilience",
+      "Economic Shocks"
+    ],
+    "q14-cct-poverty-reduction-mechanisms": [
+      "Mechanisms",
+      "Cash Transfers",
+      "Poverty Reduction"
+    ],
+    "q15-violence-youth-education": [
+      "Violence Exposure",
+      "Educational Attainment",
+      "School Performance"
+    ],
+    "q16-automation-labor-polarization-developing": [
+      "Automation",
+      "Middle-Skill Employment",
+      "Labor Polarization"
+    ],
+    "q17-migration-remittances-children-education": [
+      "Migration",
+      "Remittances",
+      "Educational Outcomes"
+    ],
+    "q18-social-protection-labor-supply": [
+      "Social Protection Programs",
+      "Labor Supply",
+      "Work Incentives"
+    ],
+    "q19-inequality-social-mobility-lac": [
+      "Inequality",
+      "Social Mobility",
+      "Latin America"
+    ],
+    "q20-school-vs-household-learning": [
+      "Learning Outcomes",
+      "School Quality",
+      "Household Socioeconomic Conditions"
+    ],
+    "q21-ai-adoption-wage-inequality": [
+      "AI Adoption",
+      "Wage Inequality",
+      "High Skill Workers"
+    ],
+    "q22-chronic-poverty-interventions": [
+      "Interventions",
+      "Chronic Poverty",
+      "Graduation Outcomes"
+    ],
+    "q23-informality-productivity-bidirectional": [
+      "Productivity",
+      "Informality",
+      "Firm Selection"
+    ]
+  },
+  "PER_FACET_FLOOR": 0.45,
+  "MAX_FACETS": 3,
+  "currentYear": 2026
+}

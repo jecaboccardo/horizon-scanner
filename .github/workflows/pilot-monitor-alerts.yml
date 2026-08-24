@@ -1,0 +1,24 @@
+name: Pilot Monitor Alerts (backup)
+# BACKUP path only (2026-07-15): the primary alert poster is a systemd timer on the VPS
+# (horizon-monitor-alerts.timer, true 5-min cadence, fingerprint-deduped via
+# MONITOR_STATE_FILE). GitHub throttles `schedule:` to a best-effort ~1-2h cadence, so
+# this backup posts CRITICALS ONLY — it exists to catch the case where the VPS itself
+# (or its timer) is down. Duplicate critical posts vs the VPS are acceptable.
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # best-effort; GitHub often stretches this to 1-2h
+  workflow_dispatch:
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run alert check (criticals only)
+        env:
+          MONITOR_API_BASE: ${{ secrets.MONITOR_API_BASE }}
+          MONITOR_CRON_SECRET: ${{ secrets.MONITOR_CRON_SECRET }}
+          SLACK_MONITOR_WEBHOOK_URL: ${{ secrets.SLACK_MONITOR_WEBHOOK_URL }}
+        run: node scripts/pilot-monitor.mjs --alerts --critical-only

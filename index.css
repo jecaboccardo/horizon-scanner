@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* Synthesis column slides in from the left when brief appears */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Horizon spinner message fade cycle */
+@keyframes horizonFade {
+  0%   { opacity: 0; transform: translateY(6px); }
+  15%  { opacity: 1; transform: translateY(0); }
+  85%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-6px); }
+}
+.horizon-msg {
+  animation: horizonFade 2.2s ease-in-out forwards;
+}
+
+/* Global focus ring — keyboard users need to know where they are.
+   Uses :focus-visible so the ring only appears for keyboard nav,
+   never on mouse click. Teal-500 from Tailwind palette. */
+:focus-visible {
+  outline: 2px solid #14b8a6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+button:focus-visible,
+a:focus-visible {
+  outline-offset: 3px;
+}
+
+/* Subtle press feedback on every clickable element. 100ms is fast enough
+   to feel snappy without lagging the click. Disabled buttons skip it. */
+button:not(:disabled):active,
+a:active {
+  transform: scale(0.98);
+  transition: transform 100ms ease-out;
+}
+
+/* ---------- Print / PDF ---------- */
+@media print {
+  /* Hide chrome: sidebar, tabs, search box, buttons, inputs, toast,
+     and the evidence table column (use Word export for the full table) */
+  aside,
+  nav,
+  textarea,
+  input,
+  select,
+  button,
+  [data-print-hide] {
+    display: none !important;
+  }
+
+  /* Reset page layout */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Full-width main content */
+  .flex.min-h-screen { display: block !important; }
+  main { width: 100% !important; }
+
+  /* Synthesis column: full width, remove scroll/height constraints */
+  [data-print-synthesis] {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    border: none !important;
+    animation: none !important;
+  }
+
+  /* Brief header — print-friendly */
+  section[class*="bg-[#0f1d35]"] {
+    background: #1a2744 !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 20pt 24pt !important;
+    border-radius: 0 !important;
+    page-break-after: avoid;
+  }
+
+  /* Cards — remove shadows, simplify borders */
+  section[class*="rounded"] {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    border-radius: 6pt !important;
+    page-break-inside: avoid;
+    margin-bottom: 12pt;
+    padding: 16pt !important;
+  }
+
+  /* Evidence table */
+  table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+  th, td {
+    border-bottom: 0.5pt solid #ddd;
+    padding: 6pt 8pt !important;
+    text-align: left;
+  }
+  th { font-weight: 600; }
+
+  /* Badges — keep colors */
+  span[class*="rounded"] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Links — show URL */
+  a[href]::after {
+    content: none; /* don't show raw URLs inline — DOIs are already visible */
+  }
+  a { color: #0e7490 !important; text-decoration: underline; }
+
+  /* Page header/footer via @page */
+  @page {
+    margin: 0.75in 0.6in;
+    @bottom-center {
+      content: "Horizon Scanner — IADB Evidence Intelligence";
+      font-size: 8pt;
+      color: #999;
+    }
+  }
+
+  /* Right sidebar (recent searches) — hide */
+  aside[class*="xl:block"] { display: none !important; }
+
+  /* Feedback buttons — hide */
+  div[class*="flex gap-2"]:has(> button:only-of-type) { display: none !important; }
+
+  /* Flatten two-column synthesis grid into single column on paper —
+     keeps Methodology / Coverage / Research areas readable instead of
+     squeezed into a narrow side rail. */
+  div[class*="lg:grid-cols"] {
+    display: block !important;
+  }
+  div[class*="lg:col-span"] {
+    width: 100% !important;
+    grid-column: auto !important;
+  }
+
+  /* Disable sticky positioning — sticky elements duplicate or clip when
+     paginated. */
+  [class*="sticky"] {
+    position: static !important;
+    top: auto !important;
+  }
+
+  /* Hide the bottom-docked chat input on paper (also has data-print-hide
+     but defensive). */
+  div[class*="fixed bottom-0"] {
+    display: none !important;
+  }
+
+  /* Page-break hints */
+  section + section { page-break-before: auto; }
+  table { page-break-inside: auto; }
+  tr { page-break-inside: avoid; page-break-after: auto; }
+}
